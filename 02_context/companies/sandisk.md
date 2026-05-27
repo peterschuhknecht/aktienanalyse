@@ -45,3 +45,6 @@ Diese Angaben sind nicht verifiziert und muessen vor jeder Bewertung aktualisier
 - Gross Margin und Operating Margin.
 - Short Interest, Aktiensplit-Geruechte oder Retail-Euphorie nur als Sentiment, nicht als Fundament nutzen.
 
+## Update 2026-05-27: AI-Storage-Re-Rating
+
+SanDisk erhielt indirekt Rueckenwind vom Micron-/UBS-Move und zusaetzlich eigenes Analystenmomentum, unter anderem eine Barclays-Hochstufung laut StockAnalysis-Newsfeed. Die These ist anders als bei Micron: weniger HBM/DRAM, mehr NAND, Enterprise-SSD, Datacenter-Storage und moegliche High-Bandwidth-Flash-Fantasie. SanDisk kann eine aehnlich hohe Bewertung bekommen, wenn Datacenter-Umsatz, NAND-Preise und Margen weiter explodieren; das Bewertungsrisiko bleibt aber hoeher als bei den HBM-Leadern.

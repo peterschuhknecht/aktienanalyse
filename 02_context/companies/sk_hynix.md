@@ -45,3 +45,7 @@ Diese Angaben sind nicht verifiziert und muessen vor jeder Bewertung aktualisier
 - Yield-Kommentare.
 - NVIDIA-/TSMC-/Packaging-Engpaesse.
 - Waehrungs- und Korea-Marktrisiko.
+
+## Update 2026-05-27: Readthrough vom Micron-/UBS-Move
+
+SK Hynix profitiert fundamental wahrscheinlich mindestens so direkt von der UBS-Logik wie Micron, weil SK Hynix der klare HBM-Leader ist. Der Markt hat das bereits aufgenommen: StockAnalysis zeigte am 2026-05-27 +13.60% in Korea und ein Forward-KGV von 6.34. Die Aktie koennte also ebenfalls eine Neubewertung erhalten, allerdings mit Korea-/Waehrungsabschlag und nach bereits extremer 1J-Performance.

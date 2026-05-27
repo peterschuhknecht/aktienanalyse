@@ -26,8 +26,28 @@ Nutze dieses Schema, wenn aktuelle Daten manuell oder automatisch erfasst werden
 | capex | Investitionsausgaben |
 | next_earnings_date | naechster Quartalstermin |
 | source | Quelle |
+| source_quality | Primaerquelle, hochwertige Sekundaerquelle, Finanzdatenanbieter, Fachmedium, schwache/unklare Quelle |
 | source_date | Datum der Quelle |
 | notes | Anmerkungen |
+
+## Nachrichten-Cache
+
+| Feld | Beschreibung |
+|---|---|
+| date | Datum der Nachricht |
+| discovered_at | Zeitpunkt, zu dem der Agent die Nachricht gefunden hat |
+| company | Betroffenes Unternehmen |
+| ticker | Symbol |
+| category | Earnings, Guidance, Analyst, Kunde, Produktion, Preise, Makro, Risiko |
+| headline | Kurzer Titel |
+| summary | 1-3 Saetze zur Relevanz |
+| impact | Bullish, Bearish, Mixed, Neutral |
+| thesis_effect | Bestaetigt, schwaecht, veraendert, unklar |
+| source | Quelle |
+| source_quality | Primaerquelle, hochwertige Sekundaerquelle, Finanzdatenanbieter, Fachmedium, schwache/unklare Quelle |
+| url | Link |
+| keep_until | Datum fuer Cache-Bereinigung |
+| action_required | Ob Unternehmensakte, Evaluation Log oder Watchlist aktualisiert werden muss |
 
 ## Branchenspezifische Daten
 
@@ -44,4 +64,3 @@ Nutze dieses Schema, wenn aktuelle Daten manuell oder automatisch erfasst werden
 | hdd_cost_per_tb | HDD-Kosten pro TB |
 | ssd_cost_per_tb | SSD-Kosten pro TB |
 | hyperscaler_capex_signal | Capex-Signal der grossen Cloudanbieter |
-

@@ -43,3 +43,6 @@ Micron ist der US-Speicherchampion im Depot. Die These aus dem Gespraech: Micron
 - Gross Margin Guidance.
 - Wettbewerbsvergleich mit SK Hynix und Samsung.
 
+## Update 2026-05-27: UBS-Re-Rating
+
+Micron erhielt durch UBS eine massive Neubewertungsthese: AI-Memory-Nachfrage, enges Angebot und laengere Liefer-/Preisvereinbarungen koennten die alte zyklische DRAM-Bewertung teilweise aufbrechen. Das macht Micron aktuell zum staerksten US-Boersenhebel auf die HBM/DRAM-These. Rueckschlagsrisiko ist nach dem +19.29%-Tagesmove hoch; naechster harter Pruefpunkt ist der Earnings-Termin am 2026-06-24.
