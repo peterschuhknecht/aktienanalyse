@@ -176,3 +176,60 @@ Die wahrscheinlichsten Re-Rating-Felder sind: HBM/DRAM-Aufholer wie Samsung, NAN
 ### Einordnung
 
 Die staerkste "UBS-Moment"-Logik entsteht dort, wo der Markt von Zyklus/Komponente/Industrieprodukt auf strategischen Engpass mit mehrjaehriger Sichtbarkeit umstellt. Viele Kandidaten sind bereits hoch bewertet; deshalb muessen Re-Ratings kuenftig vor allem durch EPS-Revisionen, Backlog, langfristige Vertraege und Margen bestaetigt werden.
+
+## 2026-05-27 - Monitoring-Signale und Datenarchitektur ergaenzt
+
+### Anlass
+
+Nutzer bat darum, bei jeder Anfrage alle Follow-Werte und alle eigenen Aktien zu pruefen, ob Rendite nach oben dreht oder sich das Umfeld positiv/negativ veraendert. Zusaetzlich fragte er, ob eine Datenbank statt Markdown sinnvoller waere.
+
+### Aenderung
+
+Neue Dateien:
+
+- `05_data/monitoring_signals.md`
+- `05_data/data_architecture_recommendation.md`
+
+`AGENTS.md`, `START_HERE.md`, `05_data/data_schema.md` und `03_state/task_plan.md` wurden ergaenzt. Kuenftig sollen Depotwerte, HDD-/Nearline-Watchlist, primaere Follow-on-Watchlist und passende erweiterte Watchlistwerte auf Renditeumschwung, relative Staerke, Umfeldveraenderung und Alert-Status geprueft werden.
+
+### Datenarchitektur
+
+Empfehlung ist ein Hybrid: Markdown bleibt fuer Wissen, Thesen, Regeln und Entscheidungen; strukturierte Datenbank oder CSV ist sinnvoll fuer Kurs-/Kennzahlen-Zeitreihen, Renditeverlauf und Alert-Berechnung.
+
+## 2026-05-28 - Spotmarkt-Monitoring fuer KI-/Chipmarktlage ergaenzt
+
+### Anlass
+
+Nutzer lieferte einen WSJ-Artikel zur Chip-Rallye und fragte, ob die dort erwaehnten Spot-Maerkte und weitere Quellen fuer kuenftige Markteinschaetzungen beobachtet werden sollen.
+
+### Ergebnis
+
+Spotmaerkte wurden als Fruehindikatoren in die bestehende Monitoring-Logik aufgenommen. Beobachtet werden sollen GPU-Compute-Spotpreise, DRAM-/DDR5-/Server-DIMM-Preise, NAND-/Enterprise-SSD-Preise, SOX/SMH-Momentum, Hyperscaler-Capex und private AI-Infrastruktur-Deals.
+
+### Methodische Einordnung
+
+Spotdaten duerfen Timing, Knappheit und Warnsignale anzeigen, aber keine Anlage- oder These-Aenderung allein ausloesen. Eine bullishe oder bearishe Einordnung braucht Bestaetigung durch Contract-Preise, Unternehmensmargen, Guidance, EPS-Revisionen, Lieferzeiten oder Hyperscaler-Capex. Bei Quellenkonflikten werden Primaerquellen hoeher gewichtet und offene Konflikte in `03_state/open_questions.md` notiert.
+
+### Aenderung
+
+Aktualisiert wurden `05_data/monitoring_signals.md`, `05_data/data_schema.md`, `02_context/best_case_conditions_ai_memory_boom.md` und `03_state/task_plan.md`.
+
+## 2026-05-28 - Repo-Audit und Makro-/Sentiment-Overlay ergaenzt
+
+### Anlass
+
+Nutzer bat darum, alle Markdown-Dateien auf Verlinkung und Struktur zu pruefen und weitere Best-Practice-Signale fuer Aktienanalysen zu ergaenzen, insbesondere US-Zinsen und Fear & Greed.
+
+### Audit-Ergebnis
+
+Die Markdown-Struktur ist grundsaetzlich konsistent: vor der Ergaenzung 32 Markdown-Dateien, nach der neuen Makro-Datei 33 Markdown-Dateien; alle sind in `START_HERE.md` und `AGENTS.md` erwaehnt. Es wurden keine kaputten Markdown- oder CSV-Verweise gefunden. Die einzigen fehlenden lokalen Ziele sind absichtliche Referenzen auf die optionale kuenftige Datei `05_data/market_monitor.sqlite`.
+
+### Aenderung
+
+Neue Datei: `05_data/macro_market_signals.md`.
+
+Ergaenzt wurden Pflichtindikatoren fuer US 2Y/10Y, Yield Curve, 10Y Real Yield, FedWatch, Chicago Fed NFCI, High-Yield-Spreads, VIX, USD, CNN Fear & Greed, AAII Sentiment und FINRA Margin Debt. Zinsen, Realzinsen, Finanzbedingungen und Kreditstress werden als fundamental relevant behandelt; Fear & Greed, AAII und Margin Debt nur als Timing-/Crowding-Signale.
+
+### Betroffene Dateien
+
+Aktualisiert wurden `AGENTS.md`, `START_HERE.md`, `01_knowledge/source_quality.md`, `01_knowledge/red_flags.md`, `01_knowledge/report_template.md`, `02_context/best_case_conditions_ai_memory_boom.md`, `05_data/monitoring_signals.md`, `05_data/data_schema.md` und `03_state/task_plan.md`.

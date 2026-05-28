@@ -11,6 +11,15 @@
 - Hyperscaler kuerzen oder verschieben Capex.
 - Zinsen steigen oder bleiben hartnaeckig hoch, waehrend Bewertung auf Wachstum basiert.
 
+## Makro, Liquiditaet und Sentiment
+
+- US-10Y oder 10Y-Realzins steigen schnell, waehrend AI-/Halbleiter-Multiples hoch bleiben.
+- Fed-Erwartungen werden deutlich hawkisher und Hyperscaler-/Datacenter-Capex wirkt gleichzeitig fragiler.
+- High-Yield-Spreads weiten sich deutlich aus oder der Chicago Fed NFCI verschlechtert sich schnell.
+- VIX springt nach oben und Halbleiterwerte verlieren relative Staerke gegen Nasdaq 100 oder SMH.
+- USD steigt stark und belastet nicht-US-Werte, KRW-/JPY-Exposure oder globale Risikoanlagen.
+- Fear & Greed, AAII oder Margin Debt zeigen extreme Euphorie, waehrend EPS-Revisionen und Margen nicht nachziehen.
+
 ## HBM/DRAM/LPDDR
 
 - HBM-Kundenqualifikation verzoegert sich.

@@ -26,7 +26,15 @@
 - Neue Informationen:
 - These bestaetigt, geschwaecht oder unveraendert?
 
-## 4. Bull/Base/Bear
+## 4. Makro- und Sentiment-Regime
+
+| Punkt | Status | Quelle | Wirkung |
+|---|---|---|---|
+| Zinsen/Realzinsen | TBD | TBD | TBD |
+| Kreditstress/Finanzbedingungen | TBD | TBD | TBD |
+| VIX/USD/Sentiment | TBD | TBD | TBD |
+
+## 5. Bull/Base/Bear
 
 | Szenario | Annahmen | Konsequenz |
 |---|---|---|
@@ -34,16 +42,15 @@
 | Base | TBD | TBD |
 | Bear | TBD | TBD |
 
-## 5. Red-Flags
+## 6. Red-Flags
 
 - Neue Warnsignale:
 - Entkraeftete Warnsignale:
 - Offene Risiken:
 
-## 6. Entscheidungshilfe
+## 7. Entscheidungshilfe
 
 - Beobachten:
 - Nachkaufen nur wenn:
 - Reduzieren/Verkaufen pruefen wenn:
 - Naechster Termin:
-

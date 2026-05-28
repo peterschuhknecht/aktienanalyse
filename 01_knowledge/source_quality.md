@@ -8,10 +8,11 @@
 | 2 | Boersenmeldungen, SEC/EDGAR, offizielle Boersenmitteilungen | Struktur, Termine, Pflichtdaten |
 | 3 | Hochwertige Nachrichtenagenturen und etablierte Finanzmedien, z. B. Reuters, Bloomberg, AP, Financial Times, Wall Street Journal, Nikkei, CNBC, Handelsblatt | Katalysatoren, Managementaussagen, Marktereignisse |
 | 4 | Glaubwuerdige Analystenberichte und institutionelle Branchenquellen, z. B. Gartner, TrendForce, Omdia, IDC, SemiAnalysis, TechInsights, ASML/SEMI-Kontext | Erwartungen, Supply-Chain- und Marktkonsens |
-| 5 | Finanzdatenanbieter mit nachvollziehbarer Methodik, z. B. Boersenplaetze, Nasdaq/NYSE/KRX, StockAnalysis, Koyfin, FactSet, S&P Capital IQ, Refinitiv | Kurse und Kennzahlen, aber immer Datum notieren |
-| 6 | Fachmedien mit technischer Spezialisierung, z. B. Tom's Hardware, AnandTech, The Register, ServeTheHome, Blocks & Files, StorageNewsletter | Technische Einordnung und Fruehsignale; moeglichst mit Primaerquelle gegenpruefen |
-| 7 | Sonstige Nachrichtenartikel, Blogs, Aggregatoren, Social Media, YouTube, Reddit | Nur als Hinweis oder Suchspur, nicht als belastbare Hauptquelle |
-| 8 | Alte KI-Gespraeche | Nur als Hypothesen und Denkspur |
+| 5 | Offizielle Makro-, Zentralbank- und Marktdaten, z. B. FRED/St. Louis Fed, U.S. Treasury, Federal Reserve/FOMC, CME FedWatch, Chicago Fed NFCI, Cboe VIX, FINRA Margin Statistics, SIA/WSTS, SEMI | Zinsen, Realzinsen, Yield Curve, Finanzbedingungen, Kreditstress, Volatilitaet, Halbleiterzyklus |
+| 6 | Finanzdatenanbieter mit nachvollziehbarer Methodik, z. B. Boersenplaetze, Nasdaq/NYSE/KRX, StockAnalysis, Koyfin, FactSet, S&P Capital IQ, Refinitiv | Kurse und Kennzahlen, aber immer Datum notieren |
+| 7 | Fachmedien mit technischer Spezialisierung, z. B. Tom's Hardware, AnandTech, The Register, ServeTheHome, Blocks & Files, StorageNewsletter | Technische Einordnung und Fruehsignale; moeglichst mit Primaerquelle gegenpruefen |
+| 8 | Sonstige Nachrichtenartikel, Blogs, Aggregatoren, Social Media, YouTube, Reddit | Nur als Hinweis oder Suchspur, nicht als belastbare Hauptquelle |
+| 9 | Alte KI-Gespraeche | Nur als Hypothesen und Denkspur |
 
 ## Harte Quellenregel
 
@@ -19,6 +20,7 @@
 - Primaerquellen haben Vorrang vor Zusammenfassungen.
 - Aggregatoren, Blogs, Foren, Social Media und KI-generierte Inhalte duerfen nur als Hinweis genutzt werden, nicht als alleinige Grundlage fuer eine Bewertung.
 - Analysten-Kursziele sind keine Fakten, sondern Meinungen oder Schaetzungen. Immer vom berichteten Ist-Zustand trennen.
+- Sentiment-Indizes wie Fear & Greed oder AAII sind keine Fundamentaldaten. Sie duerfen nur als Timing-, Risiko- oder Crowding-Signal genutzt werden.
 - Wenn eine Meldung nur ueber eine schwache Quelle auffindbar ist, muss sie als "unbestaetigt" oder "niedrige Quellenqualitaet" markiert werden.
 - Sensible Aussagen zu Bewertung, Guidance, Liefervertraegen, Kapazitaeten oder Margen sollen nach Moeglichkeit durch Unternehmensquelle, Boersenmeldung, hochwertige Nachrichtenagentur oder mehrere unabhaengige Quellen bestaetigt werden.
 
