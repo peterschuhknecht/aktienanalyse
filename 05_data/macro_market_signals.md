@@ -45,6 +45,20 @@ Zweck: Makro-, Liquiditaets- und Sentiment-Signale fuer KI-, Halbleiter- und Spe
 | AAII Sentiment | https://www.aaii.com/sentimentsurvey |
 | FINRA Margin Debt | https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics |
 
+## Aktueller Datenpunkt 2026-05-29
+
+| Signal | Wert | Datenstand | Richtung | Gewichtung |
+|---|---:|---|---|---|
+| US 10Y Treasury Yield | 4.45% | 2026-05-28 | Hoch, aber niedriger als 4.50% vom 2026-05-26 und unter 4.67% vom 2026-05-19 | Fundamental |
+| US 2Y Treasury Yield | 3.99% | 2026-05-28 | Leicht niedriger als 4.01% am 2026-05-26 | Fundamental |
+| US 10Y Real Yield | 2.06% | 2026-05-28 | Hoch, aber niedriger als 2.10% vom 2026-05-26 und 2.18% vom 2026-05-19 | Fundamental |
+| High Yield OAS | 2.71% | 2026-05-27 | Stabil/eng, kein Kreditstress | Fundamental |
+| Chicago Fed NFCI | -0.510 | 2026-05-22 | Locker, weitgehend unveraendert | Fundamental |
+| ICE US Dollar Index | 99.22 | 2026-05-27, YCharts | Kein neues USD-Stresssignal; Sekundaerquelle | Fundamental/Timing |
+| VIX, Fear & Greed, AAII, FINRA Margin Debt | Nicht neu belastbar verifiziert | 2026-05-28 | Unklar | Timing/Crowding |
+
+Einordnung: Makro/Sentiment ist fuer den aktuellen Kontext-Radar leicht besser, aber nicht risikolos. Nominal- und Realrenditen sind gegenueber dem letzten Cache leicht gefallen; sie bleiben absolut hoch und damit Bewertungsgegenwind fuer AI-/Halbleiter-Multiples. Kreditstress und Finanzbedingungen senden nach letztem Stand kein Red-Flag-Signal. VIX/Fear-&-Greed bleiben bis zur naechsten belastbaren Quelle unklar.
+
 ## Bewertungslogik
 
 | Status | Bedeutung |

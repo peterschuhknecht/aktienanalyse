@@ -1,10 +1,10 @@
 # Seagate Technology
 
-Status: Verkauf angekuendigt; kuenftig HDD-/Nearline-Beobachtungswert.
+Status: Verkauft; kuenftig HDD-/Nearline-Beobachtungs- und Follow-on-Wert.
 
 ## Rolle in der Depotthese
 
-Seagate ist der HDD-/Nearline-Storage-Wert im Depot. Die These aus dem Gespraech: KI erzeugt enorme Datenmengen, und HDDs bleiben wegen Kosten pro TB fuer "kalte" Daten und Archivierung wirtschaftlich unverzichtbar.
+Seagate war der HDD-/Nearline-Storage-Wert im Depot und ist nach dem Verkauf ein Beobachtungswert. Die These aus dem Gespraech: KI erzeugt enorme Datenmengen, und HDDs bleiben wegen Kosten pro TB fuer "kalte" Daten und Archivierung wirtschaftlich unverzichtbar.
 
 ## Seed aus bisheriger Analyse
 
@@ -67,3 +67,33 @@ Seagate braucht fuer eine Micron-aehnlichere Bewertung mehr als AI-Narrativ:
 - EPS-Schaetzungen muessen nach oben revidiert werden, nicht nur Kursziele.
 
 Wenn diese Punkte eintreten, kann Seagate eine hoehere Qualitaets-/Infrastrukturpraemie bekommen. Ein HBM-artiges Multiple bleibt trotzdem weniger wahrscheinlich als bei Micron/SK Hynix, weil HDDs weiter vom AI-Rechenkern entfernt sind.
+
+## Update 2026-05-28: HDD-Watchlist bleibt stark, aber kein Reaktivierungsbeschluss
+
+StockAnalysis zeigte Seagate am 2026-05-27 bei USD 870.66, +2.94%, nachboerslich USD 865.54, -0.59%, PE 82.46 und Forward-PE 36.49. Ein aktuelles Transcript-Exzerpt verweist auf exabyte-getriebene Nachfrage, HAMR-Transition, keine Unit-Capacity-Additions und fortgesetzte Preiserhoehungen.
+
+Einordnung: Das stuetzt die HDD-/Nearline-Watchlist und ist ein positives Reaktivierungssignal fuer die These, aber noch kein automatischer Grund, die Verkaufsentscheidung zu drehen. Vor einer Neubewertung muessten die Aussagen mit Primaertranskript/Earnings-Call, Nearline-Exabytes, Margen und Free Cash Flow abgeglichen werden.
+
+## Update 2026-05-28: Reduktionsanalyse Depot 4 auf 3/2/1
+
+Nutzerangabe zur Reduktionsfrage: Seagate war zu diesem Zeitpunkt noch gehalten. Fuer die Reduktionsfrage war Seagate im stabilen aktuellen Umfeld der erste Streichkandidat. Fakten: StockAnalysis zeigte USD 870.66 Schlusskurs, PE 82.46 und Forward-PE 36.49. Seagate meldete fuer Q3 FY2026 Umsatz von USD 3.11 Mrd., Non-GAAP-Bruttomarge 47.0%, Non-GAAP-EPS USD 4.10 und Free Cash Flow USD 953 Mio.
+
+Einordnung: HDD/Nearline bleibt positiv, aber die These liegt weiter weg vom unmittelbaren KI-Compute-/HBM-Engpass. Im Vierervergleich ist Seagate am ehesten Cashflow-/Nearline-Re-Rating plus HAMR-Ausfuehrung, waehrend SK Hynix/Micron/SanDisk naeher an Memory-Preis- und Margenhebeln liegen. Seagate bleibt Watchlist/Reaktivierung, aber nicht Kern bei Konzentration.
+
+## Update 2026-05-28: Verkauf ausgefuehrt
+
+Der Nutzer hat Seagate aus dem aktiven Depot genommen. Seagate wird ab jetzt nicht mehr als Depotwert behandelt, sondern als Beobachtungs- und Follow-on-Wert fuer eine moegliche HDD-/Nearline-Folgewelle.
+
+Arbeitsregel: STX weiter bei Depot-, Branchen-, Watchlist- und Zukunftsanfragen kurz mitpruefen, aber nur dann ausfuehrlicher nennen, wenn es echte Reaktivierungs- oder Warnsignale gibt: ausverkaufte Nearline-Kapazitaet, langfristige Hyperscaler-LTAs, steigende Exabytes bei stabilen/steigenden Margen, Free-Cash-Flow-Staerke, EPS-Revisionen oder relative Staerke gegen Micron/SanDisk/Nasdaq 100.
+
+## Update 2026-05-28: Kontext-Radar Automation
+
+StockAnalysis zeigte Seagate am 2026-05-27 bei USD 870.66, +2.94%, PE 82.46 und Forward-PE 36.49. Vor US-Handelsstart am 2026-05-28 lag STX bei USD 865.00, -0.65%. Der Newsfeed meldete zusaetzliche Analystenfolge mit hoeheren Kurszielen, die als Meinung/Schaetzung und nicht als Fundamentalfakt zu behandeln ist.
+
+Einordnung: HDD-/Nearline bleibt leicht verbessert, aber Seagate bleibt nach Verkauf nur Watchlist. Kein Reaktivierungsbeschluss ohne harte Bestaetigung von Nearline-Exabytes, LTAs, Margen, Free Cash Flow und EPS-Revisionen.
+
+## Update 2026-05-29: Watchlist weiter positiv, keine Reaktivierung
+
+StockAnalysis zeigte Seagate am 2026-05-28 bei USD 880.72, +1.16%, nachboerslich USD 886.25, +0.63%, PE 83.41 und Forward-PE 36.92. Das Tageshoch lag bei USD 905.39. Der Newsfeed meldete den Abschluss des Austauschs von USD 185.908 Mio. Exchangeable Notes; das ist Kapitalstruktur, kein operatives Nearline-Signal.
+
+Einordnung: STX bleibt ein positiver HDD-/Nearline-Follow-Wert, aber weiter nicht reaktiviert. Fuer eine echte Wiedereinstiegsanalyse fehlen neue harte Daten zu ausverkaufter Kapazitaet, LTAs, Exabytes, Margen, Free Cash Flow und EPS-Revisionen.

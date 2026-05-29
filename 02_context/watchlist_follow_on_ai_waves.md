@@ -1,6 +1,6 @@
 # Watchlist: Nachfolgewerte der KI-Infrastrukturwellen
 
-Stand: 2026-05-26.
+Stand: 2026-05-28.
 
 Diese Datei enthaelt Werte, die nach der ersten NVIDIA/GPU-Welle und der zweiten Speicherwelle als moegliche naechste Profiteure beobachtet werden sollen. Sie sind keine aktuellen Depotpositionen, sondern Kandidaten fuer kuenftige Analysen und moegliche Alerts.
 
@@ -15,7 +15,8 @@ Hinweis zu Namen aus der Nutzerangabe:
 | Welle | Thema | Typische Profiteure | Status im aktuellen Analyseuniversum |
 |---|---|---|---|
 | 1 | GPU/Compute | NVIDIA, AMD, ASICs | Erste Welle, bereits weit gelaufen |
-| 2 | Speicher | SK Hynix, Micron, SanDisk, Seagate | Aktuelles Depotthema |
+| 2 | Speicher | SK Hynix, Micron, SanDisk | Aktuelles Depotthema |
+| 2b | HDD-/Nearline-Folgewelle | Seagate, Western Digital | Beobachtung nach Seagate-Verkauf |
 | 3 | Netzwerk, Custom Silicon, Kuehlung, Strom | Arista, Broadcom, Marvell, Vertiv, Eaton, GE Vernova, Corning | Follow-on-Watchlist |
 | 4 | Energieversorgung, Standortinfrastruktur, Software-Adoption | Constellation, Vistra, Bloom Energy, Microsoft, industrielle KI-Anwender | Erweiterte Watchlist |
 
@@ -27,8 +28,33 @@ Hinweis zu Namen aus der Nutzerangabe:
 | Broadcom | AVGO | Netzwerk/Custom Silicon | ASICs, Networking, KI-Infrastrukturchips | Profitiert von Hyperscaler-ASICs und Netzwerkbedarf als NVIDIA-Alternative/Ergaenzung. | KI-Umsatzanteil steigt stark, neue Hyperscaler-Design-Wins, Guidance-Anhebung. |
 | Marvell Technology | MRVL | Custom Silicon/Networking | Custom AI Silicon, Interconnect, optische/elektrische Verbindung | Hebel auf "Build your own AI chips" bei Hyperscalern. | Neue ASIC-Programme, starkes Data-Center-Wachstum, Margenverbesserung. |
 | Vertiv | VRT | Kuehlung/Power | Direct-to-chip liquid cooling, Rechenzentrumsinfrastruktur | Physische Infrastruktur kann nach Speicher der naechste Engpass werden. | Backlog und Auftragseingang steigen, Guidance hoch, Liquid-Cooling-Anteil waechst. |
+| Seagate Technology | STX | HDD/Storage-Folgewelle | Nearline-HDD, HAMR/Mozaic, guenstige AI-Datenkapazitaet | Ehemaliger Depotwert; weiter beobachten, falls HDD/Nearline als naechster AI-Datenengpass neu bewertet wird. Eigene Akte: `02_context/companies/seagate.md`. | Ausverkaufte Kapazitaet, LTAs fuer 2027/2028, steigende Exabytes, Margen, Free Cash Flow und EPS-Revisionen. |
 | Western Digital | WDC | HDD/Storage-Alternative | Nearline-HDD, Kontext zu Seagate und SanDisk-Spin-off | Duopol-Streuung zu Seagate; relevant falls HDD-These staerker als erwartet wird. Eigene Akte: `02_context/companies/western_digital.md`. | Nearline-Exabytes, HDD-Margen, Free Cash Flow und 2027/2028-Backlog ziehen staerker als bei Seagate. |
 | Samsung Electronics | 005930.KS / SSNLF | Speicher-Allrounder | DRAM, HBM, NAND, Smartphones, Foundry | Breiterer Speicherwert als SK Hynix/Micron; moeglicher Aufholer bei HBM. | HBM-Yield-Probleme geloest, NVIDIA/AMD-Qualifikation, Bewertung bleibt attraktiv. |
+
+### Update 2026-05-28: Marvell als neuer harter Follow-on-Pruefpunkt
+
+Fakt: Marvell meldete Q1 FY2027-Umsatz von USD 2.418 Mrd., +28% YoY, Q2-Umsatzguidance von USD 2.7 Mrd. +/-5% und hob den Umsatz-Ausblick fuer FY2027/FY2028 wegen "exceptional AI-related bookings" deutlich an. Der Markt reagierte trotzdem negativ: MRVL schloss laut StockAnalysis am 2026-05-27 bei USD 198.70, -4.59%, nachboerslich USD 195.94, -1.39%, Forward-PE 47.15.
+
+Einordnung: Signalstaerke mittel bis hoch fuer Watchlist-Priorisierung, nicht fuer eine automatische Kaufentscheidung. Marvell sollte als erster Deep-Dive-Kandidat gegen Broadcom und Arista geprueft werden: AI-Bookings, Kundenzentrierung, Custom-XPU-Programme, Optics/Interconnect, Bruttomarge und EPS-Revisionen.
+
+### Update 2026-05-28 13:05 CEST: Follow-on-Timing
+
+StockAnalysis zeigte MRVL vor US-Handelsstart bei USD 193.13, -2.80% gegen den Vortagesschluss; Forward-PE lag bei 45.50. Broadcom bleibt der naechste harte Vergleichswert mit bestaetigtem Q2-FY2026-Earnings-Termin am 2026-06-03. Analystenfolge nach Marvell-Q1 ist positiv, aber als Meinung/Schaetzung niedriger zu gewichten als AI-Bookings, Guidance, Margen und Kundenkonzentration.
+
+Einordnung: Marvell bleibt der wichtigste neue Deep-Dive-Kandidat, aber die Kursreaktion macht die Watchlist-Priorisierung eher zu einer Bewertungs-/Qualitaetspruefung als zu einem Momentum-Kaufsignal.
+
+### Update 2026-05-28 13:46 CEST: Samsung 900-Layer-NAND-Prototyp
+
+ETNews berichtet, Samsung habe einen 900-Layer-Class-V-NAND-Prototypen mit Cell-Multi-Bonding umgesetzt, indem zwei 450-Layer-Cell-Wafer verbunden wurden; normale Zellfunktion sei verifiziert. Das ist kein Massenproduktionssignal, aber ein klares Roadmap-Signal fuer Samsungs Anspruch, bei NAND wieder als Technologiefuehrer wahrgenommen zu werden.
+
+Einordnung: Samsung bleibt Watchlist-Wert, nicht Depotwert. Das Signal ist fuer SanDisk/Kioxia und Micron-NAND langfristig relevant, weil erfolgreiche hohe Layerzahlen spaeter die Kostenkurve und den Wettbewerbsdruck veraendern koennen. Kurzfristig ist es nur "Watch": entscheidend sind Samsung-V10-Ramp, Yield, Capex, Enterprise-SSD-/NAND-Preise und die Reaktion von Kioxia/SanDisk BiCS10.
+
+### Update 2026-05-29 11:55 CEST: Broadcom wird naechster harter Follow-on-Pruefpunkt
+
+StockAnalysis zeigte am 2026-05-28: Marvell USD 204.83, +3.09%, Broadcom USD 426.58, +1.12%, Arista USD 155.27, +0.62% und Vertiv USD 314.18, -1.75%. Samsung notierte am 2026-05-29 intraday bei KRW 311,500, +4.01%.
+
+Einordnung: Marvell bleibt nach Q1-FY2027-AI-Bookings der wichtigste neue Deep-Dive-Kandidat; Broadcom-Q2 am 2026-06-03 wird aber der naechste harte Pruefpunkt fuer Custom AI Silicon und AI Networking. Kein automatisches Umschichtungssignal aus der Follow-on-Watchlist, aber Broadcom/MRVL/ANET sollten gegen die Memory-Werte auf EPS-Revisionen, Backlog, Kundenzentrierung und Bewertung verglichen werden.
 
 ## Erweiterte Watchlist
 

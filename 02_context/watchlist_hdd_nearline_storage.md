@@ -1,8 +1,8 @@
 # Watchlist: HDD und Nearline Storage
 
-Stand: 2026-05-27.
+Stand: 2026-05-28.
 
-Diese Datei beobachtet Seagate und Western Digital nach der Nutzerentscheidung, Seagate zu verkaufen und beide Werte kuenftig nur noch als HDD-/Nearline-Thema zu verfolgen.
+Diese Datei beobachtet Seagate und Western Digital nach dem ausgefuehrten Seagate-Verkauf. Beide Werte werden kuenftig nur noch als HDD-/Nearline-Thema und moegliche Folgewelle verfolgt.
 
 ## Zweck
 
@@ -12,12 +12,27 @@ Seagate und Western Digital sollen bei jeder sachlichen Aktien-, Depot-, Branche
 
 | Unternehmen | Symbol | Status | Rolle |
 |---|---|---|---|
-| Seagate Technology | STX | Exit-/Beobachtungswert nach Verkaufsentscheidung | HDD, Nearline, HAMR/Mozaic, Kosten pro TB |
+| Seagate Technology | STX | Verkauft; Beobachtungs- und Follow-on-Wert | HDD, Nearline, HAMR/Mozaic, Kosten pro TB |
 | Western Digital | WDC | Watchlist-Wert | HDD, Nearline, High-Capacity-Roadmap, Vergleich zu Seagate |
 
 ## Aktuelle Arbeitsthese
 
 HDD/Nearline bleibt ein moeglicher Profiteur der KI-Datenwelle, aber die These ist weniger direkt als HBM/DRAM. Seagate und WDC werden nur dann wieder sehr interessant, wenn der Markt HDDs nicht mehr als klassischen Zyklus, sondern als mehrjaehrigen AI-Infrastrukturengpass bewertet.
+
+## Aktueller Radarstatus 2026-05-28
+
+| Wert | Signal | Einordnung |
+|---|---|---|
+| Seagate | StockAnalysis: USD 870.66, +2.94%, Pre-Market 2026-05-28 USD 865.00, -0.65%, Forward-PE 36.49; Transcript-Exzerpt nennt HAMR, keine Unit-Capacity-Additions, Preissteigerungen und AI-/Datacenter-Nachfrage. | These leicht verbessert, aber nach Verkauf kein automatischer Reaktivierungsbeschluss. Primaertranskript/Earnings-Zahlen noch gegenpruefen. |
+| Western Digital | StockAnalysis: USD 530.60, +1.13%, Pre-Market 2026-05-28 USD 524.00, -1.24%, Forward-PE 34.17; Transcript-Exzerpt nennt >25% Exabyte-CAGR, LTAs, AI/Cloud-Datenretention und High-Capacity-Roadmap. | WDC bleibt wichtigster Vergleichswert. Positiv fuer Re-Rating-These, aber Bewertung bereits anspruchsvoll. |
+
+Kurzfazit: HDD-/Nearline-Watchlist verbessert sich leicht. Seagate ist nicht mehr Depotbestandteil, bleibt aber ein expliziter Follow-on-Kandidat fuer eine spaetere Storage-Folgewelle, falls Exabytes, Margen, Free Cash Flow und 2027/2028-Sichtbarkeit mit Primaerquellen bestaetigt werden.
+
+Zusatz 2026-05-28 13:05 CEST: Weitere Analystenziel-Anhebungen im StockAnalysis-Newsfeed bestaetigen die Marktaufmerksamkeit, sind aber keine harte Fundamentalaussage. Die Watchlist bleibt "leicht besser", nicht "Reaktivierung".
+
+Zusatz 2026-05-28 19:26 CEST: STX und WDC standen im US-Handel wieder positiv und nahe 52-Wochen-Hochs. Das bestaetigt Momentum fuer die HDD-/Nearline-Watchlist, aendert aber die Reaktivierungslogik nicht: Ohne neue Primaerquellen zu ausverkaufter Kapazitaet, LTAs, Exabytes, Margen und Free Cash Flow bleibt es Beobachtung, nicht Wiedereinstieg.
+
+Zusatz 2026-05-29 11:55 CEST: STX schloss am 2026-05-28 bei USD 880.72, +1.16%, WDC bei USD 531.18, +0.11%; beide bleiben nahe 52W-Hochs. Neue Meldungen zu Seagates Exchangeable-Notes-Austausch und WDCs Board-Ergaenzung sind keine operativen Reaktivierungssignale. HDD-/Nearline bleibt leicht positiv, aber unveraendert Beobachtung.
 
 ## Reaktivierungsbedingungen
 

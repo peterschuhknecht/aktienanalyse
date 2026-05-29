@@ -108,6 +108,25 @@ Diese Felder dienen fuer Zins-, Liquiditaets-, Kredit-, Volatilitaets- und Senti
 | keep_until | Datum fuer Cache-Bereinigung |
 | action_required | Ob Unternehmensakte, Evaluation Log oder Watchlist aktualisiert werden muss |
 
+## Kommende Ereignisse
+
+Diese Felder dienen fuer `05_data/upcoming_events.md`.
+
+| Feld | Beschreibung |
+|---|---|
+| event_date | Datum des Ereignisses |
+| event_time | Uhrzeit und Zeitzone, falls bekannt |
+| company | Direkt oder indirekt betroffene Unternehmen |
+| ticker | Symbol(e) |
+| event_type | Earnings, Investor Conference, Product Event, Industry Event, Macro, Regulatory, TBD |
+| event_name | Kurzer Name des Ereignisses |
+| importance | Hoch, mittel, niedrig |
+| relevance | Warum der Termin fuer Depot, Watchlist oder These wichtig ist |
+| source | Konkrete Quelle |
+| source_quality | Primaerquelle, offizielle Eventseite, Finanzdatenanbieter, hochwertige Sekundaerquelle, schwache/unklare Quelle |
+| status | Bestaetigt, erwartet, TBD, unbestaetigt |
+| action_after_event | Ob `latest_news.md`, Unternehmensakte, Watchlist oder `evaluation_log.md` aktualisiert werden soll |
+
 ## Branchenspezifische Daten
 
 | Feld | Relevanz |

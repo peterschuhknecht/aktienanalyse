@@ -96,6 +96,38 @@ Jeder Agent soll nach News- und Kursrefresh eine knappe Ampel setzen:
 | Bewertung/Momentum | Gelb | Viele Werte handeln nahe 52W-Hochs; Rueckschlagsrisiko ist hoch. |
 | 2027/2028-Kapazitaetsrisiko | Gelb | Engpass kann laenger dauern, aber Speicher bleibt zyklisch. |
 
+## Aktueller Radarstatus 2026-05-28
+
+| Bereich | Richtung | Interpretation |
+|---|---|---|
+| HBM/DRAM | Besser, aber ueberhitzt | Micron, SK Hynix und Samsung bleiben nahe Hochs bzw. Trillion-Dollar-Club-Narrativ; Micron-Q3 am 2026-06-24 wird der naechste harte Pruefpunkt. |
+| NAND/Enterprise-SSD | Unveraendert | SanDisk und Kioxia bestaetigen weiter starkes Momentum, aber die Bewertung ist empfindlich gegen Gewinnmitnahmen. |
+| HDD/Nearline | Leicht besser | Seagate-/WDC-Transcriptsignale zu LTAs, Exabyte-Wachstum, Preiserhoehungen und Kapazitaetsdisziplin stuetzen die Watchlist. |
+| Custom Silicon/Networking | Besser | Marvells Q1-FY2027-Guidance und AI-Bookings liefern einen neuen harten Follow-on-Trigger. |
+| Power/Cooling/Grid | Unveraendert bis besser | Schneider-/Vertiv-/Eaton-/GEV-Kontext bleibt durch Datacenter-Auftraege gestuetzt; Multiples sind teils hoch. |
+| Makro/Liquiditaet | Unveraendert bis leicht besser | 10Y/Realzins bleiben hoch, aber FRED zeigt keine akute Verschlechterung bei HY-Spreads oder Finanzbedingungen. |
+| Bewertung/Momentum | Gelb | Viele Werte sind nahe Hochs oder mit hohen Forward-Multiples bewertet; Ruecksetzer nach Earnings sind kein These-Bruch, aber Positionsrisiko. |
+
+Gesamtampel: Gruen/Gelb. Die Boom-Rahmenbedingungen verbessern sich selektiv durch Memory-Re-Rating, Marvell und HDD-Managementsignale, waehrend Bewertung, Konzentration und Momentum weiterhin die groessten Gegenargumente sind.
+
+### Update 2026-05-28 13:05 CEST
+
+Fakt: SK Hynix schloss am 2026-05-28 bei KRW 2,289,000, +2.05%; Kioxia schloss bei JPY 61,280, +1.21%. Micron, SanDisk, Marvell, AMD und Intel waren vor dem US-Handelsstart dagegen im Pre-Market schwach. NVIDIA meldete bereits am 2026-05-20 Q1-FY2027-Rekordumsatz von USD 81.6 Mrd. und Datacenter-Umsatz von USD 75.2 Mrd.
+
+Einordnung: Die Boom-Rahmenbedingungen bleiben insgesamt Gruen/Gelb und eher bestaetigt als verschlechtert. Harter Nachfrage-Readthrough von NVIDIA und SK-Hynix-Momentum stuetzen die These; die US-Pre-Market-Abkuehlung und weitere Analystenfolge sind aber Crowding-/Timing-Warnsignale, keine neue Kauf- oder Verkaufsgewissheit.
+
+### Update 2026-05-28 19:26 CEST
+
+Fakt: Der US-Handel hat die fruehere Pre-Market-Schwaeche bei Micron, SanDisk, Seagate und Western Digital nicht bestaetigt; die Werte standen am Nachmittag wieder positiv bzw. nahe Hochs. FRED zeigte zugleich keine neue Kreditstress-Verschlechterung: HY OAS 2.71% per 2026-05-27, NFCI -0.510 per 2026-05-22.
+
+Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und unveraendert bis leicht besser. Fundamentale Nachfrage- und Preissignale sind weiter positiv; groesstes Gegenargument bleibt nicht ein These-Bruch, sondern Crowding, Bewertung, Momentum und spaeteres Kapazitaetsrisiko.
+
+### Update 2026-05-29 11:55 CEST
+
+Fakt: SK Hynix notierte am 2026-05-29 intraday bei KRW 2,325,000, +1.57%, Samsung bei KRW 311,500, +4.01%. US-Schlusskurse vom 2026-05-28 zeigen SanDisk +3.25%, Seagate +1.16%, WDC +0.11%, Marvell +3.09%, Broadcom +1.12% und Micron -0.53%, nachboerslich +1.32%. U.S. Treasury zeigte per 2026-05-28 US 10Y 4.45%, 2Y 3.99% und 10Y Real Yield 2.06%.
+
+Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und leicht besser im Makro-Overlay. Die Nachfrage-/Engpass-These wird durch Kurs- und Peer-Momentum weiter bestaetigt; die zentrale Gelb-Komponente bleibt aber Crowding nahe 52W-Hochs, Analystenfolge statt neuer Primaerdaten und das spaetere Kapazitaetsrisiko.
+
 ## Arbeitsanweisung fuer Agenten
 
 Bei jeder sachlichen Aktien-, Depot-, Branchen-, Watchlist- oder Zukunftsanfrage:

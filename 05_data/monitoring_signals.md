@@ -81,6 +81,18 @@ Makro- und Sentiment-Signale aus `05_data/macro_market_signals.md` sind ein Pfli
 | Volatilitaet und Dollar | Cboe VIX, DXY/Trade Weighted USD | VIX ruhig, USD stabil | VIX springt, USD steigt stark |
 | Sentiment/Crowding | CNN Fear & Greed, AAII, FINRA Margin Debt | keine Extreme oder konstruktive Skepsis | extreme Gier ohne EPS-Bestaetigung oder stark steigender Leverage |
 
+## Aktueller Ergebnisstatus 2026-05-29
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber ueberhitzt | SK Hynix notierte am 2026-05-29 intraday +1.57% nahe neuem Hoch; Micron gab am 2026-05-28 leicht nach, drehte aber nachboerslich positiv; SanDisk stieg +3.25% und bleibt direkt am Hoch. SanDisk zeigt weiter die hoechste Beta-/Rueckschlagsgefahr. |
+| HDD-/Nearline-Watchlist | Leicht besser, aber kein Reaktivierungsbeschluss | STX und WDC bleiben nahe 52W-Hochs; neue Meldungen zu STX-Exchangeable-Notes und WDC-Board-Ergaenzung sind keine operativen Reaktivierungssignale. Reaktivierung braucht weiter Exabytes, LTAs, Margen, FCF und EPS-Revisionen. |
+| Primaere Follow-on-Watchlist | Marvell verbessert, Broadcom als naechster Katalysator | MRVL erholte sich am 2026-05-28 nach Q1-FY2027-AI-Bookings; Broadcom-Q2 am 2026-06-03 wird der naechste harte Pruefpunkt fuer Custom Silicon/Networking. |
+| Erweiterte Watchlist | Gemischt bis besser | Schneider-/Power-Cooling-Signal positiv; mehrere Werte mit hohen Multiples und Tagesruecksetzern. |
+| Makro/Sentiment | Leicht besser, aber weiter bewertungssensitiv | U.S. Treasury zeigt per 2026-05-28 10Y 4.45%, 2Y 3.99% und 10Y Real Yield 2.06%, jeweils leicht niedriger als letzter Cache; HY OAS 2.71% per 2026-05-27 und NFCI -0.510 per 2026-05-22 ohne Stress. |
+
+Offen: 1M-/3M-Renditen und relative Staerke gegen Nasdaq 100/SMH sind noch nicht strukturiert berechnet; dafuer ist eine Zeitreihe oder lokale SQLite-/CSV-Historie sinnvoll.
+
 ## Ausgabeformat fuer Folgeantworten
 
 Wenn eine Anfrage eine echte Analyse ist, im Fazit kurz melden:

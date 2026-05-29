@@ -20,7 +20,7 @@ KI-Systeme brauchen nicht nur Rechenleistung. Sie brauchen Datenbewegung:
 | HBM/DRAM/LPDDR | SK Hynix | Technologischer HBM-Leader und enger KI-Lieferkettenhebel |
 | HBM/DRAM/LPDDR | Micron | US-Champion mit HBM- und LPDDR-Potenzial |
 | NAND/SSD | SanDisk | Pure-Play auf Flash und Enterprise-SSD |
-| HDD | Seagate | Oligopolist fuer guenstige Nearline-Kapazitaet und HAMR/Mozaic |
+| HDD | Seagate | Verkaufter ehemaliger Depotwert; Oligopolist fuer guenstige Nearline-Kapazitaet und HAMR/Mozaic auf Beobachtung |
 
 ## Was die These bestaetigt
 
@@ -43,4 +43,3 @@ KI-Systeme brauchen nicht nur Rechenleistung. Sie brauchen Datenbewegung:
 ## Zeithorizont
 
 Die bisherige Analyse sieht 2026 und 2027 als starke Phase. Fuer 2028 muss besonders auf Kapazitaetsausbau, Normalisierung der Speicherpreise und moegliche Zykluswende geachtet werden.
-

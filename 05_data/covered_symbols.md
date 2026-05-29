@@ -1,6 +1,6 @@
 # Covered Symbols
 
-Stand: 2026-05-27.
+Stand: 2026-05-28.
 
 Diese Datei definiert das Wertpapier-Universum, fuer das Agenten bei jeder sachlichen Aktien-, Depot-, Branchen-, Watchlist- oder Zukunftsanfrage aktuelle Kurse und frische Nachrichten pruefen sollen.
 
@@ -16,7 +16,7 @@ Diese Datei definiert das Wertpapier-Universum, fuer das Agenten bei jeder sachl
 
 | Unternehmen | Symbol | Markt | Rolle |
 |---|---|---|---|
-| Seagate Technology | STX | USA | Exit-/Beobachtungswert, HDD, Nearline Storage |
+| Seagate Technology | STX | USA | Verkauft; Beobachtungs- und Follow-on-Wert fuer moegliche HDD-/Nearline-Folgewelle |
 | Western Digital | WDC | USA | HDD, Nearline Storage |
 
 ## Primaere Follow-on-Watchlist
