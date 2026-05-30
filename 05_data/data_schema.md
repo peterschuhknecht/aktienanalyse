@@ -127,6 +127,61 @@ Diese Felder dienen fuer `05_data/upcoming_events.md`.
 | status | Bestaetigt, erwartet, TBD, unbestaetigt |
 | action_after_event | Ob `latest_news.md`, Unternehmensakte, Watchlist oder `evaluation_log.md` aktualisiert werden soll |
 
+## Peer-Benchmark-Snapshots
+
+Diese Felder dienen fuer `05_data/peer_benchmarks.md` und fuer strukturierte Peer-Vergleiche in Deep-Dives.
+
+| Feld | Beschreibung |
+|---|---|
+| date | Datum der Erfassung |
+| peer_group | HBM/DRAM, NAND/SSD, HDD/Nearline, Networking, Power/Cooling, WFE/Packaging, Hyperscaler |
+| company | Unternehmen |
+| ticker | Symbol |
+| portfolio_status | Depot, Watchlist, Hintergrund, verkauft |
+| revenue_growth_yoy | Umsatzwachstum YoY |
+| eps_growth_expected | erwartetes EPS-Wachstum |
+| pe_forward | Forward-KGV |
+| peg | PEG mit Methode |
+| gross_margin | Bruttomarge |
+| operating_margin | operative Marge |
+| fcf_margin | Free-Cash-Flow-Marge |
+| net_debt_or_cash | Netto-Schulden oder Netto-Cash |
+| capex_trend | steigend, fallend, stabil, unklar |
+| inventory_trend | steigend, fallend, stabil, unklar |
+| relative_strength | besser, schlechter oder gleich zur Peer-Gruppe |
+| next_catalyst | naechster harter Termin |
+| opportunity_cost_status | besser als Depotwert, gleichwertig, schlechter, unklar |
+| source | Quelle |
+| source_quality | Quellenqualitaet |
+
+## Portfolio-Risikodaten
+
+Diese Felder dienen fuer `02_context/portfolio_policy.md` und das Portfolio-Risiko-Framework. Persoenliche Angaben werden nur eingetragen, wenn der Nutzer sie nennt.
+
+| Feld | Beschreibung |
+|---|---|
+| date | Datum der Erfassung |
+| company | Unternehmen |
+| ticker | Symbol |
+| position_size | Positionsgroesse, falls bekannt |
+| portfolio_weight | Depotgewicht, falls bekannt |
+| entry_price | Einstandskurs, falls bekannt |
+| current_price | aktueller Kurs |
+| unrealized_return | Buchgewinn/-verlust, falls berechenbar |
+| target_weight | Zielgewichtung, falls bekannt |
+| max_weight | Maximalgewichtung, falls bekannt |
+| currency | Waehrung |
+| thesis_bucket | HBM/DRAM, NAND, HDD, Networking, Power, WFE usw. |
+| correlation_risk | hoch, mittel, niedrig |
+| liquidity_risk | hoch, mittel, niedrig |
+| reduction_trigger | Bedingung, die Reduktion ausloesen wuerde |
+| add_trigger | Bedingung, die Nachkauf pruefbar macht |
+| notes | Anmerkungen |
+
+## Market-Monitor-Struktur
+
+Die vollstaendige empfohlene Tabellenstruktur fuer eine lokale SQLite- oder CSV-Historie steht in `05_data/market_monitor_schema.md`. Dieses Datenschema bleibt die fachliche Feldreferenz; `market_monitor_schema.md` beschreibt die technische Speicherung.
+
 ## Branchenspezifische Daten
 
 | Feld | Relevanz |

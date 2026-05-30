@@ -49,3 +49,6 @@ Eine gute Folgeanalyse nennt:
 - klares Fazit mit Unsicherheit,
 - konkrete naechste Beobachtungspunkte.
 
+## Vertiefte Analysen
+
+Bei Kauf-, Verkauf-, Nachkauf-, Reduktions-, Umschichtungs-, Deep-Dive- oder Watchlist-Vergleichsfragen zusaetzlich `01_knowledge/deep_dive_framework.md` und bei Depotwirkung `01_knowledge/portfolio_risk_framework.md` nutzen. Diese erweitern das Grundmodell um Minimum Data Pack, Falsifikationspruefung, Peer-/Opportunity-Cost-Vergleich und Portfolio-Risiko.

@@ -56,6 +56,18 @@ StockAnalysis zeigte am 2026-05-28: Marvell USD 204.83, +3.09%, Broadcom USD 426
 
 Einordnung: Marvell bleibt nach Q1-FY2027-AI-Bookings der wichtigste neue Deep-Dive-Kandidat; Broadcom-Q2 am 2026-06-03 wird aber der naechste harte Pruefpunkt fuer Custom AI Silicon und AI Networking. Kein automatisches Umschichtungssignal aus der Follow-on-Watchlist, aber Broadcom/MRVL/ANET sollten gegen die Memory-Werte auf EPS-Revisionen, Backlog, Kundenzentrierung und Bewertung verglichen werden.
 
+### Update 2026-05-29 10:05 CEST: Samsung-HBM4E als neuer Aufholer-Watch
+
+Reuters-/CNBC-Newsfeeds melden, dass Samsung 12-Hi-HBM4E-Samples an globale Kunden ausliefert; Samsung schloss am 2026-05-29 bei KRW 317,000, +5.84%. Gleichzeitig bleiben Marvell (USD 204.83, +3.09%) und Broadcom (USD 426.58, +1.12%; Q2 am 2026-06-03) wichtige Follow-on-Pruefpunkte.
+
+Einordnung: Samsung wird als HBM-Aufholer wieder wichtiger. Das Signal ist operativ relevanter als reine Analystenfolge, aber noch nicht gleichbedeutend mit Serienqualifikation oder grossen Kundenvolumina. Fuer Depotwerte heisst das: SK Hynix/Micron-These bleibt intakt, aber Samsung-Qualifikation, Yield, HBM4E/HBM4-Preise und Kundenzuweisungen muessen enger beobachtet werden.
+
+### Update 2026-05-29 14:16 CEST: Follow-on-Momentum bestaetigt, Bloom warnt
+
+StockAnalysis zeigte im US-Pre-Market: Broadcom USD 434.13, +1.77%, Vertiv USD 320.18, +1.91%, ASML USD 1,639.21, +2.08%, Oracle USD 211.50, +3.83%, aber Marvell USD 202.80, -0.99%, und Bloom Energy USD 283.50, -2.24%. Schneider Electric notierte bei EUR 270.95, +1.38%, und Kioxia schloss bei JPY 65,850, +7.46%.
+
+Einordnung: Follow-on-Watchlist bleibt aktiv, aber nicht eindeutig besser als die aktiven Speicherwerte. Broadcom-Q2 am 2026-06-03 ist weiter der naechste harte Pruefpunkt. Bloom Energy erhaelt ein Bewertungs-/Timing-Warnsignal, weil Forward-PE und Pre-Market-Schwaeche nach starker Rallye nicht zu einer priorisierten Kaufthese passen. Kioxia ist vor allem SanDisk-/NAND-Readthrough, kein eigener Depotvorschlag.
+
 ## Erweiterte Watchlist
 
 | Unternehmen | Symbol | Rolle | Warum beobachten? |
@@ -66,6 +78,19 @@ Einordnung: Marvell bleibt nach Q1-FY2027-AI-Bookings der wichtigste neue Deep-D
 | Constellation Energy | CEG | CO2-arme Stromversorgung | Hyperscaler suchen langfristige Energievertraege. |
 | Vistra | VST | Stromerzeugung | Profiteur steigender Stromnachfrage durch Rechenzentren. |
 | Bloom Energy | BE | On-site Power | Hochriskante Wette auf schnelle lokale Energieversorgung fuer Datacenter. |
+| Dell Technologies | DELL | AI-Server, Storage, Infrastruktur-Nachfrageproxy | Direkter Readthrough auf AI-Server-Nachfrage, Memory/Storage-Inhalt und Networking-/Power-Bedarf. |
+
+### Update 2026-05-30 08:08 CEST: Dell als harter Nachfrageproxy und NVIDIA-Roadmap-Watch
+
+Dell meldete fuer Q1 FY2027 Gesamtumsatz von USD 43.842 Mrd. (+88% YoY), ISG-Umsatz USD 29.009 Mrd. (+181% YoY), AI-optimized server revenue USD 16.132 Mrd. (+757% YoY), Storage-Umsatz USD 4.334 Mrd. (+8% YoY), AI orders USD 24.4 Mrd. und eine FY2027-AI-Server-Umsatzerwartung von ca. USD 60 Mrd. DELL schloss am 2026-05-29 bei USD 420.91, +32.76%, nahe dem 52W-Hoch. Zusaetzlich bestaetigt NVIDIAs offizieller GTC-Taipei/COMPUTEX-Blog fuer die Keynote am 2026-06-01 Vera Rubin/Rubin-NVL72, Spectrum-X Ethernet Photonics, BlueField-4 und einen moeglichen H2-2026-Ueberraschungsprodukt-Hinweis.
+
+Einordnung: Dell wird als Hintergrund- und Nachfrageproxy in `05_data/covered_symbols.md` gefuehrt, nicht als priorisierter Kaufkandidat. Das Signal ist hart genug, um AI-Server, Memory, Storage, Networking und Power/Cooling im Follow-on-Radar hoeher zu gewichten. NVIDIA ist ein offizielles Roadmap-Watch-Signal fuer HBM/DRAM, Networking, Optics und Storage, aber noch kein Umsatz-/Margensignal fuer Depotwerte. Broadcom-Q2 am 2026-06-03 bleibt trotzdem der naechste spezifische harte Follow-on-Pruefpunkt fuer Custom Silicon/Networking.
+
+### Entscheidung 2026-05-30 08:18 CEST: Dell beobachten, nicht aufnehmen
+
+Dell wird als aktiver Nachfrageproxy und Deep-Dive-Kandidat beobachtet, aber vorerst nicht als Depotaufnahme priorisiert. Die Q1-FY2027-Daten sind fuer die AI-Infrastrukturthese stark, doch Dell bleibt ein Server-/Systemintegrator mit moeglich niedrigerer struktureller Preissetzungsmacht als HBM/DRAM/NAND-Lieferanten. Nach dem Kurssprung auf USD 420.91 (+32.76%) und nur ca. 1.9% Abstand zum 52W-Hoch ist das Timing anspruchsvoll.
+
+Fuer eine Hochstufung von "beobachten" auf "Aufnahme pruefen" braucht es mehrere bestaetigte Punkte: nachhaltige AI-Server-Marge statt nur Umsatzvolumen, hoher und werthaltiger Backlog, steigender Storage-Attach, sichtbar positive Free-Cash-Flow-Wirkung, nachvollziehbare EPS-Revisionen und kein Hinweis auf Komponenten-/GPU-/Working-Capital-Stress.
 
 ## Alert-Kriterien
 

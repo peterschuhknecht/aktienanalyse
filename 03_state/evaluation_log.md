@@ -1,5 +1,108 @@
 # Evaluation Log
 
+## 2026-05-30 - Dell als Depotaufnahme oder Beobachtung
+
+### Anlass
+
+Nutzer fragte, ob Dell Technologies nach dem Q1-FY2027-AI-Server-Signal ins Depot aufgenommen oder nur beobachtet werden soll.
+
+### Fakten
+
+- Repository-Rundgang fuer die Depot-/Watchlistfrage geprueft: Portfolio Policy, Deep-Dive-Framework, Portfolio-Risiko-Framework, Follow-on-Watchlist, Latest Quotes/News, Upcoming Events, Evaluation Log, Task Plan, Open Questions und Assumptions/Decisions.
+- Dell Technologies meldete per BusinessWire/Unternehmensmeldung fuer Q1 FY2027: Umsatz USD 43.8 Mrd. (+88% YoY), ISG-Umsatz USD 29.0 Mrd. (+181% YoY), AI-optimized server revenue USD 16.1 Mrd. (+757% YoY), Storage-Umsatz USD 4.3 Mrd. (+8% YoY), AI orders USD 24.4 Mrd., Q1-CFO USD 4.1 Mrd. und FY2027-Revenue-Guidance von USD 165.0-169.0 Mrd.
+- StockAnalysis zeigte DELL am 2026-05-29 Schlusskurs USD 420.91, +32.76%, Market Cap ca. USD 273.41 Mrd., PE 33.65, Forward PE 23.16 und 52W-Spanne USD 106.38-429.15.
+
+### Einordnung
+
+Dell ist ein starkes hartes Nachfrage-Readthrough fuer AI-Server, Memory, Storage, Networking und Power/Cooling. Fuer das bestehende Depot waere eine Aufnahme aber keine echte Risikosenkung, sondern eine zusaetzliche AI-Capex-/Momentum-Wette. Gegenueber SK Hynix, Micron und SanDisk ist Dell weniger direkt am knappen Speicherengpass und staerker an Servermargen, Komponentenverfuegbarkeit, Working Capital und Kundenmix gebunden.
+
+### Entscheidung / Arbeitsthese
+
+Dell aktiv beobachten, aber vorerst nicht ins Depot aufnehmen. Aufnahme erst pruefen, wenn nach der BofA-Konferenz am 2026-06-02 und weiteren Daten klarer wird, dass AI-Server-Wachstum auch nachhaltig auf Marge, Free Cash Flow und EPS-Revisionen durchschlaegt. Dell bleibt im Covered-Symbol-Universum und in der Follow-on-Watchlist.
+
+### Risiken / Falsifikation
+
+Diese Beobachten-statt-kaufen-These waere zu defensiv, wenn Dell in den naechsten Datenpunkten hohe AI-Server-Margen, steigende Storage-Attach-Raten, werthaltigen Backlog, starken FCF und weitere EPS-Anhebungen zeigt, waehrend die Bewertung trotz Kursanstieg plausibel bleibt. Sie waere zu optimistisch, wenn Q1 vor allem volumengetrieben war, Komponentenknappheit oder Kundenkonzentration zunimmt, FCF unter Working Capital leidet oder die Aktie weiter ohne Schaetzungsanhebungen re-rated.
+
+## 2026-05-30 - Kontext-Radar 08:08 mit Dell-Korrektur und NVIDIA-GTC-Watch
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte erneut "Gibt es Neuigkeiten?" und verlangte den vollstaendigen Repository-Rundgang mit Kurs-, News-, Watchlist-, Makro- und Eventrefresh.
+
+### Fakten
+
+- Repository-Rundgang erneut ausgefuehrt: Automation-Memory, Datei-Inventar, `START_HERE.md`, `AGENTS.md`, Kernkontext, Watchlists, Monitoring-/Makrodateien, Kurs-/News-Caches, Events, Unternehmensakten und Arbeitsspeicher gelesen.
+- StockAnalysis-Kursseiten wurden fuer die wichtigsten Depot- und Watchlist-Werte gegengeprueft; wegen Wochenende bleiben die relevanten Kurse Schlusskurse vom 2026-05-29. Micron USD 971.00, +5.14%; SanDisk USD 1,694.98, +3.25%; SK Hynix KRW 2,333,000, +1.92%; Dell USD 420.91, +32.76%; STX USD 879.80, -0.10%; WDC USD 531.21, +0.01%.
+- Dell BusinessWire/Primaermeldung korrigiert die harten Zahlen: Q1-FY2027 Gesamtumsatz USD 43.842 Mrd. (+88% YoY), ISG-Umsatz USD 29.009 Mrd. (+181% YoY), AI-optimized server revenue USD 16.132 Mrd. (+757% YoY), Storage-Umsatz USD 4.334 Mrd. (+8% YoY), AI orders USD 24.4 Mrd. und FY2027-AI-Server-Erwartung ca. USD 60 Mrd.
+- NVIDIAs offizieller GTC-Taipei/COMPUTEX-Blog bestaetigt die Keynote am 2026-06-01 und nennt Vera Rubin/Rubin-NVL72, Spectrum-X Ethernet Photonics, BlueField-4, rund 2 Mio. Teile/150 Taiwan-Ecosystem-Partner sowie einen H2-2026-Ueberraschungsprodukt-Hinweis.
+- U.S. Treasury zeigte per 2026-05-29 US 10Y 4.45%, 2Y 3.98% und 10Y Real Yield 2.07%. VIX wurde nur ueber Finanzdaten-Sekundaerquellen bei ca. 15.3 fuer 2026-05-29 verifiziert; HY OAS, NFCI, Fear & Greed, AAII und Margin Debt bleiben teils Datenluecke.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb und selektiv besser. Dell liefert den harten Nachfragebeleg; NVIDIA liefert zusaetzlichen offiziellen Roadmap-Kontext fuer HBM/DRAM, Networking, Optics und Storage. Das ist positiv fuer die These, aber kein neuer direkter Kauf-/Verkaufstrigger, weil Speicherpreise, Margen und EPS-Revisionen der Depotwerte dadurch noch nicht automatisch bestaetigt sind.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Depotentscheidung. Aktive Kernwerte bleiben SK Hynix, Micron und SanDisk; bei einer Zwei-Werte-Konzentration bleibt die dokumentierte Arbeitsthese SK Hynix + Micron. HDD-/Nearline bleibt leicht positiv ohne Reaktivierung. Broadcom-Q2 am 2026-06-03 und Micron-Q3 am 2026-06-24 bleiben die naechsten harten Pruefpunkte.
+
+### Risiken
+
+Die Korrektur verbessert die Datenqualitaet, aendert aber nicht die zentrale Warnung: viele AI-Infrastruktur- und Speicherwerte stehen nahe Hochs, hohe Realzinsen bleiben Bewertungsgegenwind, und NVIDIAs Roadmap-Watch kann die Erwartungshuerde vor der Keynote weiter erhoehen.
+
+## 2026-05-30 - Kontext-Radar mit Dell-AI-Server-Signal
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte "Gibt es Neuigkeiten?" und verlangte den vollstaendigen Repository-Rundgang inklusive Kurs-, News-, Watchlist-, Makro- und Eventrefresh.
+
+### Fakten
+
+- Repository-Rundgang ausgefuehrt: Datei-Inventar, `START_HERE.md`, `AGENTS.md`, Kernkontext, Watchlists, Monitoring-/Makrodateien, Kurs-/News-Caches, Events und Unternehmensakten gelesen.
+- StockAnalysis zeigte US-Schluss 2026-05-29: Micron USD 971.00, +5.14%; SanDisk USD 1,694.98, +3.25%; Broadcom USD 446.77, +4.73%; Oracle USD 225.78, +10.84%; Microsoft USD 450.24, +5.45%; Dell USD 420.91, +32.76%. SK Hynix und Samsung schlossen am 2026-05-29 in Korea weiter +1.92% bzw. +5.84%.
+- Dell meldete fuer Q1 FY2027 laut spaeterer Primaerquellen-Korrektur Gesamtumsatz von USD 43.842 Mrd. (+88% YoY), ISG-Umsatz USD 29.009 Mrd. (+181% YoY), AI-optimized server revenue USD 16.132 Mrd. (+757% YoY), Storage-Umsatz USD 4.334 Mrd. (+8% YoY), AI orders USD 24.4 Mrd. und hob die FY2027-Erwartung fuer AI-Server-Umsatz auf ca. USD 60 Mrd. an.
+- U.S. Treasury zeigte per 2026-05-29: US 10Y 4.45%, US 2Y 3.98% und 10Y Real Yield 2.07%.
+- Heute, 2026-05-30, gibt es keinen bestaetigten harten Unternehmens-/Branchenkatalysator im Event-Cache. Bis 2026-06-04 folgen NVIDIA/COMPUTEX-GTC, Dell/WDC/STX-Konferenzen, Broadcom-Q2 und NVIDIA-BofA.
+
+### Einordnung
+
+Boom-Rahmenbedingungen verbessern sich selektiv und bleiben Gruen/Gelb. Dell ist ein hartes Nachfrage-/Capex-Readthrough fuer AI-Server, Memory, Storage, Networking und Datacenter-Infrastruktur. Depotwerte bleiben qualitativ intakt, aber ueberhitzt: SK Hynix bleibt direktester HBM-Hebel, Micron der zentrale US-HBM/DRAM-Hebel, SanDisk starke aber volatilste NAND-/Enterprise-SSD-Beta-Position.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Kauf-/Verkaufsentscheidung. Dell wird als Hintergrund-/Nachfrageproxy in `05_data/covered_symbols.md` aufgenommen. HDD-/Nearline bleibt leicht positiv, aber ohne Reaktivierung. Broadcom-Q2 am 2026-06-03 und Micron-Q3 am 2026-06-24 bleiben die wichtigsten harten Pruefpunkte.
+
+### Risiken
+
+Dell bestaetigt Nachfrage, aber nicht automatisch Speicherpreise, Margen oder EPS-Revisionen bei SK Hynix, Micron oder SanDisk. Viele AI-Infrastrukturwerte handeln nahe Hochs; hohe Realzinsen bleiben Bewertungsgegenwind. Wenn Broadcom-Q2 oder Micron-Q3 die Erwartungen nicht bestaetigen, kann die aktuelle Rallye schnell korrigieren.
+
+## 2026-05-29 - Repo-Methodik fuer tiefere Analysen ausgebaut
+
+### Anlass
+
+Nutzer fragte, wie das Repository schlauer und fuer umfangreichere, tiefere Aktienanalysen besser gemacht werden kann, und bat anschliessend darum, den Plan umzusetzen.
+
+### Aenderung
+
+Neue Dateien:
+
+- `01_knowledge/deep_dive_framework.md`
+- `01_knowledge/portfolio_risk_framework.md`
+- `01_knowledge/earnings_review_template.md`
+- `02_context/portfolio_policy.md`
+- `05_data/peer_benchmarks.md`
+- `05_data/market_monitor_schema.md`
+
+Aktualisiert wurden `AGENTS.md`, `START_HERE.md`, `01_knowledge/report_template.md`, `05_data/data_schema.md`, `05_data/data_architecture_recommendation.md` und die Unternehmensakten fuer SK Hynix, Micron, SanDisk, Seagate und Western Digital.
+
+### Methodische Wirkung
+
+Kuenftige umfangreiche Analysen muessen jetzt zusaetzlich Minimum Data Pack, Falsifikationspruefung, Peer-/Opportunity-Cost-Vergleich, Portfolio-Risiko und bei Earnings einen Expected-vs-Actual-Abgleich leisten. Analysten-Kursziele werden ausdruecklich als Meinung behandelt, sofern keine EPS-, Umsatz-, Margen- oder FCF-Revisionen erkennbar sind.
+
+### Entscheidung
+
+Keine neue Markt- oder Depotentscheidung. Dies war ein Repository- und Analyseprozess-Upgrade.
+
 ## 2026-05-26 - Initiale Wissensbasis
 
 Quelle: `praxis.pdf` und `gespraech.pdf`.
@@ -436,3 +539,57 @@ Depotwerte bleiben "besser, aber ueberhitzt". SK Hynix und SanDisk zeigen weiter
 ### Entscheidung
 
 Keine Aenderung der Depot-Arbeitsthese: aktive Kernwerte bleiben SK Hynix, Micron und SanDisk; bei einer Zwei-Werte-Reduktion bleibt die dokumentierte Arbeitsthese SK Hynix + Micron. Boom-Ampel bleibt Gruen/Gelb.
+
+## 2026-05-29 - Kontext-Radar mit Samsung-HBM4E-Signal
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte "Gibt es Neuigkeiten?" und verlangte den vollstaendigen Repository-Rundgang mit Kurs-, News-, Watchlist-, Makro- und Eventrefresh.
+
+### Fakten
+
+- Repository-Rundgang ausgefuehrt: Datei-Inventar, `START_HERE.md`, `AGENTS.md`, Kernkontext, Watchlists, Monitoring-/Makrodateien, Kurs-/News-Caches, Events und Unternehmensakten gelesen.
+- StockAnalysis zeigte SK Hynix zum Schlusskurs 2026-05-29 bei KRW 2,333,000, +1.92%, Forward-PE 7.08; Samsung bei KRW 317,000, +5.84%, Forward-PE 5.93.
+- Micron schloss am 2026-05-28 bei USD 923.52, -0.53%, after-hours +1.32%; SanDisk bei USD 1,641.64, +3.25%; Seagate bei USD 880.72, +1.16%; WDC bei USD 531.18, +0.11%.
+- Reuters-/CNBC-Newsfeed meldete, dass Samsung 12-Hi-HBM4E-Samples an globale Kunden ausliefert. Das ist das wichtigste neue operative Signal des Laufs.
+- NVIDIA-/CNBC-Newsfeed meldete Photonics-Investment-Kontext; AMAT-/CNBC-Newsfeed lieferte bullischen AI/WFE-Kommentar. Oracle sprang +6.67% und +3.48% after-hours; AMD stieg +4.55%.
+- U.S. Treasury blieb per 2026-05-28 bei US 10Y 4.45%, US 2Y 3.99%, 10Y Real Yield 2.06%; HY OAS und NFCI senden nach letztem FRED-Cache kein neues Kreditstresssignal.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb und verbessern sich selektiv. Positiv sind HBM-Nachfrage, Samsung-Aufholsignal, WFE/Photonics-Kontext und kein neuer Makrostress. Gegenargumente bleiben Crowding nahe 52W-Hochs, sehr hohe Multiples in Teilen der Watchlist, hohe Realzinsen und spaeteres Kapazitaetsrisiko.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Kauf-/Verkaufsentscheidung. Depotwerte bleiben qualitativ intakt, aber ueberhitzt. SK Hynix bleibt staerkster HBM-Hebel, Micron bleibt der zentrale US-HBM/DRAM-Hebel, SanDisk bleibt starke aber volatilste NAND-/Enterprise-SSD-Beta-Position. Samsung wird als HBM-Aufholer auf der Follow-on-Watchlist hoeher priorisiert; Broadcom-Q2 am 2026-06-03 bleibt der naechste harte Follow-on-Katalysator.
+
+### Risiken
+
+Samsung-HBM4E ist erst Sample-/Qualifikationssignal, keine gesicherte Volumen- oder Margenbestaetigung. Wenn Samsung schneller qualifiziert als erwartet, kann SK Hynix/Micron-Preissetzungsmacht relativ enger werden. Wenn AI-Infrastrukturwerte weiter steigen, ohne EPS-/Marge-/Backlog-Bestaetigung, steigt das Rueckschlagsrisiko.
+
+## 2026-05-29 - Kontext-Radar 14:16 CEST mit SanDisk-/Kioxia-Signal
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte erneut "Gibt es Neuigkeiten?" und verlangte den vollstaendigen Repository-Rundgang inklusive Kurs-, News-, Watchlist-, Makro- und Eventrefresh.
+
+### Fakten
+
+- Repository-Rundgang ausgefuehrt: Datei-Inventar, Kernkontext, Watchlists, Unternehmensakten, Kurs-/News-Caches, Monitoring-, Makro- und Eventdateien wurden gelesen.
+- StockAnalysis zeigte US-Pre-Market am 2026-05-29 ca. 07:10-08:09 EDT: Micron USD 948.52, +2.71%; SanDisk USD 1,665.00, +1.42%; STX USD 888.00, +0.83%; WDC USD 538.00, +1.28%; Broadcom USD 434.13, +1.77%; Vertiv USD 320.18, +1.91%; ASML USD 1,639.21, +2.08%; Oracle USD 211.50, +3.83%; Marvell USD 202.80, -0.99%; Bloom Energy USD 283.50, -2.24%.
+- Kioxia schloss am 2026-05-29 bei JPY 65,850, +7.46%, Forward-PE 7.36; Schneider Electric notierte bei EUR 270.95, +1.38%.
+- Der StockAnalysis-Transcript zur SanDisk/Bernstein Strategic Decisions Conference nennt starke NAND-Nachfrage durch AI/Data-Center-Wachstum, robuste Preise, LTAs, High Bandwidth Flash und mittleres bis hohes Teen-Wachstum als Management-/Konferenzkontext.
+- NVIDIA/COMPUTEX bleibt der wichtigste kurzfristige Roadmap-Katalysator. Ein The-Elec/TheFly-Hinweis zu unsicheren Rubin-CPX-Launchplaenen ist nur ein weiches Watch-Signal ohne NVIDIA-Bestaetigung.
+- Makro ist gegenueber dem 10:05-Lauf unveraendert: U.S.-Treasury-Datenstand bleibt 2026-05-28 mit 10Y 4.45%, 2Y 3.99% und 10Y Real Yield 2.06%.
+
+### Einordnung
+
+Die Boom-Rahmenbedingungen bleiben Gruen/Gelb und verbessern sich selektiv fuer NAND/Enterprise-SSD. Das SanDisk-/Kioxia-Signal ist relevanter als reine Analystenfolge, weil es Preis-, LTA- und Nachfragepunkte betrifft. Gleichzeitig bleibt die Quelle ein Transcript-Aggregat und kein offizieller Quartalsbericht.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Kauf-/Verkaufsentscheidung. Aktive Kernwerte bleiben SK Hynix, Micron und SanDisk. SanDisk ist kurzfristig besser bestaetigt, bleibt aber fuer eine moegliche Zwei-Werte-Konzentration wegen NAND-Zyklik, Beta, Bewertung und Samsung/Kioxia-Wettbewerbsdynamik der dokumentierte Reduktionskandidat gegen SK Hynix/Micron. HDD-/Nearline bleibt leicht positiv, aber ohne Reaktivierung. Broadcom-Q2 am 2026-06-03 bleibt der naechste harte Follow-on-Pruefpunkt.
+
+### Risiken
+
+Pre-Market-Kurse sind duenn und nur Timing-Signal. SanDisk-LTAs und High-Bandwidth-Flash muessen durch offizielle IR-Quellen, Quartalszahlen, NAND-/Enterprise-SSD-Preise, Margen und Kioxia/JV-Readthrough bestaetigt werden. Bloom Energy bleibt ein Bewertungswarnwert, weil die Aktie nach starker Rallye trotz AI-Power-Story sehr hohe Erwartungen preist.

@@ -27,6 +27,8 @@ Nicht Markdown durch eine Datenbank ersetzen. Besser ist ein Hybrid:
 
 Eine lokale SQLite-Datei waere ausreichend, z. B. `05_data/market_monitor.sqlite`.
 
+Die konkrete empfohlene Tabellenstruktur steht in `05_data/market_monitor_schema.md`. Wenn noch keine SQLite-Datei genutzt wird, koennen dieselben Felder als CSV-Historie gefuehrt werden.
+
 Moegliche Tabellen:
 
 | Tabelle | Zweck |
@@ -44,8 +46,9 @@ Moegliche Tabellen:
 2. Datenbank oder CSV speichert wiederholbare Zahlen und Zeitreihen.
 3. Agent liest zuerst `START_HERE.md` und `AGENTS.md`.
 4. Agent aktualisiert dann strukturierte Daten.
-5. Agent schreibt nur die Interpretation und echte Signalwechsel zurueck in Markdown.
+5. Agent nutzt `05_data/peer_benchmarks.md` fuer Peer- und Opportunity-Cost-Vergleiche.
+6. Agent schreibt nur die Interpretation und echte Signalwechsel zurueck in Markdown.
 
 ## Entscheidung
 
-Aktueller Stand: Markdown reicht fuer die Wissensbasis. Fuer dauerhaftes Monitoring mit Rendite-, Momentum- und Alertverlauf ist eine lokale SQLite-Datenbank mittelfristig sinnvoll.
+Aktueller Stand: Markdown reicht fuer die Wissensbasis. Fuer dauerhaftes Monitoring mit Rendite-, Momentum-, Peer- und Alertverlauf ist eine lokale SQLite-Datenbank mittelfristig sinnvoll; das Schema ist in `05_data/market_monitor_schema.md` vorbereitet.

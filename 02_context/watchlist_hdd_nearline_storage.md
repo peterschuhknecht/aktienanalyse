@@ -34,6 +34,10 @@ Zusatz 2026-05-28 19:26 CEST: STX und WDC standen im US-Handel wieder positiv un
 
 Zusatz 2026-05-29 11:55 CEST: STX schloss am 2026-05-28 bei USD 880.72, +1.16%, WDC bei USD 531.18, +0.11%; beide bleiben nahe 52W-Hochs. Neue Meldungen zu Seagates Exchangeable-Notes-Austausch und WDCs Board-Ergaenzung sind keine operativen Reaktivierungssignale. HDD-/Nearline bleibt leicht positiv, aber unveraendert Beobachtung.
 
+Zusatz 2026-05-29 14:16 CEST: US-Pre-Market zeigte STX bei USD 888.00, +0.83%, und WDC bei USD 538.00, +1.28%. Das bestaetigt kurzfristig Momentum und relative Nachfrage nach Storage-/HDD-Namen, liefert aber weiter keinen neuen Primaerbeleg zu Exabytes, LTAs, ASPs, Margen oder Free Cash Flow. HDD-/Nearline bleibt leicht positiv, keine Reaktivierung.
+
+Zusatz 2026-05-30 08:08 CEST: US-Schluss 2026-05-29 zeigte STX bei USD 879.80, -0.10%, und WDC bei USD 531.21, +0.01%. Dell bestaetigt AI-Server-/Storage-Nachfrage im Gesamtmarkt mit USD 16.132 Mrd. AI-optimized server revenue und USD 4.334 Mrd. Storage-Umsatz im Q1 FY2027, aber fuer STX/WDC fehlen neue operative Primaerdaten zu Nearline-Exabytes, LTAs, ASPs, Margen oder Free Cash Flow. HDD-/Nearline bleibt leicht positiv, keine Reaktivierung; naechster Pruefpunkt sind STX/WDC-Konferenzen am 2026-06-02/03.
+
 ## Reaktivierungsbedingungen
 
 Mindestens drei der folgenden Punkte sollten gleichzeitig auftreten, bevor Seagate oder WDC wieder als aktive Kauf-/Wiedereinstiegsanalyse behandelt werden:

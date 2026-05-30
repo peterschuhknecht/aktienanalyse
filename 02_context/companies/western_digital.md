@@ -2,6 +2,19 @@
 
 Status: Primaerer Watchlist-Wert, nicht als aktuelle Depotposition genannt.
 
+## Scorecard
+
+| Feld | Stand |
+|---|---|
+| Thesis Status | Watch; wichtigster Vergleichswert fuer HDD-/Nearline-Folgewelle |
+| Datenqualitaet | Teilweise frisch; harte Reaktivierung braucht Exabytes, LTAs, ASPs, Margen und FCF |
+| Bewertung | Anspruchsvoll fuer HDD/Nearline, nur mit dauerhafter Knappheit plausibel |
+| Momentum | Positiv, aber noch kein Depottrigger |
+| Wichtigster Treiber | Nearline-Exabyte-Wachstum, High-Capacity-Roadmap und AI-Datenretention |
+| Wichtigster Kill-Punkt | SSD-/NAND-Preisrueckgang oder HDD-Margenbruch schwaecht Kosten-pro-TB-These |
+| Naechster Katalysator | WDC-Konferenzen/Earnings laut Event-Cache |
+| Confidence | Mittel fuer Watch, niedrig fuer aktive These ohne neue Primaerdaten |
+
 ## Rolle in der Depotthese
 
 Western Digital ist der wichtigste Vergleichswert zu Seagate im HDD-/Nearline-Storage-Thema. Nach der SanDisk-Abspaltung ist WDC staerker als eigenstaendiger HDD-/Datacenter-Storage-Wert zu betrachten. Die Aktie ist relevant, wenn der Markt Nearline-HDDs als eigenen AI-Infrastrukturengpass neu bewertet.
@@ -61,3 +74,15 @@ Einordnung: WDC bleibt wichtigster HDD-/Nearline-Vergleichswert und leicht posit
 StockAnalysis zeigte WDC am 2026-05-28 bei USD 531.18, +0.11%, nachboerslich USD 534.16, +0.56%, PE 29.09 und Forward-PE 34.21. Das Tageshoch lag bei USD 553.50. Der Newsfeed meldete die Berufung von Manuvir Das in den Board of Directors mit Wirkung zum 2026-05-26.
 
 Einordnung: Die Board-Ergaenzung ist kein harter HDD-/Nearline-Reaktivierungstrigger. WDC bleibt wichtigster Vergleichswert zu Seagate; entscheidend sind weiter Nearline-Exabytes, LTAs, ASPs, Bruttomarge, Free Cash Flow und 2027/2028-Sichtbarkeit.
+
+## Update 2026-05-29 14:16 CEST: Pre-Market stabil, kein neues Nearline-Primarsignal
+
+StockAnalysis zeigte WDC im Pre-Market bei USD 538.00, +1.28%, nach dem 2026-05-28-Schlusskurs USD 531.18. Die Aktie bleibt nahe am 52W-Hoch; neue harte Daten zu Nearline-Exabytes, LTAs, ASPs oder Margen kamen im Refresh nicht hinzu.
+
+Einordnung: WDC bleibt der beste Vergleichswert zur HDD-/Nearline-Folgewelle. Das Kursbild ist positiv, aber die Reaktivierungslogik bleibt unveraendert: erst neue operative Primaerbelege wuerden eine vertiefte Wiedereinstiegsanalyse rechtfertigen.
+
+## Update 2026-05-30: Dell hilft Nachfragekontext, WDC selbst unveraendert
+
+StockAnalysis zeigte WDC am 2026-05-29 bei USD 531.21, +0.01%, nachboerslich USD 529.10, -0.40%, PE 29.09 und Forward-PE 34.21. Dell ist durch Q1-FY2027 mit USD 16.132 Mrd. AI-optimized server revenue und USD 4.334 Mrd. Storage-Umsatz ein positiver AI-Server-/Storage-Nachfrageproxy, aber fuer WDC kamen keine neuen harten Nearline-Daten hinzu.
+
+Einordnung: WDC bleibt wichtigster HDD-/Nearline-Vergleichswert. Kein Reaktivierungssignal ohne neue Primaerbelege zu Exabytes, LTAs, ASPs, Bruttomarge, Free Cash Flow und 2027/2028-Sichtbarkeit. WDC-Konferenzen am 2026-06-02 und 2026-06-03 sind die naechsten Pruefpunkte.

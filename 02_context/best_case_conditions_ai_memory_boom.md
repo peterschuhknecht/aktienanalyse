@@ -128,6 +128,24 @@ Fakt: SK Hynix notierte am 2026-05-29 intraday bei KRW 2,325,000, +1.57%, Samsun
 
 Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und leicht besser im Makro-Overlay. Die Nachfrage-/Engpass-These wird durch Kurs- und Peer-Momentum weiter bestaetigt; die zentrale Gelb-Komponente bleibt aber Crowding nahe 52W-Hochs, Analystenfolge statt neuer Primaerdaten und das spaetere Kapazitaetsrisiko.
 
+### Update 2026-05-29 10:05 CEST
+
+Fakt: SK Hynix schloss am 2026-05-29 bei KRW 2,333,000, +1.92%, und Samsung bei KRW 317,000, +5.84%. Reuters-/CNBC-Newsfeeds melden, dass Samsung 12-Hi-HBM4E-Samples an globale Kunden ausliefert. NVIDIA-/CNBC-Kontext zu Photonics-Investments und AMAT-/CNBC-Kommentar zu AI-getriebener Halbleiternachfrage stuetzen zusaetzlich Networking/Optics und WFE als Folgewellen. U.S. Treasury zeigte zuletzt per 2026-05-28 US 10Y 4.45%, 2Y 3.99% und 10Y Real Yield 2.06%.
+
+Einordnung: Die Boom-Rahmenbedingungen verbessern sich selektiv und bleiben Gruen/Gelb. Positiv sind HBM-Konkurrenzdynamik, Korea-Momentum, Photonics/WFE-Signale und kein neuer Kreditstress. Gelb bleiben Crowding, hohe Realzinsen, sehr hohe Multiples in Teilen der Watchlist und die Frage, ob Samsung-HBM4E echte Kundenqualifikation statt nur Sample-Phase wird.
+
+### Update 2026-05-29 14:16 CEST
+
+Fakt: US-Pre-Market bestaetigte kurzfristig weiter AI-Infrastruktur-Momentum: Micron +2.71%, SanDisk +1.42%, STX +0.83%, WDC +1.28%, Broadcom +1.77%, Vertiv +1.91%, ASML +2.08% und Oracle +3.83%; Marvell lag -0.99%. Kioxia schloss in Japan bei JPY 65,850, +7.46%. Der SanDisk/Bernstein-Transcript nennt starke NAND-Nachfrage durch AI/Data-Center-Wachstum, robuste Preise, LTAs und High Bandwidth Flash. Bloom Energy fiel vorboerslich -2.24% und bleibt wegen Forward-PE 125.70 ein Bewertungswarnwert.
+
+Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und leicht besser fuer NAND/Enterprise-SSD sowie AI-Infrastrukturbreite. Die wichtigste Verbesserung ist nicht nur Kursmomentum, sondern SanDisk/Kioxia-Readthrough mit konkreten Nachfrage-/Pricing-/LTA-Hinweisen. Gelb bleiben Crowding nahe Hochs, hohe Realzinsen, Bewertungsrisiko bei Power-/Cooling-/Energy-Werten und die noch nicht durch offizielle Quartalszahlen bestaetigte Dauerhaftigkeit der LTAs.
+
+### Update 2026-05-30 08:08 CEST
+
+Fakt: Dell meldete fuer Q1 FY2027 Gesamtumsatz von USD 43.842 Mrd. (+88% YoY), ISG-Umsatz USD 29.009 Mrd. (+181% YoY), AI-optimized server revenue USD 16.132 Mrd. (+757% YoY), Storage-Umsatz USD 4.334 Mrd. (+8% YoY), AI orders USD 24.4 Mrd. und eine FY2027-AI-Server-Umsatzerwartung von ca. USD 60 Mrd. US-Schlusskurse 2026-05-29: Micron +5.14%, SanDisk +3.25%, Broadcom +4.73%, Oracle +10.84%, Microsoft +5.45% und Dell +32.76%. U.S. Treasury zeigte per 2026-05-29 US 10Y 4.45%, 2Y 3.98% und 10Y Real Yield 2.07%. NVIDIAs offizieller GTC-Taipei/COMPUTEX-Blog bestaetigt Keynote am 2026-06-01 und nennt Vera Rubin/Rubin-NVL72, Spectrum-X Ethernet Photonics, BlueField-4 sowie ein moegliches H2-2026-Ueberraschungsprodukt als Roadmap-Watch.
+
+Einordnung: Boom-Rahmenbedingungen verbessern sich selektiv und bleiben Gruen/Gelb. Dell ist ein harter Nachfragebeleg fuer AI-Server, Memory, Storage und Networking; NVIDIA liefert zusaetzlichen offiziellen Roadmap-Kontext fuer Speicherinhalt, Networking und Optics. Gelb bleiben Crowding nahe Hochs, hohe Realzinsen und die Frage, ob die neue AI-Server-Nachfrage in Speicherpreise, Margen und EPS-Revisionen der Depotwerte nachhaltig durchschlaegt.
+
 ## Arbeitsanweisung fuer Agenten
 
 Bei jeder sachlichen Aktien-, Depot-, Branchen-, Watchlist- oder Zukunftsanfrage:

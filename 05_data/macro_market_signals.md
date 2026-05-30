@@ -45,19 +45,32 @@ Zweck: Makro-, Liquiditaets- und Sentiment-Signale fuer KI-, Halbleiter- und Spe
 | AAII Sentiment | https://www.aaii.com/sentimentsurvey |
 | FINRA Margin Debt | https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics |
 
-## Aktueller Datenpunkt 2026-05-29
+## Aktueller Datenpunkt 2026-05-30
 
 | Signal | Wert | Datenstand | Richtung | Gewichtung |
 |---|---:|---|---|---|
-| US 10Y Treasury Yield | 4.45% | 2026-05-28 | Hoch, aber niedriger als 4.50% vom 2026-05-26 und unter 4.67% vom 2026-05-19 | Fundamental |
-| US 2Y Treasury Yield | 3.99% | 2026-05-28 | Leicht niedriger als 4.01% am 2026-05-26 | Fundamental |
-| US 10Y Real Yield | 2.06% | 2026-05-28 | Hoch, aber niedriger als 2.10% vom 2026-05-26 und 2.18% vom 2026-05-19 | Fundamental |
+| US 10Y Treasury Yield | 4.45% | 2026-05-29 | Hoch, unveraendert zu 2026-05-28, aber niedriger als 4.50% vom 2026-05-26 | Fundamental |
+| US 2Y Treasury Yield | 3.98% | 2026-05-29 | Leicht niedriger als 3.99% am 2026-05-28 und 4.01% am 2026-05-26 | Fundamental |
+| US 10Y Real Yield | 2.07% | 2026-05-29 | Hoch, minimal hoeher als 2.06% vom 2026-05-28, aber niedriger als 2.10% vom 2026-05-26 | Fundamental |
 | High Yield OAS | 2.71% | 2026-05-27 | Stabil/eng, kein Kreditstress | Fundamental |
 | Chicago Fed NFCI | -0.510 | 2026-05-22 | Locker, weitgehend unveraendert | Fundamental |
 | ICE US Dollar Index | 99.22 | 2026-05-27, YCharts | Kein neues USD-Stresssignal; Sekundaerquelle | Fundamental/Timing |
-| VIX, Fear & Greed, AAII, FINRA Margin Debt | Nicht neu belastbar verifiziert | 2026-05-28 | Unklar | Timing/Crowding |
+| VIX | ca. 15.3 | 2026-05-29, Barchart/WallStreetNumbers als Sekundaercheck | Ruhig, kein Volatilitaetsstress | Timing/Crowding |
+| Fear & Greed, AAII, FINRA Margin Debt | Nicht neu belastbar verifiziert | 2026-05-30 | Unklar | Timing/Crowding |
 
-Einordnung: Makro/Sentiment ist fuer den aktuellen Kontext-Radar leicht besser, aber nicht risikolos. Nominal- und Realrenditen sind gegenueber dem letzten Cache leicht gefallen; sie bleiben absolut hoch und damit Bewertungsgegenwind fuer AI-/Halbleiter-Multiples. Kreditstress und Finanzbedingungen senden nach letztem Stand kein Red-Flag-Signal. VIX/Fear-&-Greed bleiben bis zur naechsten belastbaren Quelle unklar.
+Einordnung: Makro/Sentiment ist fuer den aktuellen Kontext-Radar neutral bis leicht gemischt. Der kurze Satz ist minimal niedriger, die 10Y-Rendite unveraendert, die 10Y-Realrendite minimal hoeher; Realrenditen bleiben absolut hoch und damit Bewertungsgegenwind fuer AI-/Halbleiter-Multiples. Kreditstress und Finanzbedingungen senden nach letztem Stand kein Red-Flag-Signal. VIX ist ruhig, Fear & Greed/AAII/Margin Debt bleiben bis zur naechsten belastbaren Quelle unklar.
+
+### Refresh-Notiz 2026-05-29 10:05 CEST
+
+U.S.-Treasury-Daten wurden erneut geprueft; aktuellster voll sichtbarer Datenstand bleibt 2026-05-28: US 10Y 4.45%, US 2Y 3.99% und 10Y Real Yield 2.06%. Keine Aenderung der Makro-Ampel: leicht besser als 2026-05-26, aber absolut hohe Realzinsen bleiben Bewertungsgegenwind. HY OAS und NFCI bleiben beim letzten FRED-Cache ohne Kreditstresssignal.
+
+### Refresh-Notiz 2026-05-29 14:16 CEST
+
+Vor US-Handelsstart liegt kein neuer offizieller U.S.-Treasury-Tagesdatensatz nach 2026-05-28 vor. Makro-Ampel bleibt unveraendert zum 10:05-Lauf: leicht besser als 2026-05-26, aber nicht risikolos. Realzinsen bleiben hoch; HY OAS und NFCI senden nach letztem Cache kein neues Kreditstresssignal.
+
+### Refresh-Notiz 2026-05-30 08:08 CEST
+
+U.S.-Treasury-Daten wurden fuer den 2026-05-29 geprueft: US 10Y 4.45%, US 2Y 3.98% und 10Y Real Yield 2.07%. Gegenueber 2026-05-28 ist der kurze Satz leicht niedriger, die 10Y unveraendert und die 10Y-Realrendite minimal hoeher. VIX wurde nur ueber Finanzdaten-Sekundaerquellen bei ca. 15.3 fuer 2026-05-29 verifiziert und zeigt kein Volatilitaetsstresssignal. Makro-Ampel: neutral bis leicht gemischt. Es gibt keinen neuen Zinsschock, aber Realzinsen bleiben absolut hoch und damit Bewertungsgegenwind fuer AI-/Halbleiter-Multiples. HY OAS und NFCI wurden nicht durch neuere belastbare Daten als den bestehenden Cache ersetzt.
 
 ## Bewertungslogik
 

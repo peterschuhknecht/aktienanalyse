@@ -4,7 +4,7 @@
 
 | Stufe | Rolle | Unternehmen | Depotbezug |
 |---|---|---|---|
-| 1. Compute | GPUs, KI-Beschleuniger | NVIDIA, AMD, Intel, Hyperscaler-ASICs | Nicht im Depot, Treiber der Nachfrage |
+| 1. Compute | GPUs, KI-Beschleuniger, AI-Server | NVIDIA, AMD, Intel, Dell, Hyperscaler-ASICs | Nicht im Depot, Treiber der Nachfrage |
 | 2. HBM/DRAM/LPDDR | Speicherbandbreite am Rechenkern | SK Hynix, Micron, Samsung | SK Hynix und Micron im Depot |
 | 3. NAND/Enterprise-SSD | Schneller Datenzugriff, Inferenz, Checkpoints | SanDisk, Kioxia, Samsung, Micron, SK Hynix | SanDisk und Micron im Depot |
 | 4. HDD/Nearline | Guenstige Massen- und Archivspeicherung | Seagate, Western Digital, Toshiba | Seagate verkauft; HDD-/Nearline-Watchlist |

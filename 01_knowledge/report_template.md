@@ -42,15 +42,55 @@
 | Base | TBD | TBD |
 | Bear | TBD | TBD |
 
-## 6. Red-Flags
+## 6. Peer- und Opportunity-Cost-Vergleich
+
+| Frage | Antwort |
+|---|---|
+| Direkte Peers | TBD |
+| Besserer Wert in der Peer-Gruppe | TBD |
+| Bewertung relativ zu Peers | TBD |
+| Wachstum/Margen relativ zu Peers | TBD |
+| Watchlist-Wert mit besserem Chance/Risiko? | TBD |
+
+## 7. Falsifikation und Gegenargumente
+
+| Frage | Antwort |
+|---|---|
+| Was spricht gegen die bisherige These? | TBD |
+| Welche Daten wuerden die These brechen? | TBD |
+| Welche Warnsignale sind nur Timing/Crowding? | TBD |
+| Welche Warnsignale sind fundamental? | TBD |
+
+## 8. Red-Flags
 
 - Neue Warnsignale:
 - Entkraeftete Warnsignale:
 - Offene Risiken:
 
-## 7. Entscheidungshilfe
+## 9. Portfolio-Auswirkung
+
+| Punkt | Einordnung |
+|---|---|
+| Konzentration | hoeher / niedriger / unveraendert / unklar |
+| Hauptkorrelation | TBD |
+| Waehrungs-/Liquiditaetsrisiko | TBD |
+| Reduktions- oder Ersatzkandidat | TBD |
+| Fehlende persoenliche Daten | TBD |
+
+## 10. Entscheidungshilfe
 
 - Beobachten:
 - Nachkaufen nur wenn:
 - Reduzieren/Verkaufen pruefen wenn:
 - Naechster Termin:
+
+## 11. Expected vs Actual
+
+Nur nach Earnings, Guidance oder Investor-Konferenz ausfuellen:
+
+| Punkt | Erwartung vorher | Ergebnis | Wirkung |
+|---|---|---|---|
+| Umsatz/EPS | TBD | TBD | TBD |
+| Margen | TBD | TBD | TBD |
+| Guidance | TBD | TBD | TBD |
+| Wichtigste These | TBD | TBD | TBD |

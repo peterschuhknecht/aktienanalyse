@@ -2,6 +2,19 @@
 
 Status: Aktuelle Position.
 
+## Scorecard
+
+| Feld | Stand |
+|---|---|
+| Thesis Status | Bestaetigt, Q3-Pruefpunkt entscheidend |
+| Datenqualitaet | Teilweise frisch; naechste harte Bestaetigung durch FY2026-Q3 |
+| Bewertung | Forward plausibel bei bestaetigten Margen/EPS, rueckschlagsanfaellig nach Re-Rating |
+| Momentum | Stark, aber konsolidierungsanfaellig |
+| Wichtigster Treiber | HBM/DRAM/LPDDR-Exposure mit US-Boersenliquiditaet |
+| Wichtigster Kill-Punkt | Q3 bestaetigt HBM-Auslastung, Bruttomarge oder 2027-Sichtbarkeit nicht |
+| Naechster Katalysator | Micron FY2026-Q3 am 2026-06-24 |
+| Confidence | Hoch fuer Kernthese, mittel fuer kurzfristiges Chance/Risiko |
+
 ## Rolle in der Depotthese
 
 Micron ist der US-Speicherchampion im Depot. Die These aus dem Gespraech: Micron bietet HBM-/DRAM-/LPDDR-Exposure mit US-Boersenliquiditaet und Naehe zur amerikanischen KI-Lieferkette.
@@ -74,3 +87,15 @@ Fuer eine Reduktion auf zwei aktive Depotwerte bleibt Micron der zweite Behalten
 StockAnalysis zeigte Micron am 2026-05-28 bei USD 923.52, -0.53%, nachboerslich USD 935.67, +1.32%, Market Cap ca. USD 1.04 Bio., PE 43.44 und Forward-PE 9.80. Der Newsfeed zeigte weitere Analystenfolge, darunter hoeher gesetzte Ziele von Mizuho und D.A. Davidson; diese sind als Meinung/Schaetzung niedriger zu gewichten als Q3-Zahlen und Guidance.
 
 Einordnung: Kein These-Bruch. Micron konsolidiert nach der extremen Re-Rating-Phase, bleibt aber nahe dem 52W-Hoch und damit empfindlich gegen Enttaeuschungen. Q3 am 2026-06-24 ist weiter der zentrale Pruefpunkt fuer HBM-Auslastung, Bruttomarge, 2027-Sichtbarkeit und EPS-Revisionen.
+
+## Update 2026-05-29 14:16 CEST: Pre-Market-Stabilisierung
+
+StockAnalysis zeigte Micron im Pre-Market am 2026-05-29 bei USD 948.52, +2.71%, nach dem 2026-05-28-Schlusskurs USD 923.52. Gleichzeitig meldet der Newsfeed neue Wettbewerbs-/Watch-Signale durch Samsung-HBM4E-Samples und weiter starke NAND-/SanDisk-/Kioxia-Daten.
+
+Einordnung: Die vorboersliche Bewegung spricht gegen einen unmittelbaren Momentumbruch nach der UBS-/Trillion-Dollar-Rallye. Sie ist aber kein neues fundamentales Q3-Signal. Fuer Micron bleibt der Kernpruefpunkt unveraendert: am 2026-06-24 muessen HBM-Auslastung, Preise, Bruttomarge, 2027-Sichtbarkeit und EPS-Revisionen die Bewertung bestaetigen.
+
+## Update 2026-05-30: US-Schluss bestaetigt Momentum
+
+StockAnalysis zeigte Micron am 2026-05-29 bei USD 971.00, +5.14%, nachboerslich USD 964.78, -0.64%, Market Cap ca. USD 1.10 Bio., PE 45.68 und Forward-PE 10.27. Dell meldete fuer Q1 FY2027 AI-optimized server revenue von USD 16.132 Mrd. (+757% YoY), AI orders von USD 24.4 Mrd. und hob die FY2027-AI-Server-Umsatzerwartung auf ca. USD 60 Mrd. an. NVIDIAs GTC-Taipei/COMPUTEX-Kontext verweist vor der Keynote auf Vera Rubin/Rubin-NVL72 und ein moegliches H2-2026-Ueberraschungsprodukt.
+
+Einordnung: Positiv fuer Micron als US-HBM-/DRAM-/LPDDR-Hebel, weil AI-Server-Nachfrage weiter hart sichtbar ist. Kein These-Bruch, sondern Bestaetigung mit Ueberhitzungsrisiko: Q3 am 2026-06-24 muss HBM-Auslastung, Preise, Bruttomarge, 2027-Sichtbarkeit und EPS-Revisionen liefern, sonst ist die Neubewertung verwundbar.

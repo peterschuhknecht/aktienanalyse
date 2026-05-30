@@ -2,6 +2,19 @@
 
 Status: Aktuelle Position.
 
+## Scorecard
+
+| Feld | Stand |
+|---|---|
+| Thesis Status | Bestaetigt, aber Crowding-Watch |
+| Datenqualitaet | Teilweise frisch; naechste harte Bestaetigung ueber Q2-/Q3-Kommunikation |
+| Bewertung | Forward optisch weiter plausibel, aber nach starkem Kurslauf nicht risikolos |
+| Momentum | Stark bis ueberhitzt |
+| Wichtigster Treiber | HBM-/DRAM-Knappheit und Kundenbedarf nahe am KI-Rechenkern |
+| Wichtigster Kill-Punkt | HBM-Preise, Yields, Kundenqualifikation oder Margen kippen sichtbar |
+| Naechster Katalysator | Erwarteter naechster Earnings-/Guidance-Pruefpunkt laut Event-/Kurscache |
+| Confidence | Hoch fuer These, mittel fuer Timing |
+
 ## Rolle in der Depotthese
 
 SK Hynix ist der fokussierte HBM-/DRAM-Hebel im Depot. Die These aus dem Gespraech: Je komplexer KI-Modelle und Beschleuniger werden, desto kritischer wird High Bandwidth Memory.
@@ -83,3 +96,15 @@ Fuer eine Reduktion des aktiven Depots von SK Hynix, Micron und SanDisk auf zwei
 StockAnalysis zeigte SK Hynix am 2026-05-29 um 12:08 KST bei KRW 2,325,000, +1.57%, mit Tageshoch KRW 2,379,000 und Forward-PE 7.08. Samsung zog parallel +4.01% an, was den Korea-/Memory-Readthrough bestaetigt.
 
 Einordnung: These bleibt stark bestaetigt, aber nicht neu bewiesen. SK Hynix bleibt qualitativ der direkteste HBM-Hebel; das neue Signal ist vor allem Momentum und Crowding nahe Hochs. Naechster harter Pruefpunkt bleibt die Q2-/Q3-Kommunikation zu HBM-Auslastung, Preisen, Margen und 2027-Sichtbarkeit.
+
+## Update 2026-05-29: Schlusskurs und Samsung-HBM4E-Watch
+
+StockAnalysis zeigte SK Hynix zum Schlusskurs 2026-05-29 bei KRW 2,333,000, +1.92%, Market Cap ca. KRW 1,621.29 Bio., PE 21.67 und Forward-PE 7.08. Samsung schloss +5.84%; Reuters-/CNBC-Newsfeeds meldeten, dass Samsung 12-Hi-HBM4E-Samples an globale Kunden ausliefert.
+
+Einordnung: SK Hynix bleibt der direkteste HBM-Hebel im Depot, aber Samsung wird als Aufholer-Watch wichtiger. Fuer SK Hynix ist das noch kein These-Bruch, solange Kapazitaet knapp bleibt, Kundenqualifikation und Preise stimmen und Q2-/Q3-Kommunikation Margen sowie 2027-Sichtbarkeit bestaetigt. Das Gegenargument lautet: Wenn Samsung HBM4E schnell qualifiziert und Volumen bekommt, kann der HBM-Leader-Premium-Teil bei SK Hynix enger werden.
+
+## Update 2026-05-30: Dell-Nachfrageproxy und NVIDIA-Roadmap bestaetigen Umfeld
+
+StockAnalysis zeigte SK Hynix weiter mit Schlusskurs 2026-05-29 bei KRW 2,333,000, +1.92%, sehr nahe am 52W-Hoch. Dell meldete fuer Q1 FY2027 AI-optimized server revenue von USD 16.132 Mrd. (+757% YoY), AI orders von USD 24.4 Mrd. und hob die FY2027-Erwartung fuer AI-Server-Umsatz auf ca. USD 60 Mrd. an. NVIDIAs offizieller GTC-Taipei/COMPUTEX-Blog verweist auf Vera Rubin/Rubin-NVL72 und Keynote am 2026-06-01.
+
+Einordnung: Fuer SK Hynix sind Dell und NVIDIA positives Nachfrage-/Roadmap-Readthrough fuer HBM/DRAM nahe am AI-Server. Das verbessert das Umfeld, beweist aber nicht automatisch neue Margen oder Preise bei SK Hynix. Wichtig bleiben HBM-Auslastung, Kundenqualifikation, Preise, Samsung-Aufholtempo und Q2-/Q3-Kommunikation.

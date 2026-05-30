@@ -2,6 +2,19 @@
 
 Status: Aktuelle Position.
 
+## Scorecard
+
+| Feld | Stand |
+|---|---|
+| Thesis Status | Bestaetigt, aber hoechstes Beta-/Zyklusrisiko im aktiven Depot |
+| Datenqualitaet | Teilweise frisch; SanDisk-/Kioxia-/NAND-Readthrough weiter verifizieren |
+| Bewertung | Forward optisch plausibel bei starker NAND-/SSD-Marge, aber anspruchsvoll im Timing |
+| Momentum | Sehr stark bis ueberhitzt |
+| Wichtigster Treiber | NAND-/Enterprise-SSD-Nachfrage, Pricing, LTAs und Datacenter-Wachstum |
+| Wichtigster Kill-Punkt | NAND-/Enterprise-SSD-Preise oder Margen fallen trotz AI-Nachfrage |
+| Naechster Katalysator | Naechste SanDisk-/Kioxia-IR- oder Quartalsbestaetigung laut Event-Cache |
+| Confidence | Mittel bis hoch fuer These, niedriger fuer Timing |
+
 ## Rolle in der Depotthese
 
 SanDisk ist der Flash-/NAND-/Enterprise-SSD-Pure-Play im Depot. Die These aus dem Gespraech: SanDisk profitiert von KI-Inferenz, Checkpointing und schnellem Datenzugriff, hat aber das hoechste Bewertungs- und Rueckschlagsrisiko im Quartett.
@@ -82,3 +95,15 @@ Bei einer Reduktion von drei auf zwei aktive Depotwerte ist SanDisk der pragmati
 StockAnalysis zeigte SanDisk am 2026-05-28 bei USD 1,641.64, +3.25%, nachboerslich USD 1,648.00, +0.39%, Market Cap ca. USD 243.11 Mrd., PE 55.26 und Forward-PE 10.08. Das Tageshoch von USD 1,697.96 lag zugleich beim 52W-Hoch. Der Newsfeed zeigte weitere Mizuho-Analystenfolge zu Micron/SanDisk, aber keine neue harte Primaermeldung.
 
 Einordnung: Die NAND-/Enterprise-SSD-These bleibt intakt, aber SanDisk bleibt der volatilste aktive Depotwert. Positiv ist die relative Staerke; kritisch ist, dass neue Kursziele kein Ersatz fuer neue Datacenter-SSD-, NAND-Preis-, Margen- oder Kioxia/JV-Bestaetigung sind.
+
+## Update 2026-05-29 14:16 CEST: Bernstein-Transcript und Kioxia-Readthrough
+
+StockAnalysis zeigte SanDisk im Pre-Market bei USD 1,665.00, +1.42%, nach dem 2026-05-28-Schlusskurs USD 1,641.64. Der StockAnalysis-Transcript zur Bernstein Strategic Decisions Conference fasst SanDisk-Managementaussagen mit starker NAND-Nachfrage durch AI/Data-Center-Wachstum, robustem Pricing, mehrjaehrigen LTAs, High Bandwidth Flash und mittlerem bis hohem Teen-Wachstumsausblick zusammen. Kioxia schloss am 2026-05-29 bei JPY 65,850, +7.46%, Forward-PE 7.36.
+
+Einordnung: Das ist ein neues positives SanDisk-spezifisches Signal, staerker als reine Analystenfolge, aber noch nicht so hart wie Quartalszahlen oder eine offizielle IR-Transkriptquelle. SanDisk bleibt fuer ein 3er-Depot sinnvoller NAND-/Enterprise-SSD-Hebel; fuer ein 2er-Depot bleibt es wegen Beta, NAND-Zyklik, Samsung-Roadmap und Crowding der Reduktionskandidat gegen SK Hynix/Micron.
+
+## Update 2026-05-30: Schlusskurs nahe Hoch und Dell-Readthrough
+
+StockAnalysis zeigte SanDisk am 2026-05-29 bei USD 1,694.98, +3.25%, nachboerslich USD 1,683.81, -0.66%, Market Cap ca. USD 251.01 Mrd., PE 57.06 und Forward-PE 10.41. Dell meldete fuer Q1 FY2027 AI-optimized server revenue von USD 16.132 Mrd. (+757% YoY) und Storage-Umsatz von USD 4.334 Mrd. (+8% YoY); Kioxia blieb mit Schlusskurs JPY 65,850, +7.46%, ein starker NAND-Readthrough.
+
+Einordnung: SanDisk wird durch AI-Server-/Storage-Nachfrage und Kioxia weiter bestaetigt. Das verbessert die These, verschlechtert aber das Chance/Risiko-Timing nicht automatisch: Die Aktie steht direkt am Hoch, und NAND-/Enterprise-SSD-Preise, Margen, LTAs, Kioxia/JV-Readthrough und Samsung-NAND-Roadmap bleiben die kritischen Gegenchecks.

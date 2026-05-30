@@ -56,6 +56,7 @@ Diese Datei definiert das Wertpapier-Universum, fuer das Agenten bei jeder sachl
 | Alphabet | GOOGL | USA | Hyperscaler, KI-Capex |
 | Meta Platforms | META | USA | Hyperscaler, KI-Capex |
 | Oracle | ORCL | USA | Cloud, Datacenter-Capex |
+| Dell Technologies | DELL | USA | AI-Server, Storage, Infrastruktur-Nachfrageproxy |
 | Tesla | TSLA | USA | KI-/Robotik-Nachfrage, moeglicher eigener Chip-/Memory-Fab-Treiber |
 | SpaceX | Private | USA | KI-/Compute- und TeraFab-Kontext, kein boersennotierter Kurs |
 | xAI | Private | USA | KI-Training/Inference, Hyperscaler-aehnlicher Speicherbedarf |

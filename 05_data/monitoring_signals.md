@@ -85,13 +85,35 @@ Makro- und Sentiment-Signale aus `05_data/macro_market_signals.md` sind ein Pfli
 
 | Bereich | Status | Kurzgrund |
 |---|---|---|
-| Depotwerte | Besser, aber ueberhitzt | SK Hynix notierte am 2026-05-29 intraday +1.57% nahe neuem Hoch; Micron gab am 2026-05-28 leicht nach, drehte aber nachboerslich positiv; SanDisk stieg +3.25% und bleibt direkt am Hoch. SanDisk zeigt weiter die hoechste Beta-/Rueckschlagsgefahr. |
+| Depotwerte | Besser, aber ueberhitzt | SK Hynix schloss am 2026-05-29 +1.92% am 52W-Hochbereich; Micron gab am 2026-05-28 leicht nach, drehte aber nachboerslich positiv; SanDisk stieg +3.25% und bleibt direkt am Hoch. SanDisk zeigt weiter die hoechste Beta-/Rueckschlagsgefahr. |
 | HDD-/Nearline-Watchlist | Leicht besser, aber kein Reaktivierungsbeschluss | STX und WDC bleiben nahe 52W-Hochs; neue Meldungen zu STX-Exchangeable-Notes und WDC-Board-Ergaenzung sind keine operativen Reaktivierungssignale. Reaktivierung braucht weiter Exabytes, LTAs, Margen, FCF und EPS-Revisionen. |
-| Primaere Follow-on-Watchlist | Marvell verbessert, Broadcom als naechster Katalysator | MRVL erholte sich am 2026-05-28 nach Q1-FY2027-AI-Bookings; Broadcom-Q2 am 2026-06-03 wird der naechste harte Pruefpunkt fuer Custom Silicon/Networking. |
-| Erweiterte Watchlist | Gemischt bis besser | Schneider-/Power-Cooling-Signal positiv; mehrere Werte mit hohen Multiples und Tagesruecksetzern. |
+| Primaere Follow-on-Watchlist | Samsung verbessert, Marvell/Broadcom weiter wichtig | Samsung schloss +5.84% und HBM4E-Sample-Meldungen machen Samsung zum neuen Aufholer-Watch; MRVL bleibt nach AI-Bookings wichtig; Broadcom-Q2 am 2026-06-03 wird der naechste harte Pruefpunkt fuer Custom Silicon/Networking. |
+| Erweiterte Watchlist | Gemischt bis besser | AMAT-/WFE- und NVIDIA-/Photonics-Kontext positiv; AMD und Oracle stark. Corning, GEV und Bloom zeigen Tagesruecksetzer bzw. Bewertungsrisiken. |
 | Makro/Sentiment | Leicht besser, aber weiter bewertungssensitiv | U.S. Treasury zeigt per 2026-05-28 10Y 4.45%, 2Y 3.99% und 10Y Real Yield 2.06%, jeweils leicht niedriger als letzter Cache; HY OAS 2.71% per 2026-05-27 und NFCI -0.510 per 2026-05-22 ohne Stress. |
 
 Offen: 1M-/3M-Renditen und relative Staerke gegen Nasdaq 100/SMH sind noch nicht strukturiert berechnet; dafuer ist eine Zeitreihe oder lokale SQLite-/CSV-Historie sinnvoll.
+
+### Refresh 2026-05-29 14:16 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber ueberhitzt | Micron +2.71% und SanDisk +1.42% im US-Pre-Market; SK Hynix schloss +1.92%. Der neue SanDisk/Bernstein-Transcript stuetzt NAND-/AI-Datacenter-Nachfrage, Pricing und LTAs. SanDisk bleibt aber die volatilste Beta-Position. |
+| HDD-/Nearline-Watchlist | Leicht besser, keine Reaktivierung | STX +0.83% und WDC +1.28% im Pre-Market; keine neuen Primaerdaten zu Exabytes, LTAs, Margen oder Free Cash Flow. |
+| Primaere Follow-on-Watchlist | Aktiv, aber gemischt | Broadcom +1.77%, Vertiv +1.91%, Samsung +5.84% am Korea-Schluss; Marvell -0.99% im Pre-Market. Broadcom-Q2 am 2026-06-03 bleibt der harte Pruefpunkt. |
+| Erweiterte Watchlist | Gemischt | Kioxia +7.46% bestaetigt NAND-Readthrough; ASML +2.08% und Schneider +1.38% positiv. Bloom Energy -2.24% im Pre-Market und Forward-PE 125.70 bleiben Bewertungswarnung. |
+| Makro/Sentiment | Unveraendert zum 10:05-Lauf | Keine neueren U.S.-Treasury-Daten als 2026-05-28; Realzinsen bleiben hoch, Kreditstress zuletzt unauffaellig. |
+
+### Refresh 2026-05-30 08:08 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber ueberhitzt | SK Hynix schloss am 2026-05-29 +1.92%; Micron +5.14% und SanDisk +3.25% am US-Schluss 2026-05-29. Alle drei bleiben sehr nahe an Hochs; positives Momentum ist zugleich Crowding-/Rueckschlagsrisiko. |
+| HDD-/Nearline-Watchlist | Leicht positiv, keine Reaktivierung | STX -0.10% und WDC +0.01% am 2026-05-29; keine neuen Primaerdaten zu Exabytes, LTAs, ASPs, Margen oder Free Cash Flow. |
+| Primaere Follow-on-Watchlist | Besser, naechster Pruefpunkt Broadcom | Broadcom +4.73% fast am Hoch, Arista +2.70%, Marvell stabil, Samsung +5.84%. Broadcom-Q2 am 2026-06-03 bleibt der harte Test fuer Custom Silicon/Networking. |
+| Erweiterte Watchlist | Dell deutlich besser, NVIDIA-Roadmap-Watch, Power/WFE gemischt | Dell +32.76% nach Q1-FY2027 mit USD 16.132B AI-optimized server revenue und ca. USD 60B FY27-AI-Server-Erwartung ist neuer Nachfrageproxy; NVIDIAs GTC-Taipei/COMPUTEX-Roadmap stuetzt AI-Factory-/Networking-/Optics-Watch. Oracle +10.84% und Microsoft +5.45% positiv. GEV, Bloom, Intel und NVIDIA schwach bis gemischt. |
+| Makro/Sentiment | Neutral bis leicht gemischt | U.S. Treasury per 2026-05-29: 10Y 4.45%, 2Y 3.98%, 10Y Real Yield 2.07%. VIX ca. 15.3 laut Sekundaercheck ohne Volatilitaetsstress. Kein neuer Zinsschock, aber Realzinsen bleiben Bewertungsgegenwind. |
+
+Einordnung: Rendite und Umfeld drehen fuer AI-Server-/Memory-/Networking erneut nach oben, vor allem durch Dell, Micron, SanDisk, Broadcom, Oracle und Microsoft. Das ist ein positives Signal fuer die Boom-Rahmenbedingungen, aber keine automatische Kaufentscheidung, weil viele Werte nahe 52W-Hochs und mit hohen Multiples handeln.
 
 ## Ausgabeformat fuer Folgeantworten
 

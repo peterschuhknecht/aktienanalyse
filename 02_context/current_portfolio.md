@@ -29,6 +29,7 @@ Dieses Depot ist nach dem Seagate-Verkauf eine noch fokussiertere KI-Speicherwet
 | Bloom Energy | On-site Power als riskante Energie-Wildcard |
 | AMAT / Lam Research | Halbleiterausruester |
 | Marvell / Corning | Custom Silicon, optische Netzwerke |
+| Dell Technologies | AI-Server, Storage und Infrastruktur-Nachfrageproxy |
 
 ## Naechste Analysepflichten
 
