@@ -86,3 +86,9 @@ Einordnung: WDC bleibt der beste Vergleichswert zur HDD-/Nearline-Folgewelle. Da
 StockAnalysis zeigte WDC am 2026-05-29 bei USD 531.21, +0.01%, nachboerslich USD 529.10, -0.40%, PE 29.09 und Forward-PE 34.21. Dell ist durch Q1-FY2027 mit USD 16.132 Mrd. AI-optimized server revenue und USD 4.334 Mrd. Storage-Umsatz ein positiver AI-Server-/Storage-Nachfrageproxy, aber fuer WDC kamen keine neuen harten Nearline-Daten hinzu.
 
 Einordnung: WDC bleibt wichtigster HDD-/Nearline-Vergleichswert. Kein Reaktivierungssignal ohne neue Primaerbelege zu Exabytes, LTAs, ASPs, Bruttomarge, Free Cash Flow und 2027/2028-Sichtbarkeit. WDC-Konferenzen am 2026-06-02 und 2026-06-03 sind die naechsten Pruefpunkte.
+
+## Update 2026-05-31: Dell-Transcript verbessert Umfeld, WDC bleibt Watch
+
+Dell nennt im Q1-FY2027-Transcript Hard Drives als Komponententhema in der AI-Server-Lieferkette. Gleichzeitig liegen keine neuen WDC-spezifischen Zahlen zu Nearline-Exabytes, LTAs, ASPs, Bruttomargen oder Free Cash Flow vor.
+
+Einordnung: WDC bleibt der wichtigste Vergleichswert zur HDD-/Nearline-Folgewelle, aber nicht reaktiviert. Die WDC-Auftritte bei BofA am 2026-06-02 und Evercore am 2026-06-03 muessen zeigen, ob Dells allgemeines Hard-Drive-Engpasssignal in WDC-spezifische Sichtbarkeit und EPS-/FCF-Qualitaet uebersetzt wird.

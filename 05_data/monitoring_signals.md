@@ -1,6 +1,6 @@
 # Monitoring-Signale fuer Depot und Watchlists
 
-Stand: 2026-05-28.
+Stand: 2026-05-31.
 
 Diese Datei definiert, was bei jeder sachlichen Aktien-, Depot-, Branchen-, Watchlist- oder Zukunftsanfrage fuer alle verfolgten Werte geprueft werden soll.
 
@@ -114,6 +114,29 @@ Offen: 1M-/3M-Renditen und relative Staerke gegen Nasdaq 100/SMH sind noch nicht
 | Makro/Sentiment | Neutral bis leicht gemischt | U.S. Treasury per 2026-05-29: 10Y 4.45%, 2Y 3.98%, 10Y Real Yield 2.07%. VIX ca. 15.3 laut Sekundaercheck ohne Volatilitaetsstress. Kein neuer Zinsschock, aber Realzinsen bleiben Bewertungsgegenwind. |
 
 Einordnung: Rendite und Umfeld drehen fuer AI-Server-/Memory-/Networking erneut nach oben, vor allem durch Dell, Micron, SanDisk, Broadcom, Oracle und Microsoft. Das ist ein positives Signal fuer die Boom-Rahmenbedingungen, aber keine automatische Kaufentscheidung, weil viele Werte nahe 52W-Hochs und mit hohen Multiples handeln.
+
+### Refresh 2026-05-31 17:42 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Unveraendert besser, aber ueberhitzt | Wegen Wochenende bleiben die Kursdaten beim 2026-05-29-Schluss: SK Hynix, Micron und SanDisk sind sehr nahe an Hochs. Die naechsten neuen Bewegungsimpulse kommen von NVIDIA/COMPUTEX, US-Makro und Broadcom-Q2, nicht von neuen Wochenendkursen. |
+| HDD-/Nearline-Watchlist | Leicht positiv, keine Reaktivierung | WDC und STX haben am 2026-06-02/03 Konferenzen. Erst neue Aussagen zu Exabytes, LTAs, ASPs, Margen, FCF oder 2027/2028-Sichtbarkeit waeren echte Reaktivierungssignale. |
+| Primaere Follow-on-Watchlist | Aktiv, Broadcom im Fokus | Broadcom-Q2 am 2026-06-03 ist der harte Pruefpunkt fuer Custom AI Accelerators, AI Networking und Hyperscaler-ASICs. NVIDIA/COMPUTEX kann HBM/Networking/Optics-Roadmap-Erwartungen erhoehen. |
+| Erweiterte Watchlist | Dell bleibt Nachfrageproxy, nicht Depottrigger | Dell-BofA am 2026-06-02 muss zeigen, ob AI-Server-Wachstum auch Marge, Backlog-Qualitaet, Storage-Attach, FCF und EPS stutzt. |
+| Makro/Sentiment | Neutral bis gemischt | US-Zinsen/Kreditdaten stabil: 10Y 4.45%, 2Y 3.98%, Real Yield 2.07%, HY OAS 2.72%, NFCI -0.510. Negativ gemischt: China Manufacturing PMI nur 50.0 und Hormuz-/Energiepreisrisiko bleibt aktiv. |
+
+Einordnung: Die Boom-Rahmenbedingungen bleiben Gruen/Gelb. Unternehmensseitig verbessert sich der AI-Infrastruktur-Readthrough durch Dell/NVIDIA weiter; makroseitig ist die Woche aber empfindlich, weil Payrolls, ISM, Eurozonen-Inflation und Energiepreise den Diskontsatz und Risikoappetit schnell drehen koennen.
+
+### Zusatz 2026-05-31 17:43 CEST: Dell-Transcript als harter Engpass-Readthrough
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber weiter ueberhitzt | Dell nennt Memory als primaere Komponentengrenze und erwaehnt DRAM/NAND; das bestaetigt das Umfeld fuer SK Hynix, Micron und SanDisk, ohne direkte Margen-/EPS-Daten fuer diese Werte zu liefern. |
+| HDD-/Nearline-Watchlist | Leicht positiv, keine Reaktivierung | Dell nennt Hard Drives spaeter in der Engpasskette. Das ist ein positives Umfeldsignal, aber STX/WDC brauchen weiter eigene Exabytes-, LTA-, ASP-, Margen- und FCF-Bestaetigung. |
+| Follow-on-Watchlist | Aktiv, Broadcom/Dell/NVIDIA im Fokus | Dell zeigt starke AI-Server-Nachfrage und Engpaesse; Broadcom-Q2 am 2026-06-03 und NVIDIA/COMPUTEX liefern die naechsten harten bzw. Roadmap-Pruefpunkte. |
+| Makro/Sentiment | Neutral bis gemischt | Kein Kredit-/Volatilitaetsstress, aber Realrendite 2.07% und China-PMI 50.0 halten die Ampel nicht sauber gruen. |
+
+Einordnung: Das neue Dell-Transcript ist eine relevante Kombination aus hartem Backlog-/Pipeline-Signal und Managementaussage zu Memory-/Storage-Engpaessen. Es rechtfertigt eine Handlungspruefung der Watchlist-Prioritaeten, aber keine automatische Depotentscheidung.
 
 ## Ausgabeformat fuer Folgeantworten
 

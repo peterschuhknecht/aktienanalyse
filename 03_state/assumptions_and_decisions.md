@@ -15,6 +15,8 @@
 - Analysten-Kursziele bleiben Meinung und werden ohne nachvollziehbare EPS-, Umsatz-, Margen- oder FCF-Revisionen nicht als harte Fundamentaldaten behandelt.
 - Dell Technologies wird ab 2026-05-30 als Hintergrund-/Nachfrageproxy fuer AI-Server, Storage und Datacenter-Infrastruktur gefuehrt, nicht als aktive Depotposition oder priorisierter Kaufkandidat.
 - Entscheidung 2026-05-30 08:18 CEST: Dell soll aktiv beobachtet, aber vorerst nicht in das Depot aufgenommen werden. Begruendung: harter AI-Server-Nachfragebeleg, aber nach +32.76% Tagesbewegung nahe 52W-Hoch und als Server-/Systemintegrator weniger direkter Knappheits- und Margenhebel als HBM/DRAM/NAND-Depotwerte.
+- Update 2026-05-31 17:43 CEST: Der Dell-Q1-FY2027-Transcript gilt als harter Supply-Chain-Readthrough, weil Dell Memory als primaere Komponentengrenze nennt und DRAM/NAND/Hard Drives als Engpassfelder einordnet. Das bestaetigt die AI-Memory-/Storage-These, ersetzt aber keine direkten Speicherpreis-, Margen-, EPS- oder FCF-Daten der Depotwerte.
+- Entscheidung 2026-05-30: Die Datenarchitektur ist ein Hybrid. Markdown bleibt Thesen-, Kontext- und Entscheidungsebene; `05_data/market_monitor.sqlite` ist ab jetzt die strukturierte Verlaufs-, Snapshot- und Alert-Datenebene.
 
 ## Methodische Annahmen
 

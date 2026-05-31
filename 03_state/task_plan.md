@@ -32,6 +32,10 @@
 - [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-30 07:50 CEST durchgefuehrt: Covered-Symbol-Kurse, Dell-AI-Server-Signal, U.S.-Treasury-Daten, Events, Watchlists, Unternehmensakten und Caches aktualisiert; Dell als Hintergrund-/Nachfrageproxy ergaenzt.
 - [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-30 08:08 CEST durchgefuehrt: Repository-Rundgang wiederholt, Dell-Q1-FY2027-Primaerzahlen korrigiert, NVIDIA-GTC-Taipei/COMPUTEX-Roadmap-Watch ergaenzt, VIX-Sekundaercheck und Caches/Watchlists/Unternehmensakten aktualisiert.
 - [x] Dell-Depotfrage am 2026-05-30 08:18 CEST eingeordnet: aktiv beobachten, aber vorerst nicht aufnehmen; naechster Pruefpunkt ist Dell bei der BofA-Konferenz am 2026-06-02.
+- [x] Lokale SQLite-Datenebene am 2026-05-30 umgesetzt: `05_data/market_monitor.sqlite`, versioniertes Schema, Symbol-Seed, Nutzungsdoku und AGENTS-/START_HERE-Verankerung angelegt.
+- [x] SQLite-Datenebene am 2026-05-30 technisch getestet: Neuaufbau, Seed, Integritaet, Idempotenz, Pflicht-Views, Schreib-/Rollback-Test und Fremdschluesselpruefung erfolgreich.
+- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-31 17:43 CEST durchgefuehrt: Repository-Rundgang, Covered-Symbol-Kurse, Dell-Transcript mit Memory als primaerem AI-Server-Engpass, Makro-/Eventrefresh, Watchlists, Unternehmensakten und erste echte SQLite-Markt-Snapshots aktualisiert.
+- [x] Automation "KI Aktien Wochenueberblick" am 2026-05-31 17:42 CEST durchgefuehrt: Wochenfenster 2026-06-01 bis 2026-06-07, China-PMI, Hormuz-/Energierisiko, US-/Euro-Makrotermine, NVIDIA/COMPUTEX, Broadcom-Q2, Dell/WDC/STX-Konferenzen, Caches und SQLite-Snapshots aktualisiert.
 
 ## Naechste sinnvolle Schritte
 
@@ -45,20 +49,24 @@
 - [ ] Falls SanDisk reduziert wird, SanDisk weiter als NAND-/Enterprise-SSD-Watchwert beobachten: Q4-Termin, Kioxia-Readthrough, NAND-/Enterprise-SSD-Preise, Samsung-V10-/900L-Roadmap.
 - [ ] Nach US-Handelsstart 2026-05-28 pruefen, ob Micron/SanDisk/Marvell-Pre-Market-Abkuehlung nur Gewinnmitnahme bleibt oder zu einem breiteren Momentumbruch wird.
 - [ ] Micron-Q3 am 2026-06-24 als naechsten harten Pruefpunkt fuer die HBM/DRAM-Re-Rating-These vormerken.
-- [ ] Vollautomatische Quote-Historie fuer alle Covered Symbols strukturiert erfassen, damit 1M/3M-Momentum nicht nur manuell im Markdown steht.
-- [ ] Entscheiden, ob `05_data/market_monitor.sqlite` jetzt als echte lokale Datenbank angelegt und befuellt werden soll oder ob das Schema zunaechst als Markdown-Spezifikation bleibt.
+- [ ] Ab dem naechsten Marktrefresh neue Kurs-, News-, Event-, Makro-, Fundamental- und Signal-Snapshots konsequent in `05_data/market_monitor.sqlite` fortschreiben.
+- [ ] Vollautomatische Quote-Historie fuer alle Covered Symbols aus SQLite auswerten, damit 1M/3M-Momentum nicht nur manuell im Markdown steht.
 - [ ] Peer-Snapshot fuer aktive Depotwerte und wichtigste Watchlist-Werte mit frischen Quellen nach `05_data/peer_benchmarks.md` befuellen.
 - [ ] Bei der naechsten echten Depotentscheidung `02_context/portfolio_policy.md` mit Positionsgroessen, Einstandskursen, Basiswaehrung, Ziel- und Maximalgewichtungen ergaenzen, falls der Nutzer diese Daten nennt.
 - [ ] Klaeren, ob E-Mail-Alerts an `info@apollu.de` ueber einen explizit freigegebenen/trusted Versandweg laufen sollen; der Gmail-Connector blockierte den direkten Export im Kontext-Radar-Lauf 2026-05-28.
 - [ ] Bei der naechsten Marktanalyse die Ampel aus `02_context/best_case_conditions_ai_memory_boom.md` mit neuen Quellen aktualisieren.
 - [ ] Dell als aktiven AI-Server-/Storage-Nachfrageproxy beobachten: AI-Server-Orders, Backlog-Qualitaet, Margen, Storage-Attach, Free Cash Flow, EPS-Revisionen, Memory-/Networking-Readthrough und Aussagen auf der BofA-Konferenz am 2026-06-02.
+- [ ] Nach Dell-BofA am 2026-06-02 pruefen, ob die im Transcript genannten Memory-/DRAM-/NAND-/Hard-Drive-Engpaesse in Margen, Storage-Attach, Working Capital, Backlog-Qualitaet und FCF sichtbar werden.
+- [ ] Nach Broadcom-Q2 am 2026-06-03 Custom-AI-/Networking-Readthrough gegen Memory-Depotwerte vergleichen: AI-Umsatz, Hyperscaler-Design-Wins, Margen, EPS-Revisionen und Bewertung.
 - [ ] Bei der naechsten Marktanalyse Memory-Spot-/Contract-Preise, GPU-Compute-Spotpreise, SOX/SMH-Momentum, Hyperscaler-Capex und private AI-Infrastruktur-Deals als Fruehindikatoren pruefen.
 - [ ] Samsung-900-Layer-/V10-NAND-Roadmap gegen SanDisk/Kioxia BiCS10 beobachten: Massenproduktion, Yield, Capex, Enterprise-SSD-Preise und NAND-Contract-Preise.
 - [ ] Samsung-HBM4E-Aufholsignal beobachten: Kundenqualifikation, Volumen, Yield, HBM-Preise, NVIDIA/AMD/Hyperscaler-Design-Wins und Auswirkungen auf SK Hynix/Micron-Premium.
 - [ ] SanDisk/Bernstein-Transcript mit offizieller IR-Quelle oder naechstem Quartalsbericht verifizieren: LTAs, High Bandwidth Flash, NAND-/Enterprise-SSD-Preise, Kapazitaetsausbau, Margen und Kioxia/JV-Readthrough.
 - [ ] Bei der naechsten Marktanalyse Makro-/Sentiment-Regime aus `05_data/macro_market_signals.md` pruefen: US 2Y/10Y, Realzins, Yield Curve, FedWatch, NFCI, HY-Spreads, VIX, USD, Fear & Greed, AAII und FINRA Margin Debt.
 - [ ] Bei jeder Folgeanfrage `05_data/upcoming_events.md` pruefen und Termine fuer heute plus naechste fuenf Kalendertage in der Antwort nennen.
+- [ ] Nach 2026-06-03 Broadcom-Q2 gegen AI-Umsatz, ASIC-/Networking-Guidance, Backlog/Kundensichtbarkeit, Marge und EPS-Revisionen pruefen.
+- [ ] Nach 2026-06-05 US-Payrolls und Eurozonen-Daten Makro-Ampel aktualisieren: Realzinsen, USD, Kreditspreads und Growth-Multiple-Risiko.
 - [x] Nach tatsaechlicher Ausfuehrung des Seagate-Verkaufs `02_context/current_portfolio.md` final auf "verkauft / Beobachtung" gesetzt.
-- [ ] Optional: Lokale SQLite-Datenbank `05_data/market_monitor.sqlite` anlegen, wenn automatisches Zeitreihen-Monitoring gewuenscht ist.
+- [x] Optional erledigt: Lokale SQLite-Datenbank `05_data/market_monitor.sqlite` angelegt und mit Symboluniversum initialisiert.
 - [ ] Optional: Positionsgroessen und Einstandskurse ergaenzen, falls der Nutzer sie teilen moechte.
 - [x] Bei der Aktienanfrage 2026-05-29 `05_data/latest_quotes.md` und `05_data/latest_news.md` mit aktuellen Daten gefuellt.

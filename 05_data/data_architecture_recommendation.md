@@ -1,13 +1,13 @@
 # Datenarchitektur: Markdown vs. Datenbank
 
-Stand: 2026-05-27.
+Stand: 2026-05-30.
 
 ## Kurzempfehlung
 
-Nicht Markdown durch eine Datenbank ersetzen. Besser ist ein Hybrid:
+Markdown wird nicht durch eine Datenbank ersetzt. Der Hybrid ist umgesetzt:
 
 - Markdown fuer These, Regeln, Watchlists, Unternehmensakten, qualitative Einordnung und Entscheidungen.
-- Strukturierte Datenbank oder CSV-Dateien fuer Kurse, Renditen, Kennzahlen, News-Metadaten und Verlaufssignale.
+- Lokale SQLite-Datenbank fuer Kurse, Renditen, Kennzahlen, News-Metadaten, Events, Makro, Signale, Run-Logs und Verlaufshistorie.
 
 ## Warum Markdown weiter sinnvoll ist
 
@@ -23,11 +23,11 @@ Nicht Markdown durch eine Datenbank ersetzen. Besser ist ein Hybrid:
 - Alte News und Kursstaende koennen historisch erhalten bleiben, ohne Markdown-Dateien aufzublasen.
 - Abfragen werden robuster: "Welche Watchlist-Werte drehen gerade nach oben?" oder "Welche Werte haben bessere EPS-Revisionen als Kursanstieg?"
 
-## Minimal sinnvolle Datenbank
+## Umgesetzte Datenbank
 
-Eine lokale SQLite-Datei waere ausreichend, z. B. `05_data/market_monitor.sqlite`.
+Die lokale SQLite-Datei liegt unter `05_data/market_monitor.sqlite`.
 
-Die konkrete empfohlene Tabellenstruktur steht in `05_data/market_monitor_schema.md`. Wenn noch keine SQLite-Datei genutzt wird, koennen dieselben Felder als CSV-Historie gefuehrt werden.
+Die fachliche Tabellenstruktur steht in `05_data/market_monitor_schema.md`. Die technische, idempotent wiederholbare Struktur steht in `05_data/market_monitor_schema.sql`; das initiale Symboluniversum steht in `05_data/market_monitor_seed.sql`; die Agenten-Nutzung steht in `05_data/market_monitor_usage.md`.
 
 Moegliche Tabellen:
 
@@ -39,11 +39,15 @@ Moegliche Tabellen:
 | news_items | Datum, Quelle, Headline, Link, Impact, These-Effekt, Retention |
 | signal_snapshots | Momentum-Status, Umfeld-Status, Alert-Status, Begruendung |
 | thesis_events | Wichtige Entscheidungen, These-Aenderungen, Verkauf/Kauf/Watchlist-Status |
+| macro_snapshots | Zinsen, Realzinsen, Kreditstress, VIX, USD, Sentiment |
+| industry_signal_snapshots | DRAM/NAND/HDD/Compute-/Capex-/Infrastruktur-Fruehindikatoren |
+| event_calendar | Earnings, Konferenzen, Produkt- und Makrotermine |
+| run_log | Welche Laeufe was aktualisiert haben |
 
 ## Empfohlener Workflow
 
 1. Markdown bleibt die Wissensbasis und erklaert, wie Agenten denken sollen.
-2. Datenbank oder CSV speichert wiederholbare Zahlen und Zeitreihen.
+2. SQLite speichert wiederholbare Zahlen und Zeitreihen.
 3. Agent liest zuerst `START_HERE.md` und `AGENTS.md`.
 4. Agent aktualisiert dann strukturierte Daten.
 5. Agent nutzt `05_data/peer_benchmarks.md` fuer Peer- und Opportunity-Cost-Vergleiche.
@@ -51,4 +55,4 @@ Moegliche Tabellen:
 
 ## Entscheidung
 
-Aktueller Stand: Markdown reicht fuer die Wissensbasis. Fuer dauerhaftes Monitoring mit Rendite-, Momentum-, Peer- und Alertverlauf ist eine lokale SQLite-Datenbank mittelfristig sinnvoll; das Schema ist in `05_data/market_monitor_schema.md` vorbereitet.
+Aktueller Stand: SQLite ist aktiv. Markdown bleibt die Wissensbasis; `05_data/market_monitor.sqlite` ist die strukturierte Historie. `05_data/latest_quotes.md`, `05_data/latest_news.md` und `05_data/upcoming_events.md` bleiben lesbare aktuelle Caches, nicht die einzige Datenquelle.

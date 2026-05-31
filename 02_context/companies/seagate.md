@@ -122,3 +122,9 @@ Einordnung: HDD-/Nearline-Momentum bleibt leicht positiv. Es entsteht kein Reakt
 StockAnalysis zeigte Seagate am 2026-05-29 bei USD 879.80, -0.10%, nachboerslich USD 879.20, -0.07%, PE 83.32 und Forward-PE 36.88. Dells Q1-FY2027-Signal mit USD 16.132 Mrd. AI-optimized server revenue und USD 4.334 Mrd. Storage-Umsatz ist positiv fuer generelle Datacenter-Nachfrage, liefert aber keine neuen STX-spezifischen Daten zu Nearline-Exabytes, LTAs, ASPs, Margen oder Free Cash Flow.
 
 Einordnung: STX bleibt HDD-/Nearline-Watch, nicht reaktiviert. Naechster Pruefpunkt ist die Seagate-BofA-Konferenz am 2026-06-02 fuer moegliche Aussagen zu HAMR/Mozaic, Ausverkauftheit, Preissetzung und 2027/2028-Sichtbarkeit.
+
+## Update 2026-05-31: Dell-Transcript nennt Hard Drives, aber spaeter in der Engpasskette
+
+Dell nennt im Q1-FY2027-Transcript Hard Drives als eines der Komponententhemen, nachdem Memory, DRAM/NAND und CPUs als wichtigere bzw. fruehere Engpaesse diskutiert wurden. Das stuetzt den generellen Datacenter-Storage-Kontext.
+
+Einordnung: Positiv fuer die HDD-/Nearline-Watchlist, aber kein Reaktivierungssignal fuer STX. Fuer eine Wiedereinstiegsanalyse braucht es weiter Seagate-spezifische Primaerbelege zu Nearline-Ausverkauftheit, LTAs, Exabytes, ASPs, HAMR/Mozaic-Margen, Free Cash Flow und EPS-Revisionen.

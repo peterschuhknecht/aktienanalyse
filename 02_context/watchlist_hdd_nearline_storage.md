@@ -1,6 +1,6 @@
 # Watchlist: HDD und Nearline Storage
 
-Stand: 2026-05-28.
+Stand: 2026-05-31.
 
 Diese Datei beobachtet Seagate und Western Digital nach dem ausgefuehrten Seagate-Verkauf. Beide Werte werden kuenftig nur noch als HDD-/Nearline-Thema und moegliche Folgewelle verfolgt.
 
@@ -37,6 +37,8 @@ Zusatz 2026-05-29 11:55 CEST: STX schloss am 2026-05-28 bei USD 880.72, +1.16%, 
 Zusatz 2026-05-29 14:16 CEST: US-Pre-Market zeigte STX bei USD 888.00, +0.83%, und WDC bei USD 538.00, +1.28%. Das bestaetigt kurzfristig Momentum und relative Nachfrage nach Storage-/HDD-Namen, liefert aber weiter keinen neuen Primaerbeleg zu Exabytes, LTAs, ASPs, Margen oder Free Cash Flow. HDD-/Nearline bleibt leicht positiv, keine Reaktivierung.
 
 Zusatz 2026-05-30 08:08 CEST: US-Schluss 2026-05-29 zeigte STX bei USD 879.80, -0.10%, und WDC bei USD 531.21, +0.01%. Dell bestaetigt AI-Server-/Storage-Nachfrage im Gesamtmarkt mit USD 16.132 Mrd. AI-optimized server revenue und USD 4.334 Mrd. Storage-Umsatz im Q1 FY2027, aber fuer STX/WDC fehlen neue operative Primaerdaten zu Nearline-Exabytes, LTAs, ASPs, Margen oder Free Cash Flow. HDD-/Nearline bleibt leicht positiv, keine Reaktivierung; naechster Pruefpunkt sind STX/WDC-Konferenzen am 2026-06-02/03.
+
+Zusatz 2026-05-31 17:43 CEST: Dell nennt im Q1-FY2027-Transcript Hard Drives spaeter in der Komponentengrenzen-Kette, nachdem Memory, DRAM/NAND und CPUs als primaere bzw. fruehere Engpaesse diskutiert wurden. Das ist ein positives Umfeldsignal fuer HDD-/Nearline, aber kein eigenes Reaktivierungssignal. Fuer STX/WDC zaehlen weiter Managementaussagen zu ausverkaufter Nearline-Kapazitaet, LTAs fuer 2027/2028, Exabytes, ASPs, Bruttomargen, Free Cash Flow und EPS-Revisionen; die naechsten Pruefpunkte bleiben WDC/Dell/STX bei BofA am 2026-06-02 und WDC Evercore am 2026-06-03.
 
 ## Reaktivierungsbedingungen
 

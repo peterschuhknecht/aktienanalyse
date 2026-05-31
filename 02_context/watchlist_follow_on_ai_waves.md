@@ -1,6 +1,6 @@
 # Watchlist: Nachfolgewerte der KI-Infrastrukturwellen
 
-Stand: 2026-05-28.
+Stand: 2026-05-31.
 
 Diese Datei enthaelt Werte, die nach der ersten NVIDIA/GPU-Welle und der zweiten Speicherwelle als moegliche naechste Profiteure beobachtet werden sollen. Sie sind keine aktuellen Depotpositionen, sondern Kandidaten fuer kuenftige Analysen und moegliche Alerts.
 
@@ -91,6 +91,12 @@ Einordnung: Dell wird als Hintergrund- und Nachfrageproxy in `05_data/covered_sy
 Dell wird als aktiver Nachfrageproxy und Deep-Dive-Kandidat beobachtet, aber vorerst nicht als Depotaufnahme priorisiert. Die Q1-FY2027-Daten sind fuer die AI-Infrastrukturthese stark, doch Dell bleibt ein Server-/Systemintegrator mit moeglich niedrigerer struktureller Preissetzungsmacht als HBM/DRAM/NAND-Lieferanten. Nach dem Kurssprung auf USD 420.91 (+32.76%) und nur ca. 1.9% Abstand zum 52W-Hoch ist das Timing anspruchsvoll.
 
 Fuer eine Hochstufung von "beobachten" auf "Aufnahme pruefen" braucht es mehrere bestaetigte Punkte: nachhaltige AI-Server-Marge statt nur Umsatzvolumen, hoher und werthaltiger Backlog, steigender Storage-Attach, sichtbar positive Free-Cash-Flow-Wirkung, nachvollziehbare EPS-Revisionen und kein Hinweis auf Komponenten-/GPU-/Working-Capital-Stress.
+
+### Update 2026-05-31 17:43 CEST: Dell-Transcript macht Memory-/Storage-Engpass explizit
+
+Fakt: Dell nennt im Q1-FY2027-Transcript AI backlog von USD 51.3 Mrd., eine Pipeline mehrfach groesser als den Backlog und Memory als primaere Komponentengrenze. DRAM, NAND, CPUs und spaeter Hard Drives werden ebenfalls als Engpassfelder genannt.
+
+Einordnung: Dell bleibt ein wichtiger Nachfrageproxy und wird in der Follow-on-Watchlist hoeher priorisiert, aber nicht als Depotaufnahme hochgestuft. Das Signal stuetzt vor allem bestehende Speicherpositionen und die Beobachtung von Broadcom/Marvell/Arista/Vertiv, weil AI-Server-Engpaesse Nachfrage nach Memory, Storage, Networking und Power/Cooling verdichten. Naechste harte Checks bleiben Dell-BofA am 2026-06-02 und Broadcom-Q2 am 2026-06-03.
 
 ## Alert-Kriterien
 

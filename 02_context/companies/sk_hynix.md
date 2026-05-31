@@ -108,3 +108,9 @@ Einordnung: SK Hynix bleibt der direkteste HBM-Hebel im Depot, aber Samsung wird
 StockAnalysis zeigte SK Hynix weiter mit Schlusskurs 2026-05-29 bei KRW 2,333,000, +1.92%, sehr nahe am 52W-Hoch. Dell meldete fuer Q1 FY2027 AI-optimized server revenue von USD 16.132 Mrd. (+757% YoY), AI orders von USD 24.4 Mrd. und hob die FY2027-Erwartung fuer AI-Server-Umsatz auf ca. USD 60 Mrd. an. NVIDIAs offizieller GTC-Taipei/COMPUTEX-Blog verweist auf Vera Rubin/Rubin-NVL72 und Keynote am 2026-06-01.
 
 Einordnung: Fuer SK Hynix sind Dell und NVIDIA positives Nachfrage-/Roadmap-Readthrough fuer HBM/DRAM nahe am AI-Server. Das verbessert das Umfeld, beweist aber nicht automatisch neue Margen oder Preise bei SK Hynix. Wichtig bleiben HBM-Auslastung, Kundenqualifikation, Preise, Samsung-Aufholtempo und Q2-/Q3-Kommunikation.
+
+## Update 2026-05-31: Dell-Transcript bestaetigt Memory-Engpass
+
+Dell nennt im Q1-FY2027-Transcript AI backlog von USD 51.3 Mrd., eine Pipeline mehrfach groesser als den Backlog und Memory als primaere Komponentengrenze; DRAM/NAND werden ebenfalls als Engpassfeld genannt. Fuer SK Hynix ist das ein hartes Nachfrage-Readthrough fuer HBM/DRAM und AI-Server-Memory.
+
+Einordnung: These bestaetigt, Timing bleibt gelb. Das Signal kommt nicht direkt von SK Hynix und liefert keine neuen HBM-Preise, Margen oder Kundenvolumina. Samsung-HBM4E-Qualifikation, NVIDIA/COMPUTEX und der erwartete Juli-Earnings-Pruefpunkt bleiben die naechsten Gegenchecks.

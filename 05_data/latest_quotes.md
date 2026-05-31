@@ -16,10 +16,10 @@ Zweck: Aktuelle Kurse und Performance-Daten fuer das Wertpapier-Universum aus `0
 
 | Feld | Wert |
 |---|---|
-| Datum/Zeit | 2026-05-30, ca. 08:08 Europe/Berlin |
-| Ausloeser | Automation: KI Aktien Analyse / Nutzerfrage: Gibt es Neuigkeiten? |
-| Quelle | StockAnalysis.com Kursseiten fuer Aktien; StockAnalysis KRX/TYO/EPA fuer Korea, Kioxia und Schneider; U.S. Treasury Daily Treasury Rates und Real Yield Curve; Barchart/WallStreetNumbers als VIX-Sekundaercheck |
-| Hinweis | Wochenend-Refresh: US-Daten bleiben Schlusskurse vom 2026-05-29 plus wenige After-Hours-Indikationen; Korea/Japan sind Schlusskurse vom 2026-05-29; Schneider ist Euronext-Paris-Kurs vom 2026-05-29. Dell-Zahlen aus der Primaermeldung wurden korrigiert: Q1-FY2027 AI-optimized server revenue USD 16.132B, ISG revenue USD 29.009B, Gesamtumsatz USD 43.842B. |
+| Datum/Zeit | 2026-05-31, ca. 17:43 Europe/Berlin |
+| Ausloeser | Automation: KI Aktien Wochenueberblick |
+| Quelle | StockAnalysis.com Kursseiten fuer Aktien; StockAnalysis KRX/TYO/EPA fuer Korea, Kioxia und Schneider; Dell Technologies IR Transcript; U.S. Treasury Daily Treasury Rates und Real Yield Curve; FRED fuer HY OAS/NFCI/VIXCLS |
+| Hinweis | Wochenend-Refresh: Aktienkurse bleiben Schlusskurse vom 2026-05-29; keine neue Boersenpreisdaten seit dem letzten Cache. Neu geprueft und ergaenzt wurden Dell-Transcript, Wochenkalender, China-PMI, Zinsentscheidungstermine und Makro-/Kreditdaten. |
 
 ## Kursdaten
 
@@ -67,15 +67,17 @@ Zweck: Aktuelle Kurse und Performance-Daten fuer das Wertpapier-Universum aus `0
 | US 10Y Treasury Yield | 4.45% am 2026-05-29 | U.S. Treasury Daily Treasury Rates | Unveraendert zu 2026-05-28; bleibt Bewertungsgegenwind |
 | US 2Y Treasury Yield | 3.98% am 2026-05-29 | U.S. Treasury Daily Treasury Rates | Leicht niedriger als 3.99% am 2026-05-28 |
 | US 10Y Real Yield | 2.07% am 2026-05-29 | U.S. Treasury Daily Treasury Par Real Yield Curve Rates | Leicht hoeher als 2.06% am 2026-05-28; weiter hoch fuer Growth-Multiples |
-| US High Yield OAS | 2.71% am 2026-05-27 | FRED BAMLH0A0HYM2 | Kein akuter Kreditstress |
+| US High Yield OAS | 2.72% am 2026-05-28 | FRED BAMLH0A0HYM2 | Kein akuter Kreditstress; stabil/eng |
 | Chicago Fed NFCI | -0.510 am 2026-05-22 | FRED NFCI | Finanzbedingungen weiter locker |
 | ICE US Dollar Index | 99.22 am 2026-05-27 20:00 | YCharts | Kein neues USD-Stresssignal; als Sekundaerquelle nur Makro-Cross-Check |
-| VIX | ca. 15.3 am 2026-05-29 | Barchart/WallStreetNumbers, Sekundaercheck | Kein Volatilitaetsstress; nur Timing-/Crowding-Signal, weil nicht ueber Cboe sauber automatisiert verifiziert |
+| VIXCLS | 15.74 am 2026-05-28 | FRED VIXCLS | Kein Volatilitaetsstress; nur Timing-/Crowding-Signal |
 
 ## Alert-Notizen
 
 - Refresh 2026-05-30 08:08 CEST: US-Schlusskurse vom 2026-05-29 bestaetigen die Memory-/AI-Infrastruktur-Rallye statt sie zu brechen: Micron +5.14%, SanDisk +3.25%, Broadcom +4.73%, Arista +2.70%, Oracle +10.84%, Microsoft +5.45% und Dell +32.76%. NVIDIA, AMD und Hyperscaler waren gemischt; Intel fiel -5.14%.
+- Wochencheck 2026-05-31 17:42 CEST: Keine neuen Aktienkurse seit dem 2026-05-29-Schluss. Die relevanten Bewegungsrisiken fuer die kommende Woche sind nicht neue Wochenendkurse, sondern NVIDIA/COMPUTEX, Broadcom-Q2, Dell/WDC/STX-Konferenzen, US-ISM/JOLTS/Beige-Book/Payrolls, Eurozonen-Inflation/GDP, China-PMI und das Hormuz-/Energierisiko.
 - Dell ist der neue harte Nachfrage-Readthrough: Q1-FY2027 Gesamtumsatz USD 43.842B (+88% YoY), ISG-Umsatz USD 29.009B (+181% YoY), AI-optimized server revenue USD 16.132B (+757% YoY), AI orders USD 24.4B und FY27-AI-Server-Erwartung ca. USD 60B verbessern das Umfeld fuer Memory, Storage, Networking und Power, erhoehen aber zugleich Crowding-Risiko in AI-Infrastrukturwerten.
+- Dell-Transcript erhoeht die Signalqualitaet gegenueber dem reinen Zahlenrelease: Dell nennt AI backlog von USD 51.3B, eine Pipeline mehrfach groesser als den Backlog und Memory als primaere Komponentengrenze; DRAM, NAND, CPUs und spaeter Hard Drives werden als Engpassfelder genannt. Das ist positiv fuer HBM/DRAM/NAND/Storage-Umfeld, aber noch kein direkter Margen-/EPS-Beleg fuer SK Hynix, Micron oder SanDisk.
 - Depotwerte bleiben besser, aber ueberhitzt: SK Hynix, Micron und SanDisk stehen sehr nahe an Hochs; SanDisk und Micron zeigen die hoechste kurzfristige Beta.
 - HDD-/Nearline-Watchlist bleibt leicht positiv, aber unveraendert Beobachtung: STX/WDC lieferten am 2026-05-29 keine neuen operativen Reaktivierungsdaten.
 - Follow-on-Watchlist bleibt aktiv: Broadcom-Q2 am 2026-06-03 ist der naechste harte Pruefpunkt; Samsung bleibt durch HBM4E-Samples wichtig; Dell wird als Nachfrageproxy aufgenommen.

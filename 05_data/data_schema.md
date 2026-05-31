@@ -180,7 +180,7 @@ Diese Felder dienen fuer `02_context/portfolio_policy.md` und das Portfolio-Risi
 
 ## Market-Monitor-Struktur
 
-Die vollstaendige empfohlene Tabellenstruktur fuer eine lokale SQLite- oder CSV-Historie steht in `05_data/market_monitor_schema.md`. Dieses Datenschema bleibt die fachliche Feldreferenz; `market_monitor_schema.md` beschreibt die technische Speicherung.
+Die vollstaendige Tabellenstruktur fuer die aktive lokale SQLite-Historie steht in `05_data/market_monitor_schema.md`; die technische Umsetzung steht in `05_data/market_monitor_schema.sql`; die Agenten-Nutzung steht in `05_data/market_monitor_usage.md`. Dieses Datenschema bleibt die fachliche Feldreferenz.
 
 ## Branchenspezifische Daten
 

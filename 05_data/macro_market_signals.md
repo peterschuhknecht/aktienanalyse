@@ -1,6 +1,6 @@
 # Macro Market Signals
 
-Stand: 2026-05-28.
+Stand: 2026-05-31.
 
 Zweck: Makro-, Liquiditaets- und Sentiment-Signale fuer KI-, Halbleiter- und Speicheranalysen erfassen. Diese Signale sind kein Ersatz fuer Unternehmensdaten, aber sie beeinflussen Bewertung, Risikoappetit, Finanzierungskosten und Timing.
 
@@ -45,20 +45,26 @@ Zweck: Makro-, Liquiditaets- und Sentiment-Signale fuer KI-, Halbleiter- und Spe
 | AAII Sentiment | https://www.aaii.com/sentimentsurvey |
 | FINRA Margin Debt | https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics |
 
-## Aktueller Datenpunkt 2026-05-30
+## Aktueller Datenpunkt 2026-05-31
 
 | Signal | Wert | Datenstand | Richtung | Gewichtung |
 |---|---:|---|---|---|
 | US 10Y Treasury Yield | 4.45% | 2026-05-29 | Hoch, unveraendert zu 2026-05-28, aber niedriger als 4.50% vom 2026-05-26 | Fundamental |
 | US 2Y Treasury Yield | 3.98% | 2026-05-29 | Leicht niedriger als 3.99% am 2026-05-28 und 4.01% am 2026-05-26 | Fundamental |
 | US 10Y Real Yield | 2.07% | 2026-05-29 | Hoch, minimal hoeher als 2.06% vom 2026-05-28, aber niedriger als 2.10% vom 2026-05-26 | Fundamental |
-| High Yield OAS | 2.71% | 2026-05-27 | Stabil/eng, kein Kreditstress | Fundamental |
+| High Yield OAS | 2.72% | 2026-05-28 | Stabil/eng, kein Kreditstress; +1 bp gegen 2026-05-27 | Fundamental |
 | Chicago Fed NFCI | -0.510 | 2026-05-22 | Locker, weitgehend unveraendert | Fundamental |
 | ICE US Dollar Index | 99.22 | 2026-05-27, YCharts | Kein neues USD-Stresssignal; Sekundaerquelle | Fundamental/Timing |
-| VIX | ca. 15.3 | 2026-05-29, Barchart/WallStreetNumbers als Sekundaercheck | Ruhig, kein Volatilitaetsstress | Timing/Crowding |
+| VIXCLS | 15.74 | 2026-05-28, FRED | Ruhig, kein Volatilitaetsstress | Timing/Crowding |
 | Fear & Greed, AAII, FINRA Margin Debt | Nicht neu belastbar verifiziert | 2026-05-30 | Unklar | Timing/Crowding |
+| China Manufacturing PMI | 50.0 | 2026-05-31 fuer Mai 2026 | Leicht schlechter; Produktion expandiert, neue Auftraege knapp unter 50 | Fundamental/Suchspur fuer Weltwirtschaft |
+| Hormuz-/Iran-Energierisiko | Erhoeht, aber datenabhaengig | 2026-05-31 | Makro-/Inflationsrisiko bleibt aktiv; moegliche Entspannung durch Deal-Hoffnungen, aber Navigation/Versorgung nicht normalisiert | Fundamental/Timing |
 
-Einordnung: Makro/Sentiment ist fuer den aktuellen Kontext-Radar neutral bis leicht gemischt. Der kurze Satz ist minimal niedriger, die 10Y-Rendite unveraendert, die 10Y-Realrendite minimal hoeher; Realrenditen bleiben absolut hoch und damit Bewertungsgegenwind fuer AI-/Halbleiter-Multiples. Kreditstress und Finanzbedingungen senden nach letztem Stand kein Red-Flag-Signal. VIX ist ruhig, Fear & Greed/AAII/Margin Debt bleiben bis zur naechsten belastbaren Quelle unklar.
+Einordnung: Makro/Sentiment ist fuer den aktuellen Wochenueberblick neutral bis gemischt. Der kurze US-Satz ist minimal niedriger, die 10Y-Rendite unveraendert, die 10Y-Realrendite minimal hoeher; Realrenditen bleiben absolut hoch und damit Bewertungsgegenwind fuer AI-/Halbleiter-Multiples. Kreditstress und Finanzbedingungen senden nach letztem Stand kein Red-Flag-Signal. Neu hinzu kommen ein weicherer China-PMI und das weiter relevante Hormuz-/Energiepreisrisiko. Die Woche ist datengetrieben: ISM, JOLTS, Beige Book, Eurozonen-Inflation/GDP und US-Payrolls bereiten die naechsten Zinsentscheidungen vor, obwohl Fed/ECB selbst erst spaeter im Juni entscheiden.
+
+### Refresh-Notiz 2026-05-31 17:43 CEST
+
+U.S.-Treasury-Daten bleiben wegen Wochenende beim offiziellen Stand 2026-05-29: US 10Y 4.45%, US 2Y 3.98% und 10Y Real Yield 2.07%. FRED zeigte HY OAS 2.72% per 2026-05-28, NFCI -0.510 per 2026-05-22 und VIXCLS 15.74 per 2026-05-28. Chinas offizieller PMI fuer Mai fiel auf 50.0, mit neuen Auftraegen bei 49.9. Die naechste Woche enthaelt keine Fed- oder ECB-Zinsentscheidung; wichtige Zinsentscheidungen folgen ab 2026-06-10/11 (BoC/ECB) und 2026-06-16/17 (Fed). Makro-Ampel: neutral bis gemischt, mit positiver Kredit-/Volatilitaetslage, aber hohen Realzinsen, Energie-/Hormuzrisiko und weicherem China-Nachfragesignal.
 
 ### Refresh-Notiz 2026-05-29 10:05 CEST
 

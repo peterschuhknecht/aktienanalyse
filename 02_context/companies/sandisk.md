@@ -107,3 +107,9 @@ Einordnung: Das ist ein neues positives SanDisk-spezifisches Signal, staerker al
 StockAnalysis zeigte SanDisk am 2026-05-29 bei USD 1,694.98, +3.25%, nachboerslich USD 1,683.81, -0.66%, Market Cap ca. USD 251.01 Mrd., PE 57.06 und Forward-PE 10.41. Dell meldete fuer Q1 FY2027 AI-optimized server revenue von USD 16.132 Mrd. (+757% YoY) und Storage-Umsatz von USD 4.334 Mrd. (+8% YoY); Kioxia blieb mit Schlusskurs JPY 65,850, +7.46%, ein starker NAND-Readthrough.
 
 Einordnung: SanDisk wird durch AI-Server-/Storage-Nachfrage und Kioxia weiter bestaetigt. Das verbessert die These, verschlechtert aber das Chance/Risiko-Timing nicht automatisch: Die Aktie steht direkt am Hoch, und NAND-/Enterprise-SSD-Preise, Margen, LTAs, Kioxia/JV-Readthrough und Samsung-NAND-Roadmap bleiben die kritischen Gegenchecks.
+
+## Update 2026-05-31: Dell nennt DRAM/NAND als Engpassfeld
+
+Dell nennt im Q1-FY2027-Transcript Memory als primaere Komponentengrenze und fuehrt DRAM/NAND als Engpassfelder an. Zusaetzlich gab es nur ein weiches Verbrauchersignal zu neuen SanDisk-SATA-SSDs vor dem Hintergrund hoher NVMe-Preise; das ist kein harter Enterprise-NAND- oder Margenbeleg.
+
+Einordnung: Fuer SanDisk ist Dell positiv, weil AI-Server und Storage-Attach NAND-/SSD-Nachfrage stuetzen koennen. Die Aktie bleibt aber die volatilste Depotposition: entscheidend sind weiter Enterprise-SSD-Umsatz, NAND-/SSD-Vertragspreise, LTAs, Margen, Kioxia/JV-Readthrough und der naechste offizielle SanDisk-/Kioxia-Datenpunkt.

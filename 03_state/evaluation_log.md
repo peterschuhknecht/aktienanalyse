@@ -1,5 +1,97 @@
 # Evaluation Log
 
+## 2026-05-31 - Kontext-Radar mit Dell-Memory-Constraint
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte "Gibt es Neuigkeiten?" und verlangte Repository-Rundgang, Kurs-/News-/Eventrefresh, Watchlist-Check, SQLite-Snapshots und Aktualisierung der relevanten Markdown-Dateien.
+
+### Fakten
+
+- Wegen Wochenende bleiben Aktienkurse Schlusskurse vom 2026-05-29: SK Hynix KRW 2,333,000 (+1.92%), Micron USD 971.00 (+5.14%), SanDisk USD 1,694.98 (+3.25%), STX USD 879.80 (-0.10%), WDC USD 531.21 (+0.01%), Broadcom USD 446.77 (+4.73%) und Dell USD 420.91 (+32.76%).
+- Dell Q1-FY2027-Transcript nennt AI backlog von USD 51.3 Mrd., eine Pipeline mehrfach groesser als den Backlog und Memory als primaere Komponentengrenze; DRAM, NAND, CPUs und spaeter Hard Drives werden als Engpassfelder genannt.
+- Makro: U.S. Treasury per 2026-05-29 US 10Y 4.45%, US 2Y 3.98%, 10Y Real Yield 2.07%; FRED HY OAS 2.72% per 2026-05-28, NFCI -0.510 per 2026-05-22 und VIXCLS 15.74 per 2026-05-28.
+- Heute, 2026-05-31, gibt es keinen harten Unternehmens-/Depotwert-Termin; China-PMI Mai wurde mit 50.0 veroeffentlicht.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb und verbessern sich selektiv. Der neue Punkt ist nicht ein neuer Kurs, sondern ein harter Supply-Chain-Readthrough: Dell bestaetigt starke AI-Server-Nachfrage und benennt Memory/DRAM/NAND als Engpass. Das stuetzt SK Hynix, Micron und SanDisk, ohne bereits Speicherpreise, Margen oder EPS-Revisionen dieser Depotwerte zu bestaetigen. HDD-/Nearline ist leicht positiv, aber STX/WDC bleiben Beobachtung.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Kauf-/Verkaufsentscheidung. Aktive Depotthese bleibt SK Hynix, Micron, SanDisk; SanDisk bleibt die volatilste Beta-Position. Broadcom-Q2 am 2026-06-03, NVIDIA/COMPUTEX-GTC ab 2026-06-01, Dell/WDC/STX-Konferenzen am 2026-06-02/03 und Micron-Q3 am 2026-06-24 sind die naechsten Pruefpunkte.
+
+### Datenebene
+
+Datenbank `05_data/market_monitor.sqlite` fortgeschrieben: aktueller Gesamtstand nach diesem Lauf 48 Quote-Snapshots, 13 Fundamental-Snapshots, 11 News-Items, 32 Event-Eintraege, 14 Makro-Snapshots, 5 Branchensignale, 19 Signal-Snapshots, 1 Thesis-Event und 3 Run-Log-Eintraege. Davon gehoeren zum Kontext-Radar 17:43 CEST 34 Quote-Snapshots, 13 Fundamental-Snapshots, 7 News-Items, 17 Event-Eintraege, 7 Makro-Snapshots, 3 Branchensignale, 12 Signal-Snapshots, 1 Thesis-Event und 1 Run-Log.
+
+### Risiken
+
+Crowding nahe Hochs, hohe Realrenditen, China-PMI 50.0, Energie-/Hormuzrisiko und die noch fehlende direkte Bestaetigung von Speichervertragspreisen, Margen und EPS-Revisionen bleiben die wichtigsten Gegenargumente.
+
+## 2026-05-31 - Wochenueberblick 2026-06-01 bis 2026-06-07
+
+### Anlass
+
+Automation "KI Aktien Wochenueberblick" fragte, was in der kommenden Woche ansteht, welche Zins-/Weltwirtschaftsentscheidungen wichtig sind und was das aktive Speicherdepot positiv oder negativ bewegen kann.
+
+### Fakten
+
+- Repository-Rundgang ausgefuehrt: Datei-Inventar, Kernkontext, Portfolio Policy, Watchlists, Monitoring, Makro, Kurs-/News-/Event-Caches, SQLite-Nutzung, Unternehmensakten und Arbeitsspeicher geprueft.
+- Wegen Wochenende bleiben Aktienkurse beim 2026-05-29-Schluss: SK Hynix, Micron und SanDisk sehr nahe Hochs; Broadcom, Dell, Oracle und Microsoft bestaetigten am 2026-05-29 starkes AI-Infrastruktur-Momentum.
+- China Manufacturing PMI fiel fuer Mai 2026 auf 50.0; neue Auftraege lagen bei 49.9. Das ist ein weicheres Weltwirtschaftssignal, aber kein direkter Speicherthese-Bruch.
+- U.S. Treasury blieb per 2026-05-29 bei 10Y 4.45%, 2Y 3.98%, 10Y Real Yield 2.07%; FRED zeigte HY OAS 2.72% per 2026-05-28 und NFCI -0.510 per 2026-05-22.
+- In der Woche 2026-06-01 bis 2026-06-07 gibt es keine Fed- oder ECB-Zinsentscheidung. Wichtige Zinsentscheidungen folgen danach: BoC 2026-06-10, ECB 2026-06-11, Fed 2026-06-16/17, BoJ 2026-06-15/16, BoE 2026-06-18 und RBA 2026-06-15/16.
+- Wichtige Wochenkatalysatoren: NVIDIA COMPUTEX/GTC ab 2026-06-01, WDC/Dell/STX bei BofA am 2026-06-02, Broadcom-Q2 am 2026-06-03, WDC Evercore am 2026-06-03, NVIDIA BofA am 2026-06-04, US-ISM/JOLTS/Beige-Book/Payrolls und Eurozonen-HICP/GDP.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb. Unternehmensseitig verbessern Dell/NVIDIA/Broadcom-Kontext und Memory-/AI-Infrastrukturmomentum die These selektiv. Makroseitig ist das Bild gemischt: Kreditstress fehlt, aber Realzinsen sind hoch, China-PMI ist weich und das Hormuz-/Energierisiko kann Inflations- und Zinserwartungen belasten.
+
+### Entscheidung / Arbeitsthese
+
+Keine neue Kauf-/Verkaufsentscheidung. Das aktive Depot bleibt SK Hynix, Micron und SanDisk; bei einer theoretischen Zwei-Werte-Konzentration bleibt die dokumentierte Arbeitsthese SK Hynix + Micron. In der kommenden Woche besonders auf Broadcom-Q2, NVIDIA-Roadmap, Dell-/WDC-/STX-Konferenzaussagen und US-Payrolls achten.
+
+### Risiken
+
+Die groessten Wochenrisiken sind eine hawkishere Zinsneubewertung durch starke Lohn-/Inflationssignale, ein Growth-Multiple-Ruecksetzer bei weiter hohen Realzinsen, Broadcom-/NVIDIA-Enttaeuschung gegen hohe Erwartungen, ein negativer Energiepreisschock durch Hormuz und Gewinnmitnahmen nach sehr starker Memory-/AI-Infrastruktur-Rallye.
+
+## 2026-05-30 - SQLite-Datenebene umgesetzt
+
+### Anlass
+
+Nutzer bat darum, die zuvor empfohlene Hybrid-Architektur umzusetzen und so zu dokumentieren, dass Agenten die Datenbank kuenftig automatisch nutzen.
+
+### Aenderung
+
+- Neue lokale Datenbank `05_data/market_monitor.sqlite` angelegt.
+- Neues technisches Schema `05_data/market_monitor_schema.sql` angelegt.
+- Initialen Symbol-Seed `05_data/market_monitor_seed.sql` aus `05_data/covered_symbols.md` angelegt und in die Datenbank geladen.
+- Neue Nutzungsdoku `05_data/market_monitor_usage.md` angelegt.
+- `AGENTS.md`, `START_HERE.md`, `05_data/data_architecture_recommendation.md`, `05_data/market_monitor_schema.md`, `03_state/task_plan.md`, `03_state/open_questions.md` und `03_state/assumptions_and_decisions.md` aktualisiert.
+
+### Ergebnis
+
+Die Datenbank enthaelt initial 34 Symbole: 3 aktive Depotwerte, 2 HDD-Watchlist-Werte, 5 primaere Follow-on-Werte, 10 erweiterte Watchlist-Werte und 14 Hintergrundwerte. `PRAGMA integrity_check;` ergab `ok`.
+
+### Arbeitsregel
+
+Kuenftige Marktanalysen sollen wiederholbare Daten in SQLite speichern: Kurse in `quote_snapshots`, Fundamentaldaten in `fundamentals_snapshots`, News in `news_items`, Signale in `signal_snapshots`, Events in `event_calendar`, Makro in `macro_snapshots`, Branchensignale in `industry_signal_snapshots`. Markdown bleibt fuer These, Einordnung, Entscheidungen und Reports.
+
+### Testnachtrag 2026-05-30
+
+Technischer Test zeigte: SQLite setzt `PRAGMA foreign_keys` pro Verbindung und meldet in neuen Verbindungen standardmaessig `0`. Daher wurden `AGENTS.md`, `START_HERE.md` und `05_data/market_monitor_usage.md` geschaerft: Jede schreibende SQLite-Nutzung muss explizit `PRAGMA foreign_keys=ON;` setzen und in einer Transaktion laufen.
+
+### Funktionstest 2026-05-30
+
+- Reale Datenbank `05_data/market_monitor.sqlite`: `PRAGMA integrity_check;` ergab `ok`.
+- Frischer Neuaufbau in `/private/tmp/market_monitor_schema_test.sqlite` mit `market_monitor_schema.sql` und `market_monitor_seed.sql` war erfolgreich.
+- Testdatenbank enthaelt nach Seed 34 Symbole und 1 Run-Log; erneuter Seed-Lauf bleibt idempotent bei 34 Symbolen und 1 Run-Log.
+- Views `latest_quote_snapshots`, `unprocessed_news`, `alert_candidates`, `events_next_5_days`, `latest_fundamentals_snapshots`, `latest_signal_snapshots` und `news_retention_review` sind vorhanden und abfragbar.
+- Schreib-/Rollback-Test mit `PRAGMA foreign_keys=ON;` funktionierte: gueltiger MU-Quote- und Signal-Snapshot erschien in den Views, nach `ROLLBACK` waren die Testtabellen wieder leer.
+- Fremdschluessel-Test funktionierte: Insert mit unbekanntem Symbol `NO_SUCH_SYMBOL` scheiterte erwartungsgemaess mit `FOREIGN KEY constraint failed`.
+- Echte Datenbank enthaelt aktuell nur Symbol- und Run-Log-Initialdaten; Quote-, News-, Event- und Signal-Snapshots beginnen bewusst erst mit dem naechsten Marktrefresh.
+
 ## 2026-05-30 - Dell als Depotaufnahme oder Beobachtung
 
 ### Anlass

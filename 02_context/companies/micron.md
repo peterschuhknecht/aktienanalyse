@@ -99,3 +99,9 @@ Einordnung: Die vorboersliche Bewegung spricht gegen einen unmittelbaren Momentu
 StockAnalysis zeigte Micron am 2026-05-29 bei USD 971.00, +5.14%, nachboerslich USD 964.78, -0.64%, Market Cap ca. USD 1.10 Bio., PE 45.68 und Forward-PE 10.27. Dell meldete fuer Q1 FY2027 AI-optimized server revenue von USD 16.132 Mrd. (+757% YoY), AI orders von USD 24.4 Mrd. und hob die FY2027-AI-Server-Umsatzerwartung auf ca. USD 60 Mrd. an. NVIDIAs GTC-Taipei/COMPUTEX-Kontext verweist vor der Keynote auf Vera Rubin/Rubin-NVL72 und ein moegliches H2-2026-Ueberraschungsprodukt.
 
 Einordnung: Positiv fuer Micron als US-HBM-/DRAM-/LPDDR-Hebel, weil AI-Server-Nachfrage weiter hart sichtbar ist. Kein These-Bruch, sondern Bestaetigung mit Ueberhitzungsrisiko: Q3 am 2026-06-24 muss HBM-Auslastung, Preise, Bruttomarge, 2027-Sichtbarkeit und EPS-Revisionen liefern, sonst ist die Neubewertung verwundbar.
+
+## Update 2026-05-31: Dell-Transcript stuetzt Micron-Q3-Pruefpunkt
+
+Dell nennt im Q1-FY2027-Transcript AI backlog von USD 51.3 Mrd., eine Pipeline mehrfach groesser als den Backlog und Memory als primaere Komponentengrenze; DRAM/NAND werden als Engpassfelder genannt. Das ist ein harter externer Nachfragebeleg fuer Microns DRAM/HBM/NAND-Umfeld.
+
+Einordnung: Positiv fuer Micron, aber Q3 am 2026-06-24 bleibt entscheidend. Der Dell-Transcript bestaetigt Nachfrage und Knappheit im AI-Server-System, ersetzt aber keine Micron-spezifische Bestaetigung von HBM-Auslastung, Bruttomarge, 2027-Sichtbarkeit, EPS-Revisionen und Free Cash Flow.

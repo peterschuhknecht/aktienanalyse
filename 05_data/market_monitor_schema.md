@@ -2,11 +2,17 @@
 
 Zweck: Diese Datei beschreibt die strukturierte Datenebene fuer Kurse, Fundamentaldaten, News, Events und Signale. Markdown bleibt die Wissens- und Entscheidungsbasis; strukturierte Daten dienen fuer Historie, Berechnung und Alerts.
 
-## Empfohlene Umsetzung
+## Umgesetzte Dateien
 
-Primaere Empfehlung: lokale SQLite-Datei `05_data/market_monitor.sqlite`.
+Primaere Datenebene: lokale SQLite-Datei `05_data/market_monitor.sqlite`.
 
-CSV-Fallback: einzelne CSV-Dateien mit denselben Feldern, falls SQLite nicht genutzt wird.
+Versionierte Struktur:
+
+- `05_data/market_monitor_schema.sql`: technisches SQLite-Schema.
+- `05_data/market_monitor_seed.sql`: initiales Symboluniversum.
+- `05_data/market_monitor_usage.md`: Agenten-Nutzung und Pflichtworkflow.
+
+CSV-Fallback: einzelne CSV-Dateien mit denselben Feldern, falls SQLite temporär nicht genutzt werden kann. Das waere ein Fallback, nicht der Zielzustand.
 
 Die Datenbank oder CSV-Historie soll keine alten Markdown-Notizen ersetzen. Sie soll wiederholbare Fragen beantworten:
 
@@ -120,6 +126,40 @@ Die Datenbank oder CSV-Historie soll keine alten Markdown-Notizen ersetzen. Sie 
 | relevance | text | Warum wichtig |
 | source | text | Quelle |
 
+### macro_snapshots
+
+| Feld | Typ | Zweck |
+|---|---|---|
+| captured_at | datetime | Abrufzeit |
+| signal_date | date | Datenstand |
+| macro_signal | text | z. B. US 10Y, Real Yield, HY OAS, VIX |
+| market_area | text | Rates, Credit, Volatility, USD, Sentiment usw. |
+| latest_value | real | Numerischer Wert, falls verfuegbar |
+| value_text | text | Textwert, falls kein sauberer numerischer Wert |
+| trend_1w_1m | text | Kurztrend |
+| risk_status | text | besser, schlechter, unveraendert, Red Flag, unklar |
+| source | text | Quelle |
+| source_quality | text | Quellenqualitaet |
+
+### industry_signal_snapshots
+
+| Feld | Typ | Zweck |
+|---|---|---|
+| captured_at | datetime | Abrufzeit |
+| signal_date | date | Datenstand |
+| signal_name | text | Name des Branchensignals |
+| market_segment | text | DRAM, HBM, NAND, HDD, GPU-Compute, Capex usw. |
+| latest_value | real | Numerischer Wert, falls verfuegbar |
+| value_text | text | Textwert, falls noetig |
+| trend_1w_1m | text | Kurztrend |
+| confirmation_status | text | Unbestaetigt, bestaetigt, widerspruechlich |
+| source | text | Quelle |
+| source_quality | text | Quellenqualitaet |
+
+### peer_snapshots, portfolio_positions, thesis_events, run_log
+
+Diese Tabellen halten Peer-Vergleiche, optionale persoenliche Portfolio-Daten, These-/Entscheidungsereignisse und Laufprotokolle. Technische Details stehen in `05_data/market_monitor_schema.sql`.
+
 ## Datenqualitaetsregeln
 
 - Jeder Snapshot braucht Quelle, Datum und Quellenqualitaet.
@@ -132,6 +172,6 @@ Die Datenbank oder CSV-Historie soll keine alten Markdown-Notizen ersetzen. Sie 
 
 1. Markdown-Kontext nach `AGENTS.md` lesen.
 2. Relevante Symbole aus `05_data/covered_symbols.md` bestimmen.
-3. Neue Daten in strukturierte Historie schreiben, falls die Datenebene aktiv genutzt wird.
+3. Neue Daten in strukturierte Historie `05_data/market_monitor.sqlite` schreiben.
 4. `05_data/latest_quotes.md` und `05_data/latest_news.md` nur als aktuellen Cache pflegen.
 5. Echte Signalwechsel in Markdown verdichten: Unternehmensakte, Watchlist, `03_state/evaluation_log.md`.
