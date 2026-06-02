@@ -1,6 +1,6 @@
 # Macro Market Signals
 
-Stand: 2026-05-31.
+Stand: 2026-06-02.
 
 Zweck: Makro-, Liquiditaets- und Sentiment-Signale fuer KI-, Halbleiter- und Speicheranalysen erfassen. Diese Signale sind kein Ersatz fuer Unternehmensdaten, aber sie beeinflussen Bewertung, Risikoappetit, Finanzierungskosten und Timing.
 
@@ -45,26 +45,50 @@ Zweck: Makro-, Liquiditaets- und Sentiment-Signale fuer KI-, Halbleiter- und Spe
 | AAII Sentiment | https://www.aaii.com/sentimentsurvey |
 | FINRA Margin Debt | https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics |
 
-## Aktueller Datenpunkt 2026-05-31
+## Aktueller Datenpunkt 2026-06-02
 
 | Signal | Wert | Datenstand | Richtung | Gewichtung |
 |---|---:|---|---|---|
-| US 10Y Treasury Yield | 4.45% | 2026-05-29 | Hoch, unveraendert zu 2026-05-28, aber niedriger als 4.50% vom 2026-05-26 | Fundamental |
-| US 2Y Treasury Yield | 3.98% | 2026-05-29 | Leicht niedriger als 3.99% am 2026-05-28 und 4.01% am 2026-05-26 | Fundamental |
-| US 10Y Real Yield | 2.07% | 2026-05-29 | Hoch, minimal hoeher als 2.06% vom 2026-05-28, aber niedriger als 2.10% vom 2026-05-26 | Fundamental |
-| High Yield OAS | 2.72% | 2026-05-28 | Stabil/eng, kein Kreditstress; +1 bp gegen 2026-05-27 | Fundamental |
+| US 10Y Treasury Yield | 4.47% | 2026-06-01 | Hoch, +2 bp gegen 2026-05-29; bleibt Bewertungsgegenwind | Fundamental |
+| US 2Y Treasury Yield | 4.05% | 2026-06-01 | Hoeher als 3.98% am 2026-05-29; hawkisheres Timing-/Bewertungssignal | Fundamental |
+| US 10Y Real Yield | 2.07% | 2026-06-01 | Hoch und unveraendert zu 2026-05-29 | Fundamental |
+| High Yield OAS | 2.74% | 2026-05-31 | Minimal breiter als 2.72%, aber weiter kein Kreditstress | Fundamental |
 | Chicago Fed NFCI | -0.510 | 2026-05-22 | Locker, weitgehend unveraendert | Fundamental |
 | ICE US Dollar Index | 99.22 | 2026-05-27, YCharts | Kein neues USD-Stresssignal; Sekundaerquelle | Fundamental/Timing |
-| VIXCLS | 15.74 | 2026-05-28, FRED | Ruhig, kein Volatilitaetsstress | Timing/Crowding |
+| VIXCLS | 15.32 | 2026-05-29, FRED | Ruhig, kein Volatilitaetsstress | Timing/Crowding |
 | Fear & Greed, AAII, FINRA Margin Debt | Nicht neu belastbar verifiziert | 2026-05-30 | Unklar | Timing/Crowding |
 | China Manufacturing PMI | 50.0 | 2026-05-31 fuer Mai 2026 | Leicht schlechter; Produktion expandiert, neue Auftraege knapp unter 50 | Fundamental/Suchspur fuer Weltwirtschaft |
 | Hormuz-/Iran-Energierisiko | Erhoeht, aber datenabhaengig | 2026-05-31 | Makro-/Inflationsrisiko bleibt aktiv; moegliche Entspannung durch Deal-Hoffnungen, aber Navigation/Versorgung nicht normalisiert | Fundamental/Timing |
 
-Einordnung: Makro/Sentiment ist fuer den aktuellen Wochenueberblick neutral bis gemischt. Der kurze US-Satz ist minimal niedriger, die 10Y-Rendite unveraendert, die 10Y-Realrendite minimal hoeher; Realrenditen bleiben absolut hoch und damit Bewertungsgegenwind fuer AI-/Halbleiter-Multiples. Kreditstress und Finanzbedingungen senden nach letztem Stand kein Red-Flag-Signal. Neu hinzu kommen ein weicherer China-PMI und das weiter relevante Hormuz-/Energiepreisrisiko. Die Woche ist datengetrieben: ISM, JOLTS, Beige Book, Eurozonen-Inflation/GDP und US-Payrolls bereiten die naechsten Zinsentscheidungen vor, obwohl Fed/ECB selbst erst spaeter im Juni entscheiden.
+Einordnung: Makro/Sentiment ist fuer den aktuellen Kontext-Radar neutral bis gelb. Kreditstress, VIX und NFCI senden kein akutes Red-Flag-Signal, aber der 2Y- und 10Y-Anstieg am 2026-06-01 sowie der unveraendert hohe 10Y-Realzins von 2.07% begrenzen Multiple-Ausweitung in AI-/Halbleiterwerten. Die Woche bleibt datengetrieben: JOLTS, ISM Services, Beige Book, Eurozonen-Inflation/GDP und US-Payrolls bereiten die naechsten Zinsentscheidungen vor, obwohl Fed/ECB selbst erst spaeter im Juni entscheiden.
+
+### Refresh-Notiz 2026-06-02 06:47 CEST
+
+Offizielle U.S.-Treasury-Daten per 2026-06-01: US 10Y 4.47%, US 2Y 4.05%, 10Y Real Yield 2.07%. FRED zeigt HY OAS 2.74% per 2026-05-31, VIXCLS 15.32 per 2026-05-29 und NFCI -0.510 per 2026-05-22. Makro-Ampel: neutral bis gelb. Kein Kreditstress, aber hoeherer nominaler Zins und hoher Realzins bleiben Bewertungsgegenwind fuer hoch gelaufene AI-/Memory-/Infrastrukturwerte.
 
 ### Refresh-Notiz 2026-05-31 17:43 CEST
 
 U.S.-Treasury-Daten bleiben wegen Wochenende beim offiziellen Stand 2026-05-29: US 10Y 4.45%, US 2Y 3.98% und 10Y Real Yield 2.07%. FRED zeigte HY OAS 2.72% per 2026-05-28, NFCI -0.510 per 2026-05-22 und VIXCLS 15.74 per 2026-05-28. Chinas offizieller PMI fuer Mai fiel auf 50.0, mit neuen Auftraegen bei 49.9. Die naechste Woche enthaelt keine Fed- oder ECB-Zinsentscheidung; wichtige Zinsentscheidungen folgen ab 2026-06-10/11 (BoC/ECB) und 2026-06-16/17 (Fed). Makro-Ampel: neutral bis gemischt, mit positiver Kredit-/Volatilitaetslage, aber hohen Realzinsen, Energie-/Hormuzrisiko und weicherem China-Nachfragesignal.
+
+### Refresh-Notiz 2026-06-01 06:12 CEST
+
+Zum Wochenstart gibt es noch keinen neueren offiziellen US-Zinsdatensatz als 2026-05-29 und keine neue Kreditstress-Bestaetigung nach dem bestehenden FRED-Cache. Die Woche ist datengetrieben: ISM Manufacturing am 2026-06-01, Eurozone-HICP und JOLTS am 2026-06-02, ISM Services und Beige Book am 2026-06-03, Productivity/Claims am 2026-06-04 und US Payrolls am 2026-06-05. Makro-Ampel bleibt neutral bis gemischt: kein akuter Kreditstress, aber hohe Realzinsen, China-PMI 50.0 und Energie-/Hormuzrisiko begrenzen Multiple-Ausweitung.
+
+### Refresh-Notiz 2026-06-01 06:34 CEST
+
+Kein neuer offizieller US-Zins-, Realzins-, HY-OAS-, NFCI- oder VIX-Datenpunkt nach dem bestehenden Stand: U.S. Treasury per 2026-05-29 zeigt US 10Y 4.45%, US 2Y 3.98% und 10Y Real Yield 2.07%; FRED zeigt HY OAS 2.72% per 2026-05-28, NFCI -0.510 per 2026-05-22 und VIXCLS 15.74 per 2026-05-28. Neu ist ein regulatorisches Risiko: Reuters berichtet, dass das U.S. Department of Commerce die Lizenzpflicht fuer fortgeschrittene AI-Chips an chinesisch kontrollierte Auslands-Tochterfirmen klarstellt. Das ist kein klassisches Makro-Kreditstresssignal, kann aber China-Capex, GPU-/Accelerator-Lieferketten und Risikoappetit fuer AI-Hardware belasten. Makro-Ampel bleibt neutral bis gemischt.
+
+### Refresh-Notiz 2026-06-01 08:14 CEST
+
+Erneut geprueft: Es gibt zum Wochenstart noch keinen neueren offiziellen US-Zins-/Realzins-Datenpunkt als U.S. Treasury 2026-05-29 und keinen neueren FRED-HY-OAS-/NFCI-/VIX-Datenpunkt als im bestehenden Cache. Die Makro-Ampel bleibt neutral bis gemischt: kein akuter Kreditstress, aber hohe Realzinsen, China-PMI 50.0, Energie-/Hormuzrisiko und Exportkontroll-Watch begrenzen die Bewertungstoleranz.
+
+### Refresh-Notiz 2026-06-01 08:47 CEST
+
+Fuer den Wochenueberblick erneut geprueft: Der aktuell verwendete offizielle US-Zinsstand bleibt U.S. Treasury per 2026-05-29 mit US 10Y 4.45%, US 2Y 3.98% und 10Y Real Yield 2.07%. Kreditstressdaten bleiben beim FRED-Cache: HY OAS 2.72% per 2026-05-28, NFCI -0.510 per 2026-05-22 und VIXCLS 15.74 per 2026-05-28. Keine neue Makro-Ampel-Aenderung gegenueber 08:14 CEST.
+
+### Refresh-Notiz 2026-06-01 14:11 CEST
+
+U.S. Treasury wurde erneut gegen den offiziellen 2026-05-29-Datenstand geprueft: US 10Y 4.45%, US 2Y 3.98% und 10Y Real Yield 2.07%. FRED zeigt VIXCLS 15.74 per 2026-05-28; HY OAS und NFCI bleiben beim bestehenden Cache. Der ISM Manufacturing PMI (US-Einkaufsmanagerindex) steht heute um 10:00 ET noch als frischer Makrotrigger aus. Makro-Ampel bleibt neutral bis gemischt: kein Kredit-/Volatilitaetsstress, aber hohe Realzinsen, Energie-/Hormuzrisiko, Exportkontroll-Watch und sehr hohes AI-Crowding begrenzen die Bewertungstoleranz.
 
 ### Refresh-Notiz 2026-05-29 10:05 CEST
 

@@ -105,3 +105,32 @@ Einordnung: Positiv fuer Micron als US-HBM-/DRAM-/LPDDR-Hebel, weil AI-Server-Na
 Dell nennt im Q1-FY2027-Transcript AI backlog von USD 51.3 Mrd., eine Pipeline mehrfach groesser als den Backlog und Memory als primaere Komponentengrenze; DRAM/NAND werden als Engpassfelder genannt. Das ist ein harter externer Nachfragebeleg fuer Microns DRAM/HBM/NAND-Umfeld.
 
 Einordnung: Positiv fuer Micron, aber Q3 am 2026-06-24 bleibt entscheidend. Der Dell-Transcript bestaetigt Nachfrage und Knappheit im AI-Server-System, ersetzt aber keine Micron-spezifische Bestaetigung von HBM-Auslastung, Bruttomarge, 2027-Sichtbarkeit, EPS-Revisionen und Free Cash Flow.
+
+## Update 2026-06-01: NVIDIA-DSX erhoeht den Infrastruktur-Readthrough
+
+US-Kursdaten bleiben zum Wochenstart beim 2026-05-29-Schluss von USD 971.00, +5.14%, mit Q3-Termin am 2026-06-24. NVIDIAs offizieller GTC-Taipei/COMPUTEX-Live-Feed nennt AI Factories, DSX-Blueprints, DSX MaxLPS mit bis zu 40% mehr GPUs im gleichen Power-Budget und Vera Rubin in voller Produktion. Samsung +9.62% intraday ist zugleich ein Wettbewerbs-Watch fuer Micron/SK Hynix.
+
+Einordnung: Positiv als externer Nachfrage-/Roadmap-Readthrough fuer Microns HBM/DRAM/LPDDR-These, aber keine neue Micron-spezifische Zahl. Q3 muss weiterhin HBM-Auslastung, Preise, Bruttomarge, 2027-Sichtbarkeit, EPS-Revisionen und FCF bestaetigen; sonst bleibt das Re-Rating rueckschlagsanfaellig.
+
+## Update 2026-06-01 06:34 CEST: Vera Rubin/Spectrum-X und Exportkontroll-Watch
+
+US-Kursdaten bleiben beim 2026-05-29-Schluss von USD 971.00. NVIDIA-Newsroom ergaenzt den fruehen GTC-Taipei-Readthrough mit Vera Rubin full production, Spectrum-X Ethernet Photonics in production, Vera CPU, Vera BlueField-4 STX und DSX. Das stuetzt Microns HBM/DRAM/LPDDR-Umfeld indirekt, weil AI-Factory-Dichte, agentische Workloads, Context Memory und LPDDR5X-Bandbreite als Infrastrukturthemen betont werden.
+
+Einordnung: These weiter bestaetigt, Timing weiter gelb. Das neue Reuters-Signal zu US-Exportkontrollen fuer fortgeschrittene AI-Chips an chinesisch kontrollierte Auslands-Tochterfirmen ist ein indirektes Risiko fuer AI-Capex-Pfade, ersetzt aber nicht den Micron-Q3-Pruefpunkt am 2026-06-24. Q3 muss Margen, HBM-Auslastung, Preise, 2027-Sichtbarkeit und FCF bestaetigen.
+
+## Update 2026-06-01 08:47 CEST: Wochenueberblick-Gegenpruefung
+
+Externe Gegenpruefung bestaetigte den 2026-05-29-Schlusskurs von USD 971.00 und den Q3-Termin am 2026-06-24. Keine neue Micron-spezifische Guidance-, Margen- oder EPS-Meldung seit dem 06:34-Refresh; Q3 bleibt der harte Re-Rating-Test.
+
+## Update 2026-06-01 14:11 CEST: Pre-Market staerker, Q3 bleibt harte Pruefung
+
+StockAnalysis zeigte Micron im US-Pre-Market bei USD 1,007.25, +3.73%, nach dem 2026-05-29-Schlusskurs von USD 971.00. Der breite AI-Memory-/AI-Infrastruktur-Readthrough bleibt damit kurzfristig intakt. Reuters/NVIDIA-Vera-Signale und Dell-Backlog-Kontext stuetzen die Nachfrageannahme weiter indirekt.
+
+Einordnung: Positiv als Momentum- und Nachfrageumfeldsignal, aber kein Micron-spezifischer Fundamentaldatensatz. Q3 am 2026-06-24 bleibt entscheidend fuer HBM-Auslastung, Preise, Bruttomarge, 2027-Sichtbarkeit, EPS-Revisionen und Free Cash Flow.
+## Update 2026-06-02 06:47 CEST
+
+Fakt: Micron schloss am 2026-06-01 bei USD 1,035.50, +6.64%; after-hours USD 1,040.07, +0.44%. StockAnalysis nennt Market Cap ca. USD 1.17T, PE 48.71, Forward PE 10.98 und Earnings Date 2026-06-24. Micron meldete am 2026-06-01 via GlobeNewswire "Micron Powers AI Everywhere at COMPUTEX 2026"; die Meldung nennt HBM, SOCAMM2, high-cap DDR5 RDIMMs, Data-Center-SSDs, LPCAMM2, GDDR7, LPDDR5X, Client-SSDs und Automotive-UFS als AI-Portfolio.
+
+Einordnung: Positiv fuer Microns Produkt-/Roadmap-Qualitaet und fuer die These, dass AI den Bedarf nicht nur bei HBM, sondern auch bei DRAM, LPDDR, SSDs und Edge-/Client-Speicher zieht. Es ist aber keine neue Guidance, kein Margenbeleg und keine EPS-Revision. Die Q3-Zahlen am 2026-06-24 bleiben der harte Test fuer HBM-Ausverkauf, DRAM-/NAND-Preise, Bruttomarge und 2027-Sichtbarkeit.
+
+Status: These bestaetigt, nicht veraendert. Momentum stark, Bewertungs-/Crowdingrisiko hoch.

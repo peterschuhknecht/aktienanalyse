@@ -1,6 +1,6 @@
 # Monitoring-Signale fuer Depot und Watchlists
 
-Stand: 2026-05-31.
+Stand: 2026-06-01.
 
 Diese Datei definiert, was bei jeder sachlichen Aktien-, Depot-, Branchen-, Watchlist- oder Zukunftsanfrage fuer alle verfolgten Werte geprueft werden soll.
 
@@ -11,7 +11,7 @@ Immer pruefen:
 - Aktive Depotwerte aus `05_data/covered_symbols.md`.
 - HDD-/Nearline-Beobachtungsliste: Seagate und Western Digital.
 - Primaere Follow-on-Watchlist: Arista, Broadcom, Marvell, Vertiv, Samsung.
-- Erweiterte Watchlist, wenn das Thema dazu passt: Eaton, GE Vernova, Corning, Constellation, Vistra, Bloom, AMAT, LRCX, ASML, Amkor.
+- Erweiterte Watchlist, wenn das Thema dazu passt: Kioxia, Eaton, GE Vernova, Corning, Constellation, Vistra, Bloom, AMAT, LRCX, ASML, Amkor.
 
 ## Rendite- und Momentum-Check
 
@@ -137,6 +137,84 @@ Einordnung: Die Boom-Rahmenbedingungen bleiben Gruen/Gelb. Unternehmensseitig ve
 | Makro/Sentiment | Neutral bis gemischt | Kein Kredit-/Volatilitaetsstress, aber Realrendite 2.07% und China-PMI 50.0 halten die Ampel nicht sauber gruen. |
 
 Einordnung: Das neue Dell-Transcript ist eine relevante Kombination aus hartem Backlog-/Pipeline-Signal und Managementaussage zu Memory-/Storage-Engpaessen. Es rechtfertigt eine Handlungspruefung der Watchlist-Prioritaeten, aber keine automatische Depotentscheidung.
+
+### Refresh 2026-06-01 06:12 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber weiter ueberhitzt | Korea-Handel bestaetigt Memory-Momentum: SK Hynix +1.59% auf KRW 2,370,000. US-Kurse fuer Micron und SanDisk bleiben 2026-05-29-Schlusskurse nahe Hochs; Kioxia +10.51% ist ein positiver, aber nicht harter, SanDisk-/NAND-Readthrough. |
+| HDD-/Nearline-Watchlist | Unveraendert positiv, keine Reaktivierung | Keine neuen HDD-spezifischen Daten seit Dell-Transcript; echte Signale muessen von WDC/STX-Konferenzen am 2026-06-02/03 kommen. |
+| Follow-on-Watchlist | Aktiv, NVIDIA/Broadcom/Samsung im Fokus | NVIDIA nennt AI Factories, DSX und bis zu 40% mehr GPUs im gleichen Power-Budget; Samsung +9.62% intraday macht den HBM-Aufholer-Watch wichtiger; Broadcom-Q2 am 2026-06-03 bleibt der harte Custom-Silicon-/Networking-Test. |
+| Makro/Sentiment | Neutral bis gemischt | Offizielle US-Zins-/Kreditdaten bleiben beim 2026-05-29/05-28-Stand; China-PMI 50.0 und hohe Realzinsen bleiben Gegenargumente. |
+
+Einordnung: Die Rendite-/Momentum-Signale verbessern sich nicht fundamental neu, aber sie bestaetigen die bestehende AI-Memory-Staerke. Das wichtigste neue Signal ist ein offizieller NVIDIA-Infrastruktur-Readthrough, nicht eine neue EPS-/Marge-/Preisrevision.
+
+### Refresh 2026-06-01 06:34 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber weiter ueberhitzt | SK Hynix stieg delayed/intraday auf KRW 2,382,000, +2.10%, nur ca. 0.7% unter dem 52W-Hoch. Micron und SanDisk bleiben mangels US-Handel beim 2026-05-29-Schluss nahe Hochs. |
+| HDD-/Nearline-Watchlist | Unveraendert positiv, keine Reaktivierung | NVIDIA/Vera BlueField-4 STX und Dell-Storage-Kontext verbessern den allgemeinen Storage-Readthrough, liefern aber keine STX-/WDC-spezifischen Exabyte-, LTA-, ASP-, Margen- oder FCF-Daten. |
+| Follow-on-Watchlist | Leicht besser, aber deutlich ueberhitzt | Samsung +10.02%, NVIDIA Spectrum-X Ethernet Photonics in production und DSX/Vera-CPU/BlueField-4-STX verbessern Networking-, Optics-, Storage-, Power/Cooling- und AI-Factory-Watch. Broadcom-Q2 am 2026-06-03 bleibt der harte Test. |
+| Erweiterte Watchlist | Besser fuer Infrastruktur, gemischt fuer Risiko | Offizielle NVIDIA-Partnerliste stuetzt Dell/HPE/Lenovo/Supermicro, Taiwan-Systembauer, Storage-Partner und AI-Clouds. Regulatorisch belastend: US-Commerce-/Reuters-Watch zu fortgeschrittenen AI-Chips an chinesisch kontrollierte Auslands-Tochterfirmen. |
+| Makro/Sentiment | Neutral bis gemischt | Zinsen/Kreditstress bleiben beim offiziellen 2026-05-29/05-28-Stand. Neues Exportkontrollsignal und Gulf-/Energierisiko sind Gegenargumente; kein akuter Kreditstress. |
+
+Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und verbessern sich selektiv auf der Lieferketten-/Roadmap-Seite. Der Unterschied zum 06:12-Lauf ist die hoehere Quellenqualitaet und Detailtiefe durch NVIDIA-Newsroom-Pressemitteilungen sowie ein neues regulatorisches Watch-Signal. Keine automatische Kauf-/Verkaufsentscheidung.
+
+### Refresh 2026-06-01 08:14 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber weiter ueberhitzt | SK Hynix wurde frischer delayed/intraday bei KRW 2,369,000, +1.54%, geprueft. Micron und SanDisk bleiben mangels neuer US-Session beim 2026-05-29-Schluss nahe Hochs. |
+| HDD-/Nearline-Watchlist | Unveraendert positiv, keine Reaktivierung | Keine neuen STX-/WDC-spezifischen Primaerdaten; BofA/Evercore am 2026-06-02/03 bleiben die relevanten Pruefpunkte. |
+| Follow-on-Watchlist | Leicht besser, aber deutlich ueberhitzt | Samsung wurde frischer bei KRW 349,250, +10.17%, nahe am 52W-Hoch geprueft. NVIDIA-/Reuters-Readthrough bleibt positiv, aber ohne HBM-Volumen-/Margenbeleg. |
+| Erweiterte Watchlist | Unveraendert | Kioxia wurde frischer bei JPY 72,020, +9.37%, geprueft. Das stuetzt den NAND-/SanDisk-Readthrough, ist aber kein neues Enterprise-SSD-/LTA-/Margensignal. |
+| Makro/Sentiment | Neutral bis gemischt | Kein neuer offizieller US-Zins-, Realzins-, HY-OAS-, NFCI- oder VIX-Datenpunkt nach dem bestehenden 2026-05-29/05-28-Stand. |
+
+Einordnung: Der 08:14-CEST-Nachzug bestaetigt die bestehende Richtung, veraendert sie aber nicht fundamental. Die wichtigsten Daten fuer eine echte These-Aenderung bleiben Broadcom-Q2, Dell/WDC/STX-Konferenzen, US-Makro und spaeter Micron-Q3.
+
+### Refresh 2026-06-01 08:47 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Unveraendert besser, aber weiter ueberhitzt | Externe Gegenpruefung bestaetigte SK Hynix KRW 2,369,000, Micron USD 971.00 und SanDisk USD 1,694.98; keine neue harte Margen-, EPS- oder Preisdaten seit 08:16. |
+| HDD-/Nearline-Watchlist | Unveraendert positiv, keine Reaktivierung | STX/WDC bleiben bei 2026-05-29-Schlusskursen; keine neuen Exabyte-, LTA-, ASP-, Margen- oder FCF-Daten vor den Konferenzen. |
+| Follow-on-Watchlist | Aktiv, Broadcom bleibt Haupttest | Broadcom bleibt nahe Hoch; Q2 am 2026-06-03 ist der harte Opportunity-Cost-Test. Samsung und Kioxia bleiben stark, aber ohne neue Kunden-/Margenbelege. |
+| Makro/Sentiment | Neutral bis gemischt | Keine neueren offiziellen US-Zins-/Kreditstressdaten als im Cache; Realzinsen bleiben hoch, Kreditstress bleibt niedrig. |
+
+Einordnung: Keine neue These-Aenderung seit 08:16 CEST. Das 08:47-Update ist ein Datenqualitaets- und Chat-Report-Nachzug, kein neues Fundamentalsignal.
+
+### Entscheidung 2026-06-01 08:16 CEST: Kioxia-Monitoring hochgestuft
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Kioxia | Watch / Momentum stark bis ueberhitzt | Kioxia notierte bei JPY 72,020, +9.37%, nahe Hoch. Kioxia-FY2025-Daten und Q1-FY2027-Ausblick bestaetigen NAND-/SSD-Staerke, aber nach dem Tagesmove bleibt das Timing gelb. |
+| SanDisk-Vergleich | Pflicht | Kioxia dupliziert SanDisk-Exposure. Vor einer Depotaufnahme muessen Forward-PE, FCF, Capex, SSD-&-Storage-Margen, JV-Oekonomie, Liquiditaet und JPY-/Japan-Risiko gegen SanDisk verglichen werden. |
+| Signalstatus | Kein Depot-Add, aber Deep-Dive | Hochstufung ins aktive Analyseuniversum ist gerechtfertigt. Eine spaetere Aufnahme sollte eher als Ersatz/Teilersatz von SanDisk geprueft werden, nicht als Add-on ohne Risikopruefung. |
+
+### Refresh 2026-06-01 14:11 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber ueberhitzt und SK-Hynix-Watch | SK Hynix schloss +1.89%, Micron lag pre-market +3.73%, SanDisk +2.95%. Neues Risiko ist das Cheongju-Gasleck bei SK Hynix; bisher kein Produktionsstopp bestaetigt. |
+| HDD-/Nearline-Watchlist | Leicht positiv, keine Reaktivierung | STX +1.45% und WDC +1.52% pre-market; keine neuen HDD-spezifischen Primaerdaten vor BofA/Evercore. |
+| Follow-on-Watchlist | Gemischt, Broadcom vor Marvell | Broadcom +2.71% pre-market und Q2 am 2026-06-03 bleibt Haupttest; Marvell -3.19% pre-market ist ein relatives Timing-Warnsignal. |
+| Erweiterte Watchlist | Gespalten | NVIDIA/MSFT/ORCL/DELL positiv durch Vera-/AI-PC-/AI-Cloud-Readthrough; AMD/Intel/BE/CEG kurzfristig schwach. |
+| Makro/Sentiment | Unveraendert neutral bis gemischt | Offizielle Zins-/Kreditstressdaten bleiben beim 2026-05-29/05-28-Stand; ISM Manufacturing steht heute noch als Makrotrigger aus. |
+
+Einordnung: Momentum verbessert sich erneut, aber die Kombination aus Naehe zu Hochs, Marvell-/AMD-/Intel-Schwaeche und SK-Hynix-Gasleck macht das Signal nicht zu einem automatischen Handlungsbefehl. Status: Handlungspruefung ja, sichere Kauf-/Verkaufsentscheidung nein.
+
+### Refresh 2026-06-02 06:47 CEST
+
+| Bereich | Status | Kurzgrund |
+|---|---|---|
+| Depotwerte | Besser, aber ueberhitzt; SK Hynix kurzfristig Watch | Micron schloss am 2026-06-01 +6.64%, SanDisk +3.92%. SK Hynix fiel am 2026-06-02 in Korea -3.13% nach starker Rallye und Cheongju-Watch; ohne bestaetigten Produktionsausfall ist das ein Timing-/Risikowarnsignal, kein These-Bruch. |
+| HDD-/Nearline-Watchlist | Positiv, aber keine Reaktivierung | STX +4.71% und WDC +2.82% am 2026-06-01. Fuer Reaktivierung fehlen weiter harte Aussagen zu Exabytes, LTAs, ASPs, Margen, FCF oder 2027/2028-Sichtbarkeit; BofA/Evercore sind die naechsten Pruefpunkte. |
+| Primaere Follow-on-Watchlist | Besser, Broadcom bleibt Haupttest | Broadcom +2.95% und after-hours +2.71%, Arista +7.03%, Marvell +7.04%, Samsung +0.57% nach starkem Vortag. Broadcom-Q2 am 2026-06-03 entscheidet, ob Custom-AI-/Networking die bessere Opportunity Cost gegenueber Memory ist. |
+| Erweiterte Watchlist | Gespalten | Dell +10.70%, NVIDIA +6.26%, Oracle +9.91%, AMKR +4.59% und AMAT +1.80% bestaetigen AI-Infrastruktur-Staerke. Schwach waren CEG -7.66%, Meta -5.07%, TSLA -4.57%, Bloom -4.03%, VST -3.41% und Amazon -3.47%. |
+| Makro/Sentiment | Neutral bis gelb | U.S. Treasury per 2026-06-01: 10Y 4.47%, 2Y 4.05%, 10Y Real Yield 2.07%. HY OAS 2.74%, VIX 15.32 und NFCI -0.510 senden keinen Kreditstress, aber nominale Zinsen und Realzins bleiben Bewertungsgegenwind. |
+
+Einordnung: Rendite-/Momentum-Signale bleiben fuer Memory und AI-Infrastruktur konstruktiv, aber die Rallye ist eng, hoch bewertet und makroseitig nicht sauber entlastet. Handlungspruefung: Broadcom-Q2, Kioxia Investor Day und Dell/WDC/STX-Konferenzen priorisieren; keine sichere Kauf-/Verkaufsfolgerung aus dem Momentum allein.
 
 ## Ausgabeformat fuer Folgeantworten
 

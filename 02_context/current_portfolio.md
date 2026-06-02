@@ -23,7 +23,7 @@ Dieses Depot ist nach dem Seagate-Verkauf eine noch fokussiertere KI-Speicherwet
 | Seagate | Verkauft; Beobachtungs- und Follow-on-Wert fuer HDD-/Nearline-Folgewelle |
 | Western Digital | HDD-Kontext und fruehere SanDisk-Aufspaltung |
 | Samsung | Allrounder fuer DRAM, HBM, NAND, Smartphones, Foundry |
-| Kioxia | SanDisk-Joint-Venture und NAND-Readthrough |
+| Kioxia | Aktiver NAND-/Enterprise-SSD-Deep-Dive-Kandidat; SanDisk-Joint-Venture und NAND-Readthrough, keine aktuelle Depotposition |
 | Vertiv | Kuehlung als naechste Infrastrukturwelle |
 | Eaton | Stromnetz und elektrische Infrastruktur |
 | Bloom Energy | On-site Power als riskante Energie-Wildcard |

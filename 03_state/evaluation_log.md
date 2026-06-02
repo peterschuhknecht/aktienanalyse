@@ -1,5 +1,177 @@
 # Evaluation Log
 
+## 2026-06-02 - Kontext-Radar: Micron positiv, Momentum selektiv, Makro gelb
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte "Gibt es Neuigkeiten?" und verlangte Repository-Rundgang, Covered-Symbol-Vollrefresh, Watchlists, aktuelle Nachrichten, SQLite-Snapshots, Retention-Pruefung und Aktualisierung der passenden Dateien.
+
+### Fakten
+
+- US-Schlusskurse 2026-06-01: Micron USD 1,035.50 (+6.64%), SanDisk USD 1,761.43 (+3.92%), Dell USD 465.96 (+10.70%), Broadcom USD 459.97 (+2.95%; after-hours +2.71%), Arista +7.03%, Marvell +7.04%, NVIDIA +6.26%. Schwach: CEG -7.66%, Meta -5.07%, TSLA -4.57%, Bloom -4.03%, Vistra -3.41%, Amazon -3.47%.
+- SK Hynix notierte am 2026-06-02 bei KRW 2,289,000 (-3.13%). Im Quellencheck wurde keine neue bestaetigte Produktionsunterbrechung, Yield-Auswirkung, Shipment-Verzoegerung oder offizielle Kapazitaetswarnung nach dem Cheongju-Gasleck gefunden.
+- Micron meldete am 2026-06-01 zur COMPUTEX ein AI-Memory-/Storage-Portfolio mit HBM, SOCAMM2, high-cap DDR5 RDIMMs, Data-Center-SSDs, LPCAMM2, GDDR7, LPDDR5X, Client-SSDs und Automotive-UFS.
+- U.S. Treasury per 2026-06-01: US 10Y 4.47%, US 2Y 4.05%, 10Y Real Yield 2.07%. FRED: HY OAS 2.74% per 2026-05-31, VIX 15.32 per 2026-05-29, NFCI -0.510 per 2026-05-22.
+- Heute, 2026-06-02, stehen Eurozone-HICP, US-JOLTS, Kioxia Investor Day, NVIDIA-GTC-Sessions sowie Dell/WDC/STX bei BofA an. Broadcom-Q2 folgt am 2026-06-03.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb. Unternehmens- und Kursseite verbessern sich selektiv durch Micron, Dell, Broadcom, Arista, Marvell und NVIDIA. Microns Meldung ist ein positives Produkt-/Roadmap-Signal, aber kein Guidance-, Margen-, FCF- oder EPS-Beleg. SK Hynix bleibt wegen Cheongju und -3.13% kurzfristig Watch, aber ohne harte Produktionsfolgen kein These-Bruch. Makro ist nicht rot, aber gelber: Kreditstress fehlt, doch 2Y/10Y und hoher Realzins begrenzen Multiple-Ausweitung.
+
+### Entscheidung / Arbeitsthese
+
+Keine Kauf-/Verkaufsentscheidung und keine These-Aenderung. Aktives Depot bleibt im Arbeitsspeicher SK Hynix, Micron, SanDisk. Handlungspruefung bleibt sinnvoll: Broadcom-Q2 als Opportunity-Cost-Test, Kioxia Investor Day als SanDisk-/NAND-Test, Dell/WDC/STX-Konferenzen als Memory-/Storage-/HDD-Engpass-Test.
+
+### Datenqualitaet / Risiken
+
+StockAnalysis wurde fuer Kurs-/Marktdaten genutzt; harte Unternehmenssignale stammen aus Micron/GlobeNewswire, Kioxia IR, Broadcom IR sowie Treasury/FRED. Quality Gate `python3 tools/market_monitor_validate.py`: 0 Blocker, 31 Warnungen. Warnungen betreffen fehlende 1M/3M-Momentumfelder und fehlende Fundamentals-Snapshots bei Teilen der Watchlist. `PRAGMA integrity_check` ergab `ok`, `PRAGMA foreign_key_check` ohne Befund. Keine Blocker fuer einen kompakten Kontextbericht, aber keine harte Bewertung ohne Gegenpruefung.
+
+## 2026-06-01 - Market-Monitor Quality Gate umgesetzt
+
+### Anlass
+
+Nutzer fragte nach Optimierungsmoeglichkeiten fuer das aktuelle System und gab anschliessend den Plan zur Datenqualitaets-Optimierung frei.
+
+### Aenderung
+
+- SQLite-Schema um `data_quality_issues` sowie die Views `stale_quotes`, `quote_outlier_candidates`, `missing_required_fundamentals` und `cache_db_mismatches` erweitert.
+- Neues Tool `tools/market_monitor_validate.py` angelegt: standardmaessig read-only, optional mit `--write-issues` fuer persistente Befunde.
+- `AGENTS.md`, `START_HERE.md`, `05_data/market_monitor_usage.md`, `05_data/market_monitor_schema.md` und `05_data/data_schema.md` so aktualisiert, dass das Quality Gate vor Bewertungen, Kauf-/Verkaufsaussagen oder These-Aenderungen Pflicht ist.
+
+### Test / Datenstand
+
+`PRAGMA integrity_check` ergab `ok`; `PRAGMA foreign_key_check` lieferte keine Fehler. Der Validator meldete 0 Blocker und 31 Warnungen. Die Warnungen betreffen fehlende 1M/3M-/52W-Momentumfelder sowie fehlende Fundamentals-Snapshots bei mehreren Watchlistwerten; sie wurden mit `--write-issues` in `data_quality_issues` gespeichert.
+
+### Arbeitsregel
+
+`warning` erlaubt eine Analyse mit ausdruecklichem Datenluecken-Hinweis. `blocker` verbietet harte Bewertung, Kauf-/Verkaufsaussage oder These-Aenderung, bis der betroffene Datenpunkt gegen eine hochwertige Quelle geprueft wurde.
+
+## 2026-06-01 - Operator-Signal-Radar umgesetzt
+
+### Anlass
+
+Nutzer wollte ein dauerhaftes Radar fuer Personen, die in KI und Technologie wirklich etwas zu sagen haben und deren neue Aussagen systematisch gespeichert und auf Zukunftsauswirkungen geprueft werden. Zusaetzlich sollte TIME100 AI 2025 als Uebersicht beruecksichtigt werden; Andrej Karpathy und Ilya Sutskever sollen unbedingt enthalten sein.
+
+### Aenderung
+
+- Neue Datei `02_context/watchlist_ai_operator_signals.md` angelegt.
+- SQLite-Schema um `people`, `person_statements`, `active_people`, `unprocessed_person_statements` und `person_signal_alerts` erweitert.
+- `05_data/market_monitor_seed.sql` um initiale P1/P2/P3-Personen erweitert, inklusive Andrej Karpathy und Ilya Sutskever.
+- `AGENTS.md`, `START_HERE.md`, `05_data/market_monitor_schema.md`, `05_data/market_monitor_usage.md`, `03_state/task_plan.md` und `03_state/assumptions_and_decisions.md` aktualisiert.
+
+### Arbeitsregel
+
+Das Radar ist keine Influencer-Liste und keine eigenstaendige Anlagegrundlage. Aussagen werden als `Hard`, `Medium` oder `Soft` klassifiziert. Nur harte Daten oder bestaetigte Roadmap-/Lieferkettenaussagen duerfen Thesen, Unternehmensakten, Watchlists oder `evaluation_log.md` veraendern.
+
+### Datenebene
+
+Die Rollenquellen wurden primaer gegen offizielle Unternehmens-/Personenquellen geprueft; TIME100 AI 2025 wird als Kurations-/Suchquelle, nicht als harte Investmentquelle genutzt. Die echte SQLite-Datenbank wurde mit dem Schema und Seed fortgeschrieben und technisch getestet; `PRAGMA integrity_check` ergab `ok`.
+
+## 2026-06-01 - Wochenueberblick 08:47 CEST Chat-Refresh
+
+### Anlass
+
+Automation "KI Aktien Wochenueberblick" wurde erneut ausgefuehrt, diesmal mit expliziter Pflicht, den vollstaendigen Acht-Punkte-Bericht direkt im Chat auszugeben und zusaetzlich die Reportkopie sowie Datenebene fortzuschreiben.
+
+### Fakten
+
+- Repository-Rundgang, Automation-Memory, Kernkontext, Watchlists, Monitoring, Makro, Kurse, News, Events, Unternehmensakten, Report, Arbeitsspeicher und SQLite-Nutzung wurden geprueft.
+- Externe Gegenpruefung bestaetigte den 08:16-Cache: SK Hynix KRW 2,369,000 (+1.54%), Samsung KRW 349,250 (+10.17%), Kioxia JPY 72,020 (+9.37%); US-Werte bleiben vor Handelsstart beim 2026-05-29-Schlusskurs.
+- NVIDIA-, Dell-, Kioxia-, Broadcom- und Micron-Quellen bestaetigen weiterhin die bestehenden Wochenkatalysatoren. Es gab keine neue harte Kurs-, Guidance-, Margen-, EPS- oder Eventaenderung gegenueber dem 08:16-Lauf.
+- SQLite wurde mit neuen Quote-, Signal-, Makro-, Thesis- und Run-Log-Snapshots fortgeschrieben; `PRAGMA integrity_check` ergab `ok`.
+
+### Einordnung
+
+Keine neue These-Aenderung gegenueber dem 08:16-Refresh. Depot-Ampel bleibt Gruen/Gelb: Unternehmens- und Roadmap-Signale sind positiv, aber Crowding, hohe Realzinsen, Exportkontroll-Watch und fehlende direkte Speicherpreis-/Margen-/EPS-Bestaetigung bleiben die Gegenargumente.
+
+### Entscheidung / Arbeitsthese
+
+Keine Kauf-/Verkaufsanweisung. Beobachtungsfokus bleibt Broadcom-Q2, Kioxia Investor Day, Dell/WDC/STX-Konferenzen, NVIDIA-BofA, US-Payrolls, SanDisk Mizuho und Micron-Q3.
+
+## 2026-06-01 - Kioxia Aufnahmefrage
+
+### Anlass
+
+Nutzer fragte, ob Kioxia mit aufgenommen werden sollte. Das wurde als Depot-/Watchlistfrage behandelt: Repository-Rundgang, aktuelle Kurse, Kioxia-IR-Daten, Watchlists, Portfolio-Risiko und SanDisk-Readthrough wurden geprueft.
+
+### Fakten
+
+- Kioxia notierte am 2026-06-01 um 14:22 JST laut StockAnalysis bei JPY 72,020, +9.37%, nahe dem Tages-/52W-Hoch von JPY 73,000; Market Cap ca. JPY 35.96T, PE 65.25, Forward PE 7.70.
+- Kioxias FY2025-Financial-Results vom 2026-05-15 melden FY revenue JPY 2,337.6 Mrd., Non-GAAP operating profit JPY 876.2 Mrd., operating profit JPY 870.4 Mrd. und profit attributable to owners of parent JPY 554.5 Mrd.
+- Q4 FY2025 war sehr stark: revenue JPY 1,002.9 Mrd., SSD & Storage JPY 600.3 Mrd., operating profit JPY 596.8 Mrd.; Kioxia nennt deutlich hoehere ASPs als Haupttreiber, teilweise gegen niedrigere Bit Shipments.
+- Q1-FY2027-Ausblick: revenue JPY 1,750.0 Mrd., Non-GAAP operating profit JPY 1,300.0 Mrd. und profit attributable to owners of parent JPY 869.0 Mrd.; Kioxia verweist auf weiter starke Datacenter-Nachfrage.
+- Kioxia Investor Day ist laut IR Calendar fuer 2026-06-02 JST angesetzt; FY-Bericht nennt 2026-06-24 als geplantes Datum fuer die Securities-Report-Einreichung.
+
+### Einordnung
+
+Kioxia ist fachlich stark genug, um aus dem Hintergrund in die aktive Watchlist und in einen Deep-Dive zu kommen. Es ist der sauberste Japan-Hebel auf NAND/Enterprise-SSD und ein direkter Falsifikationswert fuer SanDisk. Fuer eine Depotaufnahme ist die Lage aber nicht sauber genug: Kioxia wuerde SanDisk weitgehend duplizieren, nach dem Tagesmove ist das Timing angespannt, und Broker-/ADR-Zugang, FCF, Capex, JV-Oekonomie, JPY-Risiko und relativer SanDisk-Vergleich sind noch offene Datenluecken.
+
+### Entscheidung / Arbeitsthese
+
+Kioxia aufnehmen: ja, aber als aktive Watchlist/Deep-Dive, nicht als sofortige Depotposition. Eine spaetere Aufnahme sollte eher als Ersatz oder Teilersatz fuer SanDisk geprueft werden, falls Kioxia nach Investor Day und Securities Report bei Bewertung, FCF, Margenqualitaet, Liquiditaet und Risiko besser abschneidet.
+
+### Risiken
+
+NAND bleibt zyklisch; Forward-KGV kann am Zyklushoch optisch billig wirken. Eine Add-on-Position neben SanDisk wuerde vor allem gleiche NAND-Beta, Japan-/JPY- und Momentum-Risiko erhoehen. Gegenargument zur defensiven Haltung: Wenn Investor Day und Securities Report die Q1-Guidance mit FCF, Capex-Disziplin und nachhaltigen Enterprise-SSD-Margen unterlegen, koennte ein schnellerer SanDisk/Kioxia-Rotationstest sinnvoll werden.
+
+## 2026-06-01 - Wochenueberblick 08:16 CEST Refresh
+
+### Anlass
+
+Automation "KI Aktien Wochenueberblick" wurde am selben Wochenstart erneut ausgefuehrt. Ziel war, den bestehenden Wochenbericht fuer 2026-06-01 bis 2026-06-07 auf frischere Kurse, Nachrichten, Events und SQLite-Snapshots zu heben, ohne alte Cache-Daten als neue Fakten zu verkaufen.
+
+### Fakten
+
+- Repository-Rundgang erneut ausgefuehrt: Automation-Memory, Datei-Inventar, Kernkontext, Watchlists, Monitoring, Makro, Kurse, News, Events, Unternehmensakten, Report, SQLite-Nutzung und Arbeitsspeicher geprueft.
+- Frische delayed/intraday-Asienkurse: SK Hynix KRW 2,369,000 (+1.54%, 14:47 KST), Samsung KRW 349,250 (+10.17%, 14:53 KST) und Kioxia JPY 72,020 (+9.37%, 14:22 JST). US-Kurse bleiben vor US-Handelsstart Schlusskurse vom 2026-05-29.
+- Keine neuen harten Termine gegenueber dem 06:12-CEST-Eventcache. Heute, 2026-06-01, bleiben ISM Manufacturing und NVIDIA COMPUTEX/GTC Taipei die relevanten Tagesereignisse; im 5-Tage-Fenster folgen JOLTS, Euro-HICP, Dell/WDC/STX-Konferenzen, ISM Services, Beige Book, Broadcom-Q2, NVIDIA-BofA, Claims/Productivity, Payrolls und Euro-GDP.
+- Makroquellen lieferten keinen neueren offiziellen Datenpunkt: U.S. Treasury bleibt per 2026-05-29 bei US 10Y 4.45%, US 2Y 3.98%, 10Y Real Yield 2.07%; FRED bleibt bei HY OAS 2.72% per 2026-05-28, NFCI -0.510 per 2026-05-22 und VIXCLS 15.74 per 2026-05-28.
+
+### Einordnung
+
+Keine neue These-Aenderung gegenueber dem 06:34-CEST-Kontext-Radar. Die Boom-Rahmenbedingungen bleiben Gruen/Gelb: starkes Asien-Momentum, NVIDIA-DSX-/Vera-Rubin-Readthrough und Dell-Memory-Constraint bestaetigen das Umfeld; harte Speichervertragspreise, Margen, EPS-Revisionen oder konkrete Kundenvolumina fehlen weiter. Samsung und Kioxia erhoehen Watch- und Crowding-Risiko, aber noch keine bessere Alternative zum aktiven Depot.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Kauf-/Verkaufsentscheidung. Aktives Depot bleibt SK Hynix, Micron und SanDisk; Broadcom-Q2 am 2026-06-03, Dell/WDC/STX-Konferenzen am 2026-06-02/03, Payrolls am 2026-06-05, SanDisk Mizuho am 2026-06-09 und Micron-Q3 am 2026-06-24 bleiben die naechsten harten Pruefpunkte.
+
+### Datenebene
+
+Markdown-Caches, Watchlists, Unternehmensakten, Wochenbericht, current_snapshot, Monitoring-/Makrodateien und SQLite-Datenebene wurden fortgeschrieben. `PRAGMA integrity_check` ergab `ok`.
+
+### Risiken
+
+Crowding nahe Hochs, hohe Realzinsen, Exportkontroll-Watch, China-PMI 50.0, Energie-/Hormuzrisiko und die fehlende direkte Margen-/EPS-Bestaetigung bei SK Hynix, Micron und SanDisk bleiben die wichtigsten Gegenargumente.
+
+## 2026-06-01 - Kontext-Radar mit NVIDIA-/Korea-/Kioxia-Signalen
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte "Gibt es Neuigkeiten?" und verlangte Repository-Rundgang, Covered-Symbol-Refresh, Watchlist-Check, frische Kurs-/News-/Eventdaten, SQLite-Snapshots und Aktualisierung der relevanten Markdown-Dateien.
+
+### Fakten
+
+- Asien-Kurse aktualisiert: SK Hynix notierte am 2026-06-01 bei KRW 2,370,000 (+1.59%), Samsung bei KRW 347,500 (+9.62%) und Kioxia bei JPY 72,770 (+10.51%), jeweils nahe Hochs. Reuters-/StockAnalysis-Newsfeed nennt erwartete Treffen zwischen NVIDIA-CEO Jensen Huang und koreanischen Executives als zusaetzlichen Korea-AI-Readthrough. US- und Europa-Kurse bleiben vor Handelsstart Schlusskurse vom 2026-05-29.
+- NVIDIA offizieller GTC-Taipei/COMPUTEX-Live-Feed nennt AI Factories, DSX-Blueprints und DSX MaxLPS; fuer MaxLPS nennt NVIDIA bis zu 40% mehr GPUs im gleichen Power-Budget. NVIDIA meldet zudem Vera Rubin in voller Produktion und eine Supply Chain, die doppelt so gross wie Grace Blackwell sei.
+- Makro bleibt beim letzten offiziellen Cache: US 10Y 4.45%, 2Y 3.98%, 10Y Real Yield 2.07% per 2026-05-29; HY OAS 2.72% per 2026-05-28, NFCI -0.510 per 2026-05-22, VIXCLS 15.74 per 2026-05-28.
+- Heute und naechste fuenf Kalendertage: ISM Manufacturing und NVIDIA/COMPUTEX heute; danach Eurozone-HICP, JOLTS, Dell/WDC/STX-Konferenzen, ISM Services, Beige Book, Broadcom-Q2, Claims/Productivity, NVIDIA-BofA, Payrolls und Eurozone-GDP.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb und verbessern sich selektiv auf Unternehmens-/Infrastrukturseite. Das neue NVIDIA-DSX-/Vera-Rubin-Signal stuetzt AI-Factory-Dichte und damit indirekt Memory, Networking, Power/Cooling und Storage. Samsung und Kioxia erhoehen die Watchlist-Prioritaet, aber auch das Wettbewerbs- und Crowding-Risiko. Gleichzeitig ist das kein direkter Beleg fuer Speicherpreise, Margen oder EPS-Revisionen. Makro ist neutral bis gemischt, weil Kreditstress fehlt, aber Realzinsen hoch bleiben und China-PMI/Energiegeopolitik Gegenwind liefern.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Kauf-/Verkaufsentscheidung. Aktives Depot bleibt SK Hynix, Micron, SanDisk; bei zwei Werten bleibt die dokumentierte Arbeitsthese SK Hynix + Micron. Broadcom-Q2 am 2026-06-03 kann Opportunity Cost sichtbar machen, ist aber noch nicht bewiesen. HDD-/Nearline bleibt unveraendert leicht positiv ohne Reaktivierung.
+
+### Datenebene
+
+Markdown-Caches, Unternehmensakten, Watchlists, Makro-/Monitoringdateien und SQLite-Datenebene wurden fortgeschrieben. `PRAGMA integrity_check` ergab `ok`; Gesamtstand nach dem Lauf: 92 Quote-Snapshots, 18 Fundamental-Snapshots, 17 News-Items, 35 Event-Eintraege, 21 Makro-Snapshots, 9 Branchensignale, 34 Signal-Snapshots, 4 Thesis-Events und 5 Run-Log-Eintraege.
+
+### Risiken
+
+Crowding nahe Hochs, hohe Realzinsen, ein moeglicher Payrolls-/ISM-Zinsschock, Broadcom-/NVIDIA-Erwartungsrisiko und fehlende direkte Margen-/EPS-Bestaetigung bei SK Hynix, Micron und SanDisk bleiben die wichtigsten Gegenargumente.
+
 ## 2026-05-31 - Kontext-Radar mit Dell-Memory-Constraint
 
 ### Anlass
@@ -685,3 +857,56 @@ Keine sichere Kauf-/Verkaufsentscheidung. Aktive Kernwerte bleiben SK Hynix, Mic
 ### Risiken
 
 Pre-Market-Kurse sind duenn und nur Timing-Signal. SanDisk-LTAs und High-Bandwidth-Flash muessen durch offizielle IR-Quellen, Quartalszahlen, NAND-/Enterprise-SSD-Preise, Margen und Kioxia/JV-Readthrough bestaetigt werden. Bloom Energy bleibt ein Bewertungswarnwert, weil die Aktie nach starker Rallye trotz AI-Power-Story sehr hohe Erwartungen preist.
+
+## 2026-06-01 - Kontext-Radar 06:34 CEST mit NVIDIA-Newsroom und Exportkontroll-Watch
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte erneut "Gibt es Neuigkeiten?" und verlangte Repository-Rundgang, Kurs-, News-, Watchlist-, Makro-, SQLite- und Retention-Refresh.
+
+### Fakten
+
+- Repository-Rundgang ausgefuehrt: Datei-Inventar, Kernkontext, Watchlists, Unternehmensakten, Kurs-/News-Caches, Monitoring-, Makro- und Eventdateien wurden gelesen.
+- StockAnalysis zeigte SK Hynix am 2026-06-01 um 12:14 KST bei KRW 2,382,000, +2.10%, und Samsung um 12:32 KST bei KRW 348,750, +10.02%. Kioxia blieb bei JPY 72,770, +10.51% am 2026-06-01 11:30 JST. US-Kurse bleiben mangels neuer US-Session beim 2026-05-29-Schluss.
+- NVIDIA-Newsroom bestaetigt Vera Rubin full production, 150 Taiwan-Partner, 350+ Fabriken und 30 Laender, Spectrum-X Ethernet Photonics in production, DSX MaxLPS/DSX OS, Vera CPU und Vera BlueField-4 STX.
+- Reuters/MarketScreener berichten, dass das U.S. Department of Commerce eine Exportlizenzpflicht fuer fortgeschrittene AI-Chips an chinesisch kontrollierte Auslands-Tochterfirmen klarstellt.
+- Makro bleibt beim offiziellen Datenstand: U.S. Treasury 10Y 4.45%, 2Y 3.98%, 10Y Real Yield 2.07% per 2026-05-29; HY OAS 2.72% per 2026-05-28; NFCI -0.510 per 2026-05-22; VIXCLS 15.74 per 2026-05-28.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb und verbessern sich selektiv durch offizielle Roadmap-/Produktions-/Partnerdetails. Positiv ist der Readthrough fuer HBM/DRAM/LPDDR5X, Networking/Optics, Storage, Power/Cooling und AI-Factory-Deployment. Gegenargumente bleiben Crowding nahe Hochs, fehlende direkte Speicherpreis-/Margen-/EPS-Bestaetigung und neu das Exportkontrollrisiko fuer China-nahe AI-Capex-Pfade.
+
+### Entscheidung
+
+Keine sichere Kauf-/Verkaufsentscheidung. Depotwerte bleiben qualitativ intakt, aber ueberhitzt. SK Hynix bleibt staerkster HBM-Hebel, Micron bleibt der zentrale US-HBM/DRAM-Hebel, SanDisk bleibt starke, aber volatilste NAND-/Enterprise-SSD-Beta-Position. Follow-on-Watchlist wird breiter bestaetigt; Broadcom-Q2 am 2026-06-03 bleibt der naechste harte Finanztest. HDD-/Nearline bleibt leicht positiv, aber nicht reaktiviert.
+
+### Risiken
+
+NVIDIA-GTC-Daten sind offizielle Roadmap-/Produktionssignale, aber keine direkten Margen-, Preis- oder EPS-Daten fuer die Depotwerte. Samsung-Momentum erhoeht den Wettbewerbs-Watch fuer SK Hynix/Micron. Exportkontrollen koennen regionale AI-Chip- und Memory-Nachfrage verschieben; Wirkung auf konkrete Speicherbestellungen ist noch unklar.
+
+## 2026-06-01 - Kontext-Radar 14:11 CEST mit SK-Hynix-Gasleck und US-Pre-Market
+
+### Anlass
+
+Automation "KI Aktien Analyse" fragte "Gibt es Neuigkeiten?" und verlangte den Repository-Rundgang, aktuelle Kurse/News, Watchlist-, Makro-, SQLite- und Retention-Refresh.
+
+### Fakten
+
+- Repository-Rundgang ausgefuehrt: Datei-Inventar, Kernkontext, Watchlists, Unternehmensakten, Kurs-/News-Caches, Monitoring-, Makro-, Event- und SQLite-Dokumentation wurden gelesen.
+- StockAnalysis zeigte zum 2026-06-01-Schluss in Asien: SK Hynix KRW 2,377,000 (+1.89%), Samsung KRW 349,000 (+10.09%) und Kioxia JPY 72,500 (+10.10%).
+- US-Pre-Market: Micron USD 1,007.25 (+3.73%), SanDisk USD 1,745.05 (+2.95%), Broadcom USD 458.86 (+2.71%), NVIDIA USD 215.74 (+2.18%), Dell USD 427.79 (+1.63%), STX USD 892.53 (+1.45%), WDC USD 539.30 (+1.52%). Schwach waren Marvell (-3.19%), AMD (-3.37%) und Intel (-6.72%).
+- Reuters/Yonhap meldet sechs Verletzte durch ein Wasserstofffluorid-Gasleck in einem SK-Hynix-Werk in Cheongju. ChosunBiz meldet ergaenzend Evakuierung von rund 3,600 Mitarbeitern und bisher keine Produktionsunterbrechung.
+- Reuters meldet zu NVIDIA, dass Vera als AI-Agent-CPU positioniert wird und OpenAI, Anthropic und SpaceX laut Jensen Huang zu den fruehen Anwendern gehoeren.
+- Makro bleibt beim offiziellen Stand: U.S. Treasury 10Y 4.45%, 2Y 3.98%, 10Y Real Yield 2.07% per 2026-05-29; VIXCLS 15.74 per 2026-05-28.
+
+### Einordnung
+
+Boom-Rahmenbedingungen bleiben Gruen/Gelb. Momentum und Nachfrage-Readthrough verbessern sich leicht, besonders bei Memory, NAND, Broadcom, NVIDIA, Dell und HDD-Watchlist. Gegenargumente bleiben Crowding nahe Hochs, hohe Realzinsen, Exportkontroll-Watch, Marvell-/AMD-/Intel-Schwaeche und neu das SK-Hynix-Sicherheits-/Betriebsrisiko.
+
+### Entscheidung / Arbeitsthese
+
+Keine sichere Kauf-, Verkaufs- oder Umschichtungsentscheidung. SK Hynix bleibt qualitativ der staerkste HBM-Hebel, aber das Cheongju-Gasleck wird als operatives Watch-Signal verfolgt. Micron und SanDisk bleiben positiv, aber ueberhitzt. Broadcom-Q2 am 2026-06-03 bleibt der wichtigste Opportunity-Cost-Test; HDD-/Nearline bleibt leicht positiv, aber STX/WDC werden nicht reaktiviert.
+
+### Risiken
+
+Beim SK-Hynix-Leck fehlt noch die harte Gegenpruefung zu Produktions-, Yield-, Liefer- oder Behoerdenfolgen. US-Pre-Market ist nur ein Timing-/Momentum-Signal. NVIDIA-/Vera-Readthrough liefert keine direkten Speicherpreis-, Margen- oder EPS-Daten. Ein schwacher ISM, Payrolls oder Broadcom-Q2 koennen das hohe Crowding schnell drehen.

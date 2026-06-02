@@ -92,3 +92,32 @@ Einordnung: WDC bleibt wichtigster HDD-/Nearline-Vergleichswert. Kein Reaktivier
 Dell nennt im Q1-FY2027-Transcript Hard Drives als Komponententhema in der AI-Server-Lieferkette. Gleichzeitig liegen keine neuen WDC-spezifischen Zahlen zu Nearline-Exabytes, LTAs, ASPs, Bruttomargen oder Free Cash Flow vor.
 
 Einordnung: WDC bleibt der wichtigste Vergleichswert zur HDD-/Nearline-Folgewelle, aber nicht reaktiviert. Die WDC-Auftritte bei BofA am 2026-06-02 und Evercore am 2026-06-03 muessen zeigen, ob Dells allgemeines Hard-Drive-Engpasssignal in WDC-spezifische Sichtbarkeit und EPS-/FCF-Qualitaet uebersetzt wird.
+
+## Update 2026-06-01: WDC bleibt vor Konferenzen unveraendert
+
+Zum Wochenstart liegen keine neuen WDC-spezifischen Primaerdaten nach dem Dell-Transcript vor. NVIDIA-DSX/AI-Factory verbessert den allgemeinen Datacenter-Infrastrukturkontext, liefert aber keinen eigenen Beleg fuer Nearline-Exabytes, LTAs, ASPs, Margen oder Free Cash Flow.
+
+Einordnung: WDC bleibt wichtigster HDD-/Nearline-Vergleichswert, aber nicht reaktiviert. BofA am 2026-06-02 und Evercore am 2026-06-03 sind die naechsten harten Pruefpunkte.
+
+## Update 2026-06-01 06:34 CEST: AI-native Storage positiv, aber WDC-Daten fehlen
+
+NVIDIA-Newsroom nennt Vera BlueField-4 STX und AI-native Storage als Teil der Vera-Rubin-/AI-Factory-Plattform. Das ist fuer den allgemeinen Datacenter-Storage-Kontext positiv, aber kein WDC-spezifischer Beleg fuer Nearline-Ausverkauftheit, LTAs, ASPs, Margen oder Free Cash Flow.
+
+Einordnung: WDC bleibt wichtigster HDD-/Nearline-Vergleichswert, aber nicht reaktiviert. BofA am 2026-06-02 und Evercore am 2026-06-03 muessen WDC-spezifische Sichtbarkeit liefern, sonst bleibt die Watchlist unveraendert.
+
+## Update 2026-06-01 08:47 CEST: Wochenueberblick-Gegenpruefung
+
+Keine neue WDC-spezifische Primaermeldung seit dem 06:34-Refresh. WDC bleibt wichtigster HDD-/Nearline-Vergleichswert, aber nicht reaktiviert; BofA und Evercore bleiben die naechsten harten Pruefpunkte.
+
+## Update 2026-06-01 14:11 CEST: Pre-Market positiv, harte HDD-Daten fehlen
+
+StockAnalysis zeigte Western Digital im US-Pre-Market bei USD 539.30, +1.52%, nach dem 2026-05-29-Schlusskurs von USD 531.21. Das bestaetigt kurzfristig HDD-/Storage-Momentum vor WDCs BofA- und Evercore-Terminen am 2026-06-02/03.
+
+Einordnung: WDC bleibt wichtigster HDD-/Nearline-Vergleichswert, aber nicht reaktiviert. Der Status steigt erst bei neuen Primaerdaten zu Nearline-Exabytes, LTAs, ASPs, Margen, Free Cash Flow, 2027/2028-Sichtbarkeit oder EPS-Revisionen.
+## Update 2026-06-02 06:47 CEST
+
+Fakt: Western Digital schloss am 2026-06-01 bei USD 546.20, +2.82%; after-hours USD 549.48, +0.60%. StockAnalysis nennt Market Cap ca. USD 188.27B, PE 29.91 und Forward PE 35.18. WDC praesentiert am 2026-06-02 bei BofA und am 2026-06-03 bei Evercore.
+
+Einordnung: Positives Nearline-/HDD-Momentum, aber weiterhin keine Reaktivierung ohne neue harte Managementdaten zu Exabytes, LTAs, ausverkaufter Kapazitaet, ASPs, Bruttomarge, Free Cash Flow oder EPS-Revisionen. WDC bleibt gegenueber STX wegen FCF-/Q3-Daten interessant, aber der naechste Schritt ist Konferenz-/Transkript-Auswertung.
+
+Status: Watch positiv, keine These-Aenderung.

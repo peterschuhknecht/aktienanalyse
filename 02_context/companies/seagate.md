@@ -128,3 +128,32 @@ Einordnung: STX bleibt HDD-/Nearline-Watch, nicht reaktiviert. Naechster Pruefpu
 Dell nennt im Q1-FY2027-Transcript Hard Drives als eines der Komponententhemen, nachdem Memory, DRAM/NAND und CPUs als wichtigere bzw. fruehere Engpaesse diskutiert wurden. Das stuetzt den generellen Datacenter-Storage-Kontext.
 
 Einordnung: Positiv fuer die HDD-/Nearline-Watchlist, aber kein Reaktivierungssignal fuer STX. Fuer eine Wiedereinstiegsanalyse braucht es weiter Seagate-spezifische Primaerbelege zu Nearline-Ausverkauftheit, LTAs, Exabytes, ASPs, HAMR/Mozaic-Margen, Free Cash Flow und EPS-Revisionen.
+
+## Update 2026-06-01: Keine neue HDD-Reaktivierung vor BofA
+
+Zum Wochenstart liegen keine neuen Seagate-spezifischen Primaerdaten nach dem Dell-Transcript vor. NVIDIA-DSX/AI-Factory ist ein positives allgemeines Datacenter-Infrastruktursignal, aber kein HDD-Beleg.
+
+Einordnung: STX bleibt Watchlist, nicht reaktiviert. Die Seagate-BofA-Konferenz am 2026-06-02 muss harte Hinweise zu Nearline-Ausverkauftheit, LTAs, Exabytes, ASPs, HAMR/Mozaic, Margen, FCF oder 2027/2028-Sichtbarkeit liefern, sonst bleibt die These nur leicht positiv.
+
+## Update 2026-06-01 06:34 CEST: NVIDIA-Storage-Kontext ohne STX-spezifischen Trigger
+
+NVIDIA-Newsroom nennt Vera BlueField-4 STX, AI-native Storage, Context Memory und mehrere Storage-Partner als Teil der AI-Factory-Plattform. Das verbessert den allgemeinen Storage-Kontext, liefert aber keine neuen Seagate-spezifischen Primaerdaten.
+
+Einordnung: STX bleibt HDD-/Nearline-Watch, nicht reaktiviert. Fuer eine Wiedereinstiegsanalyse zaehlen weiter Exabytes, LTAs, ASPs, HAMR/Mozaic, Margen, Free Cash Flow und EPS-Revisionen, besonders bei der BofA-Konferenz am 2026-06-02.
+
+## Update 2026-06-01 08:47 CEST: Wochenueberblick-Gegenpruefung
+
+Keine neue Seagate-spezifische Primaermeldung seit dem 06:34-Refresh. STX bleibt Watchlist, nicht reaktiviert; die BofA-Konferenz am 2026-06-02 muss operative HDD-/Nearline-Daten liefern.
+
+## Update 2026-06-01 14:11 CEST: Pre-Market positiv vor BofA, aber kein Reaktivierungssignal
+
+StockAnalysis zeigte Seagate im US-Pre-Market bei USD 892.53, +1.45%, nach dem 2026-05-29-Schlusskurs von USD 879.80. Das ist ein positives Momentum-Signal vor der BofA-Konferenz am 2026-06-02.
+
+Einordnung: STX bleibt HDD-/Nearline-Watch und nicht reaktiviert. Fuer eine Wiedereinstiegsanalyse braucht es weiter Seagate-spezifische Primaerdaten zu Nearline-Ausverkauftheit, LTAs, Exabytes, ASPs, HAMR/Mozaic, Margen, Free Cash Flow und EPS-Revisionen.
+## Update 2026-06-02 06:47 CEST
+
+Fakt: Seagate schloss am 2026-06-01 bei USD 921.26, +4.71%; after-hours USD 922.37, +0.12%. StockAnalysis nennt Market Cap ca. USD 208.44B, PE 87.25 und Forward PE 38.62. Die BofA-Technology-Konferenz am 2026-06-02 bleibt der naechste direkte Pruefpunkt fuer Nearline/HAMR/Exabytes/LTAs.
+
+Einordnung: Positives HDD-/Nearline-Momentum, aber keine Reaktivierung. Dafuer fehlen harte neue Aussagen zu ausverkaufter Kapazitaet, Exabyte-Wachstum, LTAs, ASPs, Margen, Free Cash Flow oder EPS-Revisionen. Seagate bleibt verkaufter Beobachtungswert und moeglicher Follow-on-Wert, nicht aktiver Depotkandidat.
+
+Status: Watch positiv, keine These-Aenderung.

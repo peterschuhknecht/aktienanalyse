@@ -1,6 +1,6 @@
 # Watchlist: Nachfolgewerte der KI-Infrastrukturwellen
 
-Stand: 2026-05-31.
+Stand: 2026-06-01.
 
 Diese Datei enthaelt Werte, die nach der ersten NVIDIA/GPU-Welle und der zweiten Speicherwelle als moegliche naechste Profiteure beobachtet werden sollen. Sie sind keine aktuellen Depotpositionen, sondern Kandidaten fuer kuenftige Analysen und moegliche Alerts.
 
@@ -31,6 +31,7 @@ Hinweis zu Namen aus der Nutzerangabe:
 | Seagate Technology | STX | HDD/Storage-Folgewelle | Nearline-HDD, HAMR/Mozaic, guenstige AI-Datenkapazitaet | Ehemaliger Depotwert; weiter beobachten, falls HDD/Nearline als naechster AI-Datenengpass neu bewertet wird. Eigene Akte: `02_context/companies/seagate.md`. | Ausverkaufte Kapazitaet, LTAs fuer 2027/2028, steigende Exabytes, Margen, Free Cash Flow und EPS-Revisionen. |
 | Western Digital | WDC | HDD/Storage-Alternative | Nearline-HDD, Kontext zu Seagate und SanDisk-Spin-off | Duopol-Streuung zu Seagate; relevant falls HDD-These staerker als erwartet wird. Eigene Akte: `02_context/companies/western_digital.md`. | Nearline-Exabytes, HDD-Margen, Free Cash Flow und 2027/2028-Backlog ziehen staerker als bei Seagate. |
 | Samsung Electronics | 005930.KS / SSNLF | Speicher-Allrounder | DRAM, HBM, NAND, Smartphones, Foundry | Breiterer Speicherwert als SK Hynix/Micron; moeglicher Aufholer bei HBM. | HBM-Yield-Probleme geloest, NVIDIA/AMD-Qualifikation, Bewertung bleibt attraktiv. |
+| Kioxia | 285A.T | NAND/Enterprise-SSD | Flash, Enterprise-SSD, SanDisk-JV-Readthrough | Direkter boersennotierter Japan-Hebel auf NAND-/Enterprise-SSD-Zyklus; seit 2026-06-01 aktiver Deep-Dive-Kandidat. Eigene Akte: `02_context/companies/kioxia.md`. | Investor Day/Securities Report bestaetigt ASPs, SSD-&-Storage-Margen, FCF, Capex-Disziplin und bessere Chance/Risiko-Struktur als SanDisk. |
 
 ### Update 2026-05-28: Marvell als neuer harter Follow-on-Pruefpunkt
 
@@ -98,6 +99,40 @@ Fakt: Dell nennt im Q1-FY2027-Transcript AI backlog von USD 51.3 Mrd., eine Pipe
 
 Einordnung: Dell bleibt ein wichtiger Nachfrageproxy und wird in der Follow-on-Watchlist hoeher priorisiert, aber nicht als Depotaufnahme hochgestuft. Das Signal stuetzt vor allem bestehende Speicherpositionen und die Beobachtung von Broadcom/Marvell/Arista/Vertiv, weil AI-Server-Engpaesse Nachfrage nach Memory, Storage, Networking und Power/Cooling verdichten. Naechste harte Checks bleiben Dell-BofA am 2026-06-02 und Broadcom-Q2 am 2026-06-03.
 
+### Update 2026-06-01 06:12 CEST: NVIDIA-DSX stuetzt AI-Factory-Folgewelle
+
+Fakt: NVIDIAs offizieller GTC-Taipei/COMPUTEX-Live-Feed nennt AI Factories, DSX-Blueprints, DSX Cloud/Lepton/Mission Control und DSX MaxLPS; MaxLPS soll bis zu 40% mehr GPUs im gleichen Power-Budget ermoeglichen. NVIDIA meldet Vera Rubin in voller Produktion und eine deutlich groessere Supply Chain als Grace Blackwell. Samsung notierte am 2026-06-01 bei KRW 347,500, +9.62%; Reuters-/StockAnalysis-Newsfeed nennt erwartete Treffen zwischen NVIDIA-CEO Jensen Huang und koreanischen Executives als Rallye-Readthrough.
+
+Einordnung: Das verbessert die Folgewellen-These fuer Power/Cooling, Networking, Optics, Custom Silicon und AI-Server-Systeme, ist aber noch kein direkter Einstiegstrigger. Broadcom bleibt vor Q2 am 2026-06-03 der wichtigste harte Follow-on-Test. Eine sichtbar bessere Alternative zu SK Hynix/Micron/SanDisk ist dadurch noch nicht eindeutig; Status: unklar, Watchlist aktiv.
+
+### Update 2026-06-01 06:34 CEST: NVIDIA-Newsroom schaerft Networking-/Storage-/Power-Folgewelle
+
+Fakt: NVIDIA-Newsroom bestaetigt Vera Rubin full production, Spectrum-X Ethernet Photonics jetzt in Produktion, Vera CPU, Vera BlueField-4 STX und DSX. Genannte Partner/adopter betreffen mehrere Watchlist-Schichten: Dell/HPE/Lenovo/Supermicro sowie Taiwan-Systembauer fuer AI-Server, CoreWeave/Lambda/Oracle Cloud Infrastructure fuer AI-Clouds, Storage-Partner wie Dell, HPE, IBM, NetApp, Nutanix, VAST Data und WEKA fuer AI-native Storage, sowie DSX-Partner fuer Power/Cooling/Factory-Operations.
+
+Einordnung: Follow-on-Watchlist wird breiter bestaetigt, aber der naechste harte Finanztest bleibt Broadcom-Q2 am 2026-06-03. Positiv fuer Broadcom/Marvell/Arista/Corning, Dell/Server-OEMs und Power/Cooling-Werte; kein automatisches Umschichtungssignal, weil direkte Umsatz-, Margen-, Backlog- und EPS-Revisionen der Watchlistwerte noch fehlen. Neues Gegenargument: Reuters meldet US-Exportkontroll-Klarstellung fuer fortgeschrittene AI-Chips an chinesisch kontrollierte Auslands-Tochterfirmen.
+
+### Entscheidung 2026-06-01 08:16 CEST: Kioxia aktiv beobachten, nicht blind ins Depot
+
+Kioxia wird von Hintergrund-/SanDisk-Readthrough auf aktive Watchlist und Deep-Dive-Kandidat hochgestuft. Kioxias FY2025-Ergebnisse zeigen starke harte NAND-/SSD-Daten: FY revenue JPY 2,337.6 Mrd., operating profit JPY 870.4 Mrd., Q4-SSD-&-Storage-Revenue JPY 600.3 Mrd. und Q1-FY2027-Ausblick auf revenue JPY 1,750.0 Mrd. Das stuetzt die NAND-/Enterprise-SSD-These und den SanDisk-Readthrough.
+
+Einordnung: Das ist ein echtes Aufnahmesignal fuer das Analyseuniversum, aber noch kein Depot-Add. Kioxia handelt am 2026-06-01 bei JPY 72,020, +9.37%, nahe Hoch; eine zusaetzliche Position neben SanDisk wuerde vor allem NAND-Beta, Japan-/JPY- und Zyklusrisiko erhoehen. Praktischer Pruefpfad: Kioxia nach Investor Day 2026-06-02 und Securities Report 2026-06-24 direkt gegen SanDisk vergleichen; moeglich waere eher Ersatz/Teilersatz als Add-on.
+
+### Update 2026-06-01 08:14 CEST: Samsung am Hoch, aber noch kein Ersatzsignal
+
+Fakt: Samsung wurde im Wochenueberblick-Refresh bei KRW 349,250, +10.17%, nahe am 52W-Hoch geprueft. SK Hynix blieb ebenfalls stark bei KRW 2,369,000, +1.54%; Kioxia lag bei JPY 72,020, +9.37%.
+
+Einordnung: Samsung bleibt der wichtigste HBM-Aufholer-Watch. Eine bessere Alternative zu SK Hynix/Micron/SanDisk ist aber weiterhin nicht sichtbar, weil konkrete HBM4E/HBM4-Kundenqualifikation, Volumen, Margen und EPS-Revisionen fehlen. Broadcom-Q2 am 2026-06-03 bleibt der wichtigste harte Opportunity-Cost-Test.
+
+### Update 2026-06-01 08:47 CEST: Opportunity-Cost-Status unveraendert
+
+Externe Gegenpruefung fuer den Wochenueberblick fand keine neue harte Follow-on-Meldung nach dem 08:16-Refresh. Broadcom bleibt der wichtigste harte Opportunity-Cost-Test am 2026-06-03; Samsung und Kioxia bleiben stark, aber ohne neue Kunden-, Margen- oder EPS-Bestaetigung keine klar bessere Alternative zum Depot.
+
+### Update 2026-06-01 14:11 CEST: Broadcom stark, Marvell relativ schwach, NVIDIA-Vera bestaetigt Breite
+
+Fakt: StockAnalysis zeigte Broadcom im US-Pre-Market bei USD 458.86, +2.71%, und damit ueber dem 52W-Hoch; Marvell lag dagegen bei USD 198.47, -3.19%. Reuters meldet, dass NVIDIA Vera als AI-Agent-CPU positioniert und Jensen Huang OpenAI, Anthropic und SpaceX als fruehe Anwender nannte. Microsoft, Oracle, Dell und NVIDIA waren vorboerslich positiv, AMD/Intel schwach.
+
+Einordnung: Broadcom bleibt der wichtigste harte Opportunity-Cost-Test am 2026-06-03. Marvells Pre-Market-Schwaeche ist ein relatives Timing-/Sentiment-Warnsignal, aber kein These-Bruch. NVIDIA/Vera verbessert den AI-Infrastruktur-Readthrough, ersetzt aber keine Umsatz-, Margen-, Backlog- oder EPS-Daten der Watchlistwerte.
+
 ## Alert-Kriterien
 
 Ein Agent soll bei jeder Aktienanfrage diese Datei kurz gegenpruefen und einen Hinweis geben, wenn mindestens zwei der folgenden Punkte bei einem Watchlist-Wert auftreten:
@@ -118,7 +153,7 @@ Die UBS-/Micron-Logik bedeutet: Der Markt bewertet ein Unternehmen nicht mehr al
 | Rang | Bereich | Kandidaten | Warum aehnliches Re-Rating moeglich? | Was dafuer passieren muss | Hauptrisiko |
 |---:|---|---|---|---|---|
 | 1 | HBM/DRAM-Aufholer | Samsung Electronics | Breiter Speicherwert mit moeglichem HBM-Aufholhebel und niedrigerer relativer Bewertung als viele US-AI-Werte. | HBM4E/HBM4-Qualifikation, NVIDIA/AMD/Hyperscaler-Design-Wins, steigende Memory-Margen. | Foundry-/Konglomeratabschlag, Aufholstory scheitert. |
-| 2 | NAND/Enterprise-SSD | SanDisk, WDC indirekt | Markt koennte NAND/SSD von Commodity zu AI-Datacenter-Engpass umbewerten. | Datacenter-SSD-Umsatz, NAND-Preise, Margen und EPS-Schaetzungen steigen gleichzeitig. | NAND-Zyklus dreht schnell, Bewertung zu euphorisch. |
+| 2 | NAND/Enterprise-SSD | SanDisk, Kioxia, WDC indirekt | Markt koennte NAND/SSD von Commodity zu AI-Datacenter-Engpass umbewerten. | Datacenter-SSD-Umsatz, NAND-Preise, Margen und EPS-Schaetzungen steigen gleichzeitig; bei Kioxia zusaetzlich FCF, Capex-Disziplin, JV-Oekonomie und Handelsliquiditaet klaeren. | NAND-Zyklus dreht schnell, Bewertung zu euphorisch; Kioxia kann SanDisk-Exposure duplizieren statt diversifizieren. |
 | 3 | Custom AI Silicon / Networking | Broadcom, Marvell | ASICs, AI Networking und optische Interconnects koennten als naechster Flaschenhals nach GPUs/HBM gelten. | Neue Hyperscaler-Design-Wins, langfristiger Backlog, AI-Umsatzanteil steigt schneller als erwartet. | Bereits hohe Bewertung; Kundenzentrierung und Design-Win-Timing. |
 | 4 | Ethernet AI Fabric | Arista | Wenn Ethernet klarer Standard fuer AI-Cluster wird, kann Arista eine strategische Fabric-Praemie bekommen. | AI-Sales-Ziele steigen, Cloud-Titanen bestellen weiter, Margen bleiben hoch. | Nvidia/InfiniBand oder eigene Hyperscaler-Loesungen begrenzen Marktanteil. |
 | 5 | Power/Cooling | Vertiv, Eaton | Physische Rechenzentrumsinfrastruktur kann vom Nebenprodukt zum Engpass werden. | Backlog, Orders, Liquid-Cooling-/Power-Module und EPS werden weiter hochrevidiert. | Bewertung bei Vertiv bereits hoch; Projekt- und Ausfuehrungsrisiko. |
@@ -151,3 +186,8 @@ Bei jeder neuen Anfrage zur aktuellen Depotlage:
 3. Wenn ja, im Antwortfazit einen Abschnitt "Follow-on-Watchlist" ergaenzen.
 4. Neue Kandidaten oder entfernte Kandidaten hier dokumentieren.
 5. Bei echten Alert-Signalen `03_state/evaluation_log.md` aktualisieren.
+## Update 2026-06-02 06:47 CEST
+
+Fakt: Follow-on-Werte liefen am 2026-06-01 selektiv stark: Broadcom +2.95% und after-hours +2.71%, Arista +7.03%, Marvell +7.04%, Dell +10.70%, NVIDIA +6.26%, Oracle +9.91%, Amkor +4.59% und Applied Materials +1.80%. Schwach waren CEG -7.66%, Bloom -4.03%, Vistra -3.41%, Meta -5.07% und Amazon -3.47%. Samsung notierte am 2026-06-02 +0.57% nach sehr starkem Vortag; Kioxia +0.36% bleibt aktiver NAND-/SanDisk-Vergleich.
+
+Einordnung: Broadcom-Q2 am 2026-06-03 ist der wichtigste harte Opportunity-Cost-Test gegen Memory: AI-Semiconductor-Umsatz, Custom-ASIC-/Networking-Guidance, Margen, EPS-Revisionen und Hyperscaler-Sichtbarkeit. Dell-BofA heute muss zeigen, ob AI-Server-Wachstum in Marge, Backlog-Qualitaet, Storage-Attach und FCF uebersetzt wird. Power-/Utility-Werte senden kurzfristig gemischte bis schwache Timing-Signale; sie bleiben strukturell relevant, aber nicht vorrangiger als Broadcom/Dell/Kioxia.

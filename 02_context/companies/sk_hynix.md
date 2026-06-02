@@ -114,3 +114,38 @@ Einordnung: Fuer SK Hynix sind Dell und NVIDIA positives Nachfrage-/Roadmap-Read
 Dell nennt im Q1-FY2027-Transcript AI backlog von USD 51.3 Mrd., eine Pipeline mehrfach groesser als den Backlog und Memory als primaere Komponentengrenze; DRAM/NAND werden ebenfalls als Engpassfeld genannt. Fuer SK Hynix ist das ein hartes Nachfrage-Readthrough fuer HBM/DRAM und AI-Server-Memory.
 
 Einordnung: These bestaetigt, Timing bleibt gelb. Das Signal kommt nicht direkt von SK Hynix und liefert keine neuen HBM-Preise, Margen oder Kundenvolumina. Samsung-HBM4E-Qualifikation, NVIDIA/COMPUTEX und der erwartete Juli-Earnings-Pruefpunkt bleiben die naechsten Gegenchecks.
+
+## Update 2026-06-01: Korea-Momentum und NVIDIA-DSX-Readthrough
+
+StockAnalysis zeigte SK Hynix am 2026-06-01 um 12:26 KST bei KRW 2,370,000, +1.59%, nur ca. 1.2% unter dem 52W-Hoch. Samsung stieg parallel +9.62%; Reuters-/StockAnalysis-Newsfeed nennt erwartete Treffen zwischen NVIDIA-CEO Jensen Huang und koreanischen Executives als Korea-AI-Readthrough. NVIDIAs offizieller GTC-Taipei/COMPUTEX-Live-Feed nennt AI Factories, DSX-Blueprints, DSX MaxLPS mit bis zu 40% mehr GPUs im gleichen Power-Budget und Vera Rubin in voller Produktion.
+
+Einordnung: Fuer SK Hynix verbessert sich das Umfeld selektiv: mehr AI-Factory-Dichte spricht fuer mehr HBM/DRAM-Bedarf pro Infrastrukturwelle. Es ist aber kein neuer SK-Hynix-spezifischer Margen- oder EPS-Beleg. Wichtig bleiben Samsung-Aufholtempo, HBM4-Qualifikation, Preise, Margen und der erwartete Juli-Earnings-Pruefpunkt.
+
+## Update 2026-06-01 06:34 CEST: Offizielle NVIDIA-Newsroom-Details
+
+StockAnalysis zeigte SK Hynix am 2026-06-01 um 12:14 KST bei KRW 2,382,000, +2.10%, nur ca. 0.7% unter dem 52W-Hoch. NVIDIA-Newsroom bestaetigt Vera Rubin full production, 150 Taiwan-Partner, 350+ Fabriken und Spectrum-X Ethernet Photonics in production. Vera CPU liefert laut NVIDIA bis zu 1.2 TB/s LPDDR5X-Bandbreite; BlueField-4 STX adressiert AI-native Storage und Context Memory.
+
+Einordnung: Positiv als offizieller AI-Factory-/Speicherinhalt-Readthrough, aber kein neuer SK-Hynix-spezifischer Preis-, Margen- oder Kundenbeleg. Samsung +10.02% bleibt das wichtigste neue Wettbewerbs-/Aufholer-Watch; das US-Exportkontrollsignal fuer China-nahe AI-Chip-Lieferungen ist ein indirektes Gegenargument fuer regionale Nachfragepfade.
+
+## Update 2026-06-01 08:14 CEST: Frischer Wochenueberblick-Kurs
+
+StockAnalysis zeigte SK Hynix am 2026-06-01 um 14:47 KST bei KRW 2,369,000, +1.54%, mit Tageshoch KRW 2,398,000. Samsung lag parallel bei KRW 349,250, +10.17%, nahe am 52W-Hoch.
+
+Einordnung: Keine These-Aenderung gegenueber dem 06:34-CEST-Refresh. SK Hynix bleibt stark bestaetigt, aber ueberhitzt; Samsung bleibt der wichtigste Wettbewerbs-/Aufholer-Watch. Fuer eine echte These-Aenderung zaehlen weiter HBM-Preise, HBM4-Qualifikation, Kundenvolumina, Margen und der erwartete Juli-Earnings-Pruefpunkt.
+
+## Update 2026-06-01 08:47 CEST: Wochenueberblick-Gegenpruefung
+
+Externe Gegenpruefung bestaetigte den 08:14-Kurs- und Quellenstand. Keine neue SK-Hynix-spezifische Preis-, Margen-, Kunden- oder EPS-Meldung; These bleibt bestaetigt, Timing bleibt wegen Naehe zum Hoch und Samsung-Aufholer-Watch gelb.
+
+## Update 2026-06-01 14:11 CEST: Cheongju-Gasleck als operativer Watch
+
+StockAnalysis zeigte SK Hynix zum Schlusskurs 2026-06-01 bei KRW 2,377,000, +1.89%, weiter nahe am 52W-Hoch. Neu ist eine negative operative Watch-Meldung: Reuters/Yonhap berichtet von sechs Verletzten durch ein Wasserstofffluorid-Gasleck im Cheongju-Werk nach einem Brand. ChosunBiz meldet, dass rund 3,600 Mitarbeiter vorsorglich evakuiert wurden und SK Hynix bisher keine Produktionsunterbrechung oder Equipment-Probleme sieht.
+
+Einordnung: Das ist fuer SK Hynix ein Sicherheits-, Betriebs- und Regulierungsrisiko, aber noch kein These-Bruch. Die These wuerde sich erst aendern, wenn Produktionsstopp, Yield-/Shipment-Probleme, Behoerdenauflagen, Capex-Verzoegerungen oder Kunden-/Lieferauswirkungen bestaetigt werden. Bis dahin bleibt die HBM-/AI-Memory-These intakt, Timing und Risikoampel bleiben gelb.
+## Update 2026-06-02 06:47 CEST
+
+Fakt: SK Hynix notierte am 2026-06-02 laut StockAnalysis bei KRW 2,289,000, -3.13%; Market Cap ca. KRW 1,673.71T, PE 22.37, Forward PE 7.30. Nach dem Cheongju-Wasserstofffluorid-/Fluor-Leck wurde im frischen Quellencheck keine neue bestaetigte Produktionsunterbrechung, Yield-Auswirkung, Shipment-Verzoegerung oder offizielle Kapazitaetswarnung gefunden.
+
+Einordnung: Der Kursrueckgang ist nach starker Rallye und neuem Sicherheits-/Betriebsrisiko ein ernstzunehmendes Timing-/Risikowarnsignal. Die Investmentthese aendert sich aber erst, wenn harte Daten zu Produktion, Lieferungen, Kunden, Capex, Behoerdenauflagen, Margen oder Guidance folgen. SK Hynix bleibt qualitativ der staerkste HBM-Hebel, aber kurzfristig nicht "sauber gruen".
+
+Status: These bestaetigt, Risiko-Watch aktiv.

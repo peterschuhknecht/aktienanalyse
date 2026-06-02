@@ -50,6 +50,7 @@ Bei Deep-Dives, Depotentscheidungen und Watchlist-Vergleichen immer pruefen:
 | TBD | HBM/DRAM/LPDDR | SK Hynix | Depot | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
 | TBD | HBM/DRAM/LPDDR | Micron | Depot | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
 | TBD | NAND/Enterprise-SSD | SanDisk | Depot | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| 2026-06-01 | NAND/Enterprise-SSD | Kioxia | Watch/Deep-Dive | 7.70 | FY2025 revenue +37% | TBD | TBD | ca. 14.3% abgeleitet | Sehr stark/ueberhitzt | Investor Day 2026-06-02; Securities Report 2026-06-24 | Gegen SanDisk als Ersatz/Teilersatz pruefen; kein Add-on ohne FCF-/Capex-/JV-Validierung |
 
 ## Opportunity-Cost-Ausgabe
 

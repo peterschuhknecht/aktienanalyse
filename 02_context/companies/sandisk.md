@@ -113,3 +113,44 @@ Einordnung: SanDisk wird durch AI-Server-/Storage-Nachfrage und Kioxia weiter be
 Dell nennt im Q1-FY2027-Transcript Memory als primaere Komponentengrenze und fuehrt DRAM/NAND als Engpassfelder an. Zusaetzlich gab es nur ein weiches Verbrauchersignal zu neuen SanDisk-SATA-SSDs vor dem Hintergrund hoher NVMe-Preise; das ist kein harter Enterprise-NAND- oder Margenbeleg.
 
 Einordnung: Fuer SanDisk ist Dell positiv, weil AI-Server und Storage-Attach NAND-/SSD-Nachfrage stuetzen koennen. Die Aktie bleibt aber die volatilste Depotposition: entscheidend sind weiter Enterprise-SSD-Umsatz, NAND-/SSD-Vertragspreise, LTAs, Margen, Kioxia/JV-Readthrough und der naechste offizielle SanDisk-/Kioxia-Datenpunkt.
+
+## Update 2026-06-01: AI-Factory-Dichte positiv, aber SanDisk braucht eigene Preis-/Margenbelege
+
+US-Kursdaten bleiben zum Wochenstart beim 2026-05-29-Schluss von USD 1,694.98, +3.25%, sehr nahe am Hoch. Kioxia notierte am 2026-06-01 bei JPY 72,770, +10.51%, fast am Hoch. NVIDIAs offizieller GTC-Taipei/COMPUTEX-Live-Feed nennt AI Factories, DSX-Blueprints, DSX MaxLPS mit bis zu 40% mehr GPUs im gleichen Power-Budget und Vera Rubin in voller Produktion.
+
+Einordnung: Fuer SanDisk ist das positiv, weil dichtere AI-Factory-Infrastruktur mehr schnelle Datenbewegung, Checkpointing und Enterprise-SSD-/NAND-Bedarf bedeuten kann. Das ersetzt aber keine SanDisk-spezifische Bestaetigung von NAND-/SSD-Vertragspreisen, LTAs, Margen und Kioxia/JV-Readthrough. SanDisk bleibt der hoechste Beta-Wert im Depot.
+
+## Update 2026-06-01 06:34 CEST: BlueField-4 STX stuetzt AI-native Storage, aber kein SanDisk-Beleg
+
+US-Kursdaten bleiben beim 2026-05-29-Schluss von USD 1,694.98. Kioxia blieb am 2026-06-01 bei JPY 72,770, +10.51%. NVIDIA-Newsroom nennt Vera BlueField-4 STX als AI-native Storage-/Security-Plattform fuer Agentic AI, Context Memory und file-based data access; Storage-Partner wie Dell, HPE, IBM, NetApp, Nutanix, VAST Data und WEKA werden genannt.
+
+Einordnung: Positiv fuer den allgemeinen NAND-/Enterprise-SSD-/Storage-Readthrough, aber weiter kein SanDisk-spezifischer Preis-, Margen-, LTA- oder JV-Beleg. SanDisk bleibt der volatilste Depotwert; Kioxia-Momentum und NVIDIA-Storage-Kontext helfen, aber das Gegenargument bleibt Crowding plus moegliche NAND-Zyklik.
+
+## Entscheidung 2026-06-01 08:16 CEST: Kioxia als SanDisk-Vergleich hochgestuft
+
+Kioxia wird von Hintergrund-/Readthrough-Wert auf aktive Watchlist und Deep-Dive-Kandidat hochgestuft. Kioxia notierte am 2026-06-01 bei JPY 72,020, +9.37%; Kioxias FY2025-Financial-Results zeigen revenue JPY 2,337.6 Mrd., operating profit JPY 870.4 Mrd., Q4-SSD-&-Storage-Revenue JPY 600.3 Mrd. und Q1-FY2027-Ausblick auf revenue JPY 1,750.0 Mrd.
+
+Einordnung: Das bestaetigt die NAND-/Enterprise-SSD-These fuer SanDisk, ist aber auch ein Opportunity-Cost-Check. Kioxia sollte nach Investor Day und Securities Report direkt gegen SanDisk verglichen werden. Eine zusaetzliche Kioxia-Position neben SanDisk wuerde wahrscheinlich mehr gleiche NAND-Beta schaffen; falls Kioxia deutlich bessere Bewertung, FCF, Capex-Disziplin oder Handelsliquiditaet zeigt, waere eher ein Ersatz oder Teilersatz von SanDisk zu pruefen.
+
+## Update 2026-06-01 08:14 CEST: Kioxia-Readthrough nachgezogen
+
+US-Kursdaten fuer SanDisk bleiben vor US-Handelsstart beim 2026-05-29-Schluss von USD 1,694.98. Kioxia wurde frischer bei JPY 72,020, +9.37%, mit Tageshoch JPY 73,000 geprueft.
+
+Einordnung: Der NAND-/SanDisk-Readthrough bleibt positiv, aber nicht haerter als zuvor. Es fehlen weiter SanDisk-/Kioxia-spezifische Daten zu Enterprise-SSD-Preisen, NAND-Vertragspreisen, LTAs, Margen und JV-Free-Cash-Flow. SanDisk bleibt die hoechste Beta-Position im Depot.
+
+## Update 2026-06-01 08:47 CEST: Wochenueberblick-Gegenpruefung
+
+Externe Gegenpruefung bestaetigte den SanDisk-Schlusskurs vom 2026-05-29 und den Kioxia-Readthrough. Keine neue SanDisk-spezifische Preis-, LTA-, Margen- oder JV-Meldung; SanDisk bleibt positiv, aber die volatilste Depotposition.
+
+## Update 2026-06-01 14:11 CEST: Pre-Market und Kioxia bestaetigen NAND-Beta
+
+StockAnalysis zeigte SanDisk im US-Pre-Market bei USD 1,745.05, +2.95%, nach dem 2026-05-29-Schlusskurs von USD 1,694.98. Kioxia schloss am 2026-06-01 bei JPY 72,500, +10.10%, weiter nahe am Hoch.
+
+Einordnung: Der NAND-/Enterprise-SSD-Readthrough bleibt positiv und sehr stark, aber die Position bleibt die volatilste Beta im Depot. Fuer eine echte These-Aenderung fehlen weiter SanDisk-/Kioxia-spezifische Daten zu Enterprise-SSD-Preisen, NAND-Vertragspreisen, LTAs, Margen, Free Cash Flow und JV-Oekonomie.
+## Update 2026-06-02 06:47 CEST
+
+Fakt: SanDisk schloss am 2026-06-01 bei USD 1,761.43, +3.92%; after-hours USD 1,756.62, -0.27%. StockAnalysis nennt Market Cap ca. USD 260.85B, PE 59.30 und Forward PE 10.87. Kioxia notierte am 2026-06-02 bei JPY 72,760, +0.36%, nach dem starken +10.10%-Tag vom 2026-06-01; Kioxia Investor Day ist heute.
+
+Einordnung: SanDisk bleibt der volatilste Depothebel auf NAND/Enterprise-SSD und profitiert vom Kioxia-/NAND-Readthrough. Das neue Momentum ist positiv, aber nicht ausreichend fuer eine These-Aenderung: Entscheidend bleiben Enterprise-SSD-Preise, NAND-Vertragspreise, LTAs, Bruttomarge, Free Cash Flow, Kioxia/JV-Oekonomie und Q4-/naechste Guidance. Kioxia bleibt eher Ersatz-/Vergleichskandidat als Add-on ohne Risikopruefung.
+
+Status: These bestaetigt, aber ueberhitzt und datenabhaengig.

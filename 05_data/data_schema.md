@@ -127,6 +127,24 @@ Diese Felder dienen fuer `05_data/upcoming_events.md`.
 | status | Bestaetigt, erwartet, TBD, unbestaetigt |
 | action_after_event | Ob `latest_news.md`, Unternehmensakte, Watchlist oder `evaluation_log.md` aktualisiert werden soll |
 
+## Datenqualitaetsbefunde
+
+Diese Felder dienen fuer `data_quality_issues` in `05_data/market_monitor.sqlite`. Das Quality Gate wird mit `python3 tools/market_monitor_validate.py` ausgefuehrt und schreibt nur mit `--write-issues`.
+
+| Feld | Beschreibung |
+|---|---|
+| created_at | Zeitpunkt der Erkennung |
+| resolved_at | Zeitpunkt der Klaerung, falls geloest |
+| status | open, resolved oder ignored |
+| issue_type | Art des Problems, z. B. stale_quote, quote_outlier, cache_db_mismatch |
+| severity | info, warning oder blocker |
+| ticker | Optional betroffener Ticker |
+| field_name | Betroffenes Feld |
+| observed_value | Beobachteter Wert oder Konflikt |
+| expected_rule | Gebrochene Datenqualitaetsregel |
+| source | Quelle des betroffenen Datenpunkts |
+| detected_by | Werkzeug oder Agent, der den Befund erzeugt hat |
+
 ## Peer-Benchmark-Snapshots
 
 Diese Felder dienen fuer `05_data/peer_benchmarks.md` und fuer strukturierte Peer-Vergleiche in Deep-Dives.

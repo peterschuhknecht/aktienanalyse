@@ -19,8 +19,10 @@ Die Datenbank oder CSV-Historie soll keine alten Markdown-Notizen ersetzen. Sie 
 - Welche Werte haben 1M/3M relative Staerke?
 - Welche Werte steigen schneller als EPS-/Umsatzschaetzungen?
 - Welche News sind These-relevant und noch nicht verarbeitet?
+- Welche Operator-/Research-Aussagen sind These-relevant und noch nicht verarbeitet?
 - Welche Alerts wurden wann ausgeloest?
 - Welche Watchlist-Werte verbessern sich gegen Depotwerte?
+- Welche Datenqualitaetsprobleme blockieren eine Bewertung oder Depotentscheidung?
 
 ## Tabellen
 
@@ -36,6 +38,40 @@ Die Datenbank oder CSV-Historie soll keine alten Markdown-Notizen ersetzen. Sie 
 | thesis_bucket | text | HBM/DRAM, NAND, HDD, Networking, Power, WFE usw. |
 | active_status | text | active, watch, background, sold |
 | source_note | text | Broker-/Tickerhinweis |
+
+### people
+
+| Feld | Typ | Zweck |
+|---|---|---|
+| name | text | Name der getrackten Person |
+| organization | text | Organisation oder Kontext |
+| role | text | Rolle, z. B. CEO, CFO, CTO, Research Lead |
+| signal_domain | text | Signalbereich, z. B. HBM, AI Capex, Cloud, Power/Cooling |
+| track_priority | text | P1, P2, P3 |
+| track_status | text | active, watch, inactive |
+| rationale | text | Warum die Person getrackt wird |
+| official_source_url | text | Primaerquelle oder beste Rollenquelle |
+| source_quality | text | Quellenqualitaet der Rollenquelle |
+
+### person_statements
+
+| Feld | Typ | Zweck |
+|---|---|---|
+| person_id | integer | Verweis auf `people` |
+| statement_date | date | Datum der Aussage |
+| discovered_at | datetime | Fundzeit |
+| source | text | Quelle der Aussage |
+| url | text | Link |
+| headline | text | Kurzueberschrift |
+| summary | text | Inhalt und Relevanz in 1-3 Saetzen |
+| evidence_level | text | Hard, Medium, Soft, Unknown |
+| affected_universe | text | Betroffener Sektor oder Wertebereich |
+| symbol | text | Optionaler Ticker, falls direkt betroffen |
+| impact | text | Bullish, Bearish, Mixed, Neutral, Unknown |
+| thesis_effect | text | bestaetigt, schwaecht, veraendert, unklar, keiner |
+| action_required | text | none, latest_news, company_file, evaluation_log, open_question |
+| keep_until | date | Retention-Datum |
+| processed_to_markdown | boolean | in Markdown verdichtet? |
 
 ### quote_snapshots
 
@@ -160,10 +196,45 @@ Die Datenbank oder CSV-Historie soll keine alten Markdown-Notizen ersetzen. Sie 
 
 Diese Tabellen halten Peer-Vergleiche, optionale persoenliche Portfolio-Daten, These-/Entscheidungsereignisse und Laufprotokolle. Technische Details stehen in `05_data/market_monitor_schema.sql`.
 
+### data_quality_issues
+
+Diese Tabelle haelt offene, geloeste oder ignorierte Datenqualitaetsbefunde aus dem Quality Gate. Der Validator schreibt nur mit explizitem `--write-issues`; ohne diese Option bleibt er read-only.
+
+| Feld | Typ | Zweck |
+|---|---|---|
+| issue_type | text | Art des Problems, z. B. stale_quote, quote_outlier, cache_db_mismatch |
+| severity | text | info, warning oder blocker |
+| symbol | text | Optional betroffener Ticker |
+| field_name | text | Betroffenes Feld |
+| observed_value | text | Beobachteter Wert oder Konflikt |
+| expected_rule | text | Gebrochene Regel |
+| status | text | open, resolved oder ignored |
+| detected_by | text | Werkzeug oder Agent, der den Befund erzeugt hat |
+
+### Views fuer Operator-Signale
+
+| View | Zweck |
+|---|---|
+| active_people | Aktive P1/P2/P3-Trackingliste aus SQLite |
+| unprocessed_person_statements | Noch nicht in Markdown verdichtete Aussagen |
+| person_signal_alerts | Offene `Hard`- und `Medium`-Aussagen mit moeglichem Handlungsbedarf |
+
+### Views fuer Datenqualitaet
+
+| View | Zweck |
+|---|---|
+| stale_quotes | Aktive/Watch-Symbole ohne frischen oder positiven Quote-Snapshot |
+| quote_outlier_candidates | Plausibilitaetskandidaten bei Kurs, Renditen, 52W-Abstand, Market Cap oder Waehrung |
+| missing_required_fundamentals | Aktive/Watch-Symbole ohne zentrale Bewertungs-, Wachstums-, Margen- oder Guidance-Felder |
+| cache_db_mismatches | Offene Markdown-/SQLite-Konflikte, die vom Validator in `data_quality_issues` geschrieben wurden |
+
 ## Datenqualitaetsregeln
 
 - Jeder Snapshot braucht Quelle, Datum und Quellenqualitaet.
 - Fehlende Werte bleiben leer oder `TBD`; sie werden nicht geraten.
+- Vor Bewertungen, Kauf-/Verkaufsaussagen oder These-Aenderungen das Quality Gate aus `tools/market_monitor_validate.py` ausfuehren.
+- `warning` erlaubt eine Einordnung mit Datenluecken-Hinweis; `blocker` verbietet harte Bewertungs- oder Depotfolgerungen bis zur Gegenpruefung.
+- Personenmeinungen sind keine Fakten. Aussagen in `person_statements` muessen als `Hard`, `Medium` oder `Soft` klassifiziert werden; nur `Hard` oder bestaetigtes `Medium` darf eine These veraendern.
 - Aggregatoren duerfen fuer Kurse und schnelle Uebersicht genutzt werden, aber kritische Bewertungsdaten nach Moeglichkeit mit Primaerquelle oder hochwertigem Finanzdatenanbieter pruefen.
 - Zeitreihen nie aus `latest_quotes.md` rekonstruieren, wenn eine echte Historie verfuegbar ist.
 - Bei Widerspruch zwischen Datenbank und Markdown gilt: Primaerquelle pruefen, Konflikt in `03_state/open_questions.md` notieren, danach beide Ebenen bereinigen.
@@ -172,6 +243,8 @@ Diese Tabellen halten Peer-Vergleiche, optionale persoenliche Portfolio-Daten, T
 
 1. Markdown-Kontext nach `AGENTS.md` lesen.
 2. Relevante Symbole aus `05_data/covered_symbols.md` bestimmen.
-3. Neue Daten in strukturierte Historie `05_data/market_monitor.sqlite` schreiben.
-4. `05_data/latest_quotes.md` und `05_data/latest_news.md` nur als aktuellen Cache pflegen.
-5. Echte Signalwechsel in Markdown verdichten: Unternehmensakte, Watchlist, `03_state/evaluation_log.md`.
+3. Relevante Personen aus `02_context/watchlist_ai_operator_signals.md` und `active_people` pruefen.
+4. Neue Daten in strukturierte Historie `05_data/market_monitor.sqlite` schreiben.
+5. `05_data/latest_quotes.md` und `05_data/latest_news.md` nur als aktuellen Cache pflegen.
+6. Quality Gate ausfuehren: `python3 tools/market_monitor_validate.py`.
+7. Echte Signalwechsel in Markdown verdichten: Unternehmensakte, Watchlist, `03_state/evaluation_log.md`.

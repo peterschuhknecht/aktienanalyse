@@ -1,6 +1,6 @@
 # Best-Case-Rahmenbedingungen: KI- und Speicherboom
 
-Stand: 2026-05-31.
+Stand: 2026-06-01.
 
 Diese Datei beschreibt, was passieren muss, damit der KI-/Speicherboom weiterlaeuft. Sie ist als laufende Checkliste gedacht: Bei jeder sachlichen Aktien-, Depot-, Branchen-, Watchlist- oder Zukunftsanfrage soll geprueft werden, ob sich diese Rahmenbedingungen verbessern, verschlechtern oder unveraendert bleiben.
 
@@ -157,6 +157,48 @@ Einordnung: Die Boom-Rahmenbedingungen verbessern sich selektiv und bleiben Grue
 Fakt: In der kommenden Woche 2026-06-01 bis 2026-06-07 stehen NVIDIA/COMPUTEX-GTC, Broadcom-Q2, Dell/WDC/STX-Investor-Konferenzen sowie US-ISM, JOLTS, Fed Beige Book, US Payrolls, Eurozonen-HICP und Eurozonen-GDP/main aggregates an. Es gibt in dieser Woche keine Fed- oder ECB-Zinsentscheidung; BoC folgt am 2026-06-10, ECB am 2026-06-11 und Fed am 2026-06-16/17. China Manufacturing PMI fiel fuer Mai auf 50.0, mit neuen Auftraegen bei 49.9. U.S. Treasury bleibt beim 2026-05-29-Stand: 10Y 4.45%, 2Y 3.98%, 10Y Real Yield 2.07%; HY OAS 2.72% per 2026-05-28 und NFCI -0.510 per 2026-05-22 senden kein Kreditstresssignal.
 
 Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und insgesamt unveraendert bis leicht besser auf Unternehmensseite, aber gemischter auf Makroebene. Positiv sind Dell/NVIDIA/Broadcom-Katalysatoren und weiter enge Memory-/AI-Infrastruktur-Narrative. Gelb sind China-Nachfrageschwäche am Rand, Hormuz-/Energiepreisrisiko, hohe Realzinsen und extreme Naehe vieler Werte zu Hochs. Die Woche kann die These bestaetigen, aber auch einen Bewertungsruecksetzer ausloesen, wenn Payrolls/ISM/Inflation den Zinspfad hawkisher machen oder Broadcom/NVIDIA die hohen AI-Erwartungen nicht nachlegen.
+
+### Update 2026-06-01 06:12 CEST
+
+Fakt: SK Hynix notierte am 2026-06-01 bei KRW 2,370,000, +1.59%, Samsung bei KRW 347,500, +9.62%, und Kioxia bei JPY 72,770, +10.51%, jeweils nahe Hochs. Reuters-/StockAnalysis-Newsfeed nennt erwartete Treffen zwischen NVIDIA-CEO Jensen Huang und koreanischen Executives als zusaetzlichen Korea-AI-Readthrough. NVIDIAs offizieller GTC-Taipei/COMPUTEX-Live-Feed nennt AI Factories, DSX-Blueprints, DSX-Cloud/Lepton/Mission-Control und DSX MaxLPS; fuer MaxLPS nennt NVIDIA bis zu 40% mehr GPUs im gleichen Power-Budget. NVIDIA meldet zudem Vera Rubin in voller Produktion und eine Supply Chain, die doppelt so gross wie Grace Blackwell sei.
+
+Einordnung: Boom-Rahmenbedingungen verbessern sich selektiv und bleiben Gruen/Gelb. Positiv ist die Kombination aus weiterem Korea-Memory-Momentum, Kioxia-/NAND-Readthrough und offizieller NVIDIA-AI-Factory-/Power-Density-Roadmap. Gelb bleibt, dass dies noch keine neuen Speichervertragspreise, Margen, EPS-Revisionen oder Kundenvolumina fuer SK Hynix, Micron oder SanDisk liefert und die Aktien sehr nahe an Hochs handeln.
+
+### Update 2026-06-01 06:34 CEST
+
+Fakt: NVIDIA-Newsroom-Meldungen ergaenzen den fruehen Live-Feed: Vera Rubin ist in voller Produktion; die Lieferkette umfasst 150 Taiwan-Partner, 350+ Fabriken und 30 Laender; Spectrum-X Ethernet Photonics ist jetzt in Produktion und soll million-GPU-AI-Factories stuetzen; DSX MaxLPS/DSX OS, Vera CPU und Vera BlueField-4 STX adressieren Power-Dichte, LPDDR5X-Bandbreite, Storage/Security und AI-Factory-Betrieb. Reuters meldet zugleich, dass das U.S. Department of Commerce eine Lizenzpflicht fuer fortgeschrittene AI-Chips an chinesisch kontrollierte Auslands-Tochterfirmen klarstellt.
+
+Einordnung: Die Boom-Rahmenbedingungen bleiben Gruen/Gelb und verbessern sich selektiv auf der offiziellen Roadmap-/Lieferkettenseite. Positiv sind konkrete Produktions-, Partner- und Infrastrukturdetails fuer AI-Factories, Networking, Storage und Power/Cooling. Gelb bleiben Crowding, fehlende direkte Speicherpreis-/Margenbelege und das neue Exportkontroll-Risiko fuer China-nahe AI-Capex-Pfade.
+
+### Update 2026-06-01 08:14 CEST
+
+Fakt: Der Wochenueberblick-Refresh zog Asienkurse nach: SK Hynix KRW 2,369,000 (+1.54%), Samsung KRW 349,250 (+10.17%) und Kioxia JPY 72,020 (+9.37%). US-Kurse bleiben vor US-Handelsstart Schlusskurse vom 2026-05-29; Makroquellen lieferten keinen neueren offiziellen Zins-/Kreditstressdatenpunkt.
+
+Einordnung: Keine neue These-Aenderung gegenueber dem 06:34-CEST-Refresh. Die Boom-Rahmenbedingungen bleiben Gruen/Gelb: Momentum und NVIDIA-/Korea-/Kioxia-Readthrough sind positiv, aber ohne neue Speichervertragspreise, Margen, EPS-Revisionen oder Kundenvolumina bleibt Crowding das zentrale Gegenargument.
+
+### Update 2026-06-01 08:47 CEST
+
+Fakt: Fuer den Chat-Wochenueberblick wurden StockAnalysis, NVIDIA, Dell, Kioxia, Broadcom, Micron und Eventquellen erneut gegengeprueft. Ergebnis: keine neue harte Kurs-, Guidance-, Margen-, EPS-, Kunden- oder Eventaenderung gegenueber dem 08:16-Refresh; US-Kurse bleiben vor Handelsstart beim 2026-05-29-Schluss.
+
+Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und unveraendert zum 08:16-Stand. Positiv bleiben NVIDIA-DSX/AI-Factory, Dell-Memory-Constraint, Kioxia-/Samsung-/SK-Hynix-Momentum; negativ bleiben Crowding, hohe Realzinsen, Exportkontroll-Watch und fehlende direkte Speicherpreis-/Margen-/EPS-Bestaetigung.
+
+### Entscheidung 2026-06-01 08:16 CEST: Kioxia als Watchlist-Upgrade
+
+Fakt: Kioxias FY2025-Financial-Results vom 2026-05-15 zeigen starke NAND-/SSD-Daten und einen sehr hohen Q1-FY2027-Ausblick; die Aktie notierte am 2026-06-01 bei JPY 72,020, +9.37%, nahe Hoch. Kioxia Investor Day folgt am 2026-06-02.
+
+Einordnung: Das verbessert die Beobachtungsqualitaet fuer die NAND-/Enterprise-SSD-Rahmenbedingungen, veraendert die Gesamtampel aber nicht von Gruen/Gelb auf Gruen. Positiv sind ASP- und Datacenter-Readthrough; gelb bleiben Crowding, NAND-Zyklik und SanDisk-Redundanz. Kioxia wird daher als aktiver Deep-Dive-Kandidat gefuehrt, nicht als automatische Depotaufnahme.
+
+### Update 2026-06-01 14:11 CEST
+
+Fakt: Asien schloss sehr stark: SK Hynix KRW 2,377,000 (+1.89%), Samsung KRW 349,000 (+10.09%) und Kioxia JPY 72,500 (+10.10%). US-Pre-Market war fuer Micron (+3.73%), SanDisk (+2.95%), Broadcom (+2.71%), NVIDIA (+2.18%) und Dell (+1.63%) positiv, aber Marvell (-3.19%), AMD (-3.37%) und Intel (-6.72%) schwach. Reuters/Yonhap meldet ein Wasserstofffluorid-Gasleck im SK-Hynix-Werk Cheongju mit Verletzten; ChosunBiz meldet bisher keine Produktionsunterbrechung.
+
+Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und leicht besser beim Momentum, aber nicht sauber gruen. Positiv sind Memory-/NAND-/Broadcom-/NVIDIA-Momentum und Vera-Early-Adopter-Readthrough. Gelb bleiben Crowding, hohe Realzinsen, Exportkontroll-Watch und neu das SK-Hynix-Sicherheits-/Betriebsrisiko, solange Produktionsfolgen unklar sind.
+
+### Update 2026-06-02 06:47 CEST
+
+Fakt: US-Schlusskurse vom 2026-06-01 bestaetigen weiter selektives AI-/Memory-Momentum: Micron +6.64%, SanDisk +3.92%, Dell +10.70%, Broadcom +2.95% plus After-hours +2.71%, Arista +7.03%, Marvell +7.04% und NVIDIA +6.26%. Micron meldete am 2026-06-01 zur COMPUTEX ein end-to-end AI-Memory-/Storage-Portfolio mit HBM, SOCAMM2, DDR5-RDIMMs, Data-Center-SSDs, LPCAMM2, GDDR7, LPDDR5X, Client-SSDs und Automotive-UFS. Gleichzeitig fiel SK Hynix am 2026-06-02 in Korea -3.13%; im Quellencheck wurde keine neue bestaetigte Produktionsunterbrechung zum Cheongju-Gasleck gefunden. Makro: U.S. Treasury per 2026-06-01 zeigt 10Y 4.47%, 2Y 4.05%, 10Y Real Yield 2.07%; FRED HY OAS 2.74% und VIX 15.32 senden keinen akuten Kreditstress.
+
+Einordnung: Boom-Rahmenbedingungen bleiben Gruen/Gelb und gegenueber 2026-06-01 insgesamt unveraendert bis leicht besser auf Unternehmensseite, aber makroseitig gelber. Positiv sind Microns Produkt-Roadmap, Dell/NVIDIA/Broadcom-Momentum und die breite AI-Infrastruktur-Nachfrage. Gelb bleiben Crowding nahe Hochs, hohe Nominal-/Realzinsen, das SK-Hynix-Sicherheits-/Betriebsrisiko ohne Produktionsklarheit und die fehlende direkte Bestaetigung von Speicherpreisen, Margen, LTAs, Free Cash Flow oder EPS-Revisionen fuer die Depotwerte.
 
 ## Arbeitsanweisung fuer Agenten
 

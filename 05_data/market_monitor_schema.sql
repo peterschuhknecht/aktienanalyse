@@ -1,5 +1,7 @@
 PRAGMA foreign_keys = ON;
 
+BEGIN IMMEDIATE;
+
 CREATE TABLE IF NOT EXISTS schema_migrations (
   version TEXT PRIMARY KEY,
   applied_at TEXT NOT NULL DEFAULT (datetime('now')),
@@ -8,6 +10,12 @@ CREATE TABLE IF NOT EXISTS schema_migrations (
 
 INSERT OR IGNORE INTO schema_migrations (version, description)
 VALUES ('001', 'Initial market monitor schema for quote, news, event, signal and thesis history');
+
+INSERT OR IGNORE INTO schema_migrations (version, description)
+VALUES ('002', 'Add operator signal people and person statement tracking');
+
+INSERT OR IGNORE INTO schema_migrations (version, description)
+VALUES ('003', 'Add data quality issue tracking and validation views');
 
 CREATE TABLE IF NOT EXISTS symbols (
   symbol TEXT PRIMARY KEY,
@@ -21,6 +29,55 @@ CREATE TABLE IF NOT EXISTS symbols (
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS people (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  organization TEXT NOT NULL,
+  role TEXT NOT NULL,
+  signal_domain TEXT NOT NULL,
+  track_priority TEXT NOT NULL CHECK (track_priority IN ('P1', 'P2', 'P3')),
+  track_status TEXT NOT NULL DEFAULT 'active' CHECK (track_status IN ('active', 'watch', 'inactive')),
+  rationale TEXT NOT NULL,
+  official_source_url TEXT,
+  source_quality TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  UNIQUE(name, organization)
+);
+
+CREATE INDEX IF NOT EXISTS idx_people_priority_status
+ON people(track_priority, track_status, organization, name);
+
+CREATE TABLE IF NOT EXISTS person_statements (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  person_id INTEGER NOT NULL REFERENCES people(id),
+  statement_date TEXT NOT NULL,
+  discovered_at TEXT NOT NULL DEFAULT (datetime('now')),
+  source TEXT NOT NULL,
+  url TEXT,
+  headline TEXT NOT NULL,
+  summary TEXT NOT NULL,
+  evidence_level TEXT NOT NULL CHECK (evidence_level IN ('Hard', 'Medium', 'Soft', 'Unknown')),
+  affected_universe TEXT,
+  symbol TEXT REFERENCES symbols(symbol),
+  impact TEXT CHECK (impact IN ('Bullish', 'Bearish', 'Mixed', 'Neutral', 'Unknown')),
+  thesis_effect TEXT CHECK (thesis_effect IN ('bestaetigt', 'schwaecht', 'veraendert', 'unklar', 'keiner')),
+  action_required TEXT,
+  keep_until TEXT,
+  processed_to_markdown INTEGER NOT NULL DEFAULT 0 CHECK (processed_to_markdown IN (0, 1)),
+  notes TEXT,
+  UNIQUE(person_id, statement_date, headline, url)
+);
+
+CREATE INDEX IF NOT EXISTS idx_person_statements_person_date
+ON person_statements(person_id, statement_date DESC, discovered_at DESC);
+
+CREATE INDEX IF NOT EXISTS idx_person_statements_processing
+ON person_statements(processed_to_markdown, evidence_level, keep_until);
+
+CREATE INDEX IF NOT EXISTS idx_person_statements_symbol_date
+ON person_statements(symbol, statement_date DESC, discovered_at DESC);
 
 CREATE TABLE IF NOT EXISTS quote_snapshots (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -274,6 +331,30 @@ CREATE TABLE IF NOT EXISTS run_log (
   data_quality_notes TEXT
 );
 
+CREATE TABLE IF NOT EXISTS data_quality_issues (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  resolved_at TEXT,
+  status TEXT NOT NULL DEFAULT 'open' CHECK (status IN ('open', 'resolved', 'ignored')),
+  issue_type TEXT NOT NULL,
+  severity TEXT NOT NULL CHECK (severity IN ('info', 'warning', 'blocker')),
+  symbol TEXT REFERENCES symbols(symbol),
+  field_name TEXT,
+  observed_value TEXT,
+  expected_rule TEXT NOT NULL,
+  source TEXT,
+  source_url TEXT,
+  detected_by TEXT NOT NULL,
+  notes TEXT,
+  UNIQUE(issue_type, symbol, field_name, observed_value, expected_rule, detected_by)
+);
+
+CREATE INDEX IF NOT EXISTS idx_data_quality_issues_status
+ON data_quality_issues(status, severity, issue_type, created_at DESC);
+
+CREATE INDEX IF NOT EXISTS idx_data_quality_issues_symbol
+ON data_quality_issues(symbol, status, created_at DESC);
+
 CREATE VIEW IF NOT EXISTS latest_quote_snapshots AS
 SELECT q.*
 FROM quote_snapshots q
@@ -307,11 +388,67 @@ WHERE s.id = (
   LIMIT 1
 );
 
+CREATE VIEW IF NOT EXISTS active_people AS
+SELECT id,
+       name,
+       organization,
+       role,
+       signal_domain,
+       track_priority,
+       track_status,
+       rationale,
+       official_source_url,
+       source_quality
+FROM people
+WHERE track_status IN ('active', 'watch')
+ORDER BY track_priority, organization, name;
+
 CREATE VIEW IF NOT EXISTS unprocessed_news AS
 SELECT *
 FROM news_items
 WHERE processed_to_markdown = 0
 ORDER BY news_date DESC, discovered_at DESC;
+
+CREATE VIEW IF NOT EXISTS unprocessed_person_statements AS
+SELECT ps.*,
+       p.name,
+       p.organization,
+       p.role,
+       p.signal_domain,
+       p.track_priority
+FROM person_statements ps
+JOIN people p ON p.id = ps.person_id
+WHERE ps.processed_to_markdown = 0
+ORDER BY ps.statement_date DESC, ps.discovered_at DESC;
+
+CREATE VIEW IF NOT EXISTS person_signal_alerts AS
+SELECT ps.id,
+       ps.statement_date,
+       ps.discovered_at,
+       p.name,
+       p.organization,
+       p.role,
+       p.track_priority,
+       p.signal_domain,
+       ps.symbol,
+       ps.affected_universe,
+       ps.headline,
+       ps.summary,
+       ps.evidence_level,
+       ps.impact,
+       ps.thesis_effect,
+       ps.action_required,
+       ps.source,
+       ps.url
+FROM person_statements ps
+JOIN people p ON p.id = ps.person_id
+WHERE ps.processed_to_markdown = 0
+  AND ps.evidence_level IN ('Hard', 'Medium')
+  AND (
+    ps.action_required IS NOT NULL
+    OR ps.thesis_effect IN ('bestaetigt', 'schwaecht', 'veraendert', 'unklar')
+  )
+ORDER BY ps.statement_date DESC, ps.discovered_at DESC;
 
 CREATE VIEW IF NOT EXISTS news_retention_review AS
 SELECT *
@@ -325,6 +462,158 @@ SELECT *
 FROM event_calendar
 WHERE date(event_date) BETWEEN date('now', 'localtime') AND date('now', 'localtime', '+5 days')
 ORDER BY event_date ASC, importance ASC;
+
+CREATE VIEW IF NOT EXISTS stale_quotes AS
+SELECT sym.symbol,
+       sym.company,
+       sym.group_name,
+       sym.active_status,
+       lq.price_date,
+       lq.captured_at,
+       lq.price,
+       lq.source,
+       CASE
+         WHEN lq.id IS NULL THEN 'blocker'
+         WHEN lq.price IS NULL THEN 'blocker'
+         WHEN date(lq.price_date) < date('now', 'localtime', '-3 days') THEN 'warning'
+         ELSE 'info'
+       END AS severity,
+       CASE
+         WHEN lq.id IS NULL THEN 'Kein Quote-Snapshot vorhanden'
+         WHEN lq.price IS NULL THEN 'Quote-Snapshot ohne Preis'
+         WHEN date(lq.price_date) < date('now', 'localtime', '-3 days') THEN 'Quote aelter als drei Kalendertage'
+         ELSE 'Quote aktuell'
+       END AS issue_summary
+FROM symbols sym
+LEFT JOIN latest_quote_snapshots lq ON lq.symbol = sym.symbol
+WHERE sym.active_status IN ('active', 'watch')
+  AND sym.symbol NOT LIKE '%.PRIVATE'
+  AND (
+    lq.id IS NULL
+    OR lq.price IS NULL
+    OR date(lq.price_date) < date('now', 'localtime', '-3 days')
+  )
+ORDER BY severity DESC, sym.group_name, sym.symbol;
+
+CREATE VIEW IF NOT EXISTS quote_outlier_candidates AS
+SELECT lq.symbol,
+       sym.company,
+       lq.price_date,
+       lq.price,
+       lq.currency,
+       lq.return_1d,
+       lq.return_5d,
+       lq.return_1m,
+       lq.return_3m,
+       lq.distance_52w_high,
+       lq.market_cap,
+       lq.source,
+       CASE
+         WHEN lq.price IS NULL OR lq.price <= 0 THEN 'blocker'
+         WHEN abs(lq.return_1d) > 25 THEN 'warning'
+         WHEN abs(lq.return_5d) > 40 THEN 'warning'
+         WHEN abs(lq.return_1m) > 80 THEN 'warning'
+         WHEN abs(lq.return_3m) > 150 THEN 'warning'
+         WHEN lq.distance_52w_high < -100 OR lq.distance_52w_high > 50 THEN 'warning'
+         WHEN lq.market_cap IS NOT NULL AND lq.market_cap <= 0 THEN 'warning'
+         WHEN sym.currency IS NOT NULL AND lq.currency IS NOT NULL AND sym.currency <> lq.currency THEN 'warning'
+         ELSE 'info'
+       END AS severity,
+       trim(
+         CASE WHEN lq.price IS NULL OR lq.price <= 0 THEN 'Preis fehlt oder ist nicht positiv; ' ELSE '' END ||
+         CASE WHEN abs(lq.return_1d) > 25 THEN '1D-Rendite > 25%; ' ELSE '' END ||
+         CASE WHEN abs(lq.return_5d) > 40 THEN '5D-Rendite > 40%; ' ELSE '' END ||
+         CASE WHEN abs(lq.return_1m) > 80 THEN '1M-Rendite > 80%; ' ELSE '' END ||
+         CASE WHEN abs(lq.return_3m) > 150 THEN '3M-Rendite > 150%; ' ELSE '' END ||
+         CASE WHEN lq.distance_52w_high < -100 OR lq.distance_52w_high > 50 THEN '52W-Abstand ausserhalb Plausibilitaetsband; ' ELSE '' END ||
+         CASE WHEN lq.market_cap IS NOT NULL AND lq.market_cap <= 0 THEN 'Marktkapitalisierung nicht positiv; ' ELSE '' END ||
+         CASE WHEN sym.currency IS NOT NULL AND lq.currency IS NOT NULL AND sym.currency <> lq.currency THEN 'Waehrung weicht vom Symbolstamm ab; ' ELSE '' END
+       ) AS issue_summary
+FROM latest_quote_snapshots lq
+JOIN symbols sym ON sym.symbol = lq.symbol
+WHERE sym.active_status IN ('active', 'watch')
+  AND sym.symbol NOT LIKE '%.PRIVATE'
+  AND (
+    lq.price IS NULL
+    OR lq.price <= 0
+    OR abs(lq.return_1d) > 25
+    OR abs(lq.return_5d) > 40
+    OR abs(lq.return_1m) > 80
+    OR abs(lq.return_3m) > 150
+    OR lq.distance_52w_high < -100
+    OR lq.distance_52w_high > 50
+    OR (lq.market_cap IS NOT NULL AND lq.market_cap <= 0)
+    OR (sym.currency IS NOT NULL AND lq.currency IS NOT NULL AND sym.currency <> lq.currency)
+  )
+ORDER BY severity DESC, lq.symbol;
+
+CREATE VIEW IF NOT EXISTS missing_required_fundamentals AS
+SELECT sym.symbol,
+       sym.company,
+       sym.group_name,
+       sym.active_status,
+       CASE
+         WHEN NOT EXISTS (
+           SELECT 1
+           FROM fundamentals_snapshots f
+           WHERE f.symbol = sym.symbol
+         ) THEN 'warning'
+         WHEN NOT EXISTS (
+           SELECT 1
+           FROM latest_fundamentals_snapshots lf
+           WHERE lf.symbol = sym.symbol
+             AND (
+               lf.pe_forward IS NOT NULL
+               OR lf.revenue_growth_yoy IS NOT NULL
+               OR lf.eps_growth_expected IS NOT NULL
+               OR lf.gross_margin IS NOT NULL
+               OR lf.operating_margin IS NOT NULL
+               OR lf.fcf_margin IS NOT NULL
+               OR lf.guidance_summary IS NOT NULL
+             )
+         ) THEN 'warning'
+         ELSE 'info'
+       END AS severity,
+       CASE
+         WHEN NOT EXISTS (
+           SELECT 1
+           FROM fundamentals_snapshots f
+           WHERE f.symbol = sym.symbol
+         ) THEN 'Keine Fundamentals-Snapshots vorhanden'
+         ELSE 'Fundamentals-Snapshots ohne zentrale Bewertungs-/Wachstumsfelder'
+       END AS issue_summary
+FROM symbols sym
+WHERE sym.active_status IN ('active', 'watch')
+  AND sym.symbol NOT LIKE '%.PRIVATE'
+  AND (
+    NOT EXISTS (
+      SELECT 1
+      FROM fundamentals_snapshots f
+      WHERE f.symbol = sym.symbol
+    )
+    OR NOT EXISTS (
+      SELECT 1
+      FROM latest_fundamentals_snapshots lf
+      WHERE lf.symbol = sym.symbol
+        AND (
+          lf.pe_forward IS NOT NULL
+          OR lf.revenue_growth_yoy IS NOT NULL
+          OR lf.eps_growth_expected IS NOT NULL
+          OR lf.gross_margin IS NOT NULL
+          OR lf.operating_margin IS NOT NULL
+          OR lf.fcf_margin IS NOT NULL
+          OR lf.guidance_summary IS NOT NULL
+        )
+    )
+  )
+ORDER BY sym.group_name, sym.symbol;
+
+CREATE VIEW IF NOT EXISTS cache_db_mismatches AS
+SELECT *
+FROM data_quality_issues
+WHERE status = 'open'
+  AND issue_type = 'cache_db_mismatch'
+ORDER BY severity DESC, created_at DESC;
 
 CREATE VIEW IF NOT EXISTS alert_candidates AS
 SELECT s.symbol,
@@ -341,3 +630,5 @@ FROM latest_signal_snapshots s
 JOIN symbols sym ON sym.symbol = s.symbol
 WHERE s.alert_status IN ('Watch', 'Alert', 'Red Flag')
 ORDER BY s.captured_at DESC, s.alert_status DESC;
+
+COMMIT;

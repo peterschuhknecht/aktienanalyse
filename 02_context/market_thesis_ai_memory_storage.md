@@ -22,6 +22,12 @@ KI-Systeme brauchen nicht nur Rechenleistung. Sie brauchen Datenbewegung:
 | NAND/SSD | SanDisk | Pure-Play auf Flash und Enterprise-SSD |
 | HDD | Seagate | Verkaufter ehemaliger Depotwert; Oligopolist fuer guenstige Nearline-Kapazitaet und HAMR/Mozaic auf Beobachtung |
 
+## Aktive Vergleichs- und Falsifikationswerte
+
+| Wert | Rolle | Warum wichtig? |
+|---|---|---|
+| Kioxia | NAND/Enterprise-SSD, SanDisk-JV-Readthrough | Seit 2026-06-01 aktive Watchlist/Deep-Dive. Kioxia prueft, ob SanDisk die beste NAND-Beta im Depot bleibt oder ob ein Ersatz/Teilersatz bessere Bewertung, FCF, Margenqualitaet oder Risiko bietet. |
+
 ## Was die These bestaetigt
 
 - HBM-Kapazitaeten bleiben ausverkauft.

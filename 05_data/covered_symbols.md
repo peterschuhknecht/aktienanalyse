@@ -1,6 +1,6 @@
 # Covered Symbols
 
-Stand: 2026-05-28.
+Stand: 2026-06-01.
 
 Diese Datei definiert das Wertpapier-Universum, fuer das Agenten bei jeder sachlichen Aktien-, Depot-, Branchen-, Watchlist- oder Zukunftsanfrage aktuelle Kurse und frische Nachrichten pruefen sollen.
 
@@ -43,6 +43,7 @@ Diese Datei definiert das Wertpapier-Universum, fuer das Agenten bei jeder sachl
 | Lam Research | LRCX | USA | Halbleiterausruestung, NAND/DRAM-Werkzeuge |
 | ASML | ASML | USA/Niederlande | Lithografie |
 | Amkor Technology | AMKR | USA | Advanced Packaging |
+| Kioxia | 285A.T | Japan | NAND/Enterprise-SSD, SanDisk-JV-Readthrough, aktiver Deep-Dive-Kandidat |
 
 ## Hintergrund- und Vergleichswerte
 
@@ -60,7 +61,6 @@ Diese Datei definiert das Wertpapier-Universum, fuer das Agenten bei jeder sachl
 | Tesla | TSLA | USA | KI-/Robotik-Nachfrage, moeglicher eigener Chip-/Memory-Fab-Treiber |
 | SpaceX | Private | USA | KI-/Compute- und TeraFab-Kontext, kein boersennotierter Kurs |
 | xAI | Private | USA | KI-Training/Inference, Hyperscaler-aehnlicher Speicherbedarf |
-| Kioxia | 285A.T | Japan | NAND-Readthrough fuer SanDisk |
 | Schneider Electric | SBGSY / SU.PA | OTC / Frankreich | Energie- und Datacenter-Infrastruktur |
 
 ## Pflege-Regel
