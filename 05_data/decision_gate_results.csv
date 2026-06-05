@@ -1,0 +1,2 @@
+checked_at,rule_name,priority,symbol,observed_value,result_gate,source,next_check_date,notes
+"2026-06-05 00:00 Europe/Berlin","CSV-only migration",P0,ALL,"Database artifacts removed from active data layer",pass,"User request 2026-06-05",2026-06-06,"Before next analysis verify fresh quotes/news/events in CSV"

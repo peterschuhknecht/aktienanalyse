@@ -1,39 +1,19 @@
 # Aktuelles Depot
 
-Stand laut Nutzerangabe: 2026-05-28.
+Stand laut Nutzerangabe: 2026-06-02.
 
-| Unternehmen | Moegliches Symbol | Kategorie | Rolle in der These | Status |
-|---|---|---|---|---|
-| SK Hynix | 000660.KS / Broker-Symbol pruefen | DRAM/HBM/LPDDR | Kritischer KI-Speicher nahe an GPU/Accelerator | Aktuelle Position |
-| Micron Technology | MU | DRAM/HBM/LPDDR, auch NAND | US-Speicherchampion, HBM- und LPDDR-Hebel | Aktuelle Position |
-| SanDisk | SNDK / Broker-Symbol pruefen | NAND/Enterprise-SSD | Flash-Pure-Play, hoher Beta-Faktor | Aktuelle Position |
+Aktive Positionen: SK Hynix, Micron, SanDisk, Kioxia. Strukturierte Universumsdaten: `05_data/covered_symbols.csv`; Scorecards: `02_context/company_scorecards.csv`.
 
-## Portfolio-Charakter
+## Depotcharakter
 
-Dieses Depot ist nach dem Seagate-Verkauf eine noch fokussiertere KI-Speicherwette, keine breite Diversifikation. Der aktive Kern liegt jetzt auf HBM/DRAM/LPDDR und NAND/Enterprise-SSD.
+Fokussierte KI-Speicherwette, keine breite Diversifikation:
 
-1. Rechenkern-Speicher: SK Hynix, Micron.
-2. Schneller Flash-Speicher: SanDisk, teilweise Micron.
-3. Guenstige Massenspeicherung: Seagate ist verkauft und wird zusammen mit Western Digital fuer eine moegliche HDD-/Nearline-Folgewelle beobachtet.
+- HBM/DRAM/LPDDR: SK Hynix, Micron.
+- NAND/Enterprise-SSD: SanDisk, Kioxia; gemeinsamer Risikobucket.
+- HDD/Nearline: Seagate verkauft; Seagate/WDC nur Watch.
 
-## Nicht aktuelle Positionen, aber wichtiger Kontext
+Kioxia erhoeht NAND-, JPY-/Japan-, Momentum- und Speicherzyklus-Exposure. SanDisk-vs-Kioxia bleibt Pflichtvergleich bis mindestens Kioxia Securities Report 2026-06-24.
 
-| Unternehmen | Rolle |
-|---|---|
-| Seagate | Verkauft; Beobachtungs- und Follow-on-Wert fuer HDD-/Nearline-Folgewelle |
-| Western Digital | HDD-Kontext und fruehere SanDisk-Aufspaltung |
-| Samsung | Allrounder fuer DRAM, HBM, NAND, Smartphones, Foundry |
-| Kioxia | Aktiver NAND-/Enterprise-SSD-Deep-Dive-Kandidat; SanDisk-Joint-Venture und NAND-Readthrough, keine aktuelle Depotposition |
-| Vertiv | Kuehlung als naechste Infrastrukturwelle |
-| Eaton | Stromnetz und elektrische Infrastruktur |
-| Bloom Energy | On-site Power als riskante Energie-Wildcard |
-| AMAT / Lam Research | Halbleiterausruester |
-| Marvell / Corning | Custom Silicon, optische Netzwerke |
-| Dell Technologies | AI-Server, Storage und Infrastruktur-Nachfrageproxy |
+## Offene Portfolio-Daten
 
-## Naechste Analysepflichten
-
-- Ticker, ISIN und Handelsplatz fuer SK Hynix und SanDisk im eigenen Broker klaeren.
-- Positionsgroessen, Einstandskurse und Zielgewichtungen ergaenzen, falls der Nutzer sie nennen moechte.
-- Aktuelle Quartalstermine verifizieren.
-- HDD-/Nearline-Watchlist in `02_context/watchlist_hdd_nearline_storage.md` bei jeder relevanten Anfrage pruefen.
+Ticker/Broker-Symbole, ISINs, Handelsplaetze, Positionsgroessen, Einstandskurse, Basiswaehrung, Ziel-/Warn-/Maximalgewichte.

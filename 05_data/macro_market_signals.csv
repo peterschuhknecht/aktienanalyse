@@ -1,0 +1,11 @@
+captured_at,signal,latest_value,value_text,data_as_of,direction,weighting,source
+"2026-06-04","US 10Y Treasury Yield",4.46,,2026-06-02,"high; no fresh rate relief",Fundamental,"U.S. Treasury/FRED cache"
+"2026-06-04","US 2Y Treasury Yield",4.05,,2026-06-02,"high; Fed path not clearly easier",Fundamental,"U.S. Treasury/FRED cache"
+"2026-06-04","US 10Y Real Yield",2.07,,2026-06-02,"high; valuation headwind for AI/memory multiples",Fundamental,"U.S. Treasury/FRED cache"
+"2026-06-04","High Yield OAS",2.72,,2026-06-01,"no credit-stress signal",Fundamental,"FRED cache"
+"2026-06-04","Chicago Fed NFCI",-0.510,,2026-05-22,"financial conditions still loose",Fundamental,"FRED/Chicago Fed cache"
+"2026-06-04","VIXCLS",16.05,,2026-06-01,"calm to moderate",Timing/Crowding,"FRED/Cboe cache"
+"2026-06-04","ISM Services PMI",54.5,,2026-06-03,"growth better; services expanding",Fundamental,"ISM"
+"2026-06-04","ISM Services Prices",71.3,,2026-06-03,"inflationary; highest since August 2022",Fundamental/Timing,"ISM"
+"2026-06-04","Fed Beige Book",,"mostly slight/moderate activity; mixed demand; price pressure; datacenter/power mentions",2026-06-03,"constructive demand but no clean macro relief",Fundamental,"Federal Reserve"
+"2026-06-04","US Productivity/Claims",,"pending at last refresh",2026-06-04,"macro trigger pending",Fundamental,"BLS"

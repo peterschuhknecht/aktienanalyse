@@ -1,0 +1,2 @@
+created_at,status,severity,scope,symbol,check_type,field_name,observed,expected_rule,source,next_action
+"2026-06-05 00:00 Europe/Berlin",open,warning,Repository,ALL,architecture,structured_data,"Database layer removed; CSV-only gate now manual","No database or Python dependency remains in active workflow","Repo optimization","Refresh active CSVs before next valuation or depot decision"

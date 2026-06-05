@@ -1,54 +1,25 @@
 # Analyse-Framework
 
-## Kernmodell: Hardware-Kaskade
+## Hardware-Kaskade
 
-KI-Infrastruktur erzeugt Nachfragewellen entlang der Lieferkette:
+1. Compute: GPUs/ASICs.
+2. High-speed memory: HBM/DRAM/LPDDR.
+3. Fast storage: Enterprise-SSD/NAND.
+4. Mass storage: HDD.
+5. Physical infrastructure: Strom, Kuehlung, Netzwerke, Optik.
 
-1. Compute: GPUs, ASICs, Beschleuniger.
-2. High-speed memory: HBM, DRAM, LPDDR.
-3. Fast storage: Enterprise-SSD, NAND.
-4. Mass storage: HDD fuer guenstige Kapazitaet.
-5. Physical infrastructure: Strom, Kuehlung, Netzwerke, optische Verbindungen.
+Aktuelles Depot: Stufe 2-3, mit HDD als Watch.
 
-Die aktuelle Depotthese liegt schwerpunktmaessig auf Stufe 2 bis 4.
+## Fragen pro Unternehmen
 
-## Analysefragen pro Unternehmen
+- Welche Kaskadenstufe deckt es ab?
+- Strukturelle Nachfrage oder Zyklus?
+- Angebotsknappheit oder Ueberkapazitaetsrisiko?
+- Preissetzungsmacht, Margen, FCF?
+- Bewertung durch Wachstum gedeckt?
+- Was bricht die These?
+- Naechste harten Katalysatoren?
 
-1. Welche Stufe der Kaskade deckt das Unternehmen ab?
-2. Ist die Nachfrage strukturell oder nur zyklisch?
-3. Gibt es Angebotsknappheit oder drohende Ueberkapazitaet?
-4. Hat das Unternehmen Preissetzungsmacht?
-5. Ist die Bewertung durch Wachstum gedeckt?
-6. Welche Daten wuerden die These widerlegen?
-7. Welche Quartalszahlen oder Managementaussagen sind naechste Katalysatoren?
+## Ergebnis
 
-## Bewertungslogik
-
-- Bei zyklischen Speicherwerten nie nur das TTM-KGV nutzen.
-- Forward-KGV, EPS-Wachstum, PEG, Margen, Free Cash Flow und Netto-Cash/Netto-Schulden zusammen betrachten.
-- Hohe Margen in Speicherzyklen koennen schnell normalisieren.
-- Ein niedriges PEG ist nur wertvoll, wenn das erwartete Wachstum plausibel und nicht nur ein zyklischer Basiseffekt ist.
-
-## Szenario-Denken
-
-Jede Analyse soll mindestens drei Szenarien enthalten:
-
-| Szenario | Frage |
-|---|---|
-| Bull Case | Was muss passieren, damit die Aktie weiter stark laeuft? |
-| Base Case | Was ist bei normaler Umsetzung und stabiler Nachfrage wahrscheinlich? |
-| Bear Case | Was kann die These brechen oder die Bewertung stark korrigieren? |
-
-## Ergebnisqualitaet
-
-Eine gute Folgeanalyse nennt:
-
-- aktuelle Daten mit Quelle und Datum,
-- alte Annahmen, die bestaetigt wurden,
-- alte Annahmen, die widerlegt wurden,
-- klares Fazit mit Unsicherheit,
-- konkrete naechste Beobachtungspunkte.
-
-## Vertiefte Analysen
-
-Bei Kauf-, Verkauf-, Nachkauf-, Reduktions-, Umschichtungs-, Deep-Dive- oder Watchlist-Vergleichsfragen zusaetzlich `01_knowledge/deep_dive_framework.md` und bei Depotwirkung `01_knowledge/portfolio_risk_framework.md` nutzen. Diese erweitern das Grundmodell um Minimum Data Pack, Falsifikationspruefung, Peer-/Opportunity-Cost-Vergleich und Portfolio-Risiko.
+Immer Bull/Base/Bear, aktuelle Quellen/Daten, bestaetigte und widerlegte Annahmen, Gegenargumente, Datenluecken und naechste Beobachtungspunkte nennen. Bei Entscheidungen zusaetzlich Deep-Dive- und Portfolio-Risiko-Framework nutzen.

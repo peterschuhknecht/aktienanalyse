@@ -1,0 +1,2 @@
+run_at,trigger,scope,files_updated,quality_status,notes
+"2026-06-05 00:00 Europe/Berlin","Datenbank entfernen und auf CSV umstellen","Repository data layer","AGENTS.md; START_HERE.md; 05_data/*.csv; CSV docs",warning,"No Python or database execution; next market analysis must refresh live data"

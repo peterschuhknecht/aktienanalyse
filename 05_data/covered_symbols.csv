@@ -1,0 +1,37 @@
+category,company,symbol,market,role,status
+Depot,SK Hynix,000660.KS,Korea,"DRAM/HBM/LPDDR",active
+Depot,Micron Technology,MU,USA,"DRAM/HBM/LPDDR/NAND",active
+Depot,SanDisk,SNDK,USA,"NAND/Enterprise-SSD",active
+Depot,Kioxia,285A.T,Japan,"NAND/Enterprise-SSD; SanDisk-JV-Readthrough",active
+HDD-Watch,Seagate Technology,STX,USA,"verkauft; HDD/Nearline-Follow-on",sold_watch
+HDD-Watch,Western Digital,WDC,USA,"HDD/Nearline Storage",watch
+Primary-Follow-on,Arista Networks,ANET,USA,"AI Ethernet/networking",watch
+Primary-Follow-on,Broadcom,AVGO,USA,"Custom ASICs/networking/AI infrastructure",watch
+Primary-Follow-on,Marvell Technology,MRVL,USA,"Custom AI silicon/interconnect",watch
+Primary-Follow-on,Vertiv,VRT,USA,"Datacenter cooling/power",watch
+Primary-Follow-on,Samsung Electronics,005930.KS / SSNLF,Korea / USA OTC,"DRAM/HBM/NAND/foundry",watch
+Extended,Eaton,ETN,USA,"Electrical infrastructure/grid",watch
+Extended,GE Vernova,GEV,USA,"Grid/turbines/power infrastructure",watch
+Extended,Corning,GLW,USA,"Fiber/optical infrastructure",watch
+Extended,Constellation Energy,CEG,USA,"Power/nuclear",watch
+Extended,Vistra,VST,USA,"Power generation",watch
+Extended,Bloom Energy,BE,USA,"On-site power",watch
+Extended,Applied Materials,AMAT,USA,"Semiconductor equipment",watch
+Extended,Lam Research,LRCX,USA,"NAND/DRAM tools",watch
+Extended,ASML,ASML,USA/Netherlands,"Lithography",watch
+Extended,Amkor Technology,AMKR,USA,"Advanced packaging",watch
+Background,NVIDIA,NVDA,USA,"GPU/platform demand driver",background
+Background,AMD,AMD,USA,"AI accelerators",background
+Background,Intel,INTC,USA,"Compute/foundry/AI alternative",background
+Background,Cisco Systems,CSCO,USA,"AI networking/Silicon One",background
+Background,Qualcomm,QCOM,USA,"Connectivity/AI inference alternative",background
+Background,Microsoft,MSFT,USA,"Hyperscaler AI capex",background
+Background,Amazon,AMZN,USA,"Hyperscaler AI capex",background
+Background,Alphabet,GOOGL,USA,"Hyperscaler AI capex",background
+Background,Meta Platforms,META,USA,"Hyperscaler AI capex",background
+Background,Oracle,ORCL,USA,"Cloud/datacenter capex",background
+Background,Dell Technologies,DELL,USA,"AI server/storage demand proxy",background
+Background,Tesla,TSLA,USA,"AI/robotics demand context",background
+Background,SpaceX,Private,USA,"AI/compute context; no public ticker",background
+Background,xAI,Private,USA,"AI training/inference context; no public ticker",background
+Background,Schneider Electric,SBGSY / SU.PA,OTC / France,"Energy/datacenter infrastructure",background

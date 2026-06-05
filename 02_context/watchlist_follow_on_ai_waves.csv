@@ -1,0 +1,18 @@
+wave,company,symbol,role,watch_reason,alert_signals,status
+3,Arista Networks,ANET,"AI Ethernet/fabric","Cluster scale makes networking bottleneck","AI/cloud revenue accelerates; cloud orders; relative breakout",watch
+3,Broadcom,AVGO,"ASICs/networking","Hyperscaler custom ASICs and networking as NVIDIA complement","AI revenue/design wins/guidance/margins",priority_watch
+3,Marvell Technology,MRVL,"Custom AI silicon/interconnect/optics","Build-your-own-AI-chip and AI networking lever","Teralynx/design wins/AI bookings/margins/EPS revisions",priority_deep_dive
+3,Vertiv,VRT,"Cooling/power","Physical datacenter infrastructure bottleneck","orders/backlog/liquid cooling/guidance",watch
+2b,Seagate,STX,"HDD/Nearline","Former holding; possible AI data capacity follow-on","exabytes/LTAs/FCF/margins/EPS revisions",sold_watch
+2b,Western Digital,WDC,"HDD/Nearline","WDC vs STX reactivation check","nearline exabytes/LTAs/FCF/margins",watch
+2,Samsung Electronics,005930.KS / SSNLF,"HBM/NAND/foundry","HBM catch-up and NAND tech pressure","HBM qualification/yields/design wins/margins",watch
+4,Eaton,ETN,"Grid/electrical","Power distribution for datacenters","backlog/orders/datacenter exposure/valuation",watch
+4,GE Vernova,GEV,"Grid/turbines","Grid and power infrastructure","orders/margins/project execution",watch
+4,Corning,GLW,"Fiber/optics","Optical connections for AI clusters","hyperscaler deals/optical growth/margins",watch
+4,Constellation Energy,CEG,"Power/nuclear","Long-term clean power contracts","datacenter contracts/regulatory approvals",watch
+4,Vistra,VST,"Power generation","Rising datacenter power demand","power prices/contracts/capex",watch
+4,Bloom Energy,BE,"On-site power","High-risk local datacenter power","profitability/order quality/valuation",watch_high_risk
+5,Applied Materials,AMAT,"WFE","HBM/DRAM/NAND and packaging tools","orders/backlog/export controls",watch
+5,Lam Research,LRCX,"WFE NAND/DRAM","NAND/DRAM capex tools","NAND cycle/orders/export controls",watch
+5,ASML,ASML,"Lithography","Advanced semiconductor capex","order intake/export controls",watch
+5,Amkor Technology,AMKR,"Advanced packaging","AI packaging capacity","orders/margins/customer concentration",watch

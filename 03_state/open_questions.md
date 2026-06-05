@@ -1,29 +1,26 @@
 # Offene Fragen
 
-- Welche Positionsgroessen und Einstandskurse haben SK Hynix, Micron und SanDisk?
-- Zu welchem Kurs und mit welchem Ergebnis wurde Seagate verkauft, falls die Performance spaeter dokumentiert werden soll?
-- Soll die Analyse in EUR, USD oder Originalwaehrung gefuehrt werden?
-- Welche Broker-Symbole werden fuer SK Hynix und SanDisk tatsaechlich genutzt?
-- Soll Western Digital weiter als Watchlist-Wert beobachtet werden?
-- Soll die naechste Infrastrukturwelle Energie/Kuehlung in das aktive Analyseuniversum aufgenommen werden?
-- Welche maximale Gewichtung soll die Speicher-Sektorwette im Gesamtportfolio haben?
-- Welche Verlustschwelle oder These-Brechung soll eine Reduzierung ausloesen?
-- Soll der E-Mail-Alertversand an `info@apollu.de` explizit ueber einen trusted/zugelassenen Weg freigegeben werden? Der Gmail-Connector blockierte am 2026-05-28 den direkten Versand repository-basierter Analyse als externen Datenexport.
-- Welche belastbare Quelle soll fuer VIX/Fear-&-Greed/AAII in der automatischen Routine verwendet werden? FRED/DXY waren aktualisierbar, aber VIX und Fear-&-Greed wurden im Lauf 2026-05-28 13:05 CEST nicht sauber verifiziert.
-- Wann bestaetigt Samsung offiziell konkrete V10-/900L-/1000L-NAND-Produktionsplaene, Yields oder Capex, und wie reagiert SanDisk/Kioxia mit BiCS10?
-- Welche belastbare, automatisierbare Kursquelle soll dauerhaft fuer nicht-US-Werte verwendet werden? StockAnalysis funktionierte am 2026-05-29 14:16 fuer Kioxia (TYO:285A) und Schneider (EPA:SU), sollte aber fuer Routine-Monitoring gegen Boersen-/Broker-/API-Daten abgesichert werden.
-- Erreicht Samsungs 12-Hi-HBM4E-Sample-Phase echte Kundenqualifikation und Volumenauftraege, oder bleibt es ein Aufholer-Narrativ ohne kurzfristige Margenwirkung?
-- Soll die bestehende Kurs-/News-Historie aus den Markdown-Caches rueckwirkend in `05_data/market_monitor.sqlite` importiert werden, oder beginnt die strukturierte Historie ab dem naechsten Marktrefresh?
-- Welche Benchmark soll fuer relative Staerke standardmaessig gelten: Nasdaq 100, SMH/SOX, direkte Peer-Gruppe oder je nach Wert alle drei?
-- Bestaetigt Dell auf der BofA-Konferenz am 2026-06-02, dass der im Q1-FY2027-Transcript genannte Memory-/DRAM-/NAND-/Hard-Drive-Engpass auch nachhaltige AI-Server-Margen, Backlog-Qualitaet, Storage-Attach, Free Cash Flow und EPS-Revisionen erzeugt, oder war Q1-FY2027 vor allem ein volumengetriebener Nachfrage- und Momentum-Peak?
-- Welche belastbare, moeglichst automatisierbare Quelle soll fuer DRAM-/NAND-/Enterprise-SSD-/HDD-Contract-Preise dauerhaft genutzt werden, damit Dell-Engpasssignale gegen echte Speicherpreis- und Margendaten validiert werden koennen?
-- Beim naechsten Makro-Refresh HY OAS, NFCI, VIX, Fear & Greed, AAII und Margin Debt wieder voll gegen Primaer-/Institutionalquellen aktualisieren; dieser Lauf hat Treasury-Daten frisch, Kreditstressdaten aber nicht durch neuere belastbare Werte ersetzt.
-- Welche konkreten HBM4-/DRAM-/NAND-/Storage- und Networking-Lieferkettenfolgen ergeben sich aus NVIDIAs GTC-Taipei-DSX-/Vera-Rubin-Meldungen, und welche davon werden durch Kundenauftraege, Preise, Margen oder EPS-Revisionen bestaetigt?
-- Ist Kioxias +10.51%-Move am 2026-06-01 nur NAND-/Momentum-Readthrough oder wird er durch neue Enterprise-SSD-/NAND-Preis-, LTA-, Margen- oder Kioxia/JV-Daten fuer SanDisk bestaetigt?
-- Ist Kioxia nach Investor Day 2026-06-02 und Securities Report 2026-06-24 eine bessere Chance/Risiko-Alternative zu SanDisk, oder nur eine zweite, hoch korrelierte NAND-Beta-Position?
-- Welche Broker-/Handelsmoeglichkeit ist fuer Kioxia relevant: Tokyo 285A.T direkt, moegliche/kommende ADR-Struktur oder keine praktikable Umsetzung im aktuellen Depot?
-- Wie sehen Kioxias Free Cash Flow, Working Capital, Nettofinanzierung, Capex-Plan, SSD-&-Storage-Margen und Kioxia/SanDisk-Joint-Venture-Oekonomie nach dem Securities Report konkret aus?
-- Wie stark trifft die am 2026-06-01 gemeldete US-Exportkontroll-Klarstellung fuer fortgeschrittene AI-Chips an chinesisch kontrollierte Auslands-Tochterfirmen tatsaechlich NVIDIA/AMD-Shipments, China-AI-Capex und daraus abgeleitete HBM-/DRAM-/NAND-/Storage-Nachfrage?
-- Hat das am 2026-06-01 gemeldete SK-Hynix-Cheongju-Gasleck Produktions-, Yield-, Liefer-, Behoerden- oder Capex-Folgen, oder bleibt es ein lokaler Sicherheits-/Betriebsincident ohne These-Wirkung?
-- Bestaetigt Broadcom-Q2 am 2026-06-03 die AI-/Custom-ASIC-/Networking-Opportunity Cost gegenueber Memory durch AI-Umsatz, Hyperscaler-Design-Wins, Margen, EPS-Revisionen und Backlog-Sichtbarkeit?
-- Liefern WDC und Seagate bei BofA/Evercore am 2026-06-02/03 harte Nearline-Signale zu Exabytes, LTAs, ausverkaufter Kapazitaet, ASPs, Margen, FCF oder EPS-Revisionen, oder bleibt HDD nur Momentum-Watch?
+P0 blockiert konkrete Depot-/Bewertungsentscheidungen. P1 beeinflusst Risiko, Timing oder Opportunity Cost. P2 ist Backlog.
+
+## P0
+
+- Welche Positionsgroessen, Portfolio-Gewichte, Einstandskurse, Handelsplaetze, Broker-Symbole und Basiswaehrungen gelten fuer SK Hynix, Micron, SanDisk und Kioxia?
+- Welche Ziel-, Warn- und Maximalgewichte gelten fuer Einzelpositionen, die gesamte KI-Speicherwette und den SanDisk/Kioxia-NAND-Bucket?
+- Welche Verlustschwelle, These-Bruch-Regel, Bewertungsziel oder Opportunity-Cost-Regel loest Reduktion aus?
+- Rechtfertigt Kioxia nach Securities Report 2026-06-24 die parallele Haltung zu SanDisk?
+- Bestaetigt Micron Q3 FY2026 am 2026-06-24 HBM-Ramp, Margenverbesserung und 2027-Sichtbarkeit?
+
+## P1
+
+- Welche dauerhafte Kurs-/FX-/Brokerquelle soll fuer SK Hynix, Kioxia und SanDisk genutzt werden?
+- Welche Benchmark gilt fuer relative Staerke: Nasdaq 100, SMH/SOX, Peer-Gruppe oder alle drei?
+- Welche Quellen sollen fuer DRAM-, HBM-, NAND-, Enterprise-SSD- und HDD/Nearline-Preise dauerhaft genutzt werden?
+- Sind Broadcom-/Marvell-/Arista-, WDC-/STX- oder Power/Grid-Werte harte Opportunity-Cost-Kandidaten oder nur Watch?
+- Hat das SK-Hynix-Cheongju-Ereignis Produktions-, Yield-, Liefer-, Behoerden- oder Kundenfolgen?
+
+## P2
+
+- Soll alte Kurs-/News-Historie in CSV-Archive verdichtet werden?
+- Soll Energie/Kuehlung/Grid als eigene Infrastrukturwelle aktiver verfolgt werden?
+- Zu welchem Kurs und Ergebnis wurde Seagate verkauft?
+- Welche steuerlichen, brokerseitigen, Liquiditaets- oder persoenlichen Restriktionen sollen Depotentscheidungen begrenzen?

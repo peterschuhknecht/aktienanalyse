@@ -1,44 +1,19 @@
-# Quellenqualitaet und Verifikation
+# Quellenqualitaet
 
-## Quellenhierarchie
+## Hierarchie
 
-| Rang | Quelle | Verwendung |
+| Rang | Quelle | Nutzung |
 |---:|---|---|
-| 1 | Unternehmensberichte, 10-K/10-Q, Investor Relations, Earnings Call Transcripts | Primaere Fakten |
-| 2 | Boersenmeldungen, SEC/EDGAR, offizielle Boersenmitteilungen | Struktur, Termine, Pflichtdaten |
-| 3 | Hochwertige Nachrichtenagenturen und etablierte Finanzmedien, z. B. Reuters, Bloomberg, AP, Financial Times, Wall Street Journal, Nikkei, CNBC, Handelsblatt | Katalysatoren, Managementaussagen, Marktereignisse |
-| 4 | Glaubwuerdige Analystenberichte und institutionelle Branchenquellen, z. B. Gartner, TrendForce, Omdia, IDC, SemiAnalysis, TechInsights, ASML/SEMI-Kontext | Erwartungen, Supply-Chain- und Marktkonsens |
-| 5 | Offizielle Makro-, Zentralbank- und Marktdaten, z. B. FRED/St. Louis Fed, U.S. Treasury, Federal Reserve/FOMC, CME FedWatch, Chicago Fed NFCI, Cboe VIX, FINRA Margin Statistics, SIA/WSTS, SEMI | Zinsen, Realzinsen, Yield Curve, Finanzbedingungen, Kreditstress, Volatilitaet, Halbleiterzyklus |
-| 6 | Finanzdatenanbieter mit nachvollziehbarer Methodik, z. B. Boersenplaetze, Nasdaq/NYSE/KRX, StockAnalysis, Koyfin, FactSet, S&P Capital IQ, Refinitiv | Kurse und Kennzahlen, aber immer Datum notieren |
-| 7 | Fachmedien mit technischer Spezialisierung, z. B. Tom's Hardware, AnandTech, The Register, ServeTheHome, Blocks & Files, StorageNewsletter | Technische Einordnung und Fruehsignale; moeglichst mit Primaerquelle gegenpruefen |
-| 8 | Sonstige Nachrichtenartikel, Blogs, Aggregatoren, Social Media, YouTube, Reddit | Nur als Hinweis oder Suchspur, nicht als belastbare Hauptquelle |
-| 9 | Alte KI-Gespraeche | Nur als Hypothesen und Denkspur |
+| 1 | Unternehmensberichte, IR, Earnings Calls, 10-K/10-Q | Primaere Fakten |
+| 2 | SEC/Boersenmeldungen/offizielle Eventseiten | Struktur, Termine, Pflichtdaten |
+| 3 | Reuters, Bloomberg, AP, FT, WSJ, Nikkei, CNBC, Handelsblatt | Katalysatoren/Marktereignisse |
+| 4 | TrendForce, Omdia, IDC, Gartner, SemiAnalysis, TechInsights, SEMI/SIA | Branchen-/Supply-Chain-Daten |
+| 5 | FRED, U.S. Treasury, Fed/FOMC, CME FedWatch, Chicago Fed, Cboe, FINRA | Makro/Finanzbedingungen |
+| 6 | Boersenplaetze/Finanzdatenanbieter | Kurse/Kennzahlen mit Datum |
+| 7 | Fachmedien | technische Suchspur, moeglichst gegenpruefen |
+| 8 | Blogs, Social, Foren, Aggregatoren | nur Hinweis; nicht alleinige Grundlage |
+| 9 | Alte KI-Gespraeche | nur Hypothesen |
 
-## Harte Quellenregel
+## Regeln
 
-- Bei jeder Recherche zuerst hochwertige und glaubwuerdige Quellen verwenden.
-- Primaerquellen haben Vorrang vor Zusammenfassungen.
-- Aggregatoren, Blogs, Foren, Social Media und KI-generierte Inhalte duerfen nur als Hinweis genutzt werden, nicht als alleinige Grundlage fuer eine Bewertung.
-- Analysten-Kursziele sind keine Fakten, sondern Meinungen oder Schaetzungen. Immer vom berichteten Ist-Zustand trennen.
-- Sentiment-Indizes wie Fear & Greed oder AAII sind keine Fundamentaldaten. Sie duerfen nur als Timing-, Risiko- oder Crowding-Signal genutzt werden.
-- Wenn eine Meldung nur ueber eine schwache Quelle auffindbar ist, muss sie als "unbestaetigt" oder "niedrige Quellenqualitaet" markiert werden.
-- Sensible Aussagen zu Bewertung, Guidance, Liefervertraegen, Kapazitaeten oder Margen sollen nach Moeglichkeit durch Unternehmensquelle, Boersenmeldung, hochwertige Nachrichtenagentur oder mehrere unabhaengige Quellen bestaetigt werden.
-
-## Pflichtangaben fuer neue Daten
-
-Jede neu eingetragene Kennzahl sollte enthalten:
-
-- Quelle,
-- Datum der Quelle,
-- Zeitraum der Kennzahl,
-- ob TTM, Forward oder Konsens,
-- ob berechnet oder uebernommen.
-
-## Umgang mit Widerspruechen
-
-Wenn zwei Quellen voneinander abweichen:
-
-1. Beide Werte mit Quelle notieren.
-2. Primaerquelle bevorzugen.
-3. Berechnung offenlegen.
-4. In `03_state/open_questions.md` festhalten, wenn der Konflikt nicht geloest werden kann.
+Primaerquellen vor Zusammenfassungen. Analystenziele sind Meinung. Sentiment-Indizes sind Timing, keine Fundamentaldaten. Widersprueche mit beiden Quellen notieren, Primaerquelle bevorzugen, Berechnung offenlegen, offene Konflikte in `03_state/open_questions.md`.

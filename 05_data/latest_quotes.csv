@@ -1,0 +1,7 @@
+last_refresh,trigger,group_name,company,symbol,price,currency,day_change_pct,data_as_of,forward_pe,source,assessment
+"2026-06-04 14:50 Europe/Berlin","Daily Brief Broadcom risk-off",Depot,"SK Hynix","000660.KS",2298000,KRW,-2.63,"2026-06-04 close",7.30,"StockAnalysis","HBM/DRAM thesis intact; timing/crowding yellow"
+"2026-06-04 14:50 Europe/Berlin","Daily Brief Broadcom risk-off",Depot,"Micron","MU",999.85,USD,-7.38,"2026-06-04 pre-market 08:36 EDT; 2026-06-03 close 1079.57",11.42,"StockAnalysis","Broadcom readthrough risk-off; Q3 2026-06-24 is hard check"
+"2026-06-04 14:50 Europe/Berlin","Daily Brief Broadcom risk-off",Depot,"SanDisk","SNDK",1742.75,USD,-4.85,"2026-06-04 pre-market 08:31 EDT; 2026-06-03 close 1831.50",11.30,"StockAnalysis","NAND beta cools after strong day; Mizuho 2026-06-09 important"
+"2026-06-04 14:50 Europe/Berlin","Daily Brief Broadcom risk-off",Depot,"Kioxia","285A.T",76920,JPY,-1.49,"2026-06-04 close",8.70,"StockAnalysis","Investor-Day rally remains high; Securities Report 2026-06-24 is hard check"
+"2026-06-04 14:50 Europe/Berlin","Daily Brief Broadcom risk-off",Follow-on,"Broadcom","AVGO",417.26,USD,-12.93,"2026-06-04 pre-market 08:37 EDT; 2026-06-03 close 479.23",30.75,"StockAnalysis; Broadcom IR","AI revenue confirmed; expectation/multiple risk visible"
+"2026-06-04 14:50 Europe/Berlin","Daily Brief Broadcom risk-off",Follow-on,"Marvell","MRVL",293.00,USD,-9.68,"2026-06-04 pre-market 08:35 EDT; 2026-06-03 close 324.39",71.57,"StockAnalysis","Wave-3 watch intact; timing risk after spike"

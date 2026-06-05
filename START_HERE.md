@@ -1,86 +1,28 @@
 # Einstieg fuer KI-Agenten
 
-Ziel: Dieses Repository soll Folgeanfragen zur Aktienanalyse schneller, konsistenter und weniger halluzinationsanfaellig machen. Es bildet die bisherige Diskussion aus `gespraech.pdf` und die Strukturidee aus `praxis.pdf` als dauerhafte Markdown-Wissensbasis mit lokaler SQLite-Datenebene ab.
+Ziel: kompakte Aktienanalyse mit kurzer Markdown-Wissensbasis und CSV-only-Datenebene. Keine Datenbankabfragen. Kein Python ausfuehren.
 
 ## Schnellstart
 
-1. Lies zuerst [AGENTS.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/AGENTS.md).
-2. Fuehre bei Depot-, Branchen-, Zukunfts-, Kauf-/Verkauf- oder Watchlist-Fragen den Repository-Rundgang aus `AGENTS.md` aus.
-3. Bestimme die relevanten Werte aus [05_data/covered_symbols.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/covered_symbols.md).
-4. Lies [05_data/market_monitor_usage.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor_usage.md) und nutze [05_data/market_monitor.sqlite](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor.sqlite) fuer wiederholbare Kurs-, News-, Event-, Makro-, Fundamental- und Signal-Snapshots.
-   Schreibende SQLite-Zugriffe muessen mit `PRAGMA foreign_keys=ON;` und einer Transaktion laufen.
-5. Nutze fuer Recherche und Datenabruf nur hochwertige Quellen nach [01_knowledge/source_quality.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/source_quality.md); schwache Quellen nur als klar markierte Suchspur.
-6. Wende [05_data/monitoring_signals.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/monitoring_signals.md) an: Rendite dreht hoch, relative Staerke, Umfeld besser/schlechter/unklar.
-7. Pruefe [05_data/macro_market_signals.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/macro_market_signals.md): Zinsen, Realzinsen, Kreditstress, VIX, USD, Fear & Greed und Leverage.
-8. Aktualisiere vor der Einschaetzung aktuelle Kurse in SQLite und in [05_data/latest_quotes.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/latest_quotes.md).
-9. Aktualisiere vor der Einschaetzung frische Nachrichten in SQLite und in [05_data/latest_news.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/latest_news.md) und bereinige alte Nachrichten im Markdown-Cache.
-10. Fuehre vor Bewertung, Kauf-/Verkaufsaussage oder These-Aenderung `python3 tools/market_monitor_validate.py` aus; bei `blocker` zuerst Daten gegenpruefen, bei `warning` Datenluecke nennen.
-11. Pruefe kommende Ankuendigungen in SQLite und in [05_data/upcoming_events.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/upcoming_events.md) und melde immer Termine von heute und den naechsten fuenf Kalendertagen.
-12. Pruefe das aktuelle Depot in [02_context/current_portfolio.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/current_portfolio.md).
-13. Lies die zentrale Markthese in [02_context/market_thesis_ai_memory_storage.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/market_thesis_ai_memory_storage.md).
-14. Pruefe die Boom-Rahmenbedingungen in [02_context/best_case_conditions_ai_memory_boom.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/best_case_conditions_ai_memory_boom.md) und nenne im Fazit, ob sie besser, schlechter oder unveraendert sind.
-15. Lies die Branchenkarte in [02_context/industry_map.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/industry_map.md).
-16. Nutze die Unternehmensakten in [02_context/companies](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/companies).
-17. Pruefe die HDD-/Nearline-Watchlist in [02_context/watchlist_hdd_nearline_storage.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_hdd_nearline_storage.md), besonders Seagate und Western Digital.
-18. Pruefe die Follow-on-Watchlist in [02_context/watchlist_follow_on_ai_waves.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_follow_on_ai_waves.md) und die breitere Watchlist in [02_context/watchlist_next_waves.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_next_waves.md).
-19. Pruefe das Operator-Signal-Radar in [02_context/watchlist_ai_operator_signals.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_ai_operator_signals.md): P1 immer, P2 bei Events/Earnings/Wochenrefresh oder Cloud-/Modell-/Capex-Bezug, P3 nur bei passendem Thema.
-20. Fuer Bewertung: [01_knowledge/analysis_framework.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/analysis_framework.md), [01_knowledge/valuation_metrics.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/valuation_metrics.md), [01_knowledge/source_quality.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/source_quality.md).
-21. Fuer Risiken: [01_knowledge/red_flags.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/red_flags.md).
-22. Fuer umfangreiche Analysen: [01_knowledge/deep_dive_framework.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/deep_dive_framework.md) anwenden: Minimum Data Pack, Falsifikation, Peer-/Opportunity-Cost-Vergleich.
-23. Fuer Kauf-, Verkauf-, Nachkauf-, Reduktions- oder Umschichtungsfragen: [01_knowledge/portfolio_risk_framework.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/portfolio_risk_framework.md) und [02_context/portfolio_policy.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/portfolio_policy.md) nutzen.
-24. Fuer Peer-Vergleiche: [05_data/peer_benchmarks.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/peer_benchmarks.md) und SQLite-Tabellen `peer_snapshots`/`latest_fundamentals_snapshots` nutzen; technische Struktur siehe [05_data/market_monitor_schema.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor_schema.md).
-25. Fuer neue Reports: [01_knowledge/report_template.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/report_template.md); nach Earnings zusaetzlich [01_knowledge/earnings_review_template.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/earnings_review_template.md).
-26. Aktualisiere am Ende den Arbeitsspeicher in [03_state](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/03_state) und bei strukturierter Historie die passenden SQLite-Tabellen.
+1. `AGENTS.md` lesen.
+2. Anfrage einstufen: klein = gezielte Sichtung; Depot/Bewertung/Watchlist/Zukunft/News = Workflow in `01_knowledge/agent_workflows.md`.
+3. CSV zuerst: relevante Werte aus `05_data/covered_symbols.csv` bestimmen.
+4. Aktuelle Daten aus CSV pruefen: `latest_quotes.csv`, `latest_news.csv`, `upcoming_events.csv`, `monitoring_status.csv`, `macro_market_signals.csv`, `peer_benchmarks.csv`.
+5. Bei Bewertung/Depotentscheidung `05_data/data_quality_checks.csv` auf Blocker/Warnungen pruefen und ggf. aktualisieren.
+6. Termine heute plus fuenf Kalendertage aus `05_data/upcoming_events.csv` melden.
+7. Nur relevante Akten/Logs kurz aktualisieren; Reports nach 7-14 Tagen in CSV/Log verdichten.
 
-## Repository-Inventar
+## Kernpfade
 
-Nutze dieses Inventar als Checkliste. Wenn eine neue Markdown-Datei entsteht, ergaenze sie hier und in `AGENTS.md`.
-
-| Bereich | Dateien |
+| Zweck | Datei |
 |---|---|
-| Einstieg | [AGENTS.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/AGENTS.md), [START_HERE.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/START_HERE.md) |
-| Quellen | [00_source_material/praxis_summary.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/00_source_material/praxis_summary.md), [00_source_material/gespraech_analysis_seed.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/00_source_material/gespraech_analysis_seed.md) |
-| Wissen | [01_knowledge/analysis_framework.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/analysis_framework.md), [01_knowledge/deep_dive_framework.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/deep_dive_framework.md), [01_knowledge/valuation_metrics.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/valuation_metrics.md), [01_knowledge/portfolio_risk_framework.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/portfolio_risk_framework.md), [01_knowledge/red_flags.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/red_flags.md), [01_knowledge/source_quality.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/source_quality.md), [01_knowledge/report_template.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/report_template.md), [01_knowledge/earnings_review_template.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/01_knowledge/earnings_review_template.md) |
-| Kontext | [02_context/current_portfolio.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/current_portfolio.md), [02_context/portfolio_policy.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/portfolio_policy.md), [02_context/market_thesis_ai_memory_storage.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/market_thesis_ai_memory_storage.md), [02_context/best_case_conditions_ai_memory_boom.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/best_case_conditions_ai_memory_boom.md), [02_context/industry_map.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/industry_map.md), [02_context/watchlist_next_waves.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_next_waves.md), [02_context/watchlist_follow_on_ai_waves.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_follow_on_ai_waves.md), [02_context/watchlist_ai_operator_signals.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_ai_operator_signals.md), [02_context/watchlist_hdd_nearline_storage.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/watchlist_hdd_nearline_storage.md) |
-| Unternehmensakten | [02_context/companies/sk_hynix.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/companies/sk_hynix.md), [02_context/companies/micron.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/companies/micron.md), [02_context/companies/sandisk.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/companies/sandisk.md), [02_context/companies/kioxia.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/companies/kioxia.md), [02_context/companies/seagate.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/companies/seagate.md), [02_context/companies/western_digital.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/02_context/companies/western_digital.md) |
-| Arbeitsspeicher | [03_state/task_plan.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/03_state/task_plan.md), [03_state/evaluation_log.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/03_state/evaluation_log.md), [03_state/open_questions.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/03_state/open_questions.md), [03_state/assumptions_and_decisions.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/03_state/assumptions_and_decisions.md) |
-| Reports und Daten | [04_reports/current_snapshot.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/04_reports/current_snapshot.md), [05_data/data_schema.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/data_schema.md), [05_data/data_architecture_recommendation.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/data_architecture_recommendation.md), [05_data/market_monitor_usage.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor_usage.md), [05_data/market_monitor_schema.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor_schema.md), [05_data/market_monitor_schema.sql](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor_schema.sql), [05_data/market_monitor_seed.sql](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor_seed.sql), [05_data/market_monitor.sqlite](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_monitor.sqlite), [05_data/peer_benchmarks.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/peer_benchmarks.md), [05_data/monitoring_signals.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/monitoring_signals.md), [05_data/macro_market_signals.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/macro_market_signals.md), [05_data/covered_symbols.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/covered_symbols.md), [05_data/latest_quotes.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/latest_quotes.md), [05_data/latest_news.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/latest_news.md), [05_data/upcoming_events.md](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/upcoming_events.md), [05_data/market_data_template.csv](/Users/ps/Arbeit/Eigene Projekte/aktienanalyse/05_data/market_data_template.csv) |
- 
-## Aktualisierungsregel
+| Regeln/Workflow | `AGENTS.md`, `01_knowledge/agent_workflows.md` |
+| Depot/Policy | `02_context/current_portfolio.md`, `02_context/portfolio_policy.md`, `05_data/portfolio_positions.csv` |
+| These/Boom/Watch | `02_context/market_thesis_ai_memory_storage.md`, `02_context/best_case_conditions_ai_memory_boom.md`, `02_context/watchlist_follow_on_ai_waves.md`, `02_context/watchlist_hdd_nearline_storage.md` |
+| Daten | `05_data/*.csv`, `05_data/csv_data_usage.md`, `05_data/csv_data_schema.md` |
+| Analysewissen | `01_knowledge/deep_dive_framework.md`, `01_knowledge/valuation_metrics.md`, `01_knowledge/source_quality.md`, `01_knowledge/red_flags.md` |
+| Zustand | `03_state/evaluation_log.md`, `03_state/task_plan.md`, `03_state/open_questions.md`, `03_state/assumptions_and_decisions.md` |
 
-Am Ende einer Analyse pruefen:
+## Fokus
 
-- Hat sich die Depotthese geaendert? Dann `02_context/current_portfolio.md`, Unternehmensakte und `03_state/assumptions_and_decisions.md` aktualisieren.
-- Hat sich durch eine Entscheidung das Portfolio-Risiko, die Konzentration oder die Opportunity Cost geaendert? Dann `02_context/portfolio_policy.md`, `05_data/peer_benchmarks.md` und `03_state/evaluation_log.md` pruefen.
-- Wurden neue Informationen verwendet? Dann Quellenqualitaet gemaess `01_knowledge/source_quality.md` pruefen und schwache Quellen klar markieren oder nicht als Hauptgrundlage verwenden.
-- Haben sich Rendite, relative Staerke oder Umfeldsignale bei Depot- oder Follow-Werten geaendert? Dann `05_data/monitoring_signals.md`, `05_data/latest_quotes.md`, `05_data/latest_news.md` und bei echten Signalwechseln `03_state/evaluation_log.md` aktualisieren.
-- Hat sich das Makro-/Sentiment-Regime geaendert? Dann `05_data/macro_market_signals.md`, `05_data/monitoring_signals.md` und bei echten Signalwechseln `03_state/evaluation_log.md` aktualisieren.
-- Haben sich die Boom-Rahmenbedingungen verbessert oder verschlechtert? Dann `02_context/best_case_conditions_ai_memory_boom.md` und `03_state/evaluation_log.md` aktualisieren.
-- Wurden Kurse oder Nachrichten abgerufen? Dann `05_data/latest_quotes.md` und `05_data/latest_news.md` aktualisieren.
-- Wurden strukturierte Markt-, News-, Event-, Makro-, Fundamental- oder Signaldaten erhoben? Dann die passenden SQLite-Tabellen in `05_data/market_monitor.sqlite` gemaess `05_data/market_monitor_usage.md` aktualisieren.
-- Gibt es offene Datenqualitaets-Blocker? Dann keine harte Bewertung oder Depotentscheidung formulieren, bis die betroffenen Daten gegengeprueft sind.
-- Wurden relevante Aussagen von Operatoren oder Research-Personen genutzt? Dann `02_context/watchlist_ai_operator_signals.md` pruefen, Aussage in `person_statements` speichern und `Hard`, `Medium` oder `Soft` klar kennzeichnen.
-- Wurden kommende Quartalsberichte, Konferenzen oder Produkt-/Branchenereignisse geprueft? Dann `05_data/upcoming_events.md` aktualisieren und in der Antwort Termine fuer heute plus naechste fuenf Kalendertage nennen.
-- Sind Nachrichten aelter als 30 Tage und nicht mehr thesesrelevant? Dann aus `05_data/latest_news.md` entfernen; wichtige alte Nachrichten in `03_state/evaluation_log.md` verdichten.
-- Gab es neue Daten, Termine, Warnsignale oder Alerts? Dann `03_state/evaluation_log.md` aktualisieren.
-- Gab es nach Earnings oder Guidance neue Expected-vs-Actual-Erkenntnisse? Dann `01_knowledge/earnings_review_template.md` nutzen und Ergebnis in Unternehmensakte oder Report verdichten.
-- Entsteht eine offene Frage? Dann `03_state/open_questions.md` aktualisieren.
-- Ist ein Follow-on-Wert auffaellig geworden? Dann `02_context/watchlist_follow_on_ai_waves.md` und `03_state/evaluation_log.md` aktualisieren.
-- Hat sich bei Seagate oder Western Digital die HDD-/Nearline-These geaendert? Dann `02_context/watchlist_hdd_nearline_storage.md`, Unternehmensakte und `03_state/evaluation_log.md` aktualisieren.
-- Entsteht ein fertiger Analyse-Snapshot? Dann in `04_reports/` speichern.
-
-## Aktueller Fokus
-
-Das aktuelle aktive Depot laut Nutzerangabe vom 2026-05-28:
-
-| Unternehmen | Rolle in der These | Status |
-|---|---|---|
-| SK Hynix | DRAM/HBM/LPDDR, KI-Speicher | Aktuelle Position |
-| Micron | DRAM/HBM/LPDDR, US-Speicherchampion | Aktuelle Position |
-| SanDisk | NAND/Enterprise-SSD, Flash-Pure-Play | Aktuelle Position |
-
-Seagate ist verkauft und wird zusammen mit Western Digital in `02_context/watchlist_hdd_nearline_storage.md` als HDD-/Nearline-Watchlist und moeglicher Follow-on-Wert beobachtet. Kioxia ist seit 2026-06-01 aktiver NAND-/Enterprise-SSD-Deep-Dive-Kandidat, aber keine aktuelle Depotposition. Western Digital, Samsung, Vertiv, Eaton, Bloom Energy, Marvell, Broadcom, Arista, Corning, AMAT und Lam Research sind weitere Kontext- oder Watchlist-Werte, aber nicht Teil des aktuell genannten aktiven Depots.
-
-## Wichtiger Hinweis zu Daten
-
-Die PDFs enthalten eine bisherige Analyse und teils konkrete Kennzahlen. Diese Zahlen sind in dieser Wissensbasis als Seed-Hypothesen uebernommen. Vor jeder echten Bewertung muessen sie mit aktuellen Quellen neu verifiziert werden.
+Aktives Depot seit 2026-06-02: SK Hynix, Micron, SanDisk, Kioxia. SanDisk/Kioxia = gemeinsamer NAND-/Enterprise-SSD-Bucket. Seagate ist verkauft; Seagate/WDC bleiben HDD-/Nearline-Watch.

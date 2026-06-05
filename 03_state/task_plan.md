@@ -1,91 +1,17 @@
 # Task Plan
 
-## Initial erledigt
+## Aktive Prioritaeten
 
-- [x] Struktur aus `praxis.pdf` auf Aktienanalyse angepasst.
-- [x] Bisherige Diskussion aus `gespraech.pdf` als Seed-Hypothesen verdichtet.
-- [x] Aktuelles Depot mit SK Hynix, Micron, SanDisk und Seagate erfasst.
-- [x] Unternehmensakten fuer die vier aktuellen Positionen angelegt.
-- [x] Red-Flags, Bewertungslogik und Report-Template angelegt.
-- [x] Kurs- und Nachrichten-Cache mit Refresh- und Bereinigungsregeln angelegt.
-- [x] Best-Case-Rahmenbedingungen fuer den KI-/Speicherboom als laufende Monitoring-Datei angelegt.
-- [x] Western Digital als eigene Unternehmensakte fuer HDD-/Nearline-Vergleich zu Seagate angelegt.
-- [x] Seagate-Verkaufsentscheidung erfasst und STX/WDC auf HDD-/Nearline-Beobachtungsliste gesetzt.
-- [x] Monitoring-Signale fuer Renditeumschwung, relative Staerke und Umfeldveraenderung fuer Depot- und Follow-Werte definiert.
-- [x] Datenarchitektur-Empfehlung Markdown plus optionale SQLite-/CSV-Zeitreihen dokumentiert.
-- [x] Spotmarkt- und Branchenfruehindikatoren fuer KI-/Chipmarktlage in Monitoring, Datenschema und Boom-Ampel ergaenzt.
-- [x] Repo-Link-Audit durchgefuehrt und Makro-/Sentiment-Overlay fuer Zinsen, Realzinsen, Kreditstress, VIX, USD und Crowding ergaenzt.
-- [x] Kontext-Radar-Erstlauf am 2026-05-28 durchgefuehrt: Covered-Symbol-Kurse, frische News, Makro-Overlay, Marvell-Follow-on-Signal und HDD-Watchlist aktualisiert.
-- [x] Veraltete/weiche Karpathy-/Software-3.0-Newsnotiz aus `05_data/latest_news.md` bereinigt.
-- [x] Kontext-Radar-Feinrefresh am 2026-05-28 durchgefuehrt: SK-Hynix-/Samsung-Intradaywerte, Memory-Crowding, Marvell-Signal, HDD-Watchlist und Makro-Overlay erneut geprueft.
-- [x] Depot-Reduktionsanalyse am 2026-05-28 durchgefuehrt: Basisszenario 3 Werte = SK Hynix, Micron, SanDisk; 2 Werte = SK Hynix, Micron; 1 Wert = SK Hynix, mit Micron als US-Liquiditaetsalternative.
-- [x] Seagate-Verkauf am 2026-05-28 laut Nutzerangabe eingetragen; STX bleibt Beobachtungs- und Follow-on-Wert fuer moegliche HDD-/Nearline-Folgewelle.
-- [x] Kommende Ereignisse bis 2026-06-28 in `05_data/upcoming_events.md` angelegt und Pflichtausgabe "heute plus naechste fuenf Kalendertage" in `AGENTS.md` und `START_HERE.md` verankert.
-- [x] Automation "KI Aktien 2" Kontext-Radar am 2026-05-28 13:05 CEST durchgefuehrt: Covered-Symbol-Kurse, US-Pre-Market, KRX/Japan/Paris-Schlussdaten, NVIDIA-Q1-Readthrough, Makro/DXY, Watchlists und betroffene Unternehmensakten aktualisiert.
-- [x] 2-von-3-Depotfrage am 2026-05-28 beantwortet und dokumentiert: Basisauswahl SK Hynix + Micron behalten; SanDisk bei Konzentration auf zwei Werte als Reduktionskandidat.
-- [x] Kurzrefresh "Gibt es Neuigkeiten?" am 2026-05-29 durchgefuehrt: aktive Depotwerte, HDD-/Nearline-Watchlist, primaere Follow-on-Werte, Makro-Overlay und kommende Termine aktualisiert.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-29 10:05 CEST durchgefuehrt: Covered-Symbol-Kurse, Samsung-HBM4E-Sample-Signal, Photonics-/WFE-Kontext, Makro-Overlay, Watchlists, Unternehmensakten und Eventfenster aktualisiert.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-29 14:16 CEST erneut durchgefuehrt: US-Pre-Market, Kioxia-/Schneider-Kurse, SanDisk/Bernstein-Transcript, Bloom-Bewertungswarnung, Watchlists, Unternehmensakten und Caches aktualisiert.
-- [x] Repo-Methodik vertieft: `01_knowledge/deep_dive_framework.md`, `01_knowledge/portfolio_risk_framework.md`, `01_knowledge/earnings_review_template.md`, `02_context/portfolio_policy.md`, `05_data/peer_benchmarks.md` und `05_data/market_monitor_schema.md` angelegt.
-- [x] `AGENTS.md`, `START_HERE.md`, `01_knowledge/report_template.md`, `05_data/data_schema.md` und `05_data/data_architecture_recommendation.md` auf Deep-Dive-, Portfolio-, Peer-, Falsifikations- und Zeitreihenlogik erweitert.
-- [x] Unternehmensakten fuer SK Hynix, Micron, SanDisk, Seagate und Western Digital um Scorecards mit Thesis Status, Datenqualitaet, Bewertung, Momentum, Kill-Punkt und Katalysator ergaenzt.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-30 07:50 CEST durchgefuehrt: Covered-Symbol-Kurse, Dell-AI-Server-Signal, U.S.-Treasury-Daten, Events, Watchlists, Unternehmensakten und Caches aktualisiert; Dell als Hintergrund-/Nachfrageproxy ergaenzt.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-30 08:08 CEST durchgefuehrt: Repository-Rundgang wiederholt, Dell-Q1-FY2027-Primaerzahlen korrigiert, NVIDIA-GTC-Taipei/COMPUTEX-Roadmap-Watch ergaenzt, VIX-Sekundaercheck und Caches/Watchlists/Unternehmensakten aktualisiert.
-- [x] Dell-Depotfrage am 2026-05-30 08:18 CEST eingeordnet: aktiv beobachten, aber vorerst nicht aufnehmen; naechster Pruefpunkt ist Dell bei der BofA-Konferenz am 2026-06-02.
-- [x] Lokale SQLite-Datenebene am 2026-05-30 umgesetzt: `05_data/market_monitor.sqlite`, versioniertes Schema, Symbol-Seed, Nutzungsdoku und AGENTS-/START_HERE-Verankerung angelegt.
-- [x] SQLite-Datenebene am 2026-05-30 technisch getestet: Neuaufbau, Seed, Integritaet, Idempotenz, Pflicht-Views, Schreib-/Rollback-Test und Fremdschluesselpruefung erfolgreich.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-05-31 17:43 CEST durchgefuehrt: Repository-Rundgang, Covered-Symbol-Kurse, Dell-Transcript mit Memory als primaerem AI-Server-Engpass, Makro-/Eventrefresh, Watchlists, Unternehmensakten und erste echte SQLite-Markt-Snapshots aktualisiert.
-- [x] Automation "KI Aktien Wochenueberblick" am 2026-05-31 17:42 CEST durchgefuehrt: Wochenfenster 2026-06-01 bis 2026-06-07, China-PMI, Hormuz-/Energierisiko, US-/Euro-Makrotermine, NVIDIA/COMPUTEX, Broadcom-Q2, Dell/WDC/STX-Konferenzen, Caches und SQLite-Snapshots aktualisiert.
-- [x] Automation "KI Aktien Wochenueberblick" am 2026-06-01 06:02 CEST aktualisiert: Korea-Kurse fuer SK Hynix/Samsung, NVIDIA-DSX-/AI-Factory-Readthrough, Heute-plus-5-Tage-Termine, Watchlists, Unternehmensakten, Caches, SQLite und Bericht `04_reports/ki_aktien_wochenueberblick_2026-06-01.md` fortgeschrieben.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-06-01 06:12 CEST durchgefuehrt: Asien-Kurse fuer SK Hynix/Samsung/Kioxia, NVIDIA-DSX-/Vera-Rubin-Readthrough, Reuters-/StockAnalysis-Korea-Meeting-Signal, Caches, Watchlists, Unternehmensakten, Events und SQLite fortgeschrieben.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-06-01 06:34 CEST fortgeschrieben: SK-Hynix-/Samsung-Kurse aktualisiert, NVIDIA-Newsroom-Details zu Vera Rubin/Spectrum-X/DSX/Vera CPU/BlueField-4 STX und Reuters-US-Exportkontroll-Watch ergaenzt, Markdown-Caches, Watchlists, Unternehmensakten, Evaluation Log und SQLite aktualisiert.
-- [x] Kioxia-Aufnahmefrage am 2026-06-01 08:16 CEST beantwortet und dokumentiert: Kioxia von Hintergrund-/Readthrough-Wert auf aktive Watchlist/Deep-Dive-Kandidat hochgestuft; keine automatische Depotaufnahme nach Kurssprung; neue Unternehmensakte `02_context/companies/kioxia.md` angelegt und Caches/SQLite fortgeschrieben.
-- [x] Automation "KI Aktien Wochenueberblick" am 2026-06-01 08:16 CEST nachgezogen: frische SK-Hynix-/Samsung-/Kioxia-Asienkurse, Makro-/Eventcheck ohne neue Termine, Bericht `04_reports/ki_aktien_wochenueberblick_2026-06-01.md`, Caches, Watchlists, Unternehmensakten, Evaluation Log und SQLite aktualisiert.
-- [x] Automation "KI Aktien Wochenueberblick" am 2026-06-01 08:47 CEST erneut fuer Chat-Ausgabe aktualisiert: Quellen gegen StockAnalysis, NVIDIA, Dell, Kioxia, Broadcom, Micron und BLS/Eventquellen gegengeprueft; keine neue harte These-Aenderung seit 08:16; Bericht, Caches, Evaluation Log, SQLite und Automation-Memory fortgeschrieben.
-- [x] Operator-Signal-Radar am 2026-06-01 umgesetzt: `02_context/watchlist_ai_operator_signals.md` angelegt, SQLite um `people`/`person_statements` plus Views erweitert, Seed-Liste mit P1/P2/P3-Personen inklusive Andrej Karpathy und Ilya Sutskever gepflegt und AGENTS-/START_HERE-/Market-Monitor-Doku aktualisiert.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-06-01 14:11 CEST durchgefuehrt: Voller Repository-Rundgang, frische Asien-/Paris-/US-Pre-Market-Kurse, SK-Hynix-Cheongju-Gasleck, NVIDIA-Vera-/RTX-Spark-Readthrough, Watchlists, Unternehmensakten, Caches, Evaluation Log, SQLite und Automation-Memory aktualisiert.
-- [x] Market-Monitor Quality Gate am 2026-06-01 umgesetzt: `data_quality_issues`, Validierungs-Views, `tools/market_monitor_validate.py`, Doku-Verankerung und initiale offene Warnungen in SQLite ergaenzt.
-- [x] Automation "KI Aktien Analyse" Kontext-Radar am 2026-06-02 06:47 CEST durchgefuehrt: Repository-Rundgang, Covered-Symbol-Vollrefresh, Micron-COMPUTEX-Primaermeldung, SK-Hynix-Gasleck-Follow-up, Makro-/Eventrefresh, Watchlists, Unternehmensakten, Caches, Evaluation Log, SQLite und Quality Gate aktualisiert.
+- [x] Datenarchitektur auf CSV-only umstellen; alte Datenbank- und Toolpflicht entfernen.
+- [x] Zusaetzliche Kontextoptimierungen umgesetzt: `AGENTS.md` weiter gekuerzt, CSV-first-Regel verankert, Report-Retention 7-14 Tage festgelegt.
+- [ ] Aktuelle Ticker, Handelsplaetze, Positionsgroessen, Einstandskurse und Basiswaehrungen fuer SK Hynix, Micron, SanDisk und Kioxia klaeren.
+- [ ] `latest_quotes.csv`, `monitoring_status.csv` und `peer_benchmarks.csv` mit 5D/1M/3M-/52W-Feldern und frischen Fundamentals befuellen.
+- [ ] `decision_gate_results.csv` fuer Micron-Q3 und Kioxia-Securities-Report am 2026-06-24 vorbereiten.
+- [ ] SanDisk/Kioxia-Bucket nach Kioxia Securities Report neu pruefen: FCF, Working Capital, Segmentmargen, LTA-Details, Nettofinanzierung, JV-Oekonomie.
+- [ ] Marvell/Broadcom/Arista-Follow-on-Rotation gegen harte Belege pruefen: Design-Wins, AI-Umsatz, Margen, FCF, EPS-Revisionen, Bewertung.
+- [ ] HDD-/Nearline-Reaktivierungswatch fuer WDC/STX gegen Primaertranskripte, LTAs, Exabytes, ASPs, Gross Margins, FCF und EPS-Revisionen validieren.
+- [ ] Bei jedem Daily Brief: Scope, frische Daten, CSV-Update, Quality Gate, Chat-Ausgabe.
 
-## Naechste sinnvolle Schritte
+## Archiv
 
-- [ ] Aktuelle Ticker, ISINs und Handelsplaetze fuer SK Hynix und SanDisk im Broker klaeren.
-- [x] Aktuelle Marktdaten fuer alle vier Positionen fuer Reduktionsanalyse 2026-05-28 erfasst.
-- [ ] PEG fuer Micron sauber neu berechnen, da die Gespraechs-PDF widerspruechliche Werte enthaelt; aktueller Reduktionsentscheid nutzt Forward-PE/Margen/Growth statt einen unsicheren PEG.
-- [ ] Naechste Earnings-Termine verifizieren.
-- [ ] Einen ersten aktuellen Portfolio-Snapshot in `04_reports/` erstellen.
-- [ ] Marvell gegen Broadcom und Arista als Follow-on-Kandidat vertieft analysieren: Kundenkonzentration, AI-Bookings, Optics/Interconnect, Custom-XPU-Programme, Margen und EPS-Revisionen.
-- [ ] Memory-Crowding nach Trillion-Dollar-Club-Rallye eng verfolgen: Ruecksetzer, EPS-Revisionen, Margen, Forward-PE und Kursreaktion auf Micron-Q3 am 2026-06-24.
-- [ ] Falls SanDisk reduziert wird, SanDisk weiter als NAND-/Enterprise-SSD-Watchwert beobachten: Q4-Termin, Kioxia-Readthrough, NAND-/Enterprise-SSD-Preise, Samsung-V10-/900L-Roadmap.
-- [ ] Nach US-Handelsstart 2026-05-28 pruefen, ob Micron/SanDisk/Marvell-Pre-Market-Abkuehlung nur Gewinnmitnahme bleibt oder zu einem breiteren Momentumbruch wird.
-- [ ] Micron-Q3 am 2026-06-24 als naechsten harten Pruefpunkt fuer die HBM/DRAM-Re-Rating-These vormerken.
-- [ ] Ab dem naechsten Marktrefresh neue Kurs-, News-, Event-, Makro-, Fundamental- und Signal-Snapshots konsequent in `05_data/market_monitor.sqlite` fortschreiben.
-- [ ] Vollautomatische Quote-Historie fuer alle Covered Symbols aus SQLite auswerten, damit 1M/3M-Momentum nicht nur manuell im Markdown steht.
-- [ ] Offene Quality-Gate-Warnungen abbauen: 1M/3M-/52W-Momentumfelder fuer aktive/Watch-Symbole befuellen und fehlende Fundamentals-Snapshots fuer Watchlistwerte priorisieren.
-- [ ] Peer-Snapshot fuer aktive Depotwerte und wichtigste Watchlist-Werte mit frischen Quellen nach `05_data/peer_benchmarks.md` befuellen.
-- [ ] Bei der naechsten echten Depotentscheidung `02_context/portfolio_policy.md` mit Positionsgroessen, Einstandskursen, Basiswaehrung, Ziel- und Maximalgewichtungen ergaenzen, falls der Nutzer diese Daten nennt.
-- [ ] Klaeren, ob E-Mail-Alerts an `info@apollu.de` ueber einen explizit freigegebenen/trusted Versandweg laufen sollen; der Gmail-Connector blockierte den direkten Export im Kontext-Radar-Lauf 2026-05-28.
-- [ ] Bei der naechsten Marktanalyse die Ampel aus `02_context/best_case_conditions_ai_memory_boom.md` mit neuen Quellen aktualisieren.
-- [ ] Dell als aktiven AI-Server-/Storage-Nachfrageproxy beobachten: AI-Server-Orders, Backlog-Qualitaet, Margen, Storage-Attach, Free Cash Flow, EPS-Revisionen, Memory-/Networking-Readthrough und Aussagen auf der BofA-Konferenz am 2026-06-02.
-- [ ] Nach Dell-BofA am 2026-06-02 pruefen, ob die im Transcript genannten Memory-/DRAM-/NAND-/Hard-Drive-Engpaesse in Margen, Storage-Attach, Working Capital, Backlog-Qualitaet und FCF sichtbar werden.
-- [ ] Nach NVIDIA-GTC-Taipei-Keynote die offiziellen Detailmeldungen zu Vera Rubin, DSX, HBM4, Storage, Networking, Optics, Power und Taiwan-Partnern gegen konkrete Lieferketten-/Margen-/EPS-Daten validieren.
-- [ ] US-Exportkontroll-Watch pruefen: offizielle BIS-/Commerce-Detailmeldung, Reaktion von NVIDIA/AMD, moegliche Wirkung auf China-Capex, GPU-Shipments, HBM/DRAM/Storage-Nachfrage und Lieferkettenumleitung.
-- [ ] Kioxia-/SanDisk-NAND-Readthrough nach +10.51% Kioxia intraday gegen Enterprise-SSD-Preise, NAND-Vertragspreise, LTAs, Margen und Kioxia/JV-Daten pruefen.
-- [ ] Kioxia nach Investor Day 2026-06-02 und Securities Report 2026-06-24 gegen SanDisk vergleichen: Bewertung, FCF, Capex, SSD-&-Storage-Marge, ASP-/Bit-Shipments, JV-Oekonomie, JPY-/Japan-Risiko, ADR-/Brokerhandelbarkeit und Positionsersatz statt Add-on.
-- [ ] Nach Broadcom-Q2 am 2026-06-03 Custom-AI-/Networking-Readthrough gegen Memory-Depotwerte vergleichen: AI-Umsatz, Hyperscaler-Design-Wins, Margen, EPS-Revisionen und Bewertung.
-- [ ] Bei der naechsten Marktanalyse Memory-Spot-/Contract-Preise, GPU-Compute-Spotpreise, SOX/SMH-Momentum, Hyperscaler-Capex und private AI-Infrastruktur-Deals als Fruehindikatoren pruefen.
-- [ ] Samsung-900-Layer-/V10-NAND-Roadmap gegen SanDisk/Kioxia BiCS10 beobachten: Massenproduktion, Yield, Capex, Enterprise-SSD-Preise und NAND-Contract-Preise.
-- [ ] Samsung-HBM4E-Aufholsignal beobachten: Kundenqualifikation, Volumen, Yield, HBM-Preise, NVIDIA/AMD/Hyperscaler-Design-Wins und Auswirkungen auf SK Hynix/Micron-Premium.
-- [ ] SanDisk/Bernstein-Transcript mit offizieller IR-Quelle oder naechstem Quartalsbericht verifizieren: LTAs, High Bandwidth Flash, NAND-/Enterprise-SSD-Preise, Kapazitaetsausbau, Margen und Kioxia/JV-Readthrough.
-- [ ] Bei der naechsten Marktanalyse Makro-/Sentiment-Regime aus `05_data/macro_market_signals.md` pruefen: US 2Y/10Y, Realzins, Yield Curve, FedWatch, NFCI, HY-Spreads, VIX, USD, Fear & Greed, AAII und FINRA Margin Debt.
-- [ ] Bei jeder Folgeanfrage `05_data/upcoming_events.md` pruefen und Termine fuer heute plus naechste fuenf Kalendertage in der Antwort nennen.
-- [ ] Bei jeder Folgeanfrage mit Branchen-, Zukunfts-, Watchlist- oder Depotbezug `02_context/watchlist_ai_operator_signals.md` pruefen und neue relevante Operator-/Research-Aussagen in `person_statements` speichern.
-- [ ] Nach 2026-06-03 Broadcom-Q2 gegen AI-Umsatz, ASIC-/Networking-Guidance, Backlog/Kundensichtbarkeit, Marge und EPS-Revisionen pruefen.
-- [ ] Nach 2026-06-05 US-Payrolls und Eurozonen-Daten Makro-Ampel aktualisieren: Realzinsen, USD, Kreditspreads und Growth-Multiple-Risiko.
-- [ ] Nach NVIDIA-BofA am 2026-06-04 pruefen, ob DSX-/AI-Factory-Readthrough mit konkreten Speicher-, Netzwerk-, Power- oder Partnerdaten unterlegt wird.
-- [ ] Nach Dell/WDC/STX-Konferenzen am 2026-06-02/03 pruefen, ob Memory-/Storage-/HDD-Engpaesse in Margen, Backlog-Qualitaet, LTAs, Exabytes, FCF oder EPS-Revisionen sichtbar werden.
-- [ ] SK-Hynix-Cheongju-Gasleck nachverfolgen: offizielle SK-Hynix-Mitteilung, Behoerdenberichte, Produktionsstatus M15/M15X, Yield-/Shipment-Auswirkungen und Kunden-/Capex-Folgen pruefen.
-- [x] Nach tatsaechlicher Ausfuehrung des Seagate-Verkaufs `02_context/current_portfolio.md` final auf "verkauft / Beobachtung" gesetzt.
-- [x] Optional erledigt: Lokale SQLite-Datenbank `05_data/market_monitor.sqlite` angelegt und mit Symboluniversum initialisiert.
-- [ ] Optional: Positionsgroessen und Einstandskurse ergaenzen, falls der Nutzer sie teilen moechte.
-- [x] Bei der Aktienanfrage 2026-05-29 `05_data/latest_quotes.md` und `05_data/latest_news.md` mit aktuellen Daten gefuellt.
+Alte Langlisten sind auf Kurzarchive reduziert: `03_state/archive/`.

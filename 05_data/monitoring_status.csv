@@ -1,0 +1,7 @@
+captured_at,area,status,short_reason,next_action
+"2026-06-04 08:06 Europe/Berlin","Depotwerte","better but overheated; after-hours pressure","SK Hynix -2.29%; Micron and SanDisk strong at US close but weaker after-hours; Kioxia still high after Investor Day","Do not infer hard thesis change without price/margin/guidance data"
+"2026-06-04 08:06 Europe/Berlin","Local short window","positive but incomplete","Local snapshots show Micron/SanDisk/Kioxia strong; full OHLC series missing","Fill quote history in CSV"
+"2026-06-04 08:06 Europe/Berlin","HDD/Nearline","clearly positive watch; not reactivated","WDC/STX transcript signals are positive but no fresh primary confirmation in latest run","Verify primary transcripts, LTAs, exabytes, FCF and EPS revisions"
+"2026-06-04 08:06 Europe/Berlin","Primary follow-on","strong fundamentals; weak timing","Broadcom Q2 confirms AI custom silicon/networking; AVGO/MRVL/ANET/VRT after-hours selloff shows crowding risk","Deep dive only after design wins, margins and EPS revisions"
+"2026-06-04 08:06 Europe/Berlin","Extended watchlist","WFE/power positive; hyperscaler financing yellow","AMAT/LRCX/ASML and power/grid constructive; MSFT/GOOGL/ORCL/AMZN mixed","Check capex, FCF and financing quality"
+"2026-06-04 08:06 Europe/Berlin","Macro/Sentiment","yellow","ISM growth positive but Prices 71.3 and high real yields limit valuation relief","Use as valuation/timing overlay, not standalone thesis"

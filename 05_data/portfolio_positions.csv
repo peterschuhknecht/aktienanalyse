@@ -1,0 +1,5 @@
+as_of,symbol,company,bucket,status,portfolio_weight,entry_price,currency,source,notes
+"2026-06-02",000660.KS,"SK Hynix","HBM/DRAM/LPDDR",active,TBD,TBD,KRW,"User statement","Position active; weight not provided"
+"2026-06-02",MU,"Micron","HBM/DRAM/LPDDR",active,TBD,TBD,USD,"User statement","Position active; weight not provided"
+"2026-06-02",SNDK,"SanDisk","NAND/Enterprise-SSD",active,TBD,TBD,USD,"User statement","Shared NAND bucket with Kioxia"
+"2026-06-02",285A.T,"Kioxia","NAND/Enterprise-SSD",active,TBD,TBD,JPY,"User statement","Shared NAND bucket with SanDisk"

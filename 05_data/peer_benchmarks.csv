@@ -1,0 +1,12 @@
+date,peer_group,company,symbol,portfolio_status,forward_pe,revenue_growth,eps_growth,gross_margin,fcf_margin,momentum,next_catalyst,assessment
+TBD,"HBM/DRAM/LPDDR","SK Hynix","000660.KS",Depot,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+TBD,"HBM/DRAM/LPDDR","Micron","MU",Depot,TBD,TBD,TBD,TBD,TBD,TBD,"Micron Q3 2026-06-24",TBD
+TBD,"NAND/Enterprise-SSD","SanDisk","SNDK",Depot,TBD,TBD,TBD,TBD,TBD,TBD,"SanDisk Mizuho 2026-06-09",TBD
+2026-06-02,"NAND/Enterprise-SSD","Kioxia","285A.T",Depot,8.33,"FY2025 revenue +37%",TBD,TBD,"ca. 14.3% abgeleitet","very strong/overheated","Securities Report 2026-06-24","Active since 2026-06-02; FCF/capex/JV validation open"
+2026-06-02,"Custom Silicon / Networking","Marvell","MRVL",Watch,48.42,"Q1 FY2027 +28% YoY",TBD,TBD,TBD,"very strong/overheated","Broadcom Q2; Marvell design wins/T100 sampling","Prioritized Wave-3 candidate; hard proof still needed"
+2026-06-02,"Custom Silicon / Networking","Broadcom","AVGO",Watch,34.39,"Q1 FY2026 +25% YoY; AI semiconductor +106% per cache",TBD,TBD,TBD,Strong,"Q2 FY2026 2026-06-03","Quality peer for custom AI silicon; high valuation/size"
+2026-06-02,"Custom Silicon / Networking","Arista","ANET",Watch,45.07,"Q1 2026 +35.1% YoY per cache",TBD,TBD,TBD,Strong,"Cloud/AI Ethernet orders","Cleaner Ethernet fabric lever but competition risk"
+2026-06-03,"Custom Silicon / Networking","NVIDIA","NVDA",Background,22.42,"TTM revenue +70.7% per data provider",TBD,TBD,TBD,Strong,"NVIDIA-BofA 2026-06-04","System/platform peer; can replace/limit networking content"
+2026-06-03,"Custom Silicon / Networking","Cisco","CSCO",Background,27.25,"TTM revenue +9.2% per data provider",TBD,TBD,TBD,"new 52W high per quote page","Silicon One G300 / AI networking 2026","Large AI networking peer, system/software heavy"
+2026-06-03,"Custom Silicon / Networking","Qualcomm","QCOM",Background,24.66,"TTM revenue +5.2% per data provider",TBD,TBD,TBD,Positive,"AI200 2026 / AI250 2027","Broadcom connectivity peer and possible AI inference competitor"
+2026-06-02,"Power / Cooling / Grid","Vertiv","VRT",Watch,47.39,"Q1 2026 +30% YoY per cache",TBD,TBD,TBD,Strong,"Orders/backlog/liquid cooling","Strong physical infrastructure wave but high valuation"

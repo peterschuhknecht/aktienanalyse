@@ -1,0 +1,3 @@
+bucket,max_weight,warning_weight,current_weight,status,source,notes
+"HBM/DRAM/LPDDR",TBD,TBD,TBD,open,"User needed","Weights missing; no concentration statement as fact"
+"NAND/Enterprise-SSD",TBD,TBD,TBD,open,"User needed","SanDisk and Kioxia count together"

@@ -1,0 +1,5 @@
+date,scope,summary,important_values,data_quality
+2026-06-02,"Kioxia active position","Kioxia Investor Day rally and later user depot inclusion changed active portfolio to SK Hynix, Micron, SanDisk, Kioxia.","Kioxia JPY 77540 +6.95%; SK Hynix KRW 2360000 -0.13%","Mixed close/pre-market snapshots"
+2026-06-03,"One-stock prioritization","SK Hynix ranked first among four active names, Micron second, SanDisk third, Kioxia fourth for a hypothetical one-stock reduction.","SK Hynix KRW 2360000; MU USD 1050.27; SNDK USD 1738.15; Kioxia JPY 77540","Not full OHLC history"
+2026-06-03,"Follow-on rotation","Marvell, Broadcom, Arista and WDC/STX moved strongly; follow-on and HDD watch improved but looked crowded.","MRVL USD 290.79 +32.52%; WDC USD 570.61 +4.47%; STX USD 939.13 +1.94%","Finance-data snapshots; primary confirmation needed"
+2026-06-04,"Broadcom risk-off","Broadcom post-result risk-off hit active depot and follow-ons without breaking AI-infrastructure demand thesis.","MU USD 999.85 -7.38% pre-market; SNDK USD 1742.75 -4.85%; SK Hynix KRW 2298000 -2.63%; Kioxia JPY 76920 -1.49%","Mixed pre-market and Asia close snapshots; no full 5D series"
