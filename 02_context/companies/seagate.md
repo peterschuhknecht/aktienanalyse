@@ -6,7 +6,7 @@ Status: verkauft; HDD-/Nearline-Watch und moeglicher Follow-on-Wert.
 
 - Bull: Nearline-Knappheit, Kosten pro TB, HAMR/Mozaic, LTAs, FCF und EPS-Revisionen koennen Reaktivierung rechtfertigen.
 - Bear: geringere strategische Naehe zum KI-Rechenkern als HBM/DRAM, SSD-Kostendruck, Bewertung, Zyklus-/Lead-Time-Normalisierung.
-- Aktueller Stand aus Cache 2026-06-04: positive Watch, aber keine Reaktivierung ohne harte Primaerdaten.
+- Aktueller Stand aus Cache 2026-06-05 12:46 CEST: USD 903.51 Pre-Market nach USD 925.99 Schlusskurs am 2026-06-04, Forward PE 38.70; positive Watch, aber keine Reaktivierung ohne harte Primaerdaten.
 
 ## Harte Checks
 

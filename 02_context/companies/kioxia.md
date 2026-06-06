@@ -6,7 +6,7 @@ Status: aktive Depotposition seit 2026-06-02; NAND-/Enterprise-SSD-Hebel und San
 
 - Bull: Investor-Day-Signale zu Data-Center-/Enterprise-Mix, AI-Inference-Storage, LTAs, BiCS10/CBA und Supply-Demand-Balance.
 - Bear: starkes Momentum, JPY-/Japan-/Liquiditaetsrisiko, Capex kann Ueberangebot erzeugen, FCF/JV-Oekonomie noch unvollstaendig.
-- Aktueller Stand aus Cache 2026-06-04: JPY 76,920, -1.49%, Forward PE 8.70; niedrige Bewertung nur mit FCF-/Margenbestaetigung belastbar.
+- Aktueller Stand aus Cache 2026-06-05: JPY 78,140, +1.59%, Forward PE 8.55; Kioxia ist weiter der staerkste kurzfristige NAND-/Enterprise-SSD-Momentumwert, aber niedrige Bewertung ist nur mit FCF-/Margenbestaetigung belastbar.
 
 ## Harte Checks
 

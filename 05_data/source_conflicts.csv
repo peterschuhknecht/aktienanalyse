@@ -1,1 +1,2 @@
 created_at,status,severity,symbol,field_name,value_a,source_a,value_b,source_b,resolution,next_action
+"2026-06-05 12:58 Europe/Berlin",open,warning,"285A.T","2026-06-05 price","78140 JPY (+1.59%)","StockAnalysis overview https://stockanalysis.com/quote/tyo/285A/","74620 JPY (-2.99%)","StockAnalysis history https://stockanalysis.com/quote/tyo/285A/history/","unresolved; latest_quotes keeps overview value but Kioxia 5D/close must be treated as conflicted","Verify against TSE/broker/IR data source before any Kioxia bucket decision"

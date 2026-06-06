@@ -21,4 +21,4 @@ HDD/Nearline kann von AI-Datenmengen profitieren, ist aber weniger direkt als HB
 
 Lead Times normalisieren, Margen/FCF fallen trotz Nachfrage, Hyperscaler optimieren Datenhaltung staerker als erwartet, SSD-/NAND-Kosten fallen stark, Kurs steigt ohne EPS-Revisionen, Kapazitaetsausbau erzeugt Ueberangebot.
 
-Fazitregel: nur bei neuen Reaktivierungs-/Warnsignalen ausfuehrlich; sonst "HDD-Watchlist unveraendert".
+Aktueller Radar 2026-06-05 12:46 CEST: WDC/STX bleiben positive Watch, aber beide sind im US-Pre-Market schwach und der AI-Hardware-Risk-off liefert kein neues Reaktivierungssignal. Fazitregel: nur bei neuen Reaktivierungs-/Warnsignalen ausfuehrlich; sonst "HDD-Watchlist unveraendert".

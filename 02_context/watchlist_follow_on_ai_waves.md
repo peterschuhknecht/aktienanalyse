@@ -13,11 +13,11 @@ Strukturierte Liste: `02_context/watchlist_follow_on_ai_waves.csv`.
 
 ## Aktuelle Prioritaet
 
-- Broadcom: harter AI-Umsatzbeleg, aber Timing/Multiple-Risiko nach Q2-Risk-off.
-- Marvell: Teralynx/Huang-Signal macht priorisierten Deep-Dive, aber Design-Wins, Umsatz, Margen und EPS-Revisionen fehlen.
-- WDC/STX: HDD/Nearline klar positiver Watch, noch keine Reaktivierung ohne Primaerbelege.
+- Broadcom: harter AI-Umsatzbeleg, aber Timing/Multiple-Risiko nach Q2-Risk-off; 2026-06-05 Pre-Market weiter schwach. Keine Umschichtung nur wegen AI-Umsatz ohne bessere Portfolio-/Bewertungsrelation.
+- Marvell: Teralynx/Huang-Signal macht priorisierten Deep-Dive, aber Design-Wins, Umsatz, Margen und EPS-Revisionen fehlen; 2026-06-04/05-Tape bleibt sehr volatil.
+- WDC/STX: HDD/Nearline positiver Watch, aber mit AI-Hardware abgekuehlt und noch keine Reaktivierung ohne Primaerbelege.
 - Samsung: HBM-Aufholer-Watch; erst Qualifikation/Volumen/Margen/EPS zaehlen.
-- Power/Grid/Optics/WFE: strukturell relevant, aber nicht automatisch besser als Speicher.
+- Power/Grid/Optics/WFE: strukturell relevant, aber nicht automatisch besser als Speicher. ASML/EU-Policy und Schneider-Datacenter-Finanzierung sind Watch-Signale, keine harte Prioritaetsverschiebung.
 
 ## Alert-Kriterien
 

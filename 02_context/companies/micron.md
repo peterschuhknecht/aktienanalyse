@@ -6,7 +6,7 @@ Status: aktive Depotposition; US-Hebel auf HBM/DRAM/LPDDR und zusaetzlich NAND.
 
 - Bull: AI-Memory-Portfolio, HBM-Ramp, DRAM-Preiszyklus, US-Liquiditaet und moegliche EPS-/Margenrevisionen.
 - Bear: Zyklik, Capex-/Inventarrisiko, HBM-Ramp enttaeuscht, NAND zieht Margen nach unten, Bewertung laeuft vor Gewinnbelegen.
-- Aktueller Stand aus Cache 2026-06-04: USD 999.85, -7.38% Pre-Market, Forward PE 11.42; Q3 FY2026 am 2026-06-24 ist harter Test.
+- Aktueller Stand aus Cache 2026-06-05 12:46 CEST: USD 965.52 Pre-Market nach USD 996.00 Schlusskurs am 2026-06-04, Forward PE 11.42; Broadcom-Risk-off traf MU deutlich, aber Q3 FY2026 am 2026-06-24 bleibt der harte Test.
 
 ## Harte Checks
 

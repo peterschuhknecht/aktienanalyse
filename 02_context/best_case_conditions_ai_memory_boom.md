@@ -1,6 +1,6 @@
 # Best-Case-Rahmenbedingungen: KI- und Speicherboom
 
-Aktueller Radar 2026-06-04: Gruen/Gelb. Broadcom bestaetigt AI-Custom-Silicon/Networking fundamental, aber Risk-off zeigt Erwartungs-/Multiple-Risiko. HBM/DRAM bleibt positiv, NAND/Enterprise-SSD besser aber beta-/bucket-riskant, HDD/Nearline klarer Watch, Makro gelb wegen hoher Realzinsen und ISM Prices 71.3.
+Aktueller Radar 2026-06-05 12:46 CEST: Gruen/Gelb, leicht gelber. Broadcom bestaetigt AI-Custom-Silicon/Networking fundamental, Kioxia bestaetigt AI-Inference-Storage, aber SK Hynix/Samsung-Korea-Risk-off, koreanisches Profit-Sharing-/Arbeitskosten-Politikrisiko und US-AI-Hardware-Pre-Market-Schwaeche zeigen Erwartungs-, Crowding-, Multiple- und Margenrisiko. HBM/DRAM bleibt positiv, NAND/Enterprise-SSD besser aber beta-/bucket-riskant, HDD/Nearline Watch unveraendert, Makro gelb wegen 10Y 4.47%, Realzins 2.11% und ausstehendem Payrolls-Test.
 
 ## Gutes Szenario
 
