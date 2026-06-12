@@ -19,9 +19,11 @@ Trigger: Daily Brief, Neuigkeiten, Cockpit, Statusseite, Kurzlage.
 
 1. Scope: relevante Symbole, Depot, Watchlists und offene P0-Fragen bestimmen.
 2. Frische Daten: Kurse, News, Events, Makro, Fundamentals, Operator-Signale und Branchenindikatoren pruefen.
-3. Schreiben: CSV-Caches aktualisieren; Markdown nur bei Entscheidung/These/Red-Flag.
-4. Gate: `data_quality_checks.csv` und `source_conflicts.csv` pruefen; Blocker/Warnungen nennen.
-5. Ausgabe im Chat: Kurzfassung, Fakten, Einordnung, Rahmenbedingungen, Termine heute plus fuenf Kalendertage, Depotbewegung, Datenluecken.
+3. Depot-Newsfenster: fuer alle aktiven Depotwerte wichtige Nachrichten von heute plus den letzten drei Kalendertagen aus `05_data/latest_news.csv` zusammenfassen; frische externe Quellen nur ergaenzen, wenn der Cache unvollstaendig oder veraltet ist.
+4. Schreiben: CSV-Caches aktualisieren; Markdown nur bei Entscheidung/These/Red-Flag.
+5. Gate: `data_quality_checks.csv` und `source_conflicts.csv` pruefen; Blocker/Warnungen nennen.
+6. Ausgabe im Chat beginnt mit Depot-Ampel/Ampel-Einschaetzung: fundamental, Timing, Handlungsnaehe und kurzer Grund. Danach: Kurzfassung, Fakten, Depot-News heute plus letzte drei Kalendertage, Einordnung/Rahmenbedingungen, Termine heute plus fuenf Kalendertage, Datenluecken.
+7. Kein eigener Abschnitt `Depotbewegung`. Reine Kursbewegungen der vier aktiven Depotwerte nicht in `Fakten` wiederholen; Bewegungs-/Momentumdaten nur nennen, wenn sie fuer These, Risiko, Datenqualitaet oder Handlungsszenario relevant sind.
 
 ## Bewertungsfragen
 

@@ -1,18 +1,18 @@
 wave,company,symbol,role,watch_reason,alert_signals,status
-3,Arista Networks,ANET,"AI Ethernet/fabric","Cluster scale makes networking bottleneck","AI/cloud revenue accelerates; cloud orders; relative breakout",watch
-3,Broadcom,AVGO,"ASICs/networking","Hyperscaler custom ASICs and networking as NVIDIA complement","AI revenue/design wins/guidance/margins",priority_watch
-3,Marvell Technology,MRVL,"Custom AI silicon/interconnect/optics","Build-your-own-AI-chip and AI networking lever","Teralynx/design wins/AI bookings/margins/EPS revisions",priority_deep_dive
-3,Vertiv,VRT,"Cooling/power","Physical datacenter infrastructure bottleneck","orders/backlog/liquid cooling/guidance",watch
-2b,Seagate,STX,"HDD/Nearline","Former holding; possible AI data capacity follow-on","exabytes/LTAs/FCF/margins/EPS revisions",sold_watch
-2b,Western Digital,WDC,"HDD/Nearline","WDC vs STX reactivation check","nearline exabytes/LTAs/FCF/margins",watch
-2,Samsung Electronics,005930.KS / SSNLF,"HBM/NAND/foundry","HBM catch-up and NAND tech pressure","HBM qualification/yields/design wins/margins",watch
+3,Arista Networks,ANET,"AI Ethernet/fabric","Cluster scale makes networking bottleneck; Jun-9 7060XE7 1.6T product signal; Jun-11 +3.06% confirms resilience but not order proof","AI/cloud revenue accelerates; cloud orders; relative breakout; product signal turns into orders/margins/EPS revisions",watch
+3,Broadcom,AVGO,"ASICs/networking","Hyperscaler custom ASICs and networking as NVIDIA complement; Jun-11 +3.62% rebound plus Apollo/Blackstone/Anthropic AI infrastructure financing strengthens the demand watch, but expectation/crowding risk remains","AI revenue/design wins/guidance/margins/FCF and concrete infrastructure economics remain hard proof",priority_watch
+3,Marvell Technology,MRVL,"Custom AI silicon/interconnect/optics","Build-your-own-AI-chip and AI networking lever; Jun-11 +11.13% rebound after severe drawdown, but valuation/proof risk remains","Teralynx/design wins/AI bookings/margins/EPS revisions",priority_deep_dive_timing_risk
+3,Vertiv,VRT,"Cooling/power","Physical datacenter infrastructure bottleneck; Jun-11 +6.01% rebound and Oracle Q4 support demand backdrop but not VRT backlog/margin proof","orders/backlog/liquid cooling/guidance",watch
+2b,Seagate,STX,"HDD/Nearline","Former holding; possible AI data capacity follow-on; Jun-11 StockAnalysis page was intraday-stale, so reactivation remains blocked","exabytes/LTAs/FCF/margins/EPS revisions plus clean close/history",sold_watch
+2b,Western Digital,WDC,"HDD/Nearline","WDC vs STX reactivation check; Jun-11 +8.00% rebound but Jun-5 source conflict and missing primary proof require caution","nearline exabytes/LTAs/FCF/margins plus source-conflict resolution",watch
+2,Samsung Electronics,005930.KS / SSNLF,"HBM/NAND/foundry","HBM catch-up and NAND tech pressure; Jun-12 +11.87% delayed intraday rebound keeps competitive watch active","HBM qualification/yields/design wins/margins; Reuters Jun-8 NVIDIA discussion on next-generation foundry plus HBM4E/HBM5",watch
 4,Eaton,ETN,"Grid/electrical","Power distribution for datacenters","backlog/orders/datacenter exposure/valuation",watch
 4,GE Vernova,GEV,"Grid/turbines","Grid and power infrastructure","orders/margins/project execution",watch
-4,Corning,GLW,"Fiber/optics","Optical connections for AI clusters","hyperscaler deals/optical growth/margins",watch
+4,Corning,GLW,"Fiber/optics","Optical connections for AI clusters; Jun-11 +4.98% rebound; Amazon/Corning multibillion-dollar optical-fiber report is a watch signal","hyperscaler deals/optical growth/margins; verify official economics and EPS impact",watch
 4,Constellation Energy,CEG,"Power/nuclear","Long-term clean power contracts","datacenter contracts/regulatory approvals",watch
-4,Vistra,VST,"Power generation","Rising datacenter power demand","power prices/contracts/capex",watch
-4,Bloom Energy,BE,"On-site power","High-risk local datacenter power","profitability/order quality/valuation",watch_high_risk
-5,Applied Materials,AMAT,"WFE","HBM/DRAM/NAND and packaging tools","orders/backlog/export controls",watch
-5,Lam Research,LRCX,"WFE NAND/DRAM","NAND/DRAM capex tools","NAND cycle/orders/export controls",watch
-5,ASML,ASML,"Lithography","Advanced semiconductor capex","order intake/export controls",watch
+4,Vistra,VST,"Power generation","Rising datacenter power demand; KKR/NVIDIA/Kuwait Helix lists Vistra as power partner, strengthening the AI power-bottleneck watch","power prices/contracts/capex/project economics/margins",watch
+4,Bloom Energy,BE,"On-site power","High-risk local datacenter power; Oracle Q4 mentions fuel-cell/datacenter search trail but Jun-10 price action and valuation risk are severe","profitability/order quality/valuation",watch_high_risk
+5,Applied Materials,AMAT,"WFE","HBM/DRAM/NAND and packaging tools; Jun-11 +11.19% strong WFE rebound","orders/backlog/export controls",watch
+5,Lam Research,LRCX,"WFE NAND/DRAM","NAND/DRAM capex tools; Jun-11 +12.65% strongest WFE rebound","NAND cycle/orders/export controls",watch
+5,ASML,ASML,"Lithography","Advanced semiconductor capex; Jun-11 +9.53% and page near 52W high","order intake/export controls",watch
 5,Amkor Technology,AMKR,"Advanced packaging","AI packaging capacity","orders/margins/customer concentration",watch

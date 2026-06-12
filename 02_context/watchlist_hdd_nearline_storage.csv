@@ -1,3 +1,3 @@
 company,symbol,status,role,current_signal,reactivation_requires
-Seagate Technology,STX,sold_watch,"HDD/Nearline/HAMR/Mozaic","positive watch; not reactivated","primary evidence for exabytes, LTAs, sold-out capacity, ASPs, margins, FCF, EPS revisions"
-Western Digital,WDC,watch,"HDD/Nearline/high-capacity roadmap","clearer reactivation watch than STX after transcript signals","primary evidence for >25% exabyte CAGR, LTAs, prices, gross margins, FCF, EPS revisions"
+Seagate Technology,STX,sold_watch,"HDD/Nearline/HAMR/Mozaic","positive watch; Jun-11 StockAnalysis page was intraday-stale at +3.36%, so no reactivation without primary proof","primary evidence for exabytes, LTAs, sold-out capacity, ASPs, margins, FCF, EPS revisions plus clean close/history"
+Western Digital,WDC,watch,"HDD/Nearline/high-capacity roadmap","clearer reactivation watch than STX after transcript signals and Jun-11 +8.00% rebound, but Jun-5 source conflict and missing primary proof require caution","primary evidence for >25% exabyte CAGR, LTAs, prices, gross margins, FCF, EPS revisions plus source-conflict resolution"

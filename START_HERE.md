@@ -9,8 +9,11 @@ Ziel: kompakte Aktienanalyse mit kurzer Markdown-Wissensbasis und CSV-only-Daten
 3. CSV zuerst: relevante Werte aus `05_data/covered_symbols.csv` bestimmen.
 4. Aktuelle Daten aus CSV pruefen: `latest_quotes.csv`, `latest_news.csv`, `upcoming_events.csv`, `monitoring_status.csv`, `macro_market_signals.csv`, `peer_benchmarks.csv`.
 5. Bei Bewertung/Depotentscheidung `05_data/data_quality_checks.csv` auf Blocker/Warnungen pruefen und ggf. aktualisieren.
-6. Termine heute plus fuenf Kalendertage aus `05_data/upcoming_events.csv` melden.
-7. Nur relevante Akten/Logs kurz aktualisieren; Reports nach 7-14 Tagen in CSV/Log verdichten.
+6. Ausgabe immer mit Depot-Ampel/Ampel-Einschaetzung beginnen; kurze Begruendung zu fundamentalem Zustand, Timing und Handlungsnaehe.
+7. Termine heute plus fuenf Kalendertage aus `05_data/upcoming_events.csv` melden.
+8. Bei jeder Auswertung fuer alle aktiven Depotwerte die wichtigen Nachrichten von heute plus den letzten drei Kalendertagen aus `05_data/latest_news.csv` zusammenfassen, damit nichts Wesentliches uebersehen wird.
+9. Kein eigener Abschnitt `Depotbewegung`; reine Kursbewegungen der vier aktiven Depotwerte nicht in `Fakten` wiederholen, ausser sie sind fuer These, Risiko oder Handlungsszenario relevant.
+10. Nur relevante Akten/Logs kurz aktualisieren; Reports nach 7-14 Tagen in CSV/Log verdichten.
 
 ## Kernpfade
 

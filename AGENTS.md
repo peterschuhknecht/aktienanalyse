@@ -11,6 +11,9 @@ Erst `START_HERE.md` lesen. Fakten, Quellen, Annahmen, Hypothesen und Meinungen 
 - Bewertung: frische Kurse, Market Cap, KGV/Forward-KGV, Wachstum, PEG, Margen, Guidance, Termine, Peers und `05_data/data_quality_checks.csv`.
 - Kauf/Verkauf/Nachkauf/Reduktion/Umschichtung: zusaetzlich `01_knowledge/portfolio_risk_framework.md` und `02_context/portfolio_policy.md`.
 - Immer `05_data/upcoming_events.csv` pruefen und Termine heute plus fuenf Kalendertage melden.
+- Bei jeder Auswertung fuer alle aktiven Depotwerte die wichtigen Nachrichten von heute plus den letzten drei Kalendertagen aus `05_data/latest_news.csv` zusammenfassen; nur relevante Primaer-/hochwertige Quellen als Fakten werten, schwache Quellen als Suchspur markieren.
+- Jede Auswertung beginnt mit der Depot-Ampel/Ampel-Einschaetzung, z.B. fundamental/timing und kurze Begruendung. Reine Kursbewegungen der vier aktiven Depotwerte gehoeren nicht in `Fakten`, wenn der Nutzer sie selbst beobachtet; sie nur bei echter These-, Risiko- oder Handlungsrelevanz nennen.
+- Kein eigener Abschnitt `Depotbewegung`; Bewegungs-/Momentumdaten nur knapp in Einordnung, Datenqualitaet oder Entscheidungspruefung verwenden, wenn sie fuer Risiko oder Handlungsszenario relevant sind.
 - Quellenqualitaet nach `01_knowledge/source_quality.md`; schwache Quellen nur als Suchspur markieren.
 - Operator-/Research-Aussagen in `02_context/operator_statements.csv`; nur `Hard` oder bestaetigtes `Medium` darf Thesen aendern.
 - Reports nach 7-14 Tagen in CSV/Log verdichten; lange Markdown-Historien vermeiden.
