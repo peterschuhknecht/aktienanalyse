@@ -6,12 +6,12 @@ Pflicht: bei jeder sachlichen Aktienantwort Termine heute plus naechste fuenf Ka
 
 Depot-Einfluss: `Niedrig`, `Mittel`, `Hoch`. `importance` beschreibt die allgemeine Terminwichtigkeit; `depot_impact` beschreibt die konkrete Relevanz fuer das aktive Depot.
 
-Letzter Abgleich: 2026-06-12 06:35 Europe/Berlin. Keine neuen Termine gegenueber dem 05:54-Cache gefunden.
+Letzter Abgleich: 2026-06-19 06:41 Europe/Berlin.
 
-Heute 2026-06-12: kein harter Unternehmens- oder Makrotermin im aktualisierten Event-Cache.
+Heute 2026-06-19: gemeldeter Zieltermin fuer Unterzeichnung/Umsetzung des vorlaeufigen US-Iran-/Hormuz-Deals, Depot-Einfluss: Mittel, weil Oel, Inflationserwartung und Risikoappetit betroffen sind; im Radar liegt noch keine bestaetigte Umsetzung vor. Heute sind US-Aktienmaerkte wegen Juneteenth geschlossen, Depot-Einfluss: Niedrig, aber US-Kursdaten sind stale und duerfen nicht als Jun-19-Kassamarktbewegung gelesen werden.
 
-Naechste fuenf Kalendertage: 2026-06-15 Arista/KeyBanc - Depot-Einfluss: Niedrig. Grund: Watchlist-Konferenz ohne direkte aktive Depotwerte und ohne primaere Bestaetigung. 2026-06-15 bis 2026-06-18 HPE Discover Las Vegas mit Kioxia-Flash-Storage-Showcase - Depot-Einfluss: Mittel. Grund: betrifft Kioxia und den SanDisk/Kioxia-NAND-Bucket ueber Enterprise-SSD- und AI-Flash-Signale, aber noch nicht als Finanzbeleg. 2026-06-16 startet FOMC (US-Notenbank) mit Entscheidung am 2026-06-17 - Depot-Einfluss: Hoch. Grund: Zinsen und Realzins (Zins nach Inflation) beeinflussen AI-/Memory-Bewertungen direkt.
+Naechste fuenf Kalendertage: 2026-06-22 Marvell S&P-500-Aufnahme vor Handelsbeginn, Depot-Einfluss: Niedrig, aber relevant fuer Follow-on-Flow. 2026-06-24 Kioxia Securities Report, Depot-Einfluss: Hoch, weil FCF, Working Capital, Capex, Segmentmargen, LTAs und JV-Oekonomie direkt pruefbar werden. 2026-06-24 Micron Q3 FY2026, Depot-Einfluss: Hoch, weil HBM-Ramp, DRAM-/NAND-Preise, Gross Margin, FCF, Guidance und EPS direkt pruefbar werden.
 
-Danach: 2026-06-24 Kioxia Securities Report - Depot-Einfluss: Hoch. Grund: direkter Check fuer Kioxia und den SanDisk/Kioxia-Bucket zu FCF (freier Cashflow), Capex (Investitionsausgaben), Working Capital und JV-Risiken. 2026-06-24 Micron Q3 - Depot-Einfluss: Hoch. Grund: direkter Check fuer Micron und die HBM-/DRAM-/NAND-These inklusive Margen, Pricing und 2027-Sichtbarkeit. 2026-06-25 Kioxia Hauptversammlung - Depot-Einfluss: Mittel. Grund: Governance und Kapitalallokation koennen den Kioxia/SanDisk-Bucket beeinflussen, sind aber meist weniger ergebnisrelevant als der Securities Report.
+Gerade abgeschlossen und weiter relevant: FOMC (US-Notenbank) 2026-06-17 ist abgeschlossen. Die Fed hielt 3.50%-3.75%, nannte Inflation weiter erhoeht und wurde vom Markt hawkisch gelesen; die naechste Aufgabe ist post-FOMC Realzins (Zins nach Inflation), Kreditspreads (Risikoaufschlaege fuer Unternehmensanleihen) und Volatilitaet zu pruefen.
 
-CPI, PPI, ECB und Oracle Q4 sind abgeschlossen und in `latest_news.csv`, `macro_market_signals.csv` sowie `evaluation_log.md` verdichtet.
+Gerade abgeschlossen und weiter relevant: HPE Discover Las Vegas 2026 mit Kioxia-Flash-Storage-Showcase ist abgeschlossen. Im Radar wurde kein harter Auftrags-, LTA-, Pricing-, Margin-, Umsatzzeitpunkt- oder FCF-Beleg verarbeitet; daher in News/Log verdichtet und nicht als harter Kioxia-/SanDisk-Upgrade behandeln. Direkt danach: 2026-06-25 Kioxia Hauptversammlung, Depot-Einfluss: Mittel.

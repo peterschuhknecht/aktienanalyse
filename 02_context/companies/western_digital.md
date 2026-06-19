@@ -6,11 +6,15 @@ Status: HDD-/Nearline-Watch; staerkerer Reaktivierungskandidat als Seagate, sola
 
 - Bull: Nearline-Exabytes, LTAs, ASPs, FCF, HDD-Knappheit und Kosten-pro-TB-Vorteil.
 - Bear: HDD bleibt indirekter KI-Hebel, SSD/NAND-Preisrueckgang kann Druck machen, Bewertung braucht EPS-/FCF-Bestaetigung.
-- Aktueller Stand aus Cache/Spot-Check 2026-06-12 07:50 CEST: USD 529.29 Jun-11-Schlusskurs, +8.00%, After-Hours USD 544.12 (+2.80%), Forward PE 33.77. Datenqualitaet: der Jun-5-Tagesveraenderungskonflikt wurde gegen die StockAnalysis-History-Seite geloest. Positive HDD-/Nearline-Watch bleibt, aber fuer Reaktivierung fehlen weiter Primaerbelege zu Exabytes, LTAs, ASPs, Margen, FCF und EPS-Revisionen.
+- Aktueller Stand aus Cache/Spot-Check 2026-06-18 06:06 CEST: USD 712.13 Jun-17-Schlusskurs, +4.56%, After-Hours USD 737.07 (+3.50%), Forward PE 45.16. WDC bleibt der staerkste HDD-/Nearline-Watchwert und vor STX als Reaktivierungskandidat. Fuer eine Rueckkehr in die aktive Analyse fehlen weiter Primaerbelege zu Exabytes, LTAs, ASPs, Margen, FCF und EPS-Revisionen.
 
 ## Harte Checks
 
 - Exabyte-CAGR, Auftragslaufzeiten, ausverkaufte Kapazitaet, ASPs, Gross Margin, FCF, EPS-Revisionen.
 - Reaktivierung nur, wenn WDC nicht nur Momentum, sondern bessere harte Daten als Depot-/Follow-on-Alternativen liefert.
+- 2026-06-16: Jun-15-Schlusskurs +16.10% ist ein starkes Momentum-/Opportunity-Cost-Signal, aber gerade deshalb muss eine Reaktivierung gegen Primaertranskripte, harte Exabyte-/LTA-/ASP-/FCF-Daten und Bewertung geprueft werden.
+- 2026-06-17: WDC schloss Jun-16 bei USD 681.08 (+4.22%) und blieb damit staerker als US-Memory. Das ist ein gutes Watch-/Opportunity-Cost-Signal, aber keine Reaktivierung ohne Primaerbelege zu Exabytes, LTAs, ASPs, Margen, FCF und EPS-Revisionen.
+- 2026-06-17 14:38 CEST: Jun-17 Premarket USD 693.00 (+1.75%) bestaetigt relative Stabilitaet, aber bleibt Soft-Tape. WDC bleibt Watch, nicht Reaktivierung.
+- 2026-06-18 06:06 CEST: WDC schloss Jun-17 bei USD 712.13 (+4.56%) und lag after-hours bei USD 737.07 (+3.50%). Das bestaetigt starke relative HDD-/Nearline-Staerke, bleibt aber ohne Primaerbelege zu Exabytes, LTAs, ASPs, Margen, FCF und EPS-Revisionen Watch statt Reaktivierung.
 
 Details/Scorecard: `02_context/company_scorecards.csv`; Watchlist: `02_context/watchlist_hdd_nearline_storage.md`.

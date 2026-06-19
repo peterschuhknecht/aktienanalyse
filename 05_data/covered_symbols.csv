@@ -31,7 +31,8 @@ Background,Alphabet,GOOGL,USA,"Hyperscaler AI capex",background
 Background,Meta Platforms,META,USA,"Hyperscaler AI capex",background
 Background,Oracle,ORCL,USA,"Cloud/datacenter capex",background
 Background,Dell Technologies,DELL,USA,"AI server/storage demand proxy",background
+Background,Anthropic,Private,USA,"Frontier AI lab; model access/regulatory risk; cloud/custom silicon demand context",background_watch
 Background,Tesla,TSLA,USA,"AI/robotics demand context",background
-Background,SpaceX,Private,USA,"AI/compute context; no public ticker",background
+Background,SpaceX,SPCX,USA,"AI/space/Starlink/xAI/capital-markets context; Jun-12 IPO is relevant for liquidity/crowding but not direct memory thesis",background_watch_verify_primary
 Background,xAI,Private,USA,"AI training/inference context; no public ticker",background
 Background,Schneider Electric,SBGSY / SU.PA,OTC / France,"Energy/datacenter infrastructure",background
