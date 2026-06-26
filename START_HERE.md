@@ -2,6 +2,14 @@
 
 Ziel: kompakte Aktienanalyse mit kurzer Markdown-Wissensbasis und CSV-only-Datenebene. Keine Datenbankabfragen. Kein Python ausfuehren.
 
+## Kurzkommando
+
+Wenn der Nutzer nur `start` schreibt, ist das vollstaendig gleichbedeutend mit: "Gibt es Neuigkeiten?" plus Repository-Rundgang und Daily-Brief-Workflow.
+
+Dann alle aktuell beobachteten Depotwerte, Watchlist-Werte, Covered Symbols, Branchen-, Lieferketten-, KI-Infrastruktur-, Speicher- und Rechenzentrums-Themen aus dem vorhandenen Kontext bestimmen; frische Kurse, Marktdaten, Fundamentaldaten, Termine und hochwertige Nachrichten pruefen; ausserhalb des vorhandenen Kontexts nach wesentlichen neuen Entwicklungen suchen; harte und weiche Signale bewerten; passende CSV-Caches, relevante Unternehmensakten und State-Dateien aktualisieren; alte Nachrichten nach Retention-Regel bereinigen; Fakten, Quellen, Annahmen, Hypothesen und Meinung strikt trennen.
+
+Die Chat-Ausgabe bleibt kompakt, entscheidungsfaehig und beginnt mit der Depot-Ampel/Ampel-Einschaetzung. Fuer `start` und Daily Briefs das gewohnte Chatformat verwenden: `Depot-Ampel: ...`, `Kurzfassung:`, `Fakten:`, `Datenluecken/Source-Konflikte:`, `Einordnung:`, `Termine Heute:`, `Naechste fuenf Kalendertage:`, `Datenqualitaet/Bewegung:`, `Psychologische Einschaetzung:`, `Weitere Infos:`, `Quellen:`. Keine separaten neuen Abschnittsnamen wie `Depot-Newsfenster`; die Depot-News aus heute plus den letzten drei Kalendertagen in `Fakten` und `Einordnung` integrieren. Fachbegriffe kurz in Klammern erklaeren. Keine Anlageentscheidung als Gewissheit formulieren; immer Szenarien, Risiken und Gegenargumente nennen.
+
 ## Schnellstart
 
 1. `AGENTS.md` lesen.
