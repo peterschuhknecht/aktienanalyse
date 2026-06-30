@@ -12,7 +12,7 @@ Aktuelle Werte: `05_data/macro_market_signals.csv`; Historie nur verdichtet in C
 
 FRED/U.S. Treasury, CME FedWatch/FOMC, Chicago Fed NFCI, FRED HY OAS, Cboe VIX, CNN Fear & Greed, AAII, FINRA Margin Statistics.
 
-Letzter offizieller Treasury-Refresh: 2026-06-05 12:46 Europe/Berlin mit Treasury-Daten bis 2026-06-04. 10Y nominal 4.47%, 2Y 4.05%, 10Y Realzins 2.11%. Das ist minimal besser als 2026-06-03 bei Nominalzinsen, aber weiter ein Bewertungsgegenwind. BLS Employment Situation fuer Mai 2026 war zum Abrufzeitpunkt noch ausstehend.
+Aktuelle Werte (10Y/2Y/Realzins, Spreads, VIX, Datum) stehen ausschliesslich in `05_data/macro_market_signals.csv`; hier bewusst keine Zahlen, um veraltete Staende zu vermeiden.
 
 ## Statuslogik
 

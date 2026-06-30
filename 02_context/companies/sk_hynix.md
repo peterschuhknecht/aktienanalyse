@@ -6,7 +6,7 @@ Status: aktive Depotposition; Kernhebel fuer DRAM/HBM/LPDDR nahe am KI-Rechenker
 
 - Bull: HBM-/DRAM-Knappheit, Kundennachfrage und Preis-/Margenhebel bleiben zentral fuer AI-Infrastruktur.
 - Bear: Samsung-Aufholen, HBM-Yield-/Qualifikationsprobleme, Kundenkonzentration, Korea-/KRW-/Brokerzugang, operative Incidents.
-- Aktueller Stand aus Cache 2026-06-05: KRW 2,080,000, -9.49%, Forward PE 7.10; Korea-/AI-Hardware-Risk-off ist eine deutliche Timing-/Crowding-Warnung, aber noch kein HBM-/DRAM-These-Bruch ohne Preis-, Margen-, Guidance-, Kunden- oder Produktionsfolgen.
+- Aktueller Stand 2026-06-05 KRX-Schluss (Korea Wochenende geschlossen): KRW 2,080,000, -9.49%, Forward PE 7.10, TTM EPS ca. KRW 60.378 (StockAnalysis, Stand evtl. leicht aelter); USD-Umrechnung offen wegen FX-Luecke (USD/KRW ~1.500+ unbestaetigt). Korea-/AI-Hardware-Risk-off plus Profit-Sharing-Politik ist eine deutliche Timing-/Crowding-Warnung, aber noch kein HBM-/DRAM-These-Bruch ohne Preis-, Margen-, Guidance-, Kunden- oder Produktionsfolgen.
 
 ## Harte Checks
 

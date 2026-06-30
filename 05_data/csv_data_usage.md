@@ -13,6 +13,7 @@ Dieses Repository nutzt keine lokale oder serverbasierte Datenbank. Strukturiert
 | `05_data/monitoring_status.csv` | Momentum-/Umfeldstatus |
 | `05_data/macro_market_signals.csv` | Zins-, Kredit-, Sentiment- und Makrosignale |
 | `05_data/peer_benchmarks.csv` | Peer-/Opportunity-Cost-Vergleich |
+| `05_data/depot_ampel.csv` | Depot-Ampel 0-10 (Fundamental/Timing/Handlungsnaehe) als Zeitreihe |
 | `05_data/data_quality_checks.csv` | manuelles Quality Gate |
 | `05_data/decision_gate_results.csv` | These-/Entscheidungsereignisse |
 | `05_data/run_log.csv` | Analyse-/Refresh-Laufprotokoll |

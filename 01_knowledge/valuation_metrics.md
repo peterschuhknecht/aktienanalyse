@@ -6,6 +6,8 @@ PEG = KGV / erwartetes EPS-Wachstum in Prozent. Grob: <1 guenstig, ca. 1 passend
 
 ## Pflichtkennzahlen
 
+Pflicht-Frischkurs: Der aktuelle Kurs - und daraus abgeleitet Market Cap, TTM-/Forward-KGV und PEG - ist fuer jede bewertete Aktie immer frisch zu ermitteln (mit Datum/Zeit/Quelle). CSV-Werte sind nur Seeds.
+
 | Kennzahl | Zweck |
 |---|---|
 | TTM-/Forward-KGV | Vergangenheit vs. erwartete Gewinne; Forward ist bei Speicher nuetzlich, aber revisionsanfaellig |

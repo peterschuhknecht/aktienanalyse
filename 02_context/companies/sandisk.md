@@ -6,7 +6,8 @@ Status: aktive Depotposition; NAND-/Enterprise-SSD-Pure-Play und gemeinsamer Ris
 
 - Bull: Enterprise-SSD-/NAND-Preise, AI-Inference-Storage, LTAs, JV-Readthrough zu Kioxia, starker Beta-Hebel.
 - Bear: hoechste Zyklik im Depot, SanDisk/Kioxia-Redundanz, NAND-Preisrueckgang, FCF-/Marge-/Inventarrisiko.
-- Aktueller Stand aus Cache 2026-06-05 12:46 CEST: USD 1,738.00 Pre-Market nach USD 1,759.68 Schlusskurs am 2026-06-04, Forward PE 10.86; NAND-Beta bleibt stark, aber nach starkem Lauf timing-anfaellig.
+- Aktueller Stand 2026-06-05 Schluss: USD 1,559.32 (-11.39% nach USD 1,759.68 am 06-04), Forward PE ca. 9.6, TTM EPS 29.71; NAND-Beta fiel am staerksten, heftiger baerischer Put-Flow. Nach starkem Lauf weiterhin timing-anfaellig.
+- Analysten heben Ziele weiter an (z.B. Susquehanna SNDK auf USD 3.250), waehrend die Aktie faellt: Meinung, kein harter EPS-/Margen-Beleg.
 
 ## Harte Checks
 

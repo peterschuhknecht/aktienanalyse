@@ -6,7 +6,7 @@ Pflicht bei Kauf/Verkauf/Nachkauf/Reduktion/Umschichtung, Unternehmens-Deep-Dive
 
 | Bereich | Pflichtdaten |
 |---|---|
-| Markt | Kurs, Market Cap, Handelsplatz, Waehrung, 52W-Abstand, 1D/5D/1M/3M/YTD |
+| Markt | Kurs (immer frisch ermittelt, mit Datum/Zeit/Quelle), Market Cap, Handelsplatz, Waehrung, 52W-Abstand, 1D/5D/1M/3M/YTD |
 | Bewertung | TTM/Forward-KGV, EV/Sales oder EV/EBITDA falls sinnvoll, PEG+Methode, Peer-Multiples |
 | Wachstum | Umsatz, EPS, Guidance, belastbare Revisionen |
 | Profitabilitaet | Bruttomarge, operative Marge, FCF, FCF-Marge, Net Debt/Cash |
@@ -20,7 +20,7 @@ Fehlende Pflichtwerte nicht raten; als "nicht belastbar verfuegbar" markieren un
 ## Ablauf
 
 1. Alte These/letzte Entscheidung lesen.
-2. Aktuellen Datenstand aus CSV und hochwertigen Quellen bestimmen.
+2. Aktuellen Datenstand bestimmen; Kurs fuer JEDE Aktie im Scope zwingend frisch aus hochwertiger Quelle holen (CSV nur als Seed/Kontext, nie als aktueller Kurs).
 3. Treiber trennen: Nachfrage, Preise, Angebot, Margen, Bewertung, Wettbewerb, Makro, Sentiment.
 4. Bewertung nur relativ zu Wachstum, Zyklus und Peers beurteilen.
 5. Falsifikation: Welche Daten wuerden die These brechen?

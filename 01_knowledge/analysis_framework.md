@@ -22,4 +22,4 @@ Aktuelles Depot: Stufe 2-3, mit HDD als Watch.
 
 ## Ergebnis
 
-Immer Bull/Base/Bear, aktuelle Quellen/Daten, bestaetigte und widerlegte Annahmen, Gegenargumente, Datenluecken und naechste Beobachtungspunkte nennen. Bei Entscheidungen zusaetzlich Deep-Dive- und Portfolio-Risiko-Framework nutzen.
+Immer Bull/Base/Bear, aktuelle Quellen/Daten (Kurs fuer jede behandelte Aktie frisch ermittelt), bestaetigte und widerlegte Annahmen, Gegenargumente, Datenluecken und naechste Beobachtungspunkte nennen. Bei Entscheidungen zusaetzlich Deep-Dive- und Portfolio-Risiko-Framework nutzen.
