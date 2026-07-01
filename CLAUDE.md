@@ -2,9 +2,7 @@
 
 Erst `START_HERE.md` lesen. Fakten, Quellen, Annahmen, Hypothesen und Meinungen strikt trennen. Alte Zahlen sind Seeds, nie aktuelle Marktdaten: Kurse fuer jede aktiv bearbeitete Aktie immer frisch ermitteln.
 
-## Trigger
-
-Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Einstieg ueber `START_HERE.md`, Ablauf in `01_knowledge/agent_workflows.md` -> Repository-Rundgang). Pflicht-Ausgabe: zuerst der Pflicht-Ausgabeblock (Depot-Ampel 0-10 + gewichtete Terminuebersicht 0-10), dann der Report, und ganz am Ende der Depot-Performance-Abschluss (Korrigierte Performance-Sicht; siehe `01_knowledge/agent_workflows.md`). Gilt fuer Claude und Codex identisch.
+Trigger: Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Einstieg ueber `START_HERE.md`, Ablauf in `01_knowledge/agent_workflows.md`). Der `start`-Rundgang ENDET immer mit dem Depot-Performance-Abschluss (Korrigierte Performance-Sicht). Identisch fuer Claude und Codex (`AGENTS.md`).
 
 ## Pflichtregeln
 
@@ -16,8 +14,8 @@ Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Einstieg u
 - Bewertung: frische Kurse, Market Cap, KGV/Forward-KGV, Wachstum, PEG, Margen, Guidance, Termine, Peers und `05_data/data_quality_checks.csv`.
 - Kauf/Verkauf/Nachkauf/Reduktion/Umschichtung: zusaetzlich `01_knowledge/portfolio_risk_framework.md` und `02_context/portfolio_policy.md`.
 - Immer `05_data/upcoming_events.csv` pruefen und Termine heute plus fuenf Kalendertage melden; Terminuebersicht mit Depot-Gewicht 0-10 (Spalte `depot_weight`).
-- Pflicht-Ausgabeblock zuerst: Depot-Ampel 0-10 (Fundamental/Timing/Handlungsnaehe) plus gewichtete Terminuebersicht; Rubrik und Format in `01_knowledge/agent_workflows.md`. Ampel-Scores in `05_data/depot_ampel.csv` fortschreiben.
-- Darstellung (nur Ausgabe/Report, nicht CSV): Datum im deutschen Format TT.MM.JJJJ; Fremdwaehrungen (KRW/JPY) in USD umrechnen, USD primaer + Heimatwaehrung in Klammern mit FX-Kurs/Datum; FX frisch ermitteln (Seeds in `05_data/macro_market_signals.csv`). CSV behaelt ISO-Datum. Details in `01_knowledge/agent_workflows.md`.
+- Pflicht-Ausgabeblock zuerst: jede Aktien-/Depotantwort beginnt mit Depot-Ampel 0-10 (Fundamental/Timing/Handlungsnaehe) und gewichteter Terminuebersicht 0-10; Format/Rubrik in `01_knowledge/agent_workflows.md`, Scores fortschreiben in `05_data/depot_ampel.csv`.
+- Darstellung (nur Ausgabe/Report, nicht CSV): Datum im deutschen Format TT.MM.JJJJ; Fremdwaehrungen (KRW/JPY) in USD umrechnen, USD primaer + Heimatwaehrung in Klammern mit FX-Kurs/Datum; FX frisch ermitteln (Seeds in `05_data/macro_market_signals.csv`). CSV behaelt ISO-Datum. Details in `01_knowledge/agent_workflows.md` (Darstellungsregeln).
 - Quellenqualitaet nach `01_knowledge/source_quality.md`; schwache Quellen nur als Suchspur markieren.
 - Operator-/Research-Aussagen in `02_context/operator_statements.csv`; nur `Hard` oder bestaetigtes `Medium` darf Thesen aendern.
 - Reports nach 7-14 Tagen in CSV/Log verdichten; lange Markdown-Historien vermeiden.

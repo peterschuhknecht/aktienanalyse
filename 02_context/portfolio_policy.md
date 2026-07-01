@@ -6,7 +6,22 @@ Stand: 2026-06-05. Fehlende persoenliche Angaben werden nicht geraten.
 
 Aktiv: SK Hynix, Micron, SanDisk, Kioxia. Verkauft/Watch: Seagate; HDD-Watch mit WDC. Hauptthese: AI-Speicherwette auf HBM/DRAM/LPDDR plus doppelten NAND-/Enterprise-SSD-Bucket. Hauptrisiken: AI-Capex, Speicherpreise, Halbleiterzyklus, NAND-Doppelung, Momentum, Realzinsen, KRW/JPY/USD.
 
-Offen: Basiswaehrung, Positionsgroessen, Einstandskurse, Ziel-/Warn-/Maximalgewichte.
+Bekannt (2026-06-30): Basiswaehrung EUR. Depotstart 22.04.2026 mit EUR 150.000; aktueller Wert ~EUR 271.640 (+81% vs Basis). Depot = 100% AI-Speicher, KEIN Cash. Positionen/Stueck/Gewichte in `05_data/portfolio_positions.csv`. WICHTIG: Einzel-Einstaende sind durch Umschichtungen verfaelscht -> echtes G/V nur auf Depot-Ebene gegen die 150.000-Basis (und Trailing-Peak) rechnen, NICHT per Position.
+
+Offen: Handelsplaetze je Wert; Bestaetigung/Korrektur der vorgeschlagenen Risikogrenzen.
+
+## Risikoregeln (Stand 2026-06-30)
+
+BESTAETIGT vom Nutzer:
+- Einzelposition: Warn 30% / Max 35% (Micron aktuell 35,3% = am/ueber Max -> keine Nachkaeufe, Trim-on-Strength-Kandidat).
+- Bucket HBM/DRAM: Warn 60% / Max 70% (aktuell 67,4%). Bucket NAND (SanDisk+Kioxia gemeinsam): Warn 30% / Max 40% (aktuell 32,6%).
+- VOLL INVESTIERT gewollt: kein Cash-Puffer (Cash-Puffer-Regel verworfen).
+- KEINE Gewinnmitnahme-Leiter (verworfen). Gewinnmitnahme/Verkauf NUR bei These-Bruch (harte Preis-/Margen-/Guidance-/Backlog-/Nachfrage-Widerlegung) oder Limit-Verletzung (Trim zurueck auf Ziel).
+- Depot-Giveback (Crash-Notbremse, gemessen am Trailing-Peak, da Einzel-Einstaende reshuffling-verfaelscht): -15% -> hoechste-Beta-Leg (NAND) trimmen; -25% -> eine Leg de-risken.
+- Basis-Schutz (Kapital-Floor): Round-Trip unter Basis+Puffer (~180-190k) vermeiden; bei Annaeherung Risiko hart senken.
+
+VERWORFEN:
+- FX-Regel raus (Nutzerwunsch). Kein Hedge. EUR/USD nur als Datenpunkt frisch ziehen (~67% USD-gebunden + JPY/KRW), nicht als Verkaufs-/Limit-Regel.
 
 ## Regeln
 

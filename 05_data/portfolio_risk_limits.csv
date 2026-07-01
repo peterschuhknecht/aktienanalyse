@@ -1,3 +1,7 @@
 bucket,max_weight,warning_weight,current_weight,status,source,notes
-"HBM/DRAM/LPDDR",TBD,TBD,TBD,open,"User needed","Weights missing; no concentration statement as fact"
-"NAND/Enterprise-SSD",TBD,TBD,TBD,open,"User needed","SanDisk and Kioxia count together"
+"Einzelposition max",35,30,35.3,confirmed,"User confirmed 2026-06-30","Warn 30% / Max 35% je Einzelwert; groesste = Micron 35,3% (am/ueber Max) -> keine Nachkaeufe, Trim-on-Strength-Kandidat; SK Hynix 32,0% in Warnzone"
+"HBM/DRAM/LPDDR",70,60,67.4,confirmed,"User confirmed 2026-06-30","Warn 60% / Max 70%; aktuell 67,4% (Warnzone). MU 35,3% + SK Hynix 32,0%"
+"NAND/Enterprise-SSD",40,30,32.6,confirmed,"User confirmed 2026-06-30","Warn 30% / Max 40%; aktuell 32,6% (Warnzone). SanDisk+Kioxia korreliert (JV bis 2034) -> als EIN Risiko"
+"Depot-Giveback (% vs Trailing-Peak)",-25,-15,-12,confirmed,"User confirmed 2026-06-30","Crash-Notbremse am Trailing-Peak (Einzel-Einstaende reshuffling-verfaelscht): -15% -> NAND-Leg trimmen; -25% -> eine Leg de-risken. Peak ~309k est., aktuell ~-12% (nahe -15%-Trigger)"
+"Basis-Schutz (Floor EUR)",180000,190000,271640,confirmed,"User confirmed 2026-06-30","Kapital-Floor: Round-Trip unter ~180-190k (Basis 150k + Puffer) vermeiden; bei Annaeherung Risiko hart senken. Aktuell 271.640 -> weit weg, schlaeft"
+"AI-Memory gesamt",100,100,100.0,confirmed,"User confirmed 2026-06-30","VOLL INVESTIERT gewollt: kein Cash-Puffer, KEINE Gewinnmitnahme-Leiter. Verkauf NUR bei These-Bruch oder Limit-Verletzung. FX-Regel verworfen (EUR/USD nur Datenpunkt). Basis 150k (22.04.2026), aktuell ~271.640 (+81%)"
