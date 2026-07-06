@@ -2,7 +2,11 @@
 
 ## Aktuelle Entscheidungen
 
-- Aktives Depot seit 2026-06-02: SK Hynix, Micron, SanDisk, Kioxia. Seagate ist verkauft.
+- 2026-07-01: Gesamtdepot KOMPLETT verkauft -> 100% Cash EUR 243.288,43 (netto nach Steuern; realisiert +62,2% vs 150k-Basis vom 22.04.2026). Timing-Entscheid des Nutzers (Seitwaerts-/Abwaertsbewegung trotz These), KEIN These-Bruch.
+- 2026-07-02: Wiedereinstieg entschieden - voll investiert, KEINE Cash-Reserve, Einmal-Entry am klugen Zeitpunkt (payrolls-gated), 3 Namen: Micron 35% / SK Hynix 33% / SanDisk 32%. Kioxia raus aus den Hauptaktien -> NAND-Watch (SanDisk-Swap-Kandidat im gleichen Bucket). Regeln: `02_context/portfolio_policy.md`.
+- 2026-07-02: Stehende Verkaufsregel = Zyklus-Turn-Exit (DRAM/NAND-Contract-Preise rollen QoQ, Margen-Guidance-Kuerzung, negative EPS-Revisionen) plus Giveback -15/-25% ab NEUEM Trailing-Peak. Kein Verkauf auf Kurs-Wackeln; kein Verbilligen gegen Zyklussignale.
+- 2026-07-02 (Methodik, Nutzerwunsch): Ziel ist ALPHA vs Breitmarkt (S&P 500/Nasdaq 100), nicht nur These-Fit. Kursbewegungen ohne saubere News-Erklaerung ehrlich als "unerklaert" bzw. neutrale Mechanik (Gewinnmitnahme) fuehren - keine erzwungenen Narrative (Details `01_knowledge/source_quality.md`).
+- Historisch: aktives 4-Namen-Depot 2026-06-02 bis 2026-07-01 (SK Hynix, Micron, SanDisk, Kioxia); Seagate zuvor verkauft.
 - SanDisk und Kioxia sind gemeinsam ein NAND-/Enterprise-SSD-Risikobucket; sie sind keine echte Diversifikation zueinander.
 - Seagate und Western Digital bleiben HDD-/Nearline-Watch; WDC derzeit vor STX, aber nur bei harten Primaersignalen reaktivierbar.
 - Bei Unternehmensvergleichen kommt zuerst die unternehmerische Sicht: Produkt, Technologie, Kunden, Margen, Cashflow, Bilanz, Management, Kapitalallokation. Depotstruktur folgt als Risikohinweis.

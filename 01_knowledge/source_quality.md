@@ -32,3 +32,13 @@ Konfliktregeln: 1) hoechstrangige Quelle gewinnt; 2) bei gleichem Rang Settled/C
 ## Regeln
 
 Primaerquellen vor Zusammenfassungen. Analystenziele sind Meinung. Sentiment-Indizes sind Timing, keine Fundamentaldaten. Widersprueche mit beiden Quellen notieren, Primaerquelle bevorzugen, Berechnung offenlegen, offene Konflikte in `03_state/open_questions.md`.
+
+## Kausalattribution (Kurs-News-Abgleich)
+
+Kursbewegungen NICHT mit gesuchten Nachrichten begruenden (kein Reverse-Engineering einer Story, damit es "passt"). Nutzerfeedback 2026-07-02: Hormuz wurde oft als Kursursache genannt, obwohl es keine besondere Nachricht dazu gab - und an Tagen mit negativen Hormuz-News stiegen die Kurse. Regeln:
+
+- Kausalzuordnung nur, wenn (a) eine echte, hochwertige, zeitlich passende Nachricht vorliegt (Rang 1-5) UND (b) die Bewegung breit dazu passt: Richtung, ungefaehre Groesse, betroffene Werte/Peers.
+- Ohne solche Nachricht offen sagen: "keine saubere Nachrichtenerklaerung". Falls plausibel neutrale Marktmechanik als VERMUTUNG nennen (Gewinnmitnahme, Positionsabbau, Rotation, Index-/Rebalancing, Liquiditaet, Options-Verfall) - nie als Fakt.
+- Widerspruchstest: Soll dieselbe Nachricht mal fallende, mal steigende Kurse "erklaeren", taugt sie NICHT als Ursache -> verwerfen.
+- Dauerthemen (Hormuz/Oel, Zinsen allgemein) nur nennen, wenn an dem Tag eine NEUE, harte Entwicklung vorliegt und der zugehoerige Markt real reagiert (z. B. Oelpreis bewegt sich tatsaechlich) - nicht als Standard-Etikett.
+- Lieber ehrlich "unerklaert" als eine erzwungene Erzaehlung. These aendert sich ohnehin nur an harten Daten, nicht an Tagesnarrativen.

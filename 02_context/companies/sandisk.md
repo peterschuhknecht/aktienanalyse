@@ -1,6 +1,6 @@
 # SanDisk
 
-Status: aktive Depotposition; NAND-/Enterprise-SSD-Pure-Play und gemeinsamer Risikobucket mit Kioxia.
+Status: 2026-07-01 verkauft (Gesamtdepot-Verkauf, kein These-Bruch); WIEDEREINSTIEGS-ZIEL (Ziel-Gewicht 32%, Entry-Gate in `02_context/portfolio_policy.md`). NAND-/Enterprise-SSD-Pure-Play; Kioxia = Watch-Alternative/Swap-Kandidat im gleichen Bucket.
 
 ## Kurzthese
 

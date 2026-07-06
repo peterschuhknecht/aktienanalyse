@@ -2,7 +2,7 @@
 
 Erst `START_HERE.md` lesen. Fakten, Quellen, Annahmen, Hypothesen und Meinungen strikt trennen. Alte Zahlen sind Seeds, nie aktuelle Marktdaten: Kurse fuer jede aktiv bearbeitete Aktie immer frisch ermitteln.
 
-Trigger: Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Einstieg ueber `START_HERE.md`, Ablauf in `01_knowledge/agent_workflows.md`). Der `start`-Rundgang ENDET immer mit dem Depot-Performance-Abschluss (Korrigierte Performance-Sicht). Identisch fuer Claude und Codex (`AGENTS.md`).
+Trigger: Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Einstieg ueber `START_HERE.md`, Ablauf in `01_knowledge/agent_workflows.md`). Der `start`-Rundgang ENDET immer mit dem Depot-Performance-Abschluss (Korrigierte Performance-Sicht) und danach der Watchlist-/Zusatzwerte-Uebersicht mit Einstiegs-/Alpha-Urteil (lohnt ein Einstieg, d. h. hoehere erwartete Rendite ueber die naechsten Monate als bei den Hauptaktien UND dem Markt; Format in `01_knowledge/agent_workflows.md`). Identisch fuer Claude und Codex (`AGENTS.md`).
 
 ## Pflichtregeln
 
@@ -12,10 +12,12 @@ Trigger: Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (E
 - Markdown nur fuer Regeln, These, Entscheidungen, offene Fragen und kurze Reports.
 - Kleinfrage: gezielt lesen. Depot, Bewertung, Watchlist, Zukunft, Warnsignal oder Branchenanalyse: `01_knowledge/agent_workflows.md`.
 - Bewertung: frische Kurse, Market Cap, KGV/Forward-KGV, Wachstum, PEG, Margen, Guidance, Termine, Peers und `05_data/data_quality_checks.csv`.
+- Ziel/Alpha: Depot-, Bewertungs- und Wiedereinstiegsantworten beurteilen nicht nur, OB die These passt, sondern explizit, ob in den naechsten Monaten eine UEBERDURCHSCHNITTLICHE Rendite ggue. Breitmarkt (S&P 500/Nasdaq 100) plausibel ist (Chance/Risiko vs. Markt, Katalysatoren, Bewertungsspielraum). Reicht die Erwartung nur fuer marktnahe Rendite, rechtfertigt das die konzentrierte Ein-Thesen-Wette nicht -> klar so sagen.
+- Kausalattribution (Kurs-News-Abgleich): Kursbewegungen NICHT mit gesuchten Nachrichten erklaeren. Kausalzuordnung nur bei echter, zeitlich passender, hochwertiger Nachricht, die zur Bewegung passt; sonst offen sagen "keine saubere Nachrichtenerklaerung" bzw. neutrale Mechanik vermuten (Gewinnmitnahme, Rotation, Positionsabbau). Keine Narrative erzwingen, Dauerthemen (z. B. Hormuz) nur bei NEUER harter Entwicklung. Details in `01_knowledge/source_quality.md`.
 - Kauf/Verkauf/Nachkauf/Reduktion/Umschichtung: zusaetzlich `01_knowledge/portfolio_risk_framework.md` und `02_context/portfolio_policy.md`.
 - Immer `05_data/upcoming_events.csv` pruefen und Termine heute plus fuenf Kalendertage melden; Terminuebersicht mit Depot-Gewicht 0-10 (Spalte `depot_weight`).
 - Pflicht-Ausgabeblock zuerst: jede Aktien-/Depotantwort beginnt mit Depot-Ampel 0-10 (Fundamental/Timing/Handlungsnaehe) und gewichteter Terminuebersicht 0-10; Format/Rubrik in `01_knowledge/agent_workflows.md`, Scores fortschreiben in `05_data/depot_ampel.csv`.
-- Darstellung (nur Ausgabe/Report, nicht CSV): Datum im deutschen Format TT.MM.JJJJ; Fremdwaehrungen (KRW/JPY) in USD umrechnen, USD primaer + Heimatwaehrung in Klammern mit FX-Kurs/Datum; FX frisch ermitteln (Seeds in `05_data/macro_market_signals.csv`). CSV behaelt ISO-Datum. Details in `01_knowledge/agent_workflows.md` (Darstellungsregeln).
+- Darstellung (nur Ausgabe/Report, nicht CSV): Datum im deutschen Format TT.MM.JJJJ; Fremdwaehrungen (KRW/JPY) in USD umrechnen, USD primaer + Heimatwaehrung in Klammern mit FX-Kurs/Datum; FX frisch ermitteln (Seeds in `05_data/macro_market_signals.csv`). CSV behaelt ISO-Datum. VERSTAENDLICHKEIT (Nutzerwunsch 2026-07-02): Reports fuer Nicht-Experten lesbar - jeden Fachbegriff beim ersten Auftreten kurz erklaeren, englische Trader-Begriffe eindeutschen, Zahlen einordnen. Details in `01_knowledge/agent_workflows.md` (Darstellungsregeln).
 - Quellenqualitaet nach `01_knowledge/source_quality.md`; schwache Quellen nur als Suchspur markieren.
 - Operator-/Research-Aussagen in `02_context/operator_statements.csv`; nur `Hard` oder bestaetigtes `Medium` darf Thesen aendern.
 - Reports nach 7-14 Tagen in CSV/Log verdichten; lange Markdown-Historien vermeiden.
@@ -24,4 +26,4 @@ Trigger: Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (E
 
 ## Fokus
 
-Aktives Depot seit 2026-06-02: SK Hynix, Micron, SanDisk, Kioxia. SanDisk/Kioxia = gemeinsamer NAND-/Enterprise-SSD-Bucket. Seagate ist verkauft; Seagate/WDC bleiben HDD-/Nearline-Watch.
+Depot am 2026-07-01 komplett verkauft -> 100% Cash EUR 243.288 (netto; realisiert +62% vs 150k-Basis). Wiedereinstiegs-Plan (2026-07-02, Nutzer entschieden): voll investiert, keine Cash-Reserve, 3 Namen - Micron, SK Hynix, SanDisk (Ziel MU 35% / SK Hynix 33% / SanDisk 32%); Entry an klugem Zeitpunkt (payrolls-gated), nicht sofort all-in. Kioxia = NAND-Watch (SanDisk-Alternative/Swap im gleichen NAND-Bucket, KEIN Diversifier). Seagate ist verkauft; Seagate/WDC bleiben HDD-/Nearline-Watch. Details: `05_data/portfolio_positions.csv`, `03_state/open_questions.md`.

@@ -1,6 +1,6 @@
 # Kioxia
 
-Status: aktive Depotposition seit 2026-06-02; NAND-/Enterprise-SSD-Hebel und SanDisk-JV-Readthrough.
+Status: 2026-07-01 verkauft (Gesamtdepot-Verkauf); seit 2026-07-02 NAND-WATCH - SanDisk-Alternative/Swap-Kandidat im GLEICHEN NAND-Bucket (JV bis 2034, hoch korreliert, KEIN Diversifier). NICHT Teil des 3-Namen-Wiedereinstiegsplans; Frage ist immer relative Bewertung vs SanDisk.
 
 ## Kurzthese
 

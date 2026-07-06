@@ -1,6 +1,6 @@
 # Micron
 
-Status: aktive Depotposition; US-Hebel auf HBM/DRAM/LPDDR und zusaetzlich NAND.
+Status: 2026-07-01 verkauft (Gesamtdepot-Verkauf, kein These-Bruch); WIEDEREINSTIEGS-ZIEL Nr. 1 (Ziel-Gewicht 35%, Entry-Gate in `02_context/portfolio_policy.md`). US-Hebel auf HBM/DRAM/LPDDR und zusaetzlich NAND.
 
 ## Kurzthese
 

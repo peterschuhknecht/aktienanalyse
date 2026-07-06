@@ -4,7 +4,7 @@ Ziel: kompakte Aktienanalyse mit kurzer Markdown-Wissensbasis und CSV-only-Daten
 
 ## Trigger `start`
 
-Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Ablauf: `01_knowledge/agent_workflows.md` -> Repository-Rundgang). Die Antwort beginnt IMMER mit dem Pflicht-Ausgabeblock - (1) Depot-Ampel 0-10 und (2) gewichtete Terminuebersicht 0-10 - liefert danach den Report und ENDET mit dem Depot-Performance-Abschluss (Korrigierte Performance-Sicht: Basis 150.000/Start 22.04.2026, aktueller Wert, Gewinn, Cash, Peak-Abstand + Positionszeilen). Format/Rubrik siehe `01_knowledge/agent_workflows.md` (Abschnitt "Pflicht-Ausgabeblock"). Gilt identisch fuer Claude (`CLAUDE.md`) und Codex (`AGENTS.md`).
+Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Ablauf: `01_knowledge/agent_workflows.md` -> Repository-Rundgang). Die Antwort beginnt IMMER mit dem Pflicht-Ausgabeblock - (1) Depot-Ampel 0-10 und (2) gewichtete Terminuebersicht 0-10 - liefert danach den Report, dann den Depot-Performance-Abschluss (Korrigierte Performance-Sicht: Basis 150.000/Start 22.04.2026, aktueller Wert, Gewinn, Cash, Peak-Abstand + Positionszeilen) und schliesst mit der Watchlist-/Zusatzwerte-Uebersicht (Einstiegs-/Alpha-Urteil: lohnt ein Einstieg, d. h. hoehere erwartete Rendite als Hauptaktien und Markt?). Format/Rubrik siehe `01_knowledge/agent_workflows.md` (Abschnitte "Pflicht-Ausgabeblock" und "Watchlist-/Zusatzwerte-Uebersicht"). Gilt identisch fuer Claude (`CLAUDE.md`) und Codex (`AGENTS.md`).
 
 ## Schnellstart
 
@@ -31,4 +31,4 @@ Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Ablauf: `0
 
 ## Fokus
 
-Aktives Depot seit 2026-06-02: SK Hynix, Micron, SanDisk, Kioxia. SanDisk/Kioxia = gemeinsamer NAND-/Enterprise-SSD-Bucket. Seagate ist verkauft; Seagate/WDC bleiben HDD-/Nearline-Watch.
+Depot am 2026-07-01 komplett verkauft -> 100% Cash EUR 243.288 (netto; realisiert +62% vs 150k-Basis). Wiedereinstiegs-Plan (2026-07-02, Nutzer entschieden): voll investiert, keine Cash-Reserve, 3 Namen - Micron, SK Hynix, SanDisk (Ziel MU 35% / SK Hynix 33% / SanDisk 32%); Entry an klugem Zeitpunkt (payrolls-gated), nicht sofort all-in. Kioxia = NAND-Watch (SanDisk-Alternative/Swap im gleichen NAND-Bucket, KEIN Diversifier). Seagate ist verkauft; Seagate/WDC bleiben HDD-/Nearline-Watch. Details: `05_data/portfolio_positions.csv`, `03_state/open_questions.md`.

@@ -1,8 +1,8 @@
 category,company,symbol,market,role,status
-Depot,SK Hynix,000660.KS,Korea,"DRAM/HBM/LPDDR",active
-Depot,Micron Technology,MU,USA,"DRAM/HBM/LPDDR/NAND",active
-Depot,SanDisk,SNDK,USA,"NAND/Enterprise-SSD",active
-Depot,Kioxia,285A.T,Japan,"NAND/Enterprise-SSD; SanDisk-JV-Readthrough",active
+Depot,SK Hynix,000660.KS,Korea,"DRAM/HBM/LPDDR",reentry_target
+Depot,Micron Technology,MU,USA,"DRAM/HBM/LPDDR/NAND",reentry_target
+Depot,SanDisk,SNDK,USA,"NAND/Enterprise-SSD",reentry_target
+NAND-Watch,Kioxia,285A.T,Japan,"NAND/Enterprise-SSD; SanDisk-Alternative/Swap-Kandidat (JV bis 2034, gleiche Bucket, KEINE Diversifikation)",watch
 HDD-Watch,Seagate Technology,STX,USA,"verkauft; HDD/Nearline-Follow-on",sold_watch
 HDD-Watch,Western Digital,WDC,USA,"HDD/Nearline Storage",watch
 Primary-Follow-on,Arista Networks,ANET,USA,"AI Ethernet/networking",watch

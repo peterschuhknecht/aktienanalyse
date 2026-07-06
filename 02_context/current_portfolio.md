@@ -1,19 +1,19 @@
 # Aktuelles Depot
 
-Stand laut Nutzerangabe: 2026-06-02.
+Stand: 2026-07-02.
 
-Aktive Positionen: SK Hynix, Micron, SanDisk, Kioxia. Strukturierte Universumsdaten: `05_data/covered_symbols.csv`; Scorecards: `02_context/company_scorecards.csv`.
+100% CASH: EUR 243.288,43 (netto nach Steuern) nach Komplettverkauf am 2026-07-01. Realisiert +62,2% vs 150.000-Basis (Start 22.04.2026). Timing-Entscheid des Nutzers, KEIN These-Bruch.
 
-## Depotcharakter
+## Wiedereinstiegs-Ziel (Nutzer entschieden 2026-07-02)
 
-Fokussierte KI-Speicherwette, keine breite Diversifikation:
+- Voll investiert, keine Cash-Reserve, Einmal-Entry am klugen Zeitpunkt (payrolls-gated; Regeln: `02_context/portfolio_policy.md` -> Entry-Gate).
+- 3 Namen: Micron 35% / SK Hynix 33% / SanDisk 32%. Buckets: HBM/DRAM ~68% (Warnzone akzeptiert), NAND 32%.
+- Stehende Verkaufsregel: Zyklus-Turn-Exit (Contract-Preise QoQ, Margen-Guidance, EPS-Revisionen) + Giveback -15/-25% ab neuem Trailing-Peak.
 
-- HBM/DRAM/LPDDR: SK Hynix, Micron.
-- NAND/Enterprise-SSD: SanDisk, Kioxia; gemeinsamer Risikobucket.
-- HDD/Nearline: Seagate verkauft; Seagate/WDC nur Watch.
+## Watch-Struktur
 
-Kioxia erhoeht NAND-, JPY-/Japan-, Momentum- und Speicherzyklus-Exposure. SanDisk-vs-Kioxia bleibt Pflichtvergleich bis mindestens Kioxia Securities Report 2026-06-24.
+- Kioxia: NAND-Watch, SanDisk-Alternative/Swap im gleichen Bucket (JV bis 2034) - KEIN Diversifier.
+- Seagate/WDC: HDD-/Nearline-Watch (Seagate staerkerer Name, entkoppelte im Memory-Selloff).
+- Andere Wellen (CEG, VST, GLW, GEV, ...): Diversifikations-Watch - echte Streuung, aber bisher kein Rendite-Alpha vs Hauptaktien.
 
-## Offene Portfolio-Daten
-
-Ticker/Broker-Symbole, ISINs, Handelsplaetze, Positionsgroessen, Einstandskurse, Basiswaehrung, Ziel-/Warn-/Maximalgewichte.
+Strukturierte Daten: `05_data/portfolio_positions.csv`, `05_data/covered_symbols.csv`; Scorecards: `02_context/company_scorecards.csv`.

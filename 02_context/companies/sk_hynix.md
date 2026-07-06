@@ -1,6 +1,6 @@
 # SK Hynix
 
-Status: aktive Depotposition; Kernhebel fuer DRAM/HBM/LPDDR nahe am KI-Rechenkern.
+Status: 2026-07-01 verkauft (Gesamtdepot-Verkauf, kein These-Bruch); WIEDEREINSTIEGS-ZIEL (Ziel-Gewicht 33%, Entry-Gate in `02_context/portfolio_policy.md`). Kernhebel fuer DRAM/HBM/LPDDR nahe am KI-Rechenkern; ADR-Listing ~07-10 als Katalysator.
 
 ## Kurzthese
 
