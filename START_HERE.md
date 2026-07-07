@@ -11,7 +11,7 @@ Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (Ablauf: `0
 1. `AGENTS.md` lesen.
 2. Anfrage einstufen: klein = gezielte Sichtung; Depot/Bewertung/Watchlist/Zukunft/News = Workflow in `01_knowledge/agent_workflows.md`.
 3. CSV zuerst: relevante Werte aus `05_data/covered_symbols.csv` bestimmen.
-4. CSV-Caches als Ausgangsbasis pruefen: `latest_quotes.csv`, `latest_news.csv`, `upcoming_events.csv`, `monitoring_status.csv`, `macro_market_signals.csv`, `peer_benchmarks.csv`. Wichtig: CSV-Kurse sind nur Seeds - fuer JEDE aktiv bearbeitete Aktie den aktuellen Kurs immer frisch ermitteln (mit Datum/Zeit/Quelle).
+4. CSV-Caches als Ausgangsbasis pruefen: `latest_quotes.csv`, `latest_news.csv`, `upcoming_events.csv`, `monitoring_status.csv`, `macro_market_signals.csv`, `peer_benchmarks.csv`. Wichtig: CSV-Kurse sind nur Seeds - fuer JEDE aktiv bearbeitete Aktie den aktuellen Kurs immer frisch ermitteln (mit Datum/Zeit/Quelle), primaer via Yahoo-Chart-JSON (`05_data/quote_source_endpoints.md`), NICHT per Websuche.
 5. Bei Bewertung/Depotentscheidung `05_data/data_quality_checks.csv` auf Blocker/Warnungen pruefen und ggf. aktualisieren.
 6. Termine heute plus fuenf Kalendertage aus `05_data/upcoming_events.csv` melden, gewichtet ueber `depot_weight` (0-10).
 7. Antwort mit Pflicht-Ausgabeblock beginnen: Depot-Ampel 0-10 + gewichtete Terminuebersicht; Ampel-Scores in `05_data/depot_ampel.csv` fortschreiben.

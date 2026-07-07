@@ -20,7 +20,7 @@ Bei Konflikt gilt die hoechste verfuegbare Quelle. Reihenfolge je Datentyp:
 
 | Datentyp | Rangfolge (zuerst = bevorzugt) |
 |---|---|
-| Kurs/Schlusskurs | Heimatboerse (KRX, TSE, Nasdaq/NYSE) / IR > etablierter Finanzdatenanbieter > Aggregator |
+| Kurs/Schlusskurs | Heimatboerse (KRX, TSE, Nasdaq/NYSE) / IR > Yahoo-Chart-JSON (Standard-Frischabruf, Protokoll `05_data/quote_source_endpoints.md`: `regularMarketPrice`/`chartPreviousClose`/`regularMarketTime`) > Stooq/Aggregator > WebSearch (nur Fallback = Datenluecke). Frische immer ueber `regularMarketTime` pruefen |
 | FX | eine feste Referenz (z. B. ECB/Fed H.10 oder ein Anbieter) konsistent ueber alle Werte |
 | Fundamentaldaten/Guidance | 10-K/10-Q/IR/Earnings Call > Boersenmeldung > Wirtschaftspresse |
 | Makro/Zinsen | FRED/U.S. Treasury/Fed/FOMC/CME FedWatch > Presse |

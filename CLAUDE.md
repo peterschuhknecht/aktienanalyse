@@ -8,7 +8,7 @@ Trigger: Die Eingabe `start` loest den vollstaendigen Repository-Rundgang aus (E
 
 - Keine Datenbankabfragen und keine Python-Ausfuehrung.
 - CSV zuerst: strukturierte Daten in `05_data/*.csv` und thematischen CSVs in `02_context/`.
-- Pflicht-Frischkurs: Fuer JEDE Aktie, mit der du aktiv arbeitest (Brief, Bewertung, Vergleich, Depot-/Watch-Check, Kursfrage), IMMER zuerst den aktuellen Kurs frisch ermitteln (Websuche/hochwertige Quelle) und mit Datum/Uhrzeit/Quelle notieren. CSV-Kurse sind nur Seeds, nie als aktuellen Kurs ausgeben; ohne frischen Kurs als Datenluecke kennzeichnen.
+- Pflicht-Frischkurs: Fuer JEDE Aktie, mit der du aktiv arbeitest (Brief, Bewertung, Vergleich, Depot-/Watch-Check, Kursfrage), IMMER zuerst den aktuellen Kurs frisch ermitteln - PRIMAER via `WebFetch` auf die Yahoo-Chart-JSON (Endpoint/Felder/Fallback-Kette in `05_data/quote_source_endpoints.md`), Websuche nur als Fallback und dann als Datenluecke markiert - und mit Datum/Uhrzeit/Quelle notieren. CSV-Kurse sind nur Seeds, nie als aktuellen Kurs ausgeben; ohne frischen Kurs als Datenluecke kennzeichnen.
 - Markdown nur fuer Regeln, These, Entscheidungen, offene Fragen und kurze Reports.
 - Kleinfrage: gezielt lesen. Depot, Bewertung, Watchlist, Zukunft, Warnsignal oder Branchenanalyse: `01_knowledge/agent_workflows.md`.
 - Bewertung: frische Kurse, Market Cap, KGV/Forward-KGV, Wachstum, PEG, Margen, Guidance, Termine, Peers und `05_data/data_quality_checks.csv`.

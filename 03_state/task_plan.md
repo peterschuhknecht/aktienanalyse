@@ -2,7 +2,7 @@
 
 ## Aktive Prioritaeten
 
-- [ ] ENTRY-GATE LIVE - STAND Mo 07-06 frueh: Asien Tag 2 gruen (SKH live +3-11%, KOSPI +2,7%; Kioxia haelt Fr-Bounce), NQ-Futures +0,83% -> HEUTE ABEND entscheidet: settled Up-Tag ueber ALLE DREI (SKH-Schluss 08:30 CEST, MU/SNDK settled 22:00 CEST) = Entry-Bestaetigung -> Einmal-Entry MU 35% / SK Hynix 33% / SanDisk 32% nach `02_context/portfolio_policy.md`; Execution dann fruehestens Di-Vormittag (Samsung-Prelim ~01:30 CEST als Zusatz-Read). Execution-Gate: saubere settled Kurse aller drei (SKH-Fr-Schluss-Konflikt 2.187.000 vs 2.289.000 aufloesen) vor Order.
+- [ ] ENTRY-GATE LIVE - STAND Mo 07-06 12:06 CEST: frueher Asien-Live-Read korrigiert. SK Hynix schloss 2.343.000 KRW -11,58% (StockAnalysis), Samsung +2,75%, Kioxia -2,05%; MU/SNDK sind nur vorboerslich positiv (+2,68%/+3,77%) und handeln regulaer erst ab 15:30 CEST. Konsequenz: 3x-gruen HEUTE nicht erfuellt, selbst wenn MU/SNDK gruen schliessen. Naechster valider Gate-Read nach US-Schluss 22:00 CEST + Samsung-Prelim 07-07 frueh + naechstem SKH-Settle; Execution-Gate weiter: saubere settled Kurse aller drei vor Order.
 - [ ] Angebots-Glut-Narrativ (Samsung/SKH-Kapazitaetsplaene + Capex-Peak-2026) beobachten - erstes ernstes ANGEBOTS-seitiges Warnsignal (Medium/Meinung). Gegen naechsten Hard-Datenpunkt TrendForce-Q3-Contract-Preise pruefen = zugleich Zyklus-Turn-Exit-Trigger. Kein These-Bruch bisher (BofA hob SNDK-PT auf $2.500).
 - [ ] Nach vollzogenem Entry: Nach-Entry-Reset gemaess `portfolio_policy.md` (Positionen/Limits/Symbols/Blurbs/Logs; Trailing-Peak neu ab Entry).
 - [ ] SK Hynix Q2-Termin bestaetigen (Provider-Konflikt 07-23 vs 07-29) + ADR-Listing ~07-10 via IR/Boerse.
